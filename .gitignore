@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.local
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Qdrant/runtime data
+runtime/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and package output
+build/
+dist/
+*.egg-info/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercomputer Analytics Agent</title>
+   <link rel="stylesheet" href="/static/style.css?v=20260718-4">
+</head>
+<body>
+<div class="layout">
+    <aside class="sidebar">
+        <h2>Chats</h2>
+        <button id="newChatBtn" type="button">+ New Chat</button>
+        <div id="conversationList" aria-live="polite"></div>
+    </aside>
+
+    <main class="chat-area">
+        <header>
+            <h1>⚡ Supercomputer Analytics Agent</h1>
+            <p>MySQL structured analytics + Qdrant semantic search</p>
+        </header>
+
+        <div id="chatBox" class="chat-box" aria-live="polite"></div>
+
+        <div class="input-area">
+            <input
+                id="messageInput"
+                type="text"
+                maxlength="4000"
+                autocomplete="off"
+                placeholder="Ask about Green500, TOP500, systems, or statistics..."
+            >
+            <button id="sendBtn" type="button">Send</button>
+        </div>
+    </main>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
+<script src="/static/script.js?v=20260718-4"></script>
+</body>
+</html>

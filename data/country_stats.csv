@@ -1,0 +1,1667 @@
+year,month,country,systems_count,total_rmax,total_rpeak,average_rmax,average_power,average_efficiency,highest_rank,total_cores,total_power_kw,month_num,date,power_missing,efficiency_missing,performance_per_core,power_efficiency
+1993,June,Australia,8,9.88,19.14,1.235,Unknown,Unknown,127,614,0,6,6/1/1993,1,1,0.016091205,Unknown
+1993,June,Austria,1,0.56,0.62,0.56,Unknown,Unknown,408,1,0,6,6/1/1993,1,1,0.56,Unknown
+1993,June,Brazil,2,3.5,3.87,1.75,Unknown,Unknown,72,3,0,6,6/1/1993,1,1,1.166666667,Unknown
+1993,June,Canada,3,22.54,24.97,7.513333333,Unknown,Unknown,6,7,0,6,6/1/1993,1,1,3.22,Unknown
+1993,June,Denmark,2,1.25,1.6,0.625,Unknown,Unknown,323,24,0,6,6/1/1993,1,1,0.052083333,Unknown
+1993,June,Finland,2,1.24,1.42,0.62,Unknown,Unknown,308,8,0,6,6/1/1993,1,1,0.155,Unknown
+1993,June,France,25,33.45,55.09,1.338,Unknown,Unknown,25,2963,0,6,6/1/1993,1,1,0.011289234,Unknown
+1993,June,Germany,56,64.33,95.36,1.14875,Unknown,Unknown,55,8387,0,6,6/1/1993,1,1,0.007670204,Unknown
+1993,June,Italy,6,4.3,7.38,0.716666667,Unknown,Unknown,226,326,0,6,6/1/1993,1,1,0.013190184,Unknown
+1993,June,Japan,114,211.99,302.9,1.859561404,Unknown,Unknown,5,12423,0,6,6/1/1993,1,1,0.017064316,Unknown
+1993,June,Netherlands,5,8.13,10.77,1.626,Unknown,Unknown,42,562,0,6,6/1/1993,1,1,0.014466192,Unknown
+1993,June,Norway,2,2.76,3.73,1.38,Unknown,Unknown,182,2052,0,6,6/1/1993,1,1,0.001345029,Unknown
+1993,June,Slovenia,1,0.61,0.72,0.61,Unknown,Unknown,357,6,0,6,6/1/1993,1,1,0.101666667,Unknown
+1993,June,South Korea,3,3.17,3.95,1.056666667,Unknown,Unknown,197,10,0,6,6/1/1993,1,1,0.317,Unknown
+1993,June,Spain,2,2.29,2.67,1.145,Unknown,Unknown,167,3,0,6,6/1/1993,1,1,0.763333333,Unknown
+1993,June,Sweden,2,1.24,1.42,0.62,Unknown,Unknown,320,8,0,6,6/1/1993,1,1,0.155,Unknown
+1993,June,Switzerland,4,8.17,9.45,2.0425,Unknown,Unknown,44,12,0,6,6/1/1993,1,1,0.680833333,Unknown
+1993,June,Taiwan,3,2.49,2.96,0.83,Unknown,Unknown,178,14,0,6,6/1/1993,1,1,0.177857143,Unknown
+1993,June,United Kingdom,24,45.33,61.2,1.88875,Unknown,Unknown,12,1045,0,6,6/1/1993,1,1,0.04337799,Unknown
+1993,June,United States,232,699.29,1185.19,3.014181034,Unknown,Unknown,1,42833,0,6,6/1/1993,1,1,0.016325964,Unknown
+1993,November,Australia,9,10.73,20.18,1.192222222,Unknown,Unknown,169,743,0,11,11/1/1993,1,1,0.014441454,Unknown
+1993,November,Austria,1,0.56,0.62,0.56,Unknown,Unknown,476,1,0,11,11/1/1993,1,1,0.56,Unknown
+1993,November,Belgium,1,0.54,0.83,0.54,Unknown,Unknown,486,6,0,11,11/1/1993,1,1,0.09,Unknown
+1993,November,Brazil,2,3.5,3.87,1.75,Unknown,Unknown,95,3,0,11,11/1/1993,1,1,1.166666667,Unknown
+1993,November,Canada,3,23,25.78,7.666666667,Unknown,Unknown,7,37,0,11,11/1/1993,1,1,0.621621622,Unknown
+1993,November,Denmark,2,2,3.46,1,Unknown,Unknown,268,264,0,11,11/1/1993,1,1,0.007575758,Unknown
+1993,November,Finland,1,0.82,0.94,0.82,Unknown,Unknown,374,4,0,11,11/1/1993,1,1,0.205,Unknown
+1993,November,France,20,34.55,56.4,1.7275,Unknown,Unknown,38,910,0,11,11/1/1993,1,1,0.037967033,Unknown
+1993,November,Germany,55,70.96,103.36,1.290181818,Unknown,Unknown,51,4312,0,11,11/1/1993,1,1,0.016456401,Unknown
+1993,November,Italy,6,4.3,7.38,0.716666667,Unknown,Unknown,271,326,0,11,11/1/1993,1,1,0.013190184,Unknown
+1993,November,Japan,109,357.14,572.37,3.276513761,Unknown,Unknown,1,2477,0,11,11/1/1993,1,1,0.144182479,Unknown
+1993,November,Netherlands,6,8.67,11.6,1.445,Unknown,Unknown,61,568,0,11,11/1/1993,1,1,0.015264085,Unknown
+1993,November,Norway,2,2.76,3.73,1.38,Unknown,Unknown,226,2052,0,11,11/1/1993,1,1,0.001345029,Unknown
+1993,November,Slovenia,1,0.61,0.72,0.61,Unknown,Unknown,425,6,0,11,11/1/1993,1,1,0.101666667,Unknown
+1993,November,South Korea,4,16.62,18.57,4.155,Unknown,Unknown,23,26,0,11,11/1/1993,1,1,0.639230769,Unknown
+1993,November,Spain,4,4.95,5.91,1.2375,Unknown,Unknown,148,11,0,11,11/1/1993,1,1,0.45,Unknown
+1993,November,Sweden,1,0.82,0.94,0.82,Unknown,Unknown,385,4,0,11,11/1/1993,1,1,0.205,Unknown
+1993,November,Switzerland,5,9.63,12.11,1.926,Unknown,Unknown,63,18,0,11,11/1/1993,1,1,0.535,Unknown
+1993,November,Taiwan,2,2.63,4.05,1.315,Unknown,Unknown,222,22,0,11,11/1/1993,1,1,0.119545455,Unknown
+1993,November,United Kingdom,21,44.54,60.08,2.120952381,Unknown,Unknown,17,1014,0,11,11/1/1993,1,1,0.043925049,Unknown
+1993,November,United States,242,891.72,1533.5,3.684793388,Unknown,Unknown,2,40513,0,11,11/1/1993,1,1,0.022010713,Unknown
+1994,June,Australia,8,10.72,20.13,1.34,Unknown,Unknown,243,617,0,6,6/1/1994,1,1,0.017374392,Unknown
+1994,June,Belgium,1,0.95,1.6,0.95,Unknown,Unknown,435,8,0,6,6/1/1994,1,1,0.11875,Unknown
+1994,June,Brazil,1,2.9,3.2,2.9,Unknown,Unknown,152,1,0,6,6/1/1994,1,1,2.9,Unknown
+1994,June,Canada,3,23,25.78,7.666666667,Unknown,Unknown,18,37,0,6,6/1/1994,1,1,0.621621622,Unknown
+1994,June,Denmark,2,2.9,4.41,1.45,Unknown,Unknown,308,258,0,6,6/1/1994,1,1,0.01124031,Unknown
+1994,June,Finland,1,1.05,1.75,1.05,Unknown,Unknown,406,14,0,6,6/1/1994,1,1,0.075,Unknown
+1994,June,France,19,58.3,91.82,3.068421053,Unknown,Unknown,54,1152,0,6,6/1/1994,1,1,0.050607639,Unknown
+1994,June,Germany,44,107.4,162.05,2.440909091,Unknown,Unknown,49,4687,0,6,6/1/1994,1,1,0.022914444,Unknown
+1994,June,Italy,2,2.86,3.24,1.43,Unknown,Unknown,306,6,0,6,6/1/1994,1,1,0.476666667,Unknown
+1994,June,Japan,105,625.63,911.18,5.958380952,Unknown,Unknown,2,2999,0,6,6/1/1994,1,1,0.208612871,Unknown
+1994,June,Netherlands,6,12.85,17.36,2.141666667,Unknown,Unknown,106,70,0,6,6/1/1994,1,1,0.183571429,Unknown
+1994,June,Norway,2,2.76,3.73,1.38,Unknown,Unknown,319,2052,0,6,6/1/1994,1,1,0.001345029,Unknown
+1994,June,Saudi Arabia,2,3.55,4.62,1.775,Unknown,Unknown,182,12,0,6,6/1/1994,1,1,0.295833333,Unknown
+1994,June,Singapore,1,1.3,1.38,1.3,Unknown,Unknown,348,1,0,6,6/1/1994,1,1,1.3,Unknown
+1994,June,Slovenia,1,0.95,12.8,0.95,Unknown,Unknown,430,64,0,6,6/1/1994,1,1,0.01484375,Unknown
+1994,June,South Korea,3,16.02,17.9,5.34,Unknown,Unknown,39,24,0,6,6/1/1994,1,1,0.6675,Unknown
+1994,June,Spain,3,7.28,10.41,2.426666667,Unknown,Unknown,147,37,0,6,6/1/1994,1,1,0.196756757,Unknown
+1994,June,Sweden,2,2.36,3.83,1.18,Unknown,Unknown,361,260,0,6,6/1/1994,1,1,0.009076923,Unknown
+1994,June,Switzerland,6,27.04,39.12,4.506666667,Unknown,Unknown,52,168,0,6,6/1/1994,1,1,0.160952381,Unknown
+1994,June,Taiwan,2,2.85,4,1.425,Unknown,Unknown,314,22,0,6,6/1/1994,1,1,0.129545455,Unknown
+1994,June,United Kingdom,22,90.9,125.52,4.131818182,Unknown,Unknown,16,1279,0,6,6/1/1994,1,1,0.071071149,Unknown
+1994,June,United States,262,1310.66,2184.18,5.002519084,Unknown,Unknown,1,44968,0,6,6/1/1994,1,1,0.029146504,Unknown
+1994,November,Australia,7,14.54,26.85,2.077142857,Unknown,Unknown,138,2734,0,11,11/1/1994,1,1,0.005318215,Unknown
+1994,November,Austria,1,1.9,3.05,1.9,Unknown,Unknown,347,61,0,11,11/1/1994,1,1,0.031147541,Unknown
+1994,November,Belgium,1,3,4.26,3,Unknown,Unknown,198,16,0,11,11/1/1994,1,1,0.1875,Unknown
+1994,November,Brazil,2,4.37,5,2.185,Unknown,Unknown,199,7,0,11,11/1/1994,1,1,0.624285714,Unknown
+1994,November,Canada,5,49.76,55.5,9.952,Unknown,Unknown,15,27,0,11,11/1/1994,1,1,1.842962963,Unknown
+1994,November,Denmark,3,4.37,6.21,1.456666667,Unknown,Unknown,391,264,0,11,11/1/1994,1,1,0.01655303,Unknown
+1994,November,Finland,1,2,2.4,2,Unknown,Unknown,310,8,0,11,11/1/1994,1,1,0.25,Unknown
+1994,November,France,19,75.26,117.41,3.961052632,Unknown,Unknown,49,1319,0,11,11/1/1994,1,1,0.057058378,Unknown
+1994,November,Germany,48,147.62,230.23,3.075416667,Unknown,Unknown,64,5016,0,11,11/1/1994,1,1,0.029429825,Unknown
+1994,November,Ireland,1,1.6,2.4,1.6,Unknown,Unknown,407,2048,0,11,11/1/1994,1,1,0.00078125,Unknown
+1994,November,Italy,2,3.19,7.03,1.595,Unknown,Unknown,388,66,0,11,11/1/1994,1,1,0.048333333,Unknown
+1994,November,Japan,84,722.94,953.74,8.606428571,Unknown,Unknown,1,7067,0,11,11/1/1994,1,1,0.102298005,Unknown
+1994,November,Netherlands,8,18.86,23.77,2.3575,Unknown,Unknown,126,74,0,11,11/1/1994,1,1,0.254864865,Unknown
+1994,November,Norway,4,8.2,15.72,2.05,Unknown,Unknown,192,2276,0,11,11/1/1994,1,1,0.003602812,Unknown
+1994,November,Saudi Arabia,2,3.55,4.62,1.775,Unknown,Unknown,242,12,0,11,11/1/1994,1,1,0.295833333,Unknown
+1994,November,Singapore,1,1.3,1.38,1.3,Unknown,Unknown,474,1,0,11,11/1/1994,1,1,1.3,Unknown
+1994,November,Slovenia,1,1.75,12.8,1.75,Unknown,Unknown,364,64,0,11,11/1/1994,1,1,0.02734375,Unknown
+1994,November,South Korea,1,13.7,15.24,13.7,Unknown,Unknown,40,16,0,11,11/1/1994,1,1,0.85625,Unknown
+1994,November,Spain,3,6.71,7.93,2.236666667,Unknown,Unknown,186,7,0,11,11/1/1994,1,1,0.958571429,Unknown
+1994,November,Sweden,5,7.63,18.74,1.526,Unknown,Unknown,317,404,0,11,11/1/1994,1,1,0.018886139,Unknown
+1994,November,Switzerland,7,45.44,64.39,6.491428571,Unknown,Unknown,52,341,0,11,11/1/1994,1,1,0.133255132,Unknown
+1994,November,Taiwan,4,5.64,8.28,1.41,Unknown,Unknown,398,30,0,11,11/1/1994,1,1,0.188,Unknown
+1994,November,Turkey,1,1.6,2.13,1.6,Unknown,Unknown,411,8,0,11,11/1/1994,1,1,0.2,Unknown
+1994,November,United Arab Emirates,1,1.47,1.8,1.47,Unknown,Unknown,422,6,0,11,11/1/1994,1,1,0.245,Unknown
+1994,November,United Kingdom,23,111.93,152.92,4.866521739,Unknown,Unknown,14,1539,0,11,11/1/1994,1,1,0.072729045,Unknown
+1994,November,United States,257,1450.81,2619.22,5.645175097,Unknown,Unknown,2,45346,0,11,11/1/1994,1,1,0.031994222,Unknown
+1995,June,Australia,1,4.05,5.85,4.05,Unknown,Unknown,200,22,0,6,6/1/1995,1,1,0.184090909,Unknown
+1995,June,Austria,1,5,23.04,5,Unknown,Unknown,162,128,0,6,6/1/1995,1,1,0.0390625,Unknown
+1995,June,Belgium,2,5.62,7.98,2.81,Unknown,Unknown,306,30,0,6,6/1/1995,1,1,0.187333333,Unknown
+1995,June,Brazil,1,2.9,3.2,2.9,Unknown,Unknown,314,1,0,6,6/1/1995,1,1,2.9,Unknown
+1995,June,Canada,9,61.74,71.96,6.86,Unknown,Unknown,30,89,0,6,6/1/1995,1,1,0.693707865,Unknown
+1995,June,China,1,5.8,8.51,5.8,Unknown,Unknown,143,32,0,6,6/1/1995,1,1,0.18125,Unknown
+1995,June,Denmark,2,10.9,15.44,5.45,Unknown,Unknown,120,56,0,6,6/1/1995,1,1,0.194642857,Unknown
+1995,June,Finland,3,11.37,14.99,3.79,Unknown,Unknown,185,44,0,6,6/1/1995,1,1,0.258409091,Unknown
+1995,June,France,27,113.94,163.56,4.22,Unknown,Unknown,74,1423,0,6,6/1/1995,1,1,0.080070274,Unknown
+1995,June,Germany,52,222.81,322.63,4.284807692,Unknown,Unknown,39,1925,0,6,6/1/1995,1,1,0.115745455,Unknown
+1995,June,Italy,5,23.26,35.47,4.652,Unknown,Unknown,132,206,0,6,6/1/1995,1,1,0.112912621,Unknown
+1995,June,Japan,66,974.38,1244.59,14.76333333,Unknown,Unknown,1,2557,0,6,6/1/1995,1,1,0.381063747,Unknown
+1995,June,Netherlands,7,27.54,36.93,3.934285714,Unknown,Unknown,157,112,0,6,6/1/1995,1,1,0.245892857,Unknown
+1995,June,Norway,3,8.82,14.53,2.94,Unknown,Unknown,283,183,0,6,6/1/1995,1,1,0.048196721,Unknown
+1995,June,Poland,1,1.96,2.4,1.96,Unknown,Unknown,486,8,0,6,6/1/1995,1,1,0.245,Unknown
+1995,June,Saudi Arabia,1,2.14,2.67,2.14,Unknown,Unknown,397,8,0,6,6/1/1995,1,1,0.2675,Unknown
+1995,June,Singapore,1,3.7,4.8,3.7,Unknown,Unknown,252,16,0,6,6/1/1995,1,1,0.23125,Unknown
+1995,June,South Korea,1,13.7,15.24,13.7,Unknown,Unknown,62,16,0,6,6/1/1995,1,1,0.85625,Unknown
+1995,June,Spain,3,7.63,9.5,2.543333333,Unknown,Unknown,277,17,0,6,6/1/1995,1,1,0.448823529,Unknown
+1995,June,Sweden,4,19.83,33.47,4.9575,Unknown,Unknown,97,707,0,6,6/1/1995,1,1,0.028048091,Unknown
+1995,June,Switzerland,12,77.09,109.78,6.424166667,Unknown,Unknown,27,568,0,6,6/1/1995,1,1,0.135721831,Unknown
+1995,June,Taiwan,2,6.8,9.38,3.4,Unknown,Unknown,187,34,0,6,6/1/1995,1,1,0.2,Unknown
+1995,June,United Kingdom,16,136.23,190.27,8.514375,Unknown,Unknown,18,1495,0,6,6/1/1995,1,1,0.091123746,Unknown
+1995,June,United States,274,2164.02,3425.13,7.897883212,Unknown,Unknown,2,39078,0,6,6/1/1995,1,1,0.055376938,Unknown
+1996,June,Australia,8,31.11,43.04,3.88875,Unknown,Unknown,313,130,0,6,6/1/1996,1,1,0.239307692,Unknown
+1996,June,Austria,1,5,23.04,5,Unknown,Unknown,293,128,0,6,6/1/1996,1,1,0.0390625,Unknown
+1996,June,Canada,6,72.05,80.25,12.00833333,Unknown,Unknown,49,64,0,6,6/1/1996,1,1,1.12578125,Unknown
+1996,June,China,1,5.8,8.51,5.8,Unknown,Unknown,232,32,0,6,6/1/1996,1,1,0.18125,Unknown
+1996,June,Denmark,6,39.8,46.84,6.633333333,Unknown,Unknown,62,112,0,6,6/1/1996,1,1,0.355357143,Unknown
+1996,June,Finland,1,4.4,6.38,4.4,Unknown,Unknown,335,24,0,6,6/1/1996,1,1,0.183333333,Unknown
+1996,June,France,18,152.49,211.71,8.471666667,Unknown,Unknown,77,1147,0,6,6/1/1996,1,1,0.132946818,Unknown
+1996,June,Germany,48,402.21,540.84,8.379375,Unknown,Unknown,10,2210,0,6,6/1/1996,1,1,0.181995475,Unknown
+1996,June,Israel,2,14.9,21.7,7.45,Unknown,Unknown,141,76,0,6,6/1/1996,1,1,0.196052632,Unknown
+1996,June,Italy,4,21.61,33.77,5.4025,Unknown,Unknown,210,158,0,6,6/1/1996,1,1,0.136772152,Unknown
+1996,June,Japan,93,1835.09,2344.15,19.73215054,Unknown,Unknown,1,6311,0,6,6/1/1996,1,1,0.290776422,Unknown
+1996,June,Netherlands,7,75.09,88.68,10.72714286,Unknown,Unknown,30,237,0,6,6/1/1996,1,1,0.316835443,Unknown
+1996,June,Norway,1,3.5,4.68,3.5,Unknown,Unknown,469,12,0,6,6/1/1996,1,1,0.291666667,Unknown
+1996,June,Poland,2,7.36,12,3.68,Unknown,Unknown,408,44,0,6,6/1/1996,1,1,0.167272727,Unknown
+1996,June,Saudi Arabia,1,3.32,4.79,3.32,Unknown,Unknown,498,18,0,6,6/1/1996,1,1,0.184444444,Unknown
+1996,June,Slovenia,1,6.19,12.8,6.19,Unknown,Unknown,223,64,0,6,6/1/1996,1,1,0.09671875,Unknown
+1996,June,South Korea,6,38.04,50.26,6.34,Unknown,Unknown,96,142,0,6,6/1/1996,1,1,0.267887324,Unknown
+1996,June,Spain,4,21.45,31.4,5.3625,Unknown,Unknown,170,104,0,6,6/1/1996,1,1,0.20625,Unknown
+1996,June,Sweden,6,38.72,59.78,6.453333333,Unknown,Unknown,64,284,0,6,6/1/1996,1,1,0.136338028,Unknown
+1996,June,Switzerland,8,118.09,151.41,14.76125,Unknown,Unknown,41,883,0,6,6/1/1996,1,1,0.133737259,Unknown
+1996,June,Taiwan,2,18,26.6,9,Unknown,Unknown,76,100,0,6,6/1/1996,1,1,0.18,Unknown
+1996,June,United Kingdom,12,160.22,222.61,13.35166667,Unknown,Unknown,22,1091,0,6,6/1/1996,1,1,0.146856095,Unknown
+1996,June,United States,255,2784.96,4208.48,10.92141176,Unknown,Unknown,3,39195,0,6,6/1/1996,1,1,0.071053961,Unknown
+1996,November,Australia,5,50.02,59.2,10.004,Unknown,Unknown,59,93,0,11,11/1/1996,1,1,0.537849462,Unknown
+1996,November,Austria,4,21.6,44.88,5.4,Unknown,Unknown,359,184,0,11,11/1/1996,1,1,0.117391304,Unknown
+1996,November,Canada,4,82.14,90.51,20.535,Unknown,Unknown,48,65,0,11,11/1/1996,1,1,1.263692308,Unknown
+1996,November,China,1,6.57,8.51,6.57,Unknown,Unknown,299,32,0,11,11/1/1996,1,1,0.2053125,Unknown
+1996,November,Denmark,3,30.71,36.22,10.23666667,Unknown,Unknown,99,84,0,11,11/1/1996,1,1,0.365595238,Unknown
+1996,November,Finland,3,35.63,53.58,11.87666667,Unknown,Unknown,68,98,0,11,11/1/1996,1,1,0.363571429,Unknown
+1996,November,France,17,239.11,356.95,14.06529412,Unknown,Unknown,12,1402,0,11,11/1/1996,1,1,0.170549215,Unknown
+1996,November,Germany,51,660.07,911.53,12.94254902,Unknown,Unknown,17,2585,0,11,11/1/1996,1,1,0.255346228,Unknown
+1996,November,Israel,1,12.5,17.02,12.5,Unknown,Unknown,174,64,0,11,11/1/1996,1,1,0.1953125,Unknown
+1996,November,Italy,6,42.25,59.21,7.041666667,Unknown,Unknown,155,302,0,11,11/1/1996,1,1,0.139900662,Unknown
+1996,November,Japan,80,2506.6,3249.73,31.3325,498,0.459839357,1,8534,498,11,11/1/1996,0,0,0.293719241,5.033333333
+1996,November,Luxembourg,1,4.62,6.48,4.62,Unknown,Unknown,500,18,0,11,11/1/1996,1,1,0.256666667,Unknown
+1996,November,Netherlands,9,111.68,143.57,12.40888889,Unknown,Unknown,49,363,0,11,11/1/1996,1,1,0.307658402,Unknown
+1996,November,Norway,1,25.1,38.4,25.1,Unknown,Unknown,71,64,0,11,11/1/1996,1,1,0.3921875,Unknown
+1996,November,Poland,1,5.45,7.68,5.45,Unknown,Unknown,408,32,0,11,11/1/1996,1,1,0.1703125,Unknown
+1996,November,Saudi Arabia,1,7.97,10.78,7.97,Unknown,Unknown,232,35,0,11,11/1/1996,1,1,0.227714286,Unknown
+1996,November,Singapore,1,5.87,7.8,5.87,Unknown,Unknown,354,20,0,11,11/1/1996,1,1,0.2935,Unknown
+1996,November,Slovenia,1,6.19,12.8,6.19,Unknown,Unknown,325,64,0,11,11/1/1996,1,1,0.09671875,Unknown
+1996,November,South Korea,3,29.05,35.74,9.683333333,Unknown,Unknown,137,88,0,11,11/1/1996,1,1,0.330113636,Unknown
+1996,November,Spain,5,33.04,45.24,6.608,Unknown,Unknown,210,146,0,11,11/1/1996,1,1,0.22630137,Unknown
+1996,November,Sweden,3,31.74,48.81,10.58,Unknown,Unknown,80,262,0,11,11/1/1996,1,1,0.121145038,Unknown
+1996,November,Switzerland,9,129.64,182.45,14.40444444,Unknown,Unknown,51,1015,0,11,11/1/1996,1,1,0.127724138,Unknown
+1996,November,Taiwan,1,15.23,21.28,15.23,Unknown,Unknown,102,80,0,11,11/1/1996,1,1,0.190375,Unknown
+1996,November,United Kingdom,18,360.49,471.81,20.02722222,Unknown,Unknown,10,1488,0,11,11/1/1996,1,1,0.242264785,Unknown
+1996,November,United States,267,3505.9,5281.15,13.13071161,Unknown,Unknown,4,41298,0,11,11/1/1996,1,1,0.084892731,Unknown
+1997,June,Australia,1,27.7,28.6,27.7,Unknown,Unknown,92,13,0,6,6/1/1997,1,1,2.130769231,Unknown
+1997,June,Brazil,1,11.34,16,11.34,Unknown,Unknown,261,32,0,6,6/1/1997,1,1,0.354375,Unknown
+1997,June,Canada,7,109.01,124.13,15.57285714,Unknown,Unknown,78,169,0,6,6/1/1997,1,1,0.645029586,Unknown
+1997,June,Denmark,2,38.76,42.64,19.38,Unknown,Unknown,79,56,0,6,6/1/1997,1,1,0.692142857,Unknown
+1997,June,Finland,1,86.6,144,86.6,Unknown,Unknown,27,192,0,6,6/1/1997,1,1,0.451041667,Unknown
+1997,June,France,19,441.94,677.29,23.26,Unknown,Unknown,16,1869,0,6,6/1/1997,1,1,0.236457999,Unknown
+1997,June,Germany,45,1243.81,1869.12,27.64022222,Unknown,Unknown,5,3659,0,6,6/1/1997,1,1,0.339931675,Unknown
+1997,June,Israel,2,22.49,29.02,11.245,Unknown,Unknown,246,88,0,6,6/1/1997,1,1,0.255568182,Unknown
+1997,June,Italy,1,50.4,76.8,50.4,Unknown,Unknown,56,128,0,6,6/1/1997,1,1,0.39375,Unknown
+1997,June,Japan,87,2993,3805.13,34.40229885,498,0.459839357,2,9118,498,6,6/1/1997,0,0,0.32825181,6.010040161
+1997,June,Luxembourg,1,8.75,10.5,8.75,Unknown,Unknown,383,21,0,6,6/1/1997,1,1,0.416666667,Unknown
+1997,June,Netherlands,5,90.72,115.62,18.144,Unknown,Unknown,80,219,0,6,6/1/1997,1,1,0.414246575,Unknown
+1997,June,Norway,5,76.28,102.72,15.256,Unknown,Unknown,69,216,0,6,6/1/1997,1,1,0.353148148,Unknown
+1997,June,Russia,1,16.6,24,16.6,Unknown,Unknown,155,48,0,6,6/1/1997,1,1,0.345833333,Unknown
+1997,June,Saudi Arabia,2,16.31,20.78,8.155,Unknown,Unknown,409,55,0,6,6/1/1997,1,1,0.296545455,Unknown
+1997,June,South Korea,9,165.24,241.08,18.36,Unknown,Unknown,33,384,0,6,6/1/1997,1,1,0.4303125,Unknown
+1997,June,Spain,4,34.77,47.22,8.6925,Unknown,Unknown,288,108,0,6,6/1/1997,1,1,0.321944444,Unknown
+1997,June,Sweden,8,136.57,215.1,17.07125,Unknown,Unknown,49,513,0,6,6/1/1997,1,1,0.266218324,Unknown
+1997,June,Switzerland,6,108.22,135.15,18.03666667,Unknown,Unknown,82,851,0,6,6/1/1997,1,1,0.127168038,Unknown
+1997,June,Taiwan,1,15.23,21.28,15.23,Unknown,Unknown,166,80,0,6,6/1/1997,1,1,0.190375,Unknown
+1997,June,United Kingdom,24,466.84,606.94,19.45166667,Unknown,Unknown,21,1613,0,6,6/1/1997,1,1,0.289423435,Unknown
+1997,June,United States,265,6650.25,10080.31,25.09528302,Unknown,Unknown,1,42315,0,6,6/1/1997,1,1,0.157160581,Unknown
+1997,November,Australia,2,39.08,43.96,19.54,Unknown,Unknown,106,45,0,11,11/1/1997,1,1,0.868444444,Unknown
+1997,November,Brazil,2,27.93,35.2,13.965,Unknown,Unknown,282,72,0,11,11/1/1997,1,1,0.387916667,Unknown
+1997,November,Canada,3,164.11,174.9,54.70333333,Unknown,Unknown,26,136,0,11,11/1/1997,1,1,1.206691176,Unknown
+1997,November,Denmark,1,31.1,32,31.1,Unknown,Unknown,95,16,0,11,11/1/1997,1,1,1.94375,Unknown
+1997,November,Finland,1,101,168,101,Unknown,Unknown,31,224,0,11,11/1/1997,1,1,0.450892857,Unknown
+1997,November,France,20,553.63,828.42,27.6815,Unknown,Unknown,25,1929,0,11,11/1/1997,1,1,0.287003629,Unknown
+1997,November,Germany,43,1671.53,2541.67,38.8727907,Unknown,Unknown,9,4197,0,11,11/1/1997,1,1,0.39826781,Unknown
+1997,November,Israel,2,23.28,29.02,11.64,Unknown,Unknown,350,88,0,11,11/1/1997,1,1,0.264545455,Unknown
+1997,November,Italy,3,75.76,111.84,25.25333333,Unknown,Unknown,71,184,0,11,11/1/1997,1,1,0.41173913,Unknown
+1997,November,Japan,91,3445.12,4296.29,37.85846154,498,0.459839357,4,9520,498,11,11/1/1997,0,0,0.361882353,6.917911647
+1997,November,Netherlands,8,129.99,166.5,16.24875,Unknown,Unknown,93,320,0,11,11/1/1997,1,1,0.40621875,Unknown
+1997,November,Norway,3,73.06,102.72,24.35333333,Unknown,Unknown,86,216,0,11,11/1/1997,1,1,0.338240741,Unknown
+1997,November,Russia,1,20.3,24,20.3,Unknown,Unknown,157,48,0,11,11/1/1997,1,1,0.422916667,Unknown
+1997,November,South Korea,9,183.81,255.08,20.42333333,Unknown,Unknown,43,363,0,11,11/1/1997,1,1,0.506363636,Unknown
+1997,November,Spain,4,65.78,88.32,16.445,Unknown,Unknown,174,196,0,11,11/1/1997,1,1,0.335612245,Unknown
+1997,November,Sweden,7,197.63,278.51,28.23285714,Unknown,Unknown,35,613,0,11,11/1/1997,1,1,0.322398042,Unknown
+1997,November,Switzerland,6,113.2,145.71,18.86666667,Unknown,Unknown,98,851,0,11,11/1/1997,1,1,0.133019976,Unknown
+1997,November,Taiwan,1,15.23,21.28,15.23,Unknown,Unknown,249,80,0,11,11/1/1997,1,1,0.190375,Unknown
+1997,November,United Kingdom,24,1137.48,1691.28,47.395,Unknown,Unknown,3,2720,0,11,11/1/1997,1,1,0.418191176,Unknown
+1997,November,United States,265,8782.12,13183.26,33.14007547,Unknown,Unknown,1,41984,0,11,11/1/1997,1,1,0.209177782,Unknown
+1998,June,Australia,3,109.5,117.56,36.5,Unknown,Unknown,56,109,0,6,6/1/1998,1,1,1.004587156,Unknown
+1998,June,Belgium,1,25.37,30.63,25.37,Unknown,Unknown,203,46,0,6,6/1/1998,1,1,0.551521739,Unknown
+1998,June,Brazil,2,27.93,35.2,13.965,Unknown,Unknown,433,72,0,6,6/1/1998,1,1,0.387916667,Unknown
+1998,June,Canada,2,257.77,272,128.885,Unknown,Unknown,12,160,0,6,6/1/1998,1,1,1.6110625,Unknown
+1998,June,Denmark,3,67.16,82.29,22.38666667,Unknown,Unknown,155,146,0,6,6/1/1998,1,1,0.46,Unknown
+1998,June,Finland,1,115,168,115,Unknown,Unknown,33,224,0,6,6/1/1998,1,1,0.513392857,Unknown
+1998,June,France,10,522.59,720.23,52.259,Unknown,Unknown,27,1061,0,6,6/1/1998,1,1,0.492544769,Unknown
+1998,June,Germany,46,2367.11,3199.31,51.45891304,Unknown,Unknown,7,4708,0,6,6/1/1998,1,1,0.502784622,Unknown
+1998,June,Israel,1,16.75,23.04,16.75,Unknown,Unknown,345,36,0,6,6/1/1998,1,1,0.465277778,Unknown
+1998,June,Italy,3,161.23,231.04,53.74333333,Unknown,Unknown,29,224,0,6,6/1/1998,1,1,0.719776786,Unknown
+1998,June,Japan,83,3730.46,4569.35,44.9453012,498,0.459839357,6,9307,498,6,6/1/1998,0,0,0.400823036,7.490883534
+1998,June,Netherlands,4,130.64,203,32.66,Unknown,Unknown,138,284,0,6,6/1/1998,1,1,0.46,Unknown
+1998,June,Norway,2,78.75,102.72,39.375,Unknown,Unknown,124,216,0,6,6/1/1998,1,1,0.364583333,Unknown
+1998,June,Poland,1,14.03,19.2,14.03,Unknown,Unknown,434,32,0,6,6/1/1998,1,1,0.4384375,Unknown
+1998,June,Russia,1,20.3,24,20.3,Unknown,Unknown,251,48,0,6,6/1/1998,1,1,0.422916667,Unknown
+1998,June,South Korea,8,237.41,334.04,29.67625,Unknown,Unknown,52,477,0,6,6/1/1998,1,1,0.497714885,Unknown
+1998,June,Spain,5,99.48,129.44,19.896,Unknown,Unknown,231,260,0,6,6/1/1998,1,1,0.382615385,Unknown
+1998,June,Sweden,6,243.02,334.68,40.50333333,Unknown,Unknown,44,602,0,6,6/1/1998,1,1,0.403687708,Unknown
+1998,June,Switzerland,5,120.05,158.08,24.01,Unknown,Unknown,158,430,0,6,6/1/1998,1,1,0.279186047,Unknown
+1998,June,Taiwan,1,20.37,29.21,20.37,Unknown,Unknown,241,110,0,6,6/1/1998,1,1,0.185181818,Unknown
+1998,June,United Kingdom,25,1357.1,1946.91,54.284,Unknown,Unknown,4,3179,0,6,6/1/1998,1,1,0.42689525,Unknown
+1998,June,United States,285,12872.61,19202.42,45.16705263,Unknown,Unknown,1,49338,0,6,6/1/1998,1,1,0.260906603,Unknown
+1998,November,Australia,3,110.15,117.56,36.71666667,Unknown,Unknown,75,109,0,11,11/1/1998,1,1,1.010550459,Unknown
+1998,November,Belgium,1,25.37,30.63,25.37,Unknown,Unknown,299,46,0,11,11/1/1998,1,1,0.551521739,Unknown
+1998,November,Canada,8,449.02,575.16,56.1275,Unknown,Unknown,18,608,0,11,11/1/1998,1,1,0.738519737,Unknown
+1998,November,Denmark,2,50.56,58.88,25.28,Unknown,Unknown,199,58,0,11,11/1/1998,1,1,0.871724138,Unknown
+1998,November,Finland,1,123,177,123,Unknown,Unknown,41,236,0,11,11/1/1998,1,1,0.521186441,Unknown
+1998,November,France,14,709.34,998.3,50.66714286,Unknown,Unknown,33,1478,0,11,11/1/1998,1,1,0.479932341,Unknown
+1998,November,Germany,49,2956.03,4263.07,60.32714286,Unknown,Unknown,13,5761,0,11,11/1/1998,1,1,0.513110571,Unknown
+1998,November,Italy,1,142.36,206.4,142.36,Unknown,Unknown,38,172,0,11,11/1/1998,1,1,0.827674419,Unknown
+1998,November,Japan,69,3699.59,4676.29,53.61724638,498,0.459839357,14,9359,498,11,11/1/1998,0,0,0.395297575,7.428895582
+1998,November,Netherlands,4,140.05,206.6,35.0125,Unknown,Unknown,167,290,0,11,11/1/1998,1,1,0.482931034,Unknown
+1998,November,Norway,2,81.35,106.32,40.675,Unknown,Unknown,128,222,0,11,11/1/1998,1,1,0.366441441,Unknown
+1998,November,Russia,1,20.3,24,20.3,Unknown,Unknown,418,48,0,11,11/1/1998,1,1,0.422916667,Unknown
+1998,November,South Korea,6,212.87,304.4,35.47833333,Unknown,Unknown,63,429,0,11,11/1/1998,1,1,0.496200466,Unknown
+1998,November,Spain,5,112.83,144.04,22.566,Unknown,Unknown,276,260,0,11,11/1/1998,1,1,0.433961538,Unknown
+1998,November,Sweden,6,253.79,341.88,42.29833333,Unknown,Unknown,58,614,0,11,11/1/1998,1,1,0.413338762,Unknown
+1998,November,Switzerland,6,152.89,192.31,25.48166667,Unknown,Unknown,202,484,0,11,11/1/1998,1,1,0.31588843,Unknown
+1998,November,Taiwan,1,20.37,29.21,20.37,Unknown,Unknown,407,110,0,11,11/1/1998,1,1,0.185181818,Unknown
+1998,November,United Kingdom,28,2253.47,3116.97,80.48107143,Unknown,Unknown,5,4259,0,11,11/1/1998,1,1,0.529107772,Unknown
+1998,November,United States,290,17785.58,28604.17,61.32958621,Unknown,Unknown,1,61949,0,11,11/1/1998,1,1,0.287100357,Unknown
+1999,June,Australia,4,177.04,195,44.26,Unknown,Unknown,102,173,0,6,6/1/1999,1,1,1.023352601,Unknown
+1999,June,Austria,2,54.51,90.43,27.255,Unknown,Unknown,392,152,0,6,6/1/1999,1,1,0.358618421,Unknown
+1999,June,Belgium,3,84.21,130.35,28.07,Unknown,Unknown,286,212,0,6,6/1/1999,1,1,0.397216981,Unknown
+1999,June,Canada,8,481.7,597.77,60.2125,Unknown,Unknown,29,694,0,6,6/1/1999,1,1,0.694092219,Unknown
+1999,June,Denmark,3,96.33,118.4,32.11,Unknown,Unknown,275,180,0,6,6/1/1999,1,1,0.535166667,Unknown
+1999,June,Finland,2,185.25,253.8,92.625,Unknown,Unknown,54,364,0,6,6/1/1999,1,1,0.508928571,Unknown
+1999,June,France,18,946.26,1421.68,52.57,Unknown,Unknown,46,2103,0,6,6/1/1999,1,1,0.449957204,Unknown
+1999,June,Germany,47,3504.18,5275.28,74.55702128,Unknown,Unknown,15,6864,0,6,6/1/1999,1,1,0.510515734,Unknown
+1999,June,Italy,5,344.65,512.06,68.93,Unknown,Unknown,36,508,0,6,6/1/1999,1,1,0.678444882,Unknown
+1999,June,Japan,57,5562.53,6702.84,97.58824561,498,0.459839357,4,9491,498,6,6/1/1999,0,0,0.586084712,11.16973896
+1999,June,Luxembourg,1,34.17,42.62,34.17,Unknown,Unknown,247,64,0,6,6/1/1999,1,1,0.53390625,Unknown
+1999,June,Netherlands,6,236.89,366.21,39.48166667,Unknown,Unknown,145,562,0,6,6/1/1999,1,1,0.421512456,Unknown
+1999,June,Norway,2,81.35,106.32,40.675,Unknown,Unknown,193,222,0,6,6/1/1999,1,1,0.366441441,Unknown
+1999,June,South Korea,3,149.96,221.84,49.98666667,Unknown,Unknown,78,285,0,6,6/1/1999,1,1,0.526175439,Unknown
+1999,June,Spain,3,82.53,122.52,27.51,Unknown,Unknown,314,134,0,6,6/1/1999,1,1,0.615895522,Unknown
+1999,June,Sweden,7,351.78,488.11,50.25428571,Unknown,Unknown,71,816,0,6,6/1/1999,1,1,0.431102941,Unknown
+1999,June,Switzerland,6,168.47,239.57,28.07833333,Unknown,Unknown,339,550,0,6,6/1/1999,1,1,0.306309091,Unknown
+1999,June,United Kingdom,29,2655.55,3848.38,91.57068966,Unknown,Unknown,7,5382,0,6,6/1/1999,1,1,0.493413229,Unknown
+1999,June,United States,292,23729.53,36758.8,81.2655137,Unknown,Unknown,1,65223,0,6,6/1/1999,1,1,0.363821505,Unknown
+1999,November,Australia,4,198.34,269.98,49.585,Unknown,Unknown,168,316,0,11,11/1/1999,1,1,0.627658228,Unknown
+1999,November,Austria,1,39.43,82.33,39.43,Unknown,Unknown,394,124,0,11,11/1/1999,1,1,0.317983871,Unknown
+1999,November,Belgium,1,43.07,90.3,43.07,Unknown,Unknown,335,136,0,11,11/1/1999,1,1,0.316691176,Unknown
+1999,November,Canada,5,436.19,529.09,87.238,Unknown,Unknown,53,460,0,11,11/1/1999,1,1,0.94823913,Unknown
+1999,November,China,1,37.4,48,37.4,Unknown,Unknown,418,60,0,11,11/1/1999,1,1,0.623333333,Unknown
+1999,November,Denmark,1,33.9,48,33.9,Unknown,Unknown,495,100,0,11,11/1/1999,1,1,0.339,Unknown
+1999,November,Finland,2,185.25,253.8,92.625,Unknown,Unknown,72,364,0,11,11/1/1999,1,1,0.508928571,Unknown
+1999,November,France,27,2162.79,3141.5,80.10333333,Unknown,Unknown,32,3626,0,11,11/1/1999,1,1,0.596467181,Unknown
+1999,November,Germany,69,5571.52,8998.72,80.74666667,Unknown,Unknown,9,11112,0,11,11/1/1999,1,1,0.501396688,Unknown
+1999,November,Israel,1,42.4,60.16,42.4,Unknown,Unknown,343,94,0,11,11/1/1999,1,1,0.45106383,Unknown
+1999,November,Italy,6,426.9,687.1,71.15,Unknown,Unknown,47,742,0,11,11/1/1999,1,1,0.575336927,Unknown
+1999,November,Japan,58,6518.54,7985.3,112.3886207,498,0.459839357,5,10244,498,11,11/1/1999,0,0,0.636327606,13.08943775
+1999,November,Luxembourg,4,142.93,200.73,35.7325,Unknown,Unknown,427,280,0,11,11/1/1999,1,1,0.510464286,Unknown
+1999,November,Netherlands,7,397.05,635.59,56.72142857,Unknown,Unknown,92,916,0,11,11/1/1999,1,1,0.433460699,Unknown
+1999,November,Norway,2,81.35,106.32,40.675,Unknown,Unknown,359,222,0,11,11/1/1999,1,1,0.366441441,Unknown
+1999,November,South Korea,5,354.07,442.96,70.814,Unknown,Unknown,76,411,0,11,11/1/1999,1,1,0.861484185,Unknown
+1999,November,Sweden,7,422.36,613.01,60.33714286,Unknown,Unknown,83,860,0,11,11/1/1999,1,1,0.491116279,Unknown
+1999,November,Switzerland,5,255.9,479.53,51.18,Unknown,Unknown,131,696,0,11,11/1/1999,1,1,0.367672414,Unknown
+1999,November,Taiwan,1,139,144,139,Unknown,Unknown,66,15,0,11,11/1/1999,1,1,9.266666667,Unknown
+1999,November,United Kingdom,24,3203.14,4759.31,133.4641667,Unknown,Unknown,11,5458,0,11,11/1/1999,1,1,0.586870649,Unknown
+1999,November,United States,267,30102.56,47459.73,112.7436704,Unknown,Unknown,1,76475,0,11,11/1/1999,1,1,0.393626152,Unknown
+2000,June,Australia,3,226.61,256,75.53666667,Unknown,Unknown,98,176,0,6,6/1/2000,1,1,1.287556818,Unknown
+2000,June,Brazil,1,79.36,102.4,79.36,Unknown,Unknown,160,128,0,6,6/1/2000,1,1,0.62,Unknown
+2000,June,Canada,9,729.38,940.57,81.04222222,Unknown,Unknown,57,856,0,6,6/1/2000,1,1,0.852079439,Unknown
+2000,June,China,2,100.43,135,50.215,Unknown,Unknown,280,160,0,6,6/1/2000,1,1,0.6276875,Unknown
+2000,June,Denmark,1,51.1,72,51.1,Unknown,Unknown,343,48,0,6,6/1/2000,1,1,1.064583333,Unknown
+2000,June,Finland,2,346.25,481.8,173.125,Unknown,Unknown,47,668,0,6,6/1/2000,1,1,0.518338323,Unknown
+2000,June,France,20,2165.66,3043.21,108.283,Unknown,Unknown,46,3063,0,6,6/1/2000,1,1,0.707038851,Unknown
+2000,June,Germany,65,7119.21,11183.82,109.5263077,Unknown,Unknown,5,11056,0,6,6/1/2000,1,1,0.643922757,Unknown
+2000,June,Italy,6,455.88,687.68,75.98,Unknown,Unknown,66,780,0,6,6/1/2000,1,1,0.584461538,Unknown
+2000,June,Japan,62,9849.4,12004.62,158.8612903,498,0.459839357,6,11089,498,6,6/1/2000,0,0,0.888213545,19.77791165
+2000,June,Luxembourg,6,299.96,358.4,49.99333333,Unknown,Unknown,153,448,0,6,6/1/2000,1,1,0.669553571,Unknown
+2000,June,Netherlands,5,359.64,620.01,71.928,Unknown,Unknown,88,890,0,6,6/1/2000,1,1,0.404089888,Unknown
+2000,June,Poland,1,59.04,76.8,59.04,Unknown,Unknown,242,96,0,6,6/1/2000,1,1,0.615,Unknown
+2000,June,Saudi Arabia,2,244.1,354,122.05,Unknown,Unknown,83,236,0,6,6/1/2000,1,1,1.034322034,Unknown
+2000,June,Singapore,1,46.2,48,46.2,Unknown,Unknown,389,6,0,6,6/1/2000,1,1,7.7,Unknown
+2000,June,South Korea,4,454.87,526.8,113.7175,Unknown,Unknown,73,282,0,6,6/1/2000,1,1,1.613014184,Unknown
+2000,June,Spain,2,89.14,102.4,44.57,Unknown,Unknown,455,128,0,6,6/1/2000,1,1,0.69640625,Unknown
+2000,June,Sweden,5,393.7,580.48,78.74,Unknown,Unknown,115,770,0,6,6/1/2000,1,1,0.511298701,Unknown
+2000,June,Switzerland,8,420.27,688.34,52.53375,Unknown,Unknown,170,852,0,6,6/1/2000,1,1,0.493274648,Unknown
+2000,June,Taiwan,2,310,396,155,Unknown,Unknown,76,183,0,6,6/1/2000,1,1,1.693989071,Unknown
+2000,June,United Kingdom,28,3913.43,5497.62,139.7653571,Unknown,Unknown,14,5530,0,6,6/1/2000,1,1,0.707672694,Unknown
+2000,June,United States,258,36097.55,56929.76,139.9129845,Unknown,Unknown,1,77625,0,6,6/1/2000,1,1,0.465024799,Unknown
+2000,November,Australia,5,629.25,784,125.85,Unknown,Unknown,77,672,0,11,11/1/2000,1,1,0.936383929,Unknown
+2000,November,Austria,5,970.6,1435.3,194.12,Unknown,Unknown,53,1262,0,11,11/1/2000,1,1,0.769096672,Unknown
+2000,November,Belgium,2,141.6,210.3,70.8,Unknown,Unknown,270,216,0,11,11/1/2000,1,1,0.655555556,Unknown
+2000,November,Brazil,2,144.83,185.6,72.415,Unknown,Unknown,313,232,0,11,11/1/2000,1,1,0.624267241,Unknown
+2000,November,Canada,8,915.5,1206.47,114.4375,Unknown,Unknown,78,1092,0,11,11/1/2000,1,1,0.838369963,Unknown
+2000,November,Denmark,2,230,333,115,Unknown,Unknown,150,222,0,11,11/1/2000,1,1,1.036036036,Unknown
+2000,November,Finland,4,898.25,1279.8,224.5625,Unknown,Unknown,48,1200,0,11,11/1/2000,1,1,0.748541667,Unknown
+2000,November,France,28,2843.94,3797.03,101.5692857,Unknown,Unknown,65,3835,0,11,11/1/2000,1,1,0.741574967,Unknown
+2000,November,Germany,55,8275.99,12592.56,150.4725455,Unknown,Unknown,7,12760,0,11,11/1/2000,1,1,0.648588558,Unknown
+2000,November,Hungary,1,59.04,76.8,59.04,Unknown,Unknown,464,96,0,11,11/1/2000,1,1,0.615,Unknown
+2000,November,Israel,1,71.7,89.6,71.7,Unknown,Unknown,349,112,0,11,11/1/2000,1,1,0.640178571,Unknown
+2000,November,Italy,9,854.91,1180.48,94.99,Unknown,Unknown,88,1340,0,11,11/1/2000,1,1,0.637992537,Unknown
+2000,November,Japan,63,11220.35,13788.18,178.1007937,498,0.459839357,9,10002,498,11,11/1/2000,0,0,1.121810638,22.53082329
+2000,November,Luxembourg,2,217.2,307.2,108.6,Unknown,Unknown,134,384,0,11,11/1/2000,1,1,0.565625,Unknown
+2000,November,Netherlands,14,1160.82,1493.01,82.91571429,Unknown,Unknown,154,1984,0,11,11/1/2000,1,1,0.585090726,Unknown
+2000,November,Norway,1,72.57,96,72.57,Unknown,Unknown,346,160,0,11,11/1/2000,1,1,0.4535625,Unknown
+2000,November,Poland,1,59.04,76.8,59.04,Unknown,Unknown,467,96,0,11,11/1/2000,1,1,0.615,Unknown
+2000,November,Saudi Arabia,2,360,531,180,Unknown,Unknown,94,354,0,11,11/1/2000,1,1,1.016949153,Unknown
+2000,November,South Korea,4,487.87,614.8,121.9675,Unknown,Unknown,100,410,0,11,11/1/2000,1,1,1.189926829,Unknown
+2000,November,Spain,2,143.58,192,71.79,Unknown,Unknown,335,184,0,11,11/1/2000,1,1,0.780326087,Unknown
+2000,November,Sweden,8,943.12,1423.04,117.89,Unknown,Unknown,44,1778,0,11,11/1/2000,1,1,0.530438695,Unknown
+2000,November,Switzerland,8,545.17,796.33,68.14625,Unknown,Unknown,265,984,0,11,11/1/2000,1,1,0.554034553,Unknown
+2000,November,Taiwan,2,310,396,155,Unknown,Unknown,104,183,0,11,11/1/2000,1,1,1.693989071,Unknown
+2000,November,United Kingdom,34,5291.54,7090.63,155.6335294,Unknown,Unknown,12,6544,0,11,11/1/2000,1,1,0.808609413,Unknown
+2000,November,United States,234,50567.18,81005.84,216.0990598,Unknown,Unknown,1,93453,0,11,11/1/2000,1,1,0.54109745,Unknown
+2001,June,Australia,5,748.11,960.93,149.622,Unknown,Unknown,98,632,0,6,6/1/2001,1,1,1.183718354,Unknown
+2001,June,Austria,2,185.44,246.4,92.72,Unknown,Unknown,281,224,0,6,6/1/2001,1,1,0.827857143,Unknown
+2001,June,Belgium,1,84,120,84,Unknown,Unknown,375,80,0,6,6/1/2001,1,1,1.05,Unknown
+2001,June,Brazil,1,80.1,102.4,80.1,Unknown,Unknown,423,128,0,6,6/1/2001,1,1,0.62578125,Unknown
+2001,June,Canada,9,1182.7,1548.07,131.4111111,Unknown,Unknown,99,1420,0,6,6/1/2001,1,1,0.832887324,Unknown
+2001,June,Denmark,2,230,333,115,Unknown,Unknown,189,222,0,6,6/1/2001,1,1,1.036036036,Unknown
+2001,June,Finland,2,416,597,208,Unknown,Unknown,86,668,0,6,6/1/2001,1,1,0.622754491,Unknown
+2001,June,France,21,2985.58,3973.08,142.1704762,Unknown,Unknown,44,3402,0,6,6/1/2001,1,1,0.877595532,Unknown
+2001,June,Germany,64,9607.47,14784.59,150.1167188,Unknown,Unknown,12,14168,0,6,6/1/2001,1,1,0.678110531,Unknown
+2001,June,Israel,1,71.7,89.6,71.7,Unknown,Unknown,472,112,0,6,6/1/2001,1,1,0.640178571,Unknown
+2001,June,Italy,12,1237.33,1695.8,103.1108333,Unknown,Unknown,108,1518,0,6,6/1/2001,1,1,0.815105402,Unknown
+2001,June,Japan,54,15887.28,19475.24,294.2088889,498,0.459839357,5,10622,498,6,6/1/2001,0,0,1.495695726,31.90216867
+2001,June,Luxembourg,2,217.2,307.2,108.6,Unknown,Unknown,168,384,0,6,6/1/2001,1,1,0.565625,Unknown
+2001,June,Netherlands,7,1323.7,1757.8,189.1,Unknown,Unknown,62,1898,0,6,6/1/2001,1,1,0.697418335,Unknown
+2001,June,Norway,3,282.27,368.8,94.09,Unknown,Unknown,156,424,0,6,6/1/2001,1,1,0.665731132,Unknown
+2001,June,Poland,1,83.3,100,83.3,Unknown,Unknown,376,100,0,6,6/1/2001,1,1,0.833,Unknown
+2001,June,Portugal,1,104,150,104,Unknown,Unknown,259,100,0,6,6/1/2001,1,1,1.04,Unknown
+2001,June,Saudi Arabia,2,650,912,325,Unknown,Unknown,37,608,0,6,6/1/2001,1,1,1.069078947,Unknown
+2001,June,South Korea,6,700.67,928.4,116.7783333,Unknown,Unknown,112,542,0,6,6/1/2001,1,1,1.292749077,Unknown
+2001,June,Spain,2,155.8,192,77.9,Unknown,Unknown,426,216,0,6,6/1/2001,1,1,0.721296296,Unknown
+2001,June,Sweden,4,685.04,1075.2,171.26,Unknown,Unknown,56,1348,0,6,6/1/2001,1,1,0.508189911,Unknown
+2001,June,Switzerland,6,454.47,629.77,75.745,Unknown,Unknown,369,600,0,6,6/1/2001,1,1,0.75745,Unknown
+2001,June,Taiwan,4,532.9,728.8,133.225,Unknown,Unknown,128,375,0,6,6/1/2001,1,1,1.421066667,Unknown
+2001,June,United Kingdom,31,5599.98,7558.4,180.6445161,Unknown,Unknown,16,6256,0,6,6/1/2001,1,1,0.895137468,Unknown
+2001,June,United States,253,64020.84,99956.48,253.0467984,Unknown,Unknown,1,105988,0,6,6/1/2001,1,1,0.60403857,Unknown
+2001,November,Australia,4,1206.51,1573.2,301.6275,Unknown,Unknown,31,800,0,11,11/1/2001,1,1,1.5081375,Unknown
+2001,November,Austria,3,311.2,446.8,103.7333333,Unknown,Unknown,356,268,0,11,11/1/2001,1,1,1.16119403,Unknown
+2001,November,Belgium,2,295.4,422.4,147.7,Unknown,Unknown,168,192,0,11,11/1/2001,1,1,1.538541667,Unknown
+2001,November,Brazil,2,392.5,563.2,196.25,Unknown,Unknown,153,256,0,11,11/1/2001,1,1,1.533203125,Unknown
+2001,November,Canada,11,1622.4,2181.59,147.4909091,Unknown,Unknown,123,1681,0,11,11/1/2001,1,1,0.965139798,Unknown
+2001,November,China,3,395.8,563.2,131.9333333,Unknown,Unknown,150,256,0,11,11/1/2001,1,1,1.54609375,Unknown
+2001,November,Denmark,2,230,333,115,Unknown,Unknown,292,222,0,11,11/1/2001,1,1,1.036036036,Unknown
+2001,November,Finland,4,809.4,1160.2,202.35,Unknown,Unknown,107,924,0,11,11/1/2001,1,1,0.875974026,Unknown
+2001,November,France,23,3892.4,5228.23,169.2347826,Unknown,Unknown,56,3565,0,11,11/1/2001,1,1,1.091837307,Unknown
+2001,November,Germany,59,12054.08,18076.54,204.3064407,Unknown,Unknown,10,14734,0,11,11/1/2001,1,1,0.818113208,Unknown
+2001,November,Italy,11,1348.43,1884.6,122.5845455,Unknown,Unknown,136,1278,0,11,11/1/2001,1,1,1.055109546,Unknown
+2001,November,Japan,57,18383.52,22966.34,322.5178947,498,0.459839357,7,11896,498,11,11/1/2001,0,0,1.54535306,36.9146988
+2001,November,Luxembourg,1,137.1,204.8,137.1,Unknown,Unknown,268,256,0,11,11/1/2001,1,1,0.535546875,Unknown
+2001,November,Netherlands,10,1835,2503.8,183.5,Unknown,Unknown,76,2190,0,11,11/1/2001,1,1,0.837899543,Unknown
+2001,November,Norway,2,240.2,316.8,120.1,Unknown,Unknown,259,284,0,11,11/1/2001,1,1,0.845774648,Unknown
+2001,November,Portugal,1,301,444,301,Unknown,Unknown,99,296,0,11,11/1/2001,1,1,1.016891892,Unknown
+2001,November,Russia,1,109.1,158.4,109.1,Unknown,Unknown,365,72,0,11,11/1/2001,1,1,1.515277778,Unknown
+2001,November,Saudi Arabia,2,772,1080,386,Unknown,Unknown,47,720,0,11,11/1/2001,1,1,1.072222222,Unknown
+2001,November,Singapore,1,99.2,140.8,99.2,Unknown,Unknown,463,64,0,11,11/1/2001,1,1,1.55,Unknown
+2001,November,South Korea,16,2281.9,3224,142.61875,Unknown,Unknown,142,1612,0,11,11/1/2001,1,1,1.41557072,Unknown
+2001,November,Spain,2,231.2,332.8,115.6,Unknown,Unknown,284,192,0,11,11/1/2001,1,1,1.204166667,Unknown
+2001,November,Sweden,5,897.34,1396.4,179.468,Unknown,Unknown,70,1480,0,11,11/1/2001,1,1,0.606310811,Unknown
+2001,November,Switzerland,2,238.9,320,119.45,Unknown,Unknown,287,256,0,11,11/1/2001,1,1,0.933203125,Unknown
+2001,November,Taiwan,4,634.9,824.8,158.725,Unknown,Unknown,129,385,0,11,11/1/2001,1,1,1.649090909,Unknown
+2001,November,United Kingdom,34,7236.12,9987.7,212.8270588,Unknown,Unknown,21,7038,0,11,11/1/2001,1,1,1.028150043,Unknown
+2001,November,United States,230,77848.11,120192.07,338.4700435,Unknown,Unknown,1,109681,0,11,11/1/2001,1,1,0.709768419,Unknown
+2002,June,Australia,3,1162.5,1429.2,387.5,Unknown,Unknown,42,640,0,6,6/1/2002,1,1,1.81640625,Unknown
+2002,June,Austria,1,204.5,472,204.5,Unknown,Unknown,263,160,0,6,6/1/2002,1,1,1.278125,Unknown
+2002,June,Belgium,3,579.6,857.6,193.2,Unknown,Unknown,307,320,0,6,6/1/2002,1,1,1.81125,Unknown
+2002,June,Brazil,2,392.5,563.2,196.25,Unknown,Unknown,283,256,0,6,6/1/2002,1,1,1.533203125,Unknown
+2002,June,Canada,13,2319.6,4025.4,178.4307692,Unknown,Unknown,226,2828,0,6,6/1/2002,1,1,0.820226308,Unknown
+2002,June,China,3,640,1088,213.3333333,Unknown,Unknown,192,352,0,6,6/1/2002,1,1,1.818181818,Unknown
+2002,June,Finland,4,1503.9,3221.2,375.975,Unknown,Unknown,33,1308,0,6,6/1/2002,1,1,1.149770642,Unknown
+2002,June,France,23,9307.6,13310.43,404.6782609,Unknown,Unknown,4,6303,0,6,6/1/2002,1,1,1.476693638,Unknown
+2002,June,Germany,64,20122.1,33429.6,314.4078125,Unknown,Unknown,14,17528,0,6,6/1/2002,1,1,1.14799749,Unknown
+2002,June,Italy,16,3814.5,7107.2,238.40625,Unknown,Unknown,32,2224,0,6,6/1/2002,1,1,1.715152878,Unknown
+2002,June,Japan,53,57315.2,67578.16,1081.418868,1849,5.833044679,1,17400,3698,6,6/1/2002,0,0,3.293977011,15.49897242
+2002,June,Luxembourg,2,274.2,409.6,137.1,Unknown,Unknown,479,512,0,6,6/1/2002,1,1,0.535546875,Unknown
+2002,June,Netherlands,9,2096.7,3641.2,232.9666667,Unknown,Unknown,123,2996,0,6,6/1/2002,1,1,0.699833111,Unknown
+2002,June,Norway,3,945.9,1497.6,315.3,Unknown,Unknown,118,992,0,6,6/1/2002,1,1,0.953528226,Unknown
+2002,June,Portugal,1,301,444,301,Unknown,Unknown,164,296,0,6,6/1/2002,1,1,1.016891892,Unknown
+2002,June,Russia,1,564,1024,564,Unknown,Unknown,64,768,0,6,6/1/2002,1,1,0.734375,Unknown
+2002,June,Saudi Arabia,3,1098,3394,366,Unknown,Unknown,75,2768,0,6,6/1/2002,1,1,0.396676301,Unknown
+2002,June,Singapore,2,840.6,1516.8,420.3,Unknown,Unknown,68,400,0,6,6/1/2002,1,1,2.1015,Unknown
+2002,June,South Korea,11,2138.1,3256,194.3727273,Unknown,Unknown,158,1452,0,6,6/1/2002,1,1,1.472520661,Unknown
+2002,June,Sweden,5,1555.74,2424.4,311.148,Unknown,Unknown,93,1884,0,6,6/1/2002,1,1,0.825764331,Unknown
+2002,June,Switzerland,1,590.2,1331.2,590.2,Unknown,Unknown,61,256,0,6,6/1/2002,1,1,2.30546875,Unknown
+2002,June,Taiwan,3,993.2,1823.2,331.0666667,Unknown,Unknown,60,449,0,6,6/1/2002,1,1,2.212026726,Unknown
+2002,June,United Kingdom,37,11896.2,21143.8,321.5189189,Unknown,Unknown,11,13726,0,6,6/1/2002,1,1,0.866690951,Unknown
+2002,June,United States,226,99263.33,163412.93,439.2182743,Unknown,Unknown,2,121131,0,6,6/1/2002,1,1,0.819470903,Unknown
+2002,November,Australia,3,1410.3,2040,470.1,Unknown,Unknown,63,720,0,11,11/1/2002,1,1,1.95875,Unknown
+2002,November,Austria,1,204.5,472,204.5,Unknown,Unknown,366,160,0,11,11/1/2002,1,1,1.278125,Unknown
+2002,November,Belgium,4,884.1,1308.8,221.025,Unknown,Unknown,252,528,0,11,11/1/2002,1,1,1.674431818,Unknown
+2002,November,Brazil,3,589.8,822.4,196.6,Unknown,Unknown,388,400,0,11,11/1/2002,1,1,1.4745,Unknown
+2002,November,Canada,5,1166,1792.1,233.2,Unknown,Unknown,191,1136,0,11,11/1/2002,1,1,1.026408451,Unknown
+2002,November,China,5,1899.1,3472,379.82,Unknown,Unknown,43,960,0,11,11/1/2002,1,1,1.978229167,Unknown
+2002,November,Finland,4,1847.4,3221.2,461.85,Unknown,Unknown,37,1308,0,11,11/1/2002,1,1,1.412385321,Unknown
+2002,November,France,22,9644.5,13341.63,438.3863636,Unknown,Unknown,7,6543,0,11,11/1/2002,1,1,1.474018035,Unknown
+2002,November,Germany,73,25860.4,40316.1,354.2520548,Unknown,Unknown,21,18162,0,11,11/1/2002,1,1,1.423874023,Unknown
+2002,November,Italy,15,4887,7980.8,325.8,Unknown,Unknown,30,2408,0,11,11/1/2002,1,1,2.02948505,Unknown
+2002,November,Japan,46,57578.7,68006.7,1251.71087,3200,11.20625,1,17203,3200,11,11/1/2002,0,0,3.347015056,17.99334375
+2002,November,Netherlands,6,2036.4,4270.6,339.4,Unknown,Unknown,154,3600,0,11,11/1/2002,1,1,0.565666667,Unknown
+2002,November,Norway,3,1006.3,1497.6,335.4333333,Unknown,Unknown,129,992,0,11,11/1/2002,1,1,1.014415323,Unknown
+2002,November,Portugal,1,393,570,393,Unknown,Unknown,157,380,0,11,11/1/2002,1,1,1.034210526,Unknown
+2002,November,Russia,1,734.6,1024,734.6,Unknown,Unknown,74,768,0,11,11/1/2002,1,1,0.956510417,Unknown
+2002,November,Saudi Arabia,3,1098,3394,366,Unknown,Unknown,106,2768,0,11,11/1/2002,1,1,0.396676301,Unknown
+2002,November,Singapore,2,855,1516.8,427.5,Unknown,Unknown,100,400,0,11,11/1/2002,1,1,2.1375,Unknown
+2002,November,South Korea,9,2569.2,4550.2,285.4666667,Unknown,Unknown,80,1284,0,11,11/1/2002,1,1,2.000934579,Unknown
+2002,November,Spain,2,410.4,595.2,205.2,Unknown,Unknown,345,240,0,11,11/1/2002,1,1,1.71,Unknown
+2002,November,Sweden,5,2256.44,3795.2,451.288,Unknown,Unknown,51,1824,0,11,11/1/2002,1,1,1.237083333,Unknown
+2002,November,Switzerland,1,736.6,1331.2,736.6,Unknown,Unknown,73,256,0,11,11/1/2002,1,1,2.87734375,Unknown
+2002,November,Taiwan,3,1019.5,1830.4,339.8333333,Unknown,Unknown,92,425,0,11,11/1/2002,1,1,2.398823529,Unknown
+2002,November,Thailand,3,679,966.4,226.3333333,Unknown,Unknown,235,416,0,11,11/1/2002,1,1,1.632211538,Unknown
+2002,November,United Kingdom,38,20120.5,37290,529.4868421,Unknown,Unknown,9,16888,0,11,11/1/2002,1,1,1.1914081,Unknown
+2002,November,United States,229,148623.62,242210.21,649.011441,Unknown,Unknown,2,134532,0,11,11/1/2002,1,1,1.104745488,Unknown
+2003,June,Australia,6,2969,4843,494.8333333,Unknown,Unknown,79,1272,0,6,6/1/2003,1,1,2.334119497,Unknown
+2003,June,Austria,2,883.2,1431.8,441.6,Unknown,Unknown,178,320,0,6,6/1/2003,1,1,2.76,Unknown
+2003,June,Belgium,2,490.6,768,245.3,Unknown,Unknown,473,256,0,6,6/1/2003,1,1,1.91640625,Unknown
+2003,June,Brazil,2,632.2,819.2,316.1,Unknown,Unknown,296,288,0,6,6/1/2003,1,1,2.195138889,Unknown
+2003,June,Canada,9,4205.4,8056,467.2666667,Unknown,Unknown,38,2068,0,6,6/1/2003,1,1,2.033558994,Unknown
+2003,June,China,6,3193.4,7345.6,532.2333333,Unknown,Unknown,51,1664,0,6,6/1/2003,1,1,1.919110577,Unknown
+2003,June,Denmark,4,1566.7,2092.8,391.675,Unknown,Unknown,179,512,0,6,6/1/2003,1,1,3.059960937,Unknown
+2003,June,Finland,3,1862.2,3330,620.7333333,Unknown,Unknown,42,1244,0,6,6/1/2003,1,1,1.496945338,Unknown
+2003,June,France,19,11891,25012.9,625.8421053,Unknown,Unknown,10,7965,0,6,6/1/2003,1,1,1.492906466,Unknown
+2003,June,Germany,56,27007.9,44154.7,482.2839286,Unknown,Unknown,24,15065,0,6,6/1/2003,1,1,1.792758048,Unknown
+2003,June,India,2,1158.1,3747.2,579.05,Unknown,Unknown,125,822,0,6,6/1/2003,1,1,1.408880779,Unknown
+2003,June,Italy,13,5794.6,9814.4,445.7384615,Unknown,Unknown,36,2568,0,6,6/1/2003,1,1,2.256464174,Unknown
+2003,June,Japan,41,62598.5,80403,1526.792683,3200,11.20625,1,18469,3200,6,6/1/2003,0,0,3.389382208,19.56203125
+2003,June,Netherlands,7,2293.3,4638.6,327.6142857,Unknown,Unknown,274,3456,0,6,6/1/2003,1,1,0.663570602,Unknown
+2003,June,Norway,3,1025.5,1497.6,341.8333333,Unknown,Unknown,211,992,0,6,6/1/2003,1,1,1.033770161,Unknown
+2003,June,Portugal,1,393,570,393,Unknown,Unknown,283,380,0,6,6/1/2003,1,1,1.034210526,Unknown
+2003,June,Russia,2,1079.6,1600,539.8,Unknown,Unknown,95,960,0,6,6/1/2003,1,1,1.124583333,Unknown
+2003,June,Saudi Arabia,3,1496.4,5779.6,498.8,Unknown,Unknown,132,3122,0,6,6/1/2003,1,1,0.479308136,Unknown
+2003,June,Singapore,2,923.6,1516.8,461.8,Unknown,Unknown,126,400,0,6,6/1/2003,1,1,2.309,Unknown
+2003,June,South Korea,12,5023.1,8332.6,418.5916667,Unknown,Unknown,56,2288,0,6,6/1/2003,1,1,2.195410839,Unknown
+2003,June,Spain,2,694.2,1120,347.1,Unknown,Unknown,256,320,0,6,6/1/2003,1,1,2.169375,Unknown
+2003,June,Sweden,4,2350.84,3924.8,587.71,Unknown,Unknown,61,1716,0,6,6/1/2003,1,1,1.36995338,Unknown
+2003,June,Switzerland,3,2387.7,4448,795.9,Unknown,Unknown,47,944,0,6,6/1/2003,1,1,2.52934322,Unknown
+2003,June,Taiwan,2,1154.7,2003.2,577.35,Unknown,Unknown,93,448,0,6,6/1/2003,1,1,2.577455357,Unknown
+2003,June,Thailand,1,351.1,560,351.1,Unknown,Unknown,331,160,0,6,6/1/2003,1,1,2.194375,Unknown
+2003,June,United Kingdom,35,22895.7,46590.8,654.1628571,Unknown,Unknown,12,18564,0,6,6/1/2003,1,1,1.23333872,Unknown
+2003,June,United States,245,198833.92,339112.1,811.5670204,Unknown,Unknown,2,153674,0,6,6/1/2003,1,1,1.293868319,Unknown
+2003,November,Australia,6,4971.02,7695.48,828.5033333,Unknown,Unknown,108,1724,0,11,11/1/2003,1,1,2.883422274,Unknown
+2003,November,Austria,2,883.2,1431.8,441.6,Unknown,Unknown,322,320,0,11,11/1/2003,1,1,2.76,Unknown
+2003,November,Belgium,2,853.6,1440,426.8,Unknown,Unknown,378,448,0,11,11/1/2003,1,1,1.905357143,Unknown
+2003,November,Brazil,1,511,716.8,511,Unknown,Unknown,315,128,0,11,11/1/2003,1,1,3.9921875,Unknown
+2003,November,Canada,9,8838.63,19112.96,982.07,Unknown,Unknown,29,3738,0,11,11/1/2003,1,1,2.36453451,Unknown
+2003,November,China,12,11579.22,20938.56,964.935,Unknown,Unknown,14,4462,0,11,11/1/2003,1,1,2.595073958,Unknown
+2003,November,Czechia,1,408.2,672,408.2,Unknown,Unknown,441,192,0,11,11/1/2003,1,1,2.126041667,Unknown
+2003,November,Denmark,3,1282.3,1644.8,427.4333333,Unknown,Unknown,323,384,0,11,11/1/2003,1,1,3.339322917,Unknown
+2003,November,Finland,3,1986.4,3597,662.1333333,Unknown,Unknown,91,896,0,11,11/1/2003,1,1,2.216964286,Unknown
+2003,November,France,17,15266.13,27370.4,898.0076471,Unknown,Unknown,15,8556,0,11,11/1/2003,1,1,1.784260168,Unknown
+2003,November,Germany,34,24402.68,39538.06,717.7258824,Unknown,Unknown,31,11264,0,11,11/1/2003,1,1,2.166431108,Unknown
+2003,November,India,3,2098.81,5097.6,699.6033333,Unknown,Unknown,105,1106,0,11,11/1/2003,1,1,1.897658228,Unknown
+2003,November,Ireland,1,408.2,672,408.2,Unknown,Unknown,467,192,0,11,11/1/2003,1,1,2.126041667,Unknown
+2003,November,Israel,1,1143.46,3360,1143.46,Unknown,Unknown,97,600,0,11,11/1/2003,1,1,1.905766667,Unknown
+2003,November,Italy,14,8498.9,14227.84,607.0642857,Unknown,Unknown,62,3176,0,11,11/1/2003,1,1,2.675976071,Unknown
+2003,November,Japan,32,62428.6,80359.4,1950.89375,3200,11.20625,1,15437,3200,11,11/1/2003,0,0,4.044088877,19.5089375
+2003,November,Luxembourg,1,408.2,672,408.2,Unknown,Unknown,445,192,0,11,11/1/2003,1,1,2.126041667,Unknown
+2003,November,Netherlands,10,5949.4,8787,594.94,Unknown,Unknown,41,3040,0,11,11/1/2003,1,1,1.957039474,Unknown
+2003,November,Norway,3,1488,2048,496,Unknown,Unknown,314,768,0,11,11/1/2003,1,1,1.9375,Unknown
+2003,November,Poland,1,641.6,1331.2,641.6,Unknown,Unknown,232,256,0,11,11/1/2003,1,1,2.50625,Unknown
+2003,November,Portugal,2,801.2,1242,400.6,Unknown,Unknown,458,572,0,11,11/1/2003,1,1,1.400699301,Unknown
+2003,November,Russia,2,1173.2,1792,586.6,Unknown,Unknown,189,1024,0,11,11/1/2003,1,1,1.145703125,Unknown
+2003,November,Saudi Arabia,9,6246.55,14432.64,694.0611111,Unknown,Unknown,109,2866,0,11,11/1/2003,1,1,2.179535939,Unknown
+2003,November,Singapore,4,2378.33,4038.4,594.5825,Unknown,Unknown,148,800,0,11,11/1/2003,1,1,2.9729125,Unknown
+2003,November,South Korea,13,10025.55,18231.8,771.1961538,Unknown,Unknown,22,3956,0,11,11/1/2003,1,1,2.534264408,Unknown
+2003,November,Spain,4,1927.68,2624,481.92,Unknown,Unknown,228,552,0,11,11/1/2003,1,1,3.492173913,Unknown
+2003,November,Sweden,5,2938.16,4861.16,587.632,Unknown,Unknown,103,1869,0,11,11/1/2003,1,1,1.572049224,Unknown
+2003,November,Switzerland,3,2387.7,4448,795.9,Unknown,Unknown,110,944,0,11,11/1/2003,1,1,2.52934322,Unknown
+2003,November,Taiwan,5,3424.68,6131.2,684.936,Unknown,Unknown,135,1176,0,11,11/1/2003,1,1,2.912142857,Unknown
+2003,November,United Kingdom,32,28956.47,54735.2,904.8896875,Unknown,Unknown,16,14824,0,11,11/1/2003,1,1,1.953350648,Unknown
+2003,November,United States,246,297340.02,529224.98,1208.699268,Unknown,Unknown,2,172361,0,11,11/1/2003,1,1,1.725100342,Unknown
+2004,June,Australia,9,7726.66,12354.88,858.5177778,Unknown,Unknown,171,2508,0,6,6/1/2004,1,1,3.080805423,Unknown
+2004,June,Belgium,2,1265.2,2384.4,632.6,Unknown,Unknown,433,618,0,6,6/1/2004,1,1,2.047249191,Unknown
+2004,June,Brazil,9,12051.78,21162.88,1339.086667,83,23.16337349,36,3660,83,6,6/1/2004,0,0,3.292836066,145.2021687
+2004,June,Canada,7,12121.2,22898.56,1731.6,Unknown,Unknown,38,4160,0,6,6/1/2004,1,1,2.91375,Unknown
+2004,June,China,14,27614.51,42636.84,1972.465,Unknown,Unknown,10,8646,0,6,6/1/2004,1,1,3.193905852,Unknown
+2004,June,Czechia,2,1500,2688,750,Unknown,Unknown,349,768,0,6,6/1/2004,1,1,1.953125,Unknown
+2004,June,Finland,1,1170,2253,1170,Unknown,Unknown,189,512,0,6,6/1/2004,1,1,2.28515625,Unknown
+2004,June,France,19,21755.25,38876.32,1145.013158,Unknown,Unknown,28,10028,0,6,6/1/2004,1,1,2.169450538,Unknown
+2004,June,Germany,37,42975.96,69369.8,1161.512432,Unknown,Unknown,21,15688,0,6,6/1/2004,1,1,2.739416114,Unknown
+2004,June,India,6,5652.11,9556.8,942.0183333,Unknown,Unknown,185,1750,0,6,6/1/2004,1,1,3.229777143,Unknown
+2004,June,Israel,2,5748.38,10214.4,2874.19,Unknown,Unknown,33,1720,0,6,6/1/2004,1,1,3.342081395,Unknown
+2004,June,Italy,13,12346.15,19730.56,949.7038462,Unknown,Unknown,63,4132,0,6,6/1/2004,1,1,2.987935624,Unknown
+2004,June,Japan,35,90901.4,124463,2597.182857,3200,11.20625,1,23838,3200,6,6/1/2004,0,0,3.813298095,28.4066875
+2004,June,Netherlands,2,3128.13,4403,1564.065,Unknown,Unknown,108,816,0,6,6/1/2004,1,1,3.833492647,Unknown
+2004,June,Norway,2,1586.6,2441.6,793.3,Unknown,Unknown,330,436,0,6,6/1/2004,1,1,3.638990826,Unknown
+2004,June,Poland,1,641.6,1331.2,641.6,Unknown,Unknown,465,256,0,6,6/1/2004,1,1,2.50625,Unknown
+2004,June,Russia,2,1456.7,2099.2,728.35,Unknown,Unknown,376,936,0,6,6/1/2004,1,1,1.556303419,Unknown
+2004,June,Saudi Arabia,8,5778.41,13664.64,722.30125,Unknown,Unknown,188,2354,0,6,6/1/2004,1,1,2.454719626,Unknown
+2004,June,Singapore,4,3176.7,5356.8,794.175,Unknown,Unknown,231,1056,0,6,6/1/2004,1,1,3.008238636,Unknown
+2004,June,South Korea,6,9082,15500.4,1513.666667,Unknown,Unknown,45,2976,0,6,6/1/2004,1,1,3.051747312,Unknown
+2004,June,Spain,2,1285.8,1536,642.9,Unknown,Unknown,452,256,0,6,6/1/2004,1,1,5.02265625,Unknown
+2004,June,Sweden,3,3782.76,5603.84,1260.92,Unknown,Unknown,168,1136,0,6,6/1/2004,1,1,3.329894366,Unknown
+2004,June,Switzerland,2,1817.6,3411.2,908.8,Unknown,Unknown,212,656,0,6,6/1/2004,1,1,2.770731707,Unknown
+2004,June,Taiwan,3,2381.04,3779.2,793.68,Unknown,Unknown,243,684,0,6,6/1/2004,1,1,3.481052632,Unknown
+2004,June,United Kingdom,34,57901.33,107938.68,1702.980294,Unknown,Unknown,6,20620,0,6,6/1/2004,1,1,2.808017944,Unknown
+2004,June,United States,262,461034.83,781695.98,1759.674924,Unknown,Unknown,2,202684,0,6,6/1/2004,1,1,2.274648369,Unknown
+2004,November,Australia,6,7229.75,10849.92,1204.958333,Unknown,Unknown,131,1776,0,11,11/1/2004,1,1,4.07080518,Unknown
+2004,November,Brazil,6,14209.19,26734.28,2368.198333,83,23.16337349,52,4448,83,11,11/1/2004,0,0,3.19451214,171.1950602
+2004,November,Canada,7,15830,31189.76,2261.428571,Unknown,Unknown,54,5760,0,11,11/1/2004,1,1,2.748263889,Unknown
+2004,November,China,17,31937.18,54347.04,1878.657647,Unknown,Unknown,17,10644,0,11,11/1/2004,1,1,3.000486659,Unknown
+2004,November,Finland,1,1170,2253,1170,Unknown,Unknown,293,512,0,11,11/1/2004,1,1,2.28515625,Unknown
+2004,November,France,15,21315.52,35415,1421.034667,Unknown,Unknown,41,8632,0,11,11/1/2004,1,1,2.469360519,Unknown
+2004,November,Germany,33,48264.86,76454.6,1462.571515,Unknown,Unknown,30,16900,0,11,11/1/2004,1,1,2.855908876,Unknown
+2004,November,India,7,6944.73,11873.28,992.1042857,Unknown,Unknown,286,2126,0,11,11/1/2004,1,1,3.266571025,Unknown
+2004,November,Israel,3,7250.38,12662.4,2416.793333,Unknown,Unknown,49,2120,0,11,11/1/2004,1,1,3.419990566,Unknown
+2004,November,Italy,14,17989.6,32433.12,1284.971429,Unknown,Unknown,61,7684,0,11,11/1/2004,1,1,2.341176471,Unknown
+2004,November,Japan,30,95004.4,132819.6,3166.813333,3200,11.20625,3,21734,3200,11,11/1/2004,0,0,4.371234011,29.688875
+2004,November,Netherlands,5,6368.72,8934.2,1273.744,Unknown,Unknown,154,1712,0,11,11/1/2004,1,1,3.720046729,Unknown
+2004,November,Portugal,3,3240,4032,1080,Unknown,Unknown,274,672,0,11,11/1/2004,1,1,4.821428571,Unknown
+2004,November,Russia,2,2251.6,3568,1125.8,Unknown,Unknown,210,752,0,11,11/1/2004,1,1,2.994148936,Unknown
+2004,November,Saudi Arabia,3,6438.51,15088,2146.17,251,14.96015936,45,2498,251,11,11/1/2004,0,0,2.577465973,25.65143426
+2004,November,Singapore,1,1015.5,1638.4,1015.5,Unknown,Unknown,363,256,0,11,11/1/2004,1,1,3.966796875,Unknown
+2004,November,South Korea,10,14851.45,24444.8,1485.145,Unknown,Unknown,65,4948,0,11,11/1/2004,1,1,3.001505659,Unknown
+2004,November,Spain,3,22691,34579,7563.666667,Unknown,Unknown,4,4300,0,11,11/1/2004,1,1,5.276976744,Unknown
+2004,November,Sweden,4,4642.2,6137.6,1160.55,Unknown,Unknown,224,1232,0,11,11/1/2004,1,1,3.768019481,Unknown
+2004,November,Switzerland,3,4076.1,11632,1358.7,Unknown,Unknown,101,2092,0,11,11/1/2004,1,1,1.948422562,Unknown
+2004,November,Taiwan,3,3905.6,5680,1301.866667,Unknown,Unknown,136,1140,0,11,11/1/2004,1,1,3.425964912,Unknown
+2004,November,United Kingdom,43,83816.76,171984.52,1949.226977,Unknown,Unknown,11,32418,0,11,11/1/2004,1,1,2.585500648,Unknown
+2004,November,United States,267,687603.29,1120590.32,2575.293221,Unknown,Unknown,1,266849,0,11,11/1/2004,1,1,2.576750484,Unknown
+2005,June,Australia,5,19.58,28.38,3.916,128,0.023671875,26,4492,128,6,6/1/2005,0,0,0.00435886,0.15296875
+2005,June,Brazil,4,12.4,23.68,3.1,83,0.02313253,96,3844,83,6,6/1/2005,0,0,0.003225806,0.14939759
+2005,June,Canada,7,23.5,43.94,3.357142857,169,0.022189349,40,7236,169,6,6/1/2005,0,0,0.003247651,0.139053254
+2005,June,China,19,53.48,90.35,2.814736842,113,0.022477876,18,15906,226,6,6/1/2005,0,0,0.003362253,0.236637168
+2005,June,Finland,1,1.17,2.25,1.17,Unknown,Unknown,497,512,0,6,6/1/2005,1,1,0.002285156,Unknown
+2005,June,France,11,19.79,36.02,1.799090909,Unknown,Unknown,77,8172,0,6,6/1/2005,1,1,0.002421684,Unknown
+2005,June,Germany,40,80.47,117.33,2.01175,66.33333333,0.062582788,27,22056,398,6,6/1/2005,0,0,0.00364844,0.20218593
+2005,June,India,8,14.01,24.73,1.75125,167,0.02245509,88,4212,167,6,6/1/2005,0,0,0.003326211,0.083892216
+2005,June,Israel,8,14.71,24.06,1.83875,Unknown,Unknown,91,3902,0,6,6/1/2005,1,1,0.003769862,Unknown
+2005,June,Italy,11,20.08,32.24,1.825454545,83,0.040843373,102,7012,83,6,6/1/2005,0,0,0.002863662,0.241927711
+2005,June,Japan,23,128.63,180.66,5.592608696,1103.666667,0.143263847,4,33602,3311,6,6/1/2005,0,0,0.003828046,0.03884929
+2005,June,Netherlands,4,33.32,43.18,8.33,134,0.204850746,6,13760,134,6,6/1/2005,0,0,0.002421512,0.248656716
+2005,June,Portugal,1,1.21,1.54,1.21,Unknown,Unknown,461,256,0,6,6/1/2005,1,1,0.004726563,Unknown
+2005,June,Russia,3,7.85,11.8,2.616666667,Unknown,Unknown,56,1788,0,6,6/1/2005,1,1,0.00439038,Unknown
+2005,June,Saudi Arabia,5,9.29,19.29,1.858,154,0.018961348,84,3168,308,6,6/1/2005,0,0,0.002932449,0.030162338
+2005,June,Singapore,1,1.19,1.69,1.19,Unknown,Unknown,490,384,0,6,6/1/2005,1,1,0.003098958,Unknown
+2005,June,South Korea,14,28.86,44.57,2.061428571,Unknown,Unknown,51,7428,0,6,6/1/2005,1,1,0.003885299,Unknown
+2005,June,Spain,4,32.43,48.1,8.1075,Unknown,Unknown,5,5428,0,6,6/1/2005,1,1,0.005974576,Unknown
+2005,June,Sweden,3,7.24,8.9,2.413333333,Unknown,Unknown,65,1526,0,6,6/1/2005,1,1,0.00474443,Unknown
+2005,June,Switzerland,3,25.01,37.06,8.336666667,89,0.204494382,9,10792,89,6,6/1/2005,0,0,0.002317457,0.281011236
+2005,June,Taiwan,2,4.09,6.78,2.045,Unknown,Unknown,153,1184,0,6,6/1/2005,1,1,0.003454392,Unknown
+2005,June,United Kingdom,32,85.54,173.18,2.673125,60,0.119290353,24,32978,120,6,6/1/2005,0,0,0.00259385,0.712833333
+2005,June,United States,277,1045.99,1584.37,3.776137184,111.3928571,0.086117244,1,382486,3119,6,6/1/2005,0,0,0.002734714,0.335360693
+2005,November,Australia,11,34.45,54.92,3.131818182,128,0.023671875,36,8394,128,11,11/1/2005,0,0,0.004104122,0.269140625
+2005,November,Belgium,2,4.66,8.32,2.33,Unknown,Unknown,280,1300,0,11,11/1/2005,1,1,0.003584615,Unknown
+2005,November,Brazil,4,12.4,23.68,3.1,83,0.02313253,118,3844,83,11,11/1/2005,0,0,0.003225806,0.14939759
+2005,November,Bulgaria,1,1.86,3.33,1.86,Unknown,Unknown,402,640,0,11,11/1/2005,1,1,0.00290625,Unknown
+2005,November,Canada,6,22.04,41.41,3.673333333,169,0.022189349,50,6708,169,11,11/1/2005,0,0,0.003285629,0.130414201
+2005,November,China,17,59.55,101.12,3.502941176,100.75,0.023647615,26,16934,403,11,11/1/2005,0,0,0.003516594,0.147766749
+2005,November,Denmark,1,2.79,5.32,2.79,Unknown,Unknown,203,1024,0,11,11/1/2005,1,1,0.002724609,Unknown
+2005,November,Finland,1,1.71,1.82,1.71,Unknown,Unknown,465,304,0,11,11/1/2005,1,1,0.005625,Unknown
+2005,November,France,8,23.52,36.57,2.94,Unknown,Unknown,61,7930,0,11,11/1/2005,1,1,0.002965952,Unknown
+2005,November,Germany,24,71.3,96.21,2.970833333,77.16666667,0.067388334,37,15820,463,11,11/1/2005,0,0,0.004506953,0.15399568
+2005,November,India,4,11.38,21.69,2.845,167,0.02245509,110,3354,167,11,11/1/2005,0,0,0.003392964,0.068143713
+2005,November,Ireland,2,5.51,8.06,2.755,Unknown,Unknown,205,1680,0,11,11/1/2005,1,1,0.003279762,Unknown
+2005,November,Israel,9,23.5,43.27,2.611111111,103,0.024563107,113,6452,103,11,11/1/2005,0,0,0.003642281,0.22815534
+2005,November,Italy,6,14.54,23.25,2.423333333,83,0.040843373,130,4740,83,11,11/1/2005,0,0,0.003067511,0.175180723
+2005,November,Japan,20,130.53,181.18,6.5265,1103.666667,0.143263847,7,33163,3311,11,11/1/2005,0,0,0.003936013,0.039423135
+2005,November,Netherlands,4,33.32,43.18,8.33,134,0.204850746,9,13760,134,11,11/1/2005,0,0,0.002421512,0.248656716
+2005,November,Norway,2,4.02,7.2,2.01,Unknown,Unknown,358,1000,0,11,11/1/2005,1,1,0.00402,Unknown
+2005,November,Russia,1,5.36,8.13,5.36,Unknown,Unknown,68,924,0,11,11/1/2005,1,1,0.005800866,Unknown
+2005,November,Saudi Arabia,4,11.97,24.53,2.9925,251,0.014940239,106,3936,251,11,11/1/2005,0,0,0.003041159,0.047689243
+2005,November,South Korea,7,31.61,44.05,4.515714286,Unknown,Unknown,16,5152,0,11,11/1/2005,1,1,0.006135481,Unknown
+2005,November,Spain,2,29.77,44.38,14.885,Unknown,Unknown,8,4924,0,11,11/1/2005,1,1,0.006045898,Unknown
+2005,November,Sweden,1,5,6.03,5,Unknown,Unknown,69,886,0,11,11/1/2005,1,1,0.005643341,Unknown
+2005,November,Switzerland,4,34.37,48.53,8.5925,66.5,0.208610827,13,14888,133,11,11/1/2005,0,0,0.002308571,0.258421053
+2005,November,Taiwan,3,7.57,12.2,2.523333333,Unknown,Unknown,206,2152,0,11,11/1/2005,1,1,0.003517658,Unknown
+2005,November,United Kingdom,41,124.36,235.38,3.033170732,60,0.119290353,33,42328,120,11,11/1/2005,0,0,0.002938008,1.036333333
+2005,November,United States,305,1570.73,2310.4,5.149934426,151.1818182,0.063728105,1,522894,8315,11,11/1/2005,0,0,0.003003917,0.188903187
+2006,June,Australia,9,31.01,48.78,3.445555556,128,0.023671875,47,7540,128,6,6/1/2006,0,0,0.004112732,0.242265625
+2006,June,Belgium,2,4.66,8.32,2.33,Unknown,Unknown,438,1300,0,6,6/1/2006,1,1,0.003584615,Unknown
+2006,June,Brazil,4,13.15,25.33,3.2875,69,0.038695652,170,4564,69,6,6/1/2006,0,0,0.002881245,0.19057971
+2006,June,Canada,9,37.29,67.62,4.143333333,169,0.022189349,66,12384,169,6,6/1/2006,0,0,0.003011143,0.220650888
+2006,June,China,28,94.17,163.55,3.363214286,132.625,0.022931895,35,28206,1061,6,6/1/2006,0,0,0.003338651,0.088755891
+2006,June,Denmark,1,2.79,5.32,2.79,Unknown,Unknown,342,1024,0,6,6/1/2006,1,1,0.002724609,Unknown
+2006,June,France,8,67.41,96.27,8.42625,Unknown,Unknown,5,17290,0,6,6/1/2006,1,1,0.003898785,Unknown
+2006,June,Germany,17,93.96,127.17,5.527058824,103.3333333,0.066464431,8,28528,620,6,6/1/2006,0,0,0.003293606,0.151548387
+2006,June,India,11,36.84,66.78,3.349090909,126.1428571,0.030286639,141,11638,883,6,6/1/2006,0,0,0.003165492,0.041721404
+2006,June,Ireland,2,5.51,8.06,2.755,Unknown,Unknown,344,1680,0,6,6/1/2006,1,1,0.003279762,Unknown
+2006,June,Israel,9,25.26,49.28,2.806666667,171,0.020126742,148,7316,342,6,6/1/2006,0,0,0.003452706,0.073859649
+2006,June,Italy,7,19.73,32.44,2.818571429,74,0.04249861,225,7196,148,6,6/1/2006,0,0,0.002741801,0.133310811
+2006,June,Japan,29,260.1,346.7,8.968965517,582.5714286,0.152928343,7,66957,4078,6,6/1/2006,0,0,0.003884583,0.063781265
+2006,June,Netherlands,3,33.48,44.7,11.16,134,0.204850746,12,13856,134,6,6/1/2006,0,0,0.002416282,0.249850746
+2006,June,Russia,1,6.65,10.1,6.65,Unknown,Unknown,70,1148,0,6,6/1/2006,1,1,0.005792683,Unknown
+2006,June,Saudi Arabia,4,11.97,24.53,2.9925,251,0.014940239,147,3936,251,6,6/1/2006,0,0,0.003041159,0.047689243
+2006,June,Singapore,2,6.32,7.83,3.16,83,0.040843373,228,1168,83,6,6/1/2006,0,0,0.005410959,0.076144578
+2006,June,South Korea,4,27.13,37.03,6.7825,Unknown,Unknown,22,4484,0,6,6/1/2006,1,1,0.006050401,Unknown
+2006,June,Spain,1,27.91,42.14,27.91,Unknown,Unknown,11,4800,0,6,6/1/2006,1,1,0.005814583,Unknown
+2006,June,Sweden,1,5,6.03,5,Unknown,Unknown,91,886,0,6,6/1/2006,1,1,0.005643341,Unknown
+2006,June,Switzerland,4,36.64,51.46,9.16,66.5,0.208610827,16,15452,133,6,6/1/2006,0,0,0.002371214,0.275488722
+2006,June,Taiwan,3,7.57,12.2,2.523333333,Unknown,Unknown,345,2152,0,6,6/1/2006,1,1,0.003517658,Unknown
+2006,June,United Kingdom,35,137.8,252.3,3.937142857,104.2,0.068348399,31,45472,521,6,6/1/2006,0,0,0.003030436,0.264491363
+2006,June,United States,299,1779.15,2652.42,5.950334448,148.2352941,0.050751794,1,578684,15120,6,6/1/2006,0,0,0.003074476,0.117668651
+2006,November,Australia,4,20.66,30.97,5.165,128,0.023671875,71,4888,128,11,11/1/2006,0,0,0.004226678,0.16140625
+2006,November,Belgium,1,4.49,8.32,4.49,Unknown,Unknown,162,1300,0,11,11/1/2006,1,1,0.003453846,Unknown
+2006,November,Brazil,4,13.66,24.88,3.415,Unknown,Unknown,272,3780,0,11,11/1/2006,1,1,0.003613757,Unknown
+2006,November,Canada,8,37.3,61.91,4.6625,169,0.022189349,96,11184,169,11,11/1/2006,0,0,0.003335122,0.220710059
+2006,November,China,18,72.2,122.91,4.011111111,164.5,0.022216174,57,20374,658,11,11/1/2006,0,0,0.003543732,0.109726444
+2006,November,Denmark,1,2.79,5.32,2.79,Unknown,Unknown,481,1024,0,11,11/1/2006,1,1,0.002724609,Unknown
+2006,November,Finland,1,8.2,10.65,8.2,Unknown,Unknown,80,2048,0,11,11/1/2006,1,1,0.004003906,Unknown
+2006,November,France,12,99.87,140.14,8.3225,83.5,0.127159091,7,28080,167,11,11/1/2006,0,0,0.003556624,0.598023952
+2006,November,Germany,18,145.41,188.56,8.078333333,108.4,0.074500906,13,37784,542,11,11/1/2006,0,0,0.003848454,0.268284133
+2006,November,India,10,34.16,61.52,3.416,126.1428571,0.030286639,237,10908,883,11,11/1/2006,0,0,0.003131646,0.038686297
+2006,November,Ireland,1,3.14,4.65,3.14,Unknown,Unknown,376,968,0,11,11/1/2006,1,1,0.003243802,Unknown
+2006,November,Israel,2,7.5,16.22,3.75,239,0.015690377,246,2584,239,11,11/1/2006,0,0,0.002902477,0.031380753
+2006,November,Italy,8,39.18,68.67,4.8975,74,0.04249861,44,12616,148,11,11/1/2006,0,0,0.00310558,0.26472973
+2006,November,Japan,30,286.69,398.64,9.556333333,582.5714286,0.153155616,9,70757,4078,11,11/1/2006,0,0,0.004051755,0.070301618
+2006,November,Netherlands,2,31.11,40.96,15.555,134,0.204850746,17,13312,134,11,11/1/2006,0,0,0.002336989,0.232164179
+2006,November,Norway,3,17.48,26.96,5.826666667,156,0.038461538,89,3008,156,11,11/1/2006,0,0,0.00581117,0.112051282
+2006,November,Russia,2,9.71,15.87,4.855,Unknown,Unknown,99,2460,0,11,11/1/2006,1,1,0.003947154,Unknown
+2006,November,Saudi Arabia,4,11.97,24.53,2.9925,251,0.014940239,245,3936,251,11,11/1/2006,0,0,0.003041159,0.047689243
+2006,November,Singapore,2,6.32,7.83,3.16,83,0.040843373,343,1168,83,11,11/1/2006,0,0,0.005410959,0.076144578
+2006,November,South Korea,6,33.73,49.36,5.621666667,Unknown,Unknown,29,7764,0,11,11/1/2006,1,1,0.00434441,Unknown
+2006,November,Spain,7,91.58,137.95,13.08285714,Unknown,Unknown,5,15208,0,11,11/1/2006,1,1,0.006021831,Unknown
+2006,November,Sweden,1,5,6.03,5,Unknown,Unknown,128,886,0,11,11/1/2006,1,1,0.005643341,Unknown
+2006,November,Switzerland,5,47.67,60.29,9.534,66.5,0.209406282,22,15388,133,11,11/1/2006,0,0,0.003097868,0.358421053
+2006,November,Taiwan,2,5.54,9.9,2.77,Unknown,Unknown,484,1768,0,11,11/1/2006,1,1,0.003133484,Unknown
+2006,November,Turkey,1,3.29,5.22,3.29,Unknown,Unknown,353,560,0,11,11/1/2006,1,1,0.005875,Unknown
+2006,November,United Arab Emirates,1,4.71,5.73,4.71,22,0.214090909,139,2048,22,11,11/1/2006,0,0,0.002299805,0.214090909
+2006,November,United Kingdom,30,186.36,307.92,6.212,192.1666667,0.065651622,15,49812,1153,11,11/1/2006,0,0,0.003741267,0.161630529
+2006,November,United States,309,2271.11,3325.5,7.34987055,166.8468468,0.054682796,1,686362,18520,11,11/1/2006,0,0,0.00330891,0.12263013
+2007,June,Australia,4,22.52,31.14,5.63,Unknown,Unknown,107,4188,0,6,6/1/2007,1,1,0.005377268,Unknown
+2007,June,Belgium,4,22.39,35.87,5.5975,Unknown,Unknown,120,3596,0,6,6/1/2007,1,1,0.006226363,Unknown
+2007,June,Brazil,2,10.72,15.27,5.36,Unknown,Unknown,216,2124,0,6,6/1/2007,1,1,0.005047081,Unknown
+2007,June,Canada,10,54.81,79.83,5.481,114.5,0.040130113,177,11018,229,6,6/1/2007,0,0,0.004974587,0.239344978
+2007,June,China,13,96.42,174.94,7.416923077,329,0.056534954,43,27660,329,6,6/1/2007,0,0,0.0034859,0.293069909
+2007,June,Finland,3,21.23,27.56,7.076666667,Unknown,Unknown,109,4604,0,6,6/1/2007,1,1,0.004611208,Unknown
+2007,June,France,13,156.08,198.35,12.00615385,123.5,0.07902,12,32812,494,6,6/1/2007,0,0,0.004756796,0.315951417
+2007,June,Germany,23,245.84,317.31,10.68869565,321.4,0.077297936,10,51056,1607,6,6/1/2007,0,0,0.004815105,0.152980709
+2007,June,India,8,45.67,86.64,5.70875,113.1666667,0.050708956,159,10336,679,6,6/1/2007,0,0,0.004418537,0.067260677
+2007,June,Italy,5,36.61,66.51,7.322,Unknown,Unknown,67,10620,0,6,6/1/2007,1,1,0.003447269,Unknown
+2007,June,Japan,23,285.6,392.78,12.4173913,530.625,0.140829606,14,66996,4245,6,6/1/2007,0,0,0.004262941,0.067279152
+2007,June,Netherlands,8,75.64,105.46,9.455,223.5,0.120780006,26,19224,447,6,6/1/2007,0,0,0.003934665,0.169217002
+2007,June,Norway,2,13.77,19.59,6.885,156,0.040192308,151,1984,156,6,6/1/2007,0,0,0.006940524,0.088269231
+2007,June,Russia,5,31.17,44.37,6.234,Unknown,Unknown,105,4132,0,6,6/1/2007,1,1,0.007543562,Unknown
+2007,June,Saudi Arabia,2,9.21,12.59,4.605,Unknown,Unknown,373,1596,0,6,6/1/2007,1,1,0.005770677,Unknown
+2007,June,Singapore,2,11.6,16.81,5.8,Unknown,Unknown,260,1576,0,6,6/1/2007,1,1,0.007360406,Unknown
+2007,June,South Korea,5,35.31,44.36,7.062,Unknown,Unknown,53,4708,0,6,6/1/2007,1,1,0.0075,Unknown
+2007,June,Spain,6,97.62,146.68,16.27,Unknown,Unknown,9,16116,0,6,6/1/2007,1,1,0.006057334,Unknown
+2007,June,Sweden,10,50.91,87.91,5.091,74,0.092491155,183,9694,296,6,6/1/2007,0,0,0.005251702,0.171993243
+2007,June,Switzerland,5,60.24,80.33,12.048,66.5,0.211990552,39,18000,133,6,6/1/2007,0,0,0.003346667,0.452932331
+2007,June,Taiwan,10,66.65,97.85,6.665,192,0.103697917,35,8868,192,6,6/1/2007,0,0,0.007515787,0.347135417
+2007,June,Turkey,1,6.07,9.63,6.07,Unknown,Unknown,240,1032,0,6,6/1/2007,1,1,0.005881783,Unknown
+2007,June,United Arab Emirates,1,4.71,5.73,4.71,22,0.214090909,376,2048,22,6,6/1/2007,0,0,0.002299805,0.214090909
+2007,June,United Kingdom,44,338,526.33,7.681818182,144.1875,0.068964963,24,71770,2307,6,6/1/2007,0,0,0.004709489,0.14651062
+2007,June,United States,280,3075.68,4435.87,10.98457143,170.4468085,0.082847848,1,814962,16022,6,6/1/2007,0,0,0.003774016,0.191966047
+2007,June,Vietnam,1,4.68,7.2,4.68,Unknown,Unknown,395,600,0,6,6/1/2007,1,1,0.0078,Unknown
+2007,November,Australia,1,8.97,9.83,8.97,Unknown,Unknown,201,1536,0,11,11/1/2007,1,1,0.005839844,Unknown
+2007,November,Belgium,1,7.6,12.53,7.6,Unknown,Unknown,317,1044,0,11,11/1/2007,1,1,0.007279693,Unknown
+2007,November,Brazil,1,6.21,9.55,6.21,Unknown,Unknown,453,1024,0,11,11/1/2007,1,1,0.006064453,Unknown
+2007,November,Canada,5,32.13,50.18,6.426,167,0.04005988,393,7178,167,11,11/1/2007,0,0,0.004476177,0.19239521
+2007,November,China,10,87.2,155.85,8.72,268.5,0.048339593,59,22836,537,11,11/1/2007,0,0,0.003818532,0.162383613
+2007,November,Denmark,1,5.95,12.56,5.95,235,0.025319149,498,2416,235,11,11/1/2007,0,0,0.002462748,0.025319149
+2007,November,Finland,5,43.99,66.3,8.798,Unknown,Unknown,164,7832,0,11,11/1/2007,1,1,0.005616701,Unknown
+2007,November,France,17,222.55,343,13.09117647,140.7272727,0.087319515,19,54548,1548,11,11/1/2007,0,0,0.004079893,0.14376615
+2007,November,Germany,31,536.48,753.37,17.30580645,302.2857143,0.165236698,2,143392,2116,11,11/1/2007,0,0,0.003741352,0.253534972
+2007,November,India,9,194.52,303.66,21.61333333,125.4285714,0.09787688,4,34932,878,11,11/1/2007,0,0,0.005568533,0.221548975
+2007,November,Italy,6,69.11,172.17,11.51833333,220,0.060831472,48,23040,880,11,11/1/2007,0,0,0.002999566,0.078534091
+2007,November,Japan,20,291.11,405.63,14.5555,603.2857143,0.130363705,16,64218,4223,11,11/1/2007,0,0,0.004533153,0.068934407
+2007,November,Luxembourg,1,7.78,13.12,7.78,Unknown,Unknown,309,1408,0,11,11/1/2007,1,1,0.005525568,Unknown
+2007,November,Netherlands,6,65.16,91.37,10.86,223.5,0.120780006,37,17864,447,11,11/1/2007,0,0,0.003647559,0.145771812
+2007,November,Norway,3,28.24,79.67,9.413333333,156,0.040192308,83,7616,156,11,11/1/2007,0,0,0.003707983,0.181025641
+2007,November,Poland,1,6.36,15.46,6.36,122,0.052131148,430,1288,122,11,11/1/2007,0,0,0.004937888,0.052131148
+2007,November,Russia,7,82.63,122.75,11.80428571,159.75,0.104615238,33,11796,639,11,11/1/2007,0,0,0.007004917,0.129311424
+2007,November,Singapore,1,7.74,11.94,7.74,51,0.151764706,311,1280,51,11,11/1/2007,0,0,0.006046875,0.151764706
+2007,November,South Korea,1,15.71,18.44,15.71,Unknown,Unknown,72,1020,0,11,11/1/2007,1,1,0.015401961,Unknown
+2007,November,Spain,9,137.46,212.23,15.27333333,103,0.061747573,13,24332,103,11,11/1/2007,0,0,0.005649351,1.334563107
+2007,November,Sweden,7,186.17,278.73,26.59571429,170,0.052,5,27720,170,11,11/1/2007,0,0,0.006716089,1.095117647
+2007,November,Switzerland,7,74.56,102.43,10.65142857,65.75,0.161072199,54,20368,263,11,11/1/2007,0,0,0.003660644,0.283498099
+2007,November,Taiwan,11,102.96,162.82,9.36,129,0.109478783,49,14024,387,11,11/1/2007,0,0,0.0073417,0.266046512
+2007,November,Turkey,1,6.07,9.63,6.07,Unknown,Unknown,484,1032,0,11,11/1/2007,1,1,0.005881783,Unknown
+2007,November,United Kingdom,47,506.5,808.38,10.77659574,174.5909091,0.070203296,17,113900,3841,11,11/1/2007,0,0,0.004446883,0.131866701
+2007,November,United States,284,4181.79,6245.06,14.72461268,200.3308271,0.073508615,1,1027051,26644,11,11/1/2007,0,0,0.004071648,0.156950533
+2008,June,Australia,1,9.24,15.96,9.24,Unknown,Unknown,469,1712,0,6,6/1/2008,1,1,0.005397196,Unknown
+2008,June,Belgium,2,21.09,42,10.545,67,0.138656716,302,3928,67,6,6/1/2008,0,0,0.005369145,0.314776119
+2008,June,Brazil,1,16.24,21.79,16.24,130,0.124923077,139,2048,130,6,6/1/2008,0,0,0.007929688,0.124923077
+2008,June,Canada,2,22.86,27.86,11.43,191.5,0.10973742,250,3360,383,6,6/1/2008,0,0,0.006803571,0.059686684
+2008,June,China,12,140.32,266.6,11.69333333,105.7142857,0.13549712,112,26344,740,6,6/1/2008,0,0,0.00532645,0.189621622
+2008,June,Finland,1,26.8,37.09,26.8,Unknown,Unknown,71,4032,0,6,6/1/2008,1,1,0.006646825,Unknown
+2008,June,France,34,711.7,1050.36,20.93235294,135.0454545,0.155260483,10,171500,2971,6,6/1/2008,0,0,0.004149854,0.239548973
+2008,June,Germany,47,973.44,1384,20.71148936,207.8181818,0.209254014,7,197848,4572,6,6/1/2008,0,0,0.004920141,0.212913386
+2008,June,India,6,189.85,275.62,31.64166667,284,0.111055908,9,32432,1420,6,6/1/2008,0,0,0.005853786,0.133697183
+2008,June,Ireland,1,11.71,13.93,11.71,31,0.377741935,306,4096,31,6,6/1/2008,0,0,0.002858887,0.377741935
+2008,June,Italy,6,99.98,204.98,16.66333333,289.5,0.082430953,91,25928,1158,6,6/1/2008,0,0,0.003856063,0.086338515
+2008,June,Japan,22,550.84,731.11,25.03818182,577.3,0.132004427,17,97856,5773,6,6/1/2008,0,0,0.005629088,0.095416594
+2008,June,Netherlands,5,109.57,140.4,21.914,196.5,0.177743238,52,29760,786,6,6/1/2008,0,0,0.003681788,0.139402036
+2008,June,Norway,2,68.73,110.96,34.365,Unknown,Unknown,48,11180,0,6,6/1/2008,1,1,0.006147585,Unknown
+2008,June,Poland,3,62.02,87.85,20.67333333,Unknown,Unknown,46,9112,0,6,6/1/2008,1,1,0.006806409,Unknown
+2008,June,Russia,8,154.63,196.87,19.32875,210,0.155204596,37,18232,840,6,6/1/2008,0,0,0.008481242,0.184083333
+2008,June,Slovenia,1,35.08,49.15,35.08,162,0.21654321,54,4096,162,6,6/1/2008,0,0,0.008564453,0.21654321
+2008,June,South Korea,1,16.99,24.58,16.99,129,0.131705426,131,3072,129,6,6/1/2008,0,0,0.005530599,0.131705426
+2008,June,Spain,7,133.16,206.15,19.02285714,Unknown,Unknown,27,24532,0,6,6/1/2008,1,1,0.005428012,Unknown
+2008,June,Sweden,9,268.27,393.56,29.80777778,182,0.130475395,12,38596,546,6,6/1/2008,0,0,0.00695072,0.491336996
+2008,June,Switzerland,6,80.89,121.15,13.48166667,87.66666667,0.165147547,97,22768,263,6,6/1/2008,0,0,0.003552793,0.30756654
+2008,June,Taiwan,3,45.68,69.79,15.22666667,193,0.103160622,92,5816,193,6,6/1/2008,0,0,0.007854195,0.236683938
+2008,June,United Kingdom,52,806.22,1330.52,15.50423077,281.2916667,0.079087927,19,145876,6751,6,6/1/2008,0,0,0.005526749,0.119422308
+2008,June,United States,258,7481.32,11023.67,28.99736434,302.3475177,0.103549992,1,1571127,42631,6,6/1/2008,0,0,0.004761754,0.175490136
+2008,November,Australia,1,21.91,40.96,21.91,Unknown,Unknown,145,4096,0,11,11/1/2008,1,1,0.005349121,Unknown
+2008,November,Belgium,2,35.43,58.17,17.715,50,0.254,140,5552,50,11,11/1/2008,0,0,0.006381484,0.7086
+2008,November,Brazil,2,31.78,53.36,15.89,147.5,0.109552448,306,5008,295,11,11/1/2008,0,0,0.006345847,0.107728814
+2008,November,Bulgaria,1,23.41,27.85,23.41,63,0.371587302,127,8192,63,11,11/1/2008,0,0,0.002857666,0.371587302
+2008,November,Canada,2,70.48,88.96,35.24,346,0.112998912,54,6800,692,11,11/1/2008,0,0,0.010364706,0.101849711
+2008,November,China,15,520.95,844.2,34.73,187.2857143,0.110813918,11,90400,1311,11,11/1/2008,0,0,0.005762721,0.397368421
+2008,November,Denmark,3,45.46,55.58,15.15333333,94,0.165851064,359,5440,188,11,11/1/2008,0,0,0.008356618,0.241808511
+2008,November,Finland,1,76.51,99.51,76.51,515,0.148563107,32,10816,515,11,11/1/2008,0,0,0.00707378,0.148563107
+2008,November,France,26,886.75,1298.9,34.10576923,251.25,0.160343537,15,184276,4020,11,11/1/2008,0,0,0.004812075,0.220584577
+2008,November,Germany,25,803.74,1087.56,32.1496,327.4166667,0.187672737,12,169844,3929,11,11/1/2008,0,0,0.004732225,0.204566047
+2008,November,India,8,259.39,368.51,32.42375,328.6666667,0.165485834,14,37488,986,11,11/1/2008,0,0,0.006919281,0.263073022
+2008,November,Ireland,1,25.11,28.67,25.11,122,0.205819672,118,2560,122,11,11/1/2008,0,0,0.009808594,0.205819672
+2008,November,Israel,1,24.67,61.15,24.67,204,0.120931373,120,5096,204,11,11/1/2008,0,0,0.004841052,0.120931373
+2008,November,Italy,11,182.43,307.45,16.58454545,224,0.087508033,178,35248,1568,11,11/1/2008,0,0,0.005175613,0.116345663
+2008,November,Japan,17,522.96,734.91,30.76235294,648,0.135990346,28,106984,5184,11,11/1/2008,0,0,0.004888208,0.10087963
+2008,November,Netherlands,3,111.5,138.76,37.16666667,253,0.22353822,53,27904,759,11,11/1/2008,0,0,0.003995843,0.146903821
+2008,November,Norway,2,72.45,110.98,36.225,274,0.148138686,66,11182,274,11,11/1/2008,0,0,0.006479163,0.264416058
+2008,November,Poland,6,116.99,172.67,19.49833333,34,0.546176471,68,16600,34,11,11/1/2008,0,0,0.00704759,3.440882353
+2008,November,Russia,8,222.97,285.75,27.87125,163.1666667,0.213248404,36,31840,979,11,11/1/2008,0,0,0.007002827,0.227752809
+2008,November,Slovenia,1,36.75,49.15,36.75,162,0.226851852,72,4096,162,11,11/1/2008,0,0,0.008972168,0.226851852
+2008,November,South Korea,1,16.99,24.58,16.99,129,0.131705426,278,3072,129,11,11/1/2008,0,0,0.005530599,0.131705426
+2008,November,Spain,6,153.2,231.96,25.53333333,Unknown,Unknown,41,26616,0,11,11/1/2008,1,1,0.005755936,Unknown
+2008,November,Sweden,8,274.79,405.05,34.34875,233.6666667,0.128562896,19,39084,701,11,11/1/2008,0,0,0.007030754,0.391997147
+2008,November,Switzerland,4,81.56,109.85,20.39,89,0.209662921,86,18160,89,11,11/1/2008,0,0,0.004491189,0.916404494
+2008,November,Taiwan,2,33.59,48.96,16.795,193,0.103160622,180,4080,193,11,11/1/2008,0,0,0.008232843,0.174041451
+2008,November,United Kingdom,45,905.72,1496.17,20.12711111,341.5333333,0.08661132,22,149652,5123,11,11/1/2008,0,0,0.006052174,0.176794847
+2008,November,United States,291,11644.33,17454.15,40.01487973,405.7898089,0.117927669,1,2135517,63709,11,11/1/2008,0,0,0.005452698,0.182773705
+2009,June,Australia,1,21.91,40.96,21.91,Unknown,Unknown,281,4096,0,6,6/1/2009,1,1,0.005349121,Unknown
+2009,June,Austria,5,117.79,148.29,23.558,Unknown,Unknown,214,12628,0,6,6/1/2009,1,1,0.009327685,Unknown
+2009,June,Belgium,1,22.73,42.49,22.73,Unknown,Unknown,270,3984,0,6,6/1/2009,1,1,0.005705321,Unknown
+2009,June,Bulgaria,1,23.41,27.85,23.41,63,0.371587302,247,8192,63,6,6/1/2009,0,0,0.002857666,0.371587302
+2009,June,Canada,8,358.74,571.92,44.8425,419,0.151960005,16,52100,1676,6,6/1/2009,0,0,0.006885605,0.214045346
+2009,June,China,21,788.11,1307.37,37.52904762,221.6153846,0.132499358,15,135592,2881,6,6/1/2009,0,0,0.005812364,0.273554321
+2009,June,Finland,1,76.51,102,76.51,520,0.147134615,49,10864,520,6,6/1/2009,0,0,0.007042526,0.147134615
+2009,June,France,23,1004.73,1434.81,43.68391304,275.8333333,0.18464403,20,190908,3310,6,6/1/2009,0,0,0.005262902,0.303543807
+2009,June,Germany,30,2207.83,2772.16,73.59433333,569.3333333,0.205323242,3,468800,8540,6,6/1/2009,0,0,0.004709535,0.258528103
+2009,June,India,6,247.28,333.53,41.21333333,359.6666667,0.158167339,18,33456,1079,6,6/1/2009,0,0,0.0073912,0.229175162
+2009,June,Ireland,1,25.11,28.67,25.11,122,0.205819672,224,2560,122,6,6/1/2009,0,0,0.009808594,0.205819672
+2009,June,Israel,1,24.67,61.15,24.67,204,0.120931373,230,5096,204,6,6/1/2009,0,0,0.004841052,0.120931373
+2009,June,Italy,6,186.24,256.54,31.04,364.75,0.113586293,46,19480,1459,6,6/1/2009,0,0,0.009560575,0.127649075
+2009,June,Japan,15,873.09,1155.85,58.206,430.7272727,0.177867996,22,131872,4738,6,6/1/2009,0,0,0.006620738,0.184273955
+2009,June,Netherlands,3,111.5,138.76,37.16666667,253,0.22353822,79,27904,759,6,6/1/2009,0,0,0.003995843,0.146903821
+2009,June,Norway,2,72.45,110.98,36.225,274,0.148138686,98,11182,274,6,6/1/2009,0,0,0.006479163,0.264416058
+2009,June,Poland,4,99.96,160.99,24.99,34,0.546176471,108,15432,34,6,6/1/2009,0,0,0.006477449,2.94
+2009,June,Russia,4,166.94,215.1,41.735,205.5,0.229437148,54,24568,822,6,6/1/2009,0,0,0.006795018,0.203090024
+2009,June,Saudi Arabia,3,264.57,323.42,88.19,504,0.367400794,14,73920,504,6,6/1/2009,0,0,0.00357914,0.524940476
+2009,June,Singapore,1,22.8,28.13,22.8,85,0.268235294,269,2400,85,6,6/1/2009,0,0,0.0095,0.268235294
+2009,June,Slovenia,1,36.75,49.15,36.75,162,0.226851852,118,4096,162,6,6/1/2009,0,0,0.008972168,0.226851852
+2009,June,Spain,4,146.31,211.94,36.5775,Unknown,Unknown,60,23168,0,6,6/1/2009,1,1,0.006315176,Unknown
+2009,June,Sweden,10,343.46,502.19,34.346,233.6666667,0.139884482,30,46604,701,6,6/1/2009,0,0,0.007369754,0.489957204
+2009,June,Switzerland,4,184.94,234.04,46.235,89,0.209662921,23,29572,89,6,6/1/2009,0,0,0.006253889,2.077977528
+2009,June,Taiwan,1,19.91,24.96,19.91,193,0.103160622,344,2080,193,6,6/1/2009,0,0,0.009572115,0.103160622
+2009,June,United Kingdom,43,1230.93,1973.13,28.62627907,507.6,0.110273161,25,171192,5076,6,6/1/2009,0,0,0.007190348,0.2425
+2009,June,United States,291,13720.81,21014.42,47.15054983,416.9072848,0.135256861,1,2553091,62953,6,6/1/2009,0,0,0.005374195,0.217953235
+2009,November,Australia,1,21.91,40.96,21.91,Unknown,Unknown,449,4096,0,11,11/1/2009,1,1,0.005349121,Unknown
+2009,November,Austria,8,219.93,266.65,27.49125,155,0.2034508,125,23222,310,11,11/1/2009,0,0,0.00947076,0.709451613
+2009,November,Belgium,1,22.73,42.49,22.73,Unknown,Unknown,437,3984,0,11,11/1/2009,1,1,0.005705321,Unknown
+2009,November,Brazil,1,64.63,72.4,64.63,430,0.150302326,76,6464,430,11,11/1/2009,0,0,0.009998453,0.150302326
+2009,November,Bulgaria,1,23.86,27.85,23.86,63,0.378730159,379,8192,63,11,11/1/2009,0,0,0.002912598,0.378730159
+2009,November,Canada,9,439.78,661.96,48.86444444,503,0.148896548,22,60340,2515,11,11/1/2009,0,0,0.007288366,0.174862823
+2009,November,China,21,1379.88,2536.45,65.70857143,208.5833333,0.156421603,5,210640,2503,11,11/1/2009,0,0,0.006550893,0.551290451
+2009,November,Finland,2,103.05,151.55,51.525,520,0.147134615,65,14584,520,11,11/1/2009,0,0,0.007065963,0.198173077
+2009,November,France,26,1214.25,1827.01,46.70192308,305.125,0.164209952,28,220928,4882,11,11/1/2009,0,0,0.005496134,0.248719787
+2009,November,Germany,27,2288.76,2933.71,84.76888889,558.4666667,0.309907597,4,472332,8377,11,11/1/2009,0,0,0.004845659,0.27321953
+2009,November,India,3,199.26,279.71,66.42,786,0.168956743,26,23416,786,11,11/1/2009,0,0,0.008509566,0.25351145
+2009,November,Ireland,1,25.11,28.67,25.11,122,0.205819672,321,2560,122,11,11/1/2009,0,0,0.009808594,0.205819672
+2009,November,Israel,2,49.34,148.37,24.67,292.5,0.092841014,333,13272,585,11,11/1/2009,0,0,0.003717601,0.08434188
+2009,November,Italy,6,200.7,272.84,33.45,262.8,0.191174761,61,21968,1314,11,11/1/2009,0,0,0.009136016,0.152739726
+2009,November,Japan,16,994.21,1308.58,62.138125,547.4444444,0.158703372,31,125320,4927,11,11/1/2009,0,0,0.007933371,0.201788106
+2009,November,Netherlands,3,110.65,155.97,36.88333333,310.6666667,0.142772212,93,21336,932,11,11/1/2009,0,0,0.00518607,0.118723176
+2009,November,Norway,2,72.45,110.98,36.225,274,0.148138686,121,11182,274,11,11/1/2009,0,0,0.006479163,0.264416058
+2009,November,Poland,3,81.39,130.53,27.13,Unknown,Unknown,137,13416,0,11,11/1/2009,1,1,0.006066637,Unknown
+2009,November,Russia,8,646.25,822.67,80.78125,190.2,0.20434722,12,77992,951,11,11/1/2009,0,0,0.008286106,0.679547844
+2009,November,Saudi Arabia,5,350.56,420.58,70.112,504,0.378769841,18,82112,504,11,11/1/2009,0,0,0.004269291,0.695555556
+2009,November,Singapore,1,23.48,28.13,23.48,85,0.276235294,392,2400,85,11,11/1/2009,0,0,0.009783333,0.276235294
+2009,November,Slovenia,1,36.75,49.15,36.75,162,0.226851852,150,4096,162,11,11/1/2009,0,0,0.008972168,0.226851852
+2009,November,South Korea,2,298.17,338.16,149.085,877.5,0.132108456,14,27768,1755,11,11/1/2009,0,0,0.0107379,0.169897436
+2009,November,Spain,6,205.89,310.01,34.315,Unknown,Unknown,77,32992,0,11,11/1/2009,1,1,0.006240604,Unknown
+2009,November,Sweden,7,300.74,423.61,42.96285714,200,0.180640676,42,39500,400,11,11/1/2009,0,0,0.007613671,0.75185
+2009,November,Switzerland,5,346.89,417.94,69.378,302.25,0.296052067,21,52360,1209,11,11/1/2009,0,0,0.006625095,0.286923077
+2009,November,United Kingdom,44,1549.04,2429.54,35.20545455,388.1428571,0.171912042,20,219500,5434,11,11/1/2009,0,0,0.00705713,0.285064409
+2009,November,United States,277,16425.5,24219.5,59.29783394,456.380597,0.172263442,1,2819487,61155,11,11/1/2009,0,0,0.005825705,0.268588014
+2010,June,Australia,1,49.59,53.91,49.59,220,0.225409091,113,4600,220,6,6/1/2010,0,0,0.010780435,0.225409091
+2010,June,Austria,2,62.88,68.63,31.44,155,0.2034508,213,6450,310,6,6/1/2010,0,0,0.009748837,0.20283871
+2010,June,Brazil,1,64.63,72.4,64.63,430,0.150302326,86,6464,430,6,6/1/2010,0,0,0.009998453,0.150302326
+2010,June,Canada,7,403.95,604.5,57.70714286,525,0.137686886,28,56192,2625,6,6/1/2010,0,0,0.007188746,0.153885714
+2010,June,China,24,2992.61,6858.8,124.6920833,394.2,0.180063005,2,383976,5913,6,6/1/2010,0,0,0.007793742,0.506106883
+2010,June,Denmark,3,81.77,153.6,27.25666667,Unknown,Unknown,345,16000,0,6,6/1/2010,1,1,0.005110625,Unknown
+2010,June,Finland,3,130.79,185.5,43.59666667,520,0.147134615,74,17848,520,6,6/1/2010,0,0,0.007327992,0.251519231
+2010,June,France,27,1706.88,2416.14,63.21777778,379.7222222,0.172771041,18,278920,6835,6,6/1/2010,0,0,0.006119604,0.249726408
+2010,June,Germany,24,2248.47,2840.73,93.68625,574.2,0.3083819,5,467068,8613,6,6/1/2010,0,0,0.00481401,0.261055381
+2010,June,India,5,283.38,384.6,56.676,692,0.130556967,33,30104,1384,6,6/1/2010,0,0,0.009413367,0.204754335
+2010,June,Ireland,1,25.11,28.67,25.11,122,0.205819672,471,2560,122,6,6/1/2010,0,0,0.009808594,0.205819672
+2010,June,Israel,2,49.34,148.37,24.67,292.5,0.092841014,478,13272,585,6,6/1/2010,0,0,0.003717601,0.08434188
+2010,June,Italy,7,281.52,371.42,40.21714286,289.2,0.223412612,70,30768,1446,6,6/1/2010,0,0,0.009149766,0.194688797
+2010,June,Japan,18,1252.71,1572.34,69.595,578.3636364,0.13975791,22,149480,6362,6,6/1/2010,0,0,0.008380452,0.196905061
+2010,June,Netherlands,4,137.9,189.42,34.475,310.6666667,0.142772212,109,24360,932,6,6/1/2010,0,0,0.00566092,0.147961373
+2010,June,Norway,2,72.45,110.98,36.225,274,0.148138686,160,11182,274,6,6/1/2010,0,0,0.006479163,0.264416058
+2010,June,Poland,5,169.03,258.43,33.806,Unknown,Unknown,161,27128,0,6,6/1/2010,1,1,0.006230832,Unknown
+2010,June,Russia,11,814.72,1092.49,74.06545455,195.875,0.164757689,13,97624,1567,6,6/1/2010,0,0,0.008345489,0.519923421
+2010,June,Saudi Arabia,4,310.86,370.28,77.715,504,0.378769841,23,77920,504,6,6/1/2010,0,0,0.003989476,0.616785714
+2010,June,Singapore,1,32.54,35.44,32.54,175,0.185942857,261,3024,175,6,6/1/2010,0,0,0.010760582,0.185942857
+2010,June,Slovenia,1,36.75,49.15,36.75,162,0.226851852,201,4096,162,6,6/1/2010,0,0,0.008972168,0.226851852
+2010,June,South Korea,1,274.8,307.44,274.8,1275,0.215529412,15,26232,1275,6,6/1/2010,0,0,0.010475755,0.215529412
+2010,June,Spain,3,138.51,211.74,46.17,Unknown,Unknown,87,22496,0,6,6/1/2010,1,1,0.006157095,Unknown
+2010,June,Sweden,8,416.02,561.89,52.0025,173,0.266127168,50,56960,173,6,6/1/2010,0,0,0.007303722,2.404739884
+2010,June,Switzerland,5,346.89,417.94,69.378,302.25,0.296052067,27,52360,1209,6,6/1/2010,0,0,0.006625095,0.286923077
+2010,June,Turkey,1,26.78,46.96,26.78,203,0.131921182,424,4640,203,6,6/1/2010,0,0,0.005771552,0.131921182
+2010,June,United Kingdom,38,1785.42,2659.75,46.98473684,367.3125,0.170720558,16,243408,5877,6,6/1/2010,0,0,0.007335092,0.303797856
+2010,June,United States,282,17969.34,25929.83,63.72106383,463.0070922,0.200878849,1,2971513,65284,6,6/1/2010,0,0,0.006047202,0.275248759
+2010,November,Australia,4,315.74,444.62,78.935,157,0.392225822,51,30744,314,11,11/1/2010,0,0,0.010269971,1.005541401
+2010,November,Austria,1,35.48,38.84,35.48,178,0.199325843,356,3650,178,11,11/1/2010,0,0,0.009720548,0.199325843
+2010,November,Belgium,2,83.84,151.48,41.92,240,0.174666667,228,16704,480,11,11/1/2010,0,0,0.005019157,0.174666667
+2010,November,Brazil,2,269.73,330.45,134.865,430,0.150302326,29,37184,430,11,11/1/2010,0,0,0.007253926,0.62727907
+2010,November,Canada,6,422.4,629.72,70.4,462.5,0.229926114,39,56836,1850,11,11/1/2010,0,0,0.007431909,0.228324324
+2010,November,China,41,5688.79,11609.75,138.7509756,450.4375,0.177686667,1,622428,14414,11,11/1/2010,0,0,0.009139676,0.394671153
+2010,November,Denmark,2,82.59,156.14,41.295,Unknown,Unknown,184,13908,0,11,11/1/2010,1,1,0.005938309,Unknown
+2010,November,Finland,1,76.51,102,76.51,520,0.147134615,100,10864,520,11,11/1/2010,0,0,0.007042526,0.147134615
+2010,November,France,25,2843.76,3582.24,113.7504,632.3333333,0.263097848,6,411872,9485,11,11/1/2010,0,0,0.006904475,0.299816552
+2010,November,Germany,26,2721.37,3504.85,104.6680769,600.2857143,0.332572167,9,500416,8404,11,11/1/2010,0,0,0.005438215,0.32381842
+2010,November,India,4,257.24,333.01,64.31,692,0.130556967,47,25808,1384,11,11/1/2010,0,0,0.009967452,0.185867052
+2010,November,Ireland,1,36.56,40.86,36.56,Unknown,Unknown,332,3840,0,11,11/1/2010,1,1,0.009520833,Unknown
+2010,November,Italy,6,254.08,336.46,42.34666667,289.2,0.223899099,96,27680,1446,11,11/1/2010,0,0,0.009179191,0.17571231
+2010,November,Japan,26,2903.67,4605.24,111.6796154,494.5263158,0.346871419,4,277902,9396,11,11/1/2010,0,0,0.010448539,0.309032567
+2010,November,Netherlands,2,83.2,121.56,41.6,399,0.111732945,158,9048,798,11,11/1/2010,0,0,0.009195402,0.104260652
+2010,November,Norway,3,107.74,177.36,35.91333333,274,0.148138686,255,16846,274,11,11/1/2010,0,0,0.006395584,0.393211679
+2010,November,Poland,6,285.44,398.08,47.57333333,Unknown,Unknown,85,39480,0,11,11/1/2010,1,1,0.00722999,Unknown
+2010,November,Russia,11,867.73,1143.79,78.88454545,218.125,0.18235108,17,102184,1745,11,11/1/2010,0,0,0.008491838,0.497266476
+2010,November,Saudi Arabia,6,437.43,514.3,72.905,504,0.378769841,34,90208,504,11,11/1/2010,0,0,0.004849126,0.867916667
+2010,November,Singapore,2,64.96,95.33,32.48,210.5,0.158865738,430,8640,421,11,11/1/2010,0,0,0.007518519,0.154299287
+2010,November,Slovenia,1,36.75,49.15,36.75,162,0.226851852,325,4096,162,11,11/1/2010,0,0,0.008972168,0.226851852
+2010,November,South Korea,3,907.6,1065.46,302.5333333,1566.333333,0.19505186,19,116472,4699,11,11/1/2010,0,0,0.007792431,0.193147478
+2010,November,Spain,3,138.51,211.74,46.17,Unknown,Unknown,119,22496,0,11,11/1/2010,1,1,0.006157095,Unknown
+2010,November,Sweden,6,367.03,476.08,61.17166667,173,0.266127168,68,50488,173,11,11/1/2010,0,0,0.007269648,2.121560694
+2010,November,Switzerland,4,317.9,383.38,79.475,302.25,0.296052067,38,49480,1209,11,11/1/2010,0,0,0.006424818,0.262944582
+2010,November,United Kingdom,24,1519.55,2199.98,63.31458333,445.3333333,0.174925381,25,200584,5344,11,11/1/2010,0,0,0.007575629,0.284346931
+2010,November,United States,276,22471.44,31697.11,81.41826087,534.6470588,0.238340343,2,3560549,72712,11,11/1/2010,0,0,0.006311229,0.3090472
+2011,June,Australia,6,400.4,552.14,66.73333333,157,0.392225822,64,40344,314,6,6/1/2011,0,0,0.009924648,1.275159236
+2011,June,Austria,2,188.67,243.39,94.335,Unknown,Unknown,56,26172,0,6,6/1/2011,1,1,0.007208849,Unknown
+2011,June,Belgium,2,83.84,151.48,41.92,240,0.174666667,445,16704,480,6,6/1/2011,0,0,0.005019157,0.174666667
+2011,June,Brazil,2,269.73,330.45,134.865,430,0.150302326,34,37184,430,6,6/1/2011,0,0,0.007253926,0.62727907
+2011,June,Canada,8,640.13,890.61,80.01625,397.5,0.280928273,45,82684,2385,6,6/1/2011,0,0,0.007741885,0.268398323
+2011,June,China,61,7136.29,14331.01,116.9883607,452.7894737,0.189777046,2,881832,17206,6,6/1/2011,0,0,0.008092573,0.414755899
+2011,June,Denmark,2,198.41,260.39,99.205,Unknown,Unknown,53,22218,0,6,6/1/2011,1,1,0.008930147,Unknown
+2011,June,Finland,2,117.86,180.69,58.93,520,0.147134615,121,18640,520,6,6/1/2011,0,0,0.006322961,0.226653846
+2011,June,France,25,3180.73,4100.58,127.2292,638.5,0.258497323,9,454928,10216,6,6/1/2011,0,0,0.006991722,0.311347886
+2011,June,Germany,30,3242.15,4181.32,108.0716667,629.7142857,0.382577319,12,568952,8816,6,6/1/2011,0,0,0.00569846,0.367757486
+2011,June,India,2,187.91,243,93.955,692,0.130556967,58,18128,1384,6,6/1/2011,0,0,0.010365733,0.135773121
+2011,June,Ireland,1,40.49,76.61,40.49,Unknown,Unknown,489,7200,0,6,6/1/2011,1,1,0.005623611,Unknown
+2011,June,Israel,2,135.36,280.44,67.68,336,0.201428571,149,23928,672,6,6/1/2011,0,0,0.005656971,0.201428571
+2011,June,Italy,5,471.75,748.25,94.35,482.6666667,0.163555914,54,42080,1448,6,6/1/2011,0,0,0.011210789,0.325794199
+2011,June,Japan,26,11182.23,13641.3,430.0857692,1002.631579,0.339840803,1,832838,19050,6,6/1/2011,0,0,0.013426657,0.586993701
+2011,June,Netherlands,1,50.92,64.97,50.92,552,0.092246377,304,3456,552,6,6/1/2011,0,0,0.014733796,0.092246377
+2011,June,Norway,1,40.59,51.06,40.59,274,0.148138686,487,5550,274,6,6/1/2011,0,0,0.007313514,0.148138686
+2011,June,Poland,5,315.08,448.2,63.016,Unknown,Unknown,81,44274,0,6,6/1/2011,1,1,0.007116592,Unknown
+2011,June,Russia,12,1341.59,2290.99,111.7991667,538,0.216876287,13,115120,4304,6,6/1/2011,0,0,0.011653839,0.311707714
+2011,June,Saudi Arabia,4,359.24,414.85,89.81,504,0.378769841,39,81920,504,6,6/1/2011,0,0,0.004385254,0.712777778
+2011,June,Singapore,2,94.07,144.57,47.035,408,0.128995098,273,13192,408,6,6/1/2011,0,0,0.007130837,0.230563725
+2011,June,South Korea,4,950.83,1126.29,237.7075,1566.333333,0.19505186,20,123384,4699,6,6/1/2011,0,0,0.007706267,0.202347308
+2011,June,Spain,2,135.86,197.7,67.93,154,0.467727273,136,14160,154,6,6/1/2011,0,0,0.009594633,0.882207792
+2011,June,Sweden,5,489.53,661.64,97.906,173,0.266127168,31,75280,173,6,6/1/2011,0,0,0.00650279,2.829653179
+2011,June,Switzerland,4,317.9,383.38,79.475,302.25,0.296052067,44,49480,1209,6,6/1/2011,0,0,0.006424818,0.262944582
+2011,June,Taiwan,2,220.5,313.57,110.25,288,0.150694444,42,32148,288,6,6/1/2011,0,0,0.006858903,0.765625
+2011,June,United Kingdom,27,1872.15,2806.54,69.33888889,415.6666667,0.207140232,24,260572,6235,6,6/1/2011,0,0,0.00718477,0.300264635
+2011,June,United States,255,25265.78,36064.63,99.0814902,720.0306122,0.257690993,3,3887556,70563,6,6/1/2011,0,0,0.006499142,0.35805989
+2011,November,Australia,4,353.76,479.8,88.44,166,0.498684254,91,35424,332,11,11/1/2011,0,0,0.00998645,1.065542169
+2011,November,Austria,2,205.97,241.21,102.985,430,0.355581395,77,26248,430,11,11/1/2011,0,0,0.007847074,0.479
+2011,November,Belgium,1,64.6,151.47,64.6,480,0.134583333,291,16704,480,11,11/1/2011,0,0,0.003867337,0.134583333
+2011,November,Brazil,2,269.73,330.45,134.865,430,0.150302326,49,37184,430,11,11/1/2011,0,0,0.007253926,0.62727907
+2011,November,Canada,9,1249.49,1744.54,138.8322222,456.3333333,0.321873868,41,137200,2738,11,11/1/2011,0,0,0.00910707,0.456351351
+2011,November,China,74,10489.44,19377.44,141.7491892,462.546875,0.222058776,2,1315608,29603,11,11/1/2011,0,0,0.007973074,0.35433706
+2011,November,Denmark,2,213.47,281.98,106.735,490,0.330816327,70,25912,490,11,11/1/2011,0,0,0.008238268,0.435653061
+2011,November,Finland,1,76.51,102,76.51,520,0.147134615,202,10864,520,11,11/1/2011,0,0,0.007042526,0.147134615
+2011,November,France,23,3709.34,4759.2,161.2756522,783.0833333,0.285946976,9,458136,9397,11,11/1/2011,0,0,0.008096591,0.394736618
+2011,November,Germany,20,3631.26,4773.67,181.563,792.9090909,0.315225362,12,612672,8722,11,11/1/2011,0,0,0.005926923,0.41633341
+2011,November,India,2,187.91,243,93.955,692,0.130556967,85,18128,1384,11,11/1/2011,0,0,0.010365733,0.135773121
+2011,November,Ireland,3,194.82,270.96,64.94,Unknown,Unknown,285,24192,0,11,11/1/2011,1,1,0.008053075,Unknown
+2011,November,Israel,3,213.06,442.03,71.02,353,0.201210779,184,37716,1059,11,11/1/2011,0,0,0.005649061,0.201189802
+2011,November,Italy,4,426.22,666.7,106.555,451.3333333,0.401096924,82,41200,1354,11,11/1/2011,0,0,0.010345146,0.31478582
+2011,November,Japan,30,14224.08,17223.34,474.136,1243.055556,0.257377171,1,1057854,22375,11,11/1/2011,0,0,0.013446166,0.635713073
+2011,November,Poland,6,439.12,650.1,73.18666667,157,0.409745223,88,50944,157,11,11/1/2011,0,0,0.008619661,2.796942675
+2011,November,Russia,5,1043.07,1869.3,208.614,2800,0.240753571,18,75912,2800,11,11/1/2011,0,0,0.013740515,0.372525
+2011,November,Saudi Arabia,3,317.47,366.84,105.8233333,504,0.378769841,53,77824,504,11,11/1/2011,0,0,0.004079333,0.629900794
+2011,November,Singapore,1,52.63,99,52.63,408,0.128995098,467,9304,408,11,11/1/2011,0,0,0.005656707,0.128995098
+2011,November,South Korea,3,907.6,1065.46,302.5333333,1566.333333,0.19505186,31,116472,4699,11,11/1/2011,0,0,0.007792431,0.193147478
+2011,November,Spain,3,239.06,380.58,79.68666667,118,0.863131929,114,19704,236,11,11/1/2011,0,0,0.012132562,1.012966102
+2011,November,Sweden,3,396.46,547.86,132.1533333,Unknown,Unknown,44,63464,0,11,11/1/2011,1,1,0.006247006,Unknown
+2011,November,Switzerland,3,409.69,607.45,136.5633333,152,0.341315789,34,59968,152,11,11/1/2011,0,0,0.00683181,2.695328947
+2011,November,Taiwan,2,247.53,380.2,123.765,92,0.765543478,60,30996,92,11,11/1/2011,0,0,0.007985869,2.690543478
+2011,November,United Kingdom,27,2771.52,3868.52,102.6488889,417.25,0.259820669,19,304400,8345,11,11/1/2011,0,0,0.009104862,0.332117436
+2011,November,United States,263,31674.34,46630.71,120.4347529,594.6888889,0.41219813,3,4522477,80283,11,11/1/2011,0,0,0.007003759,0.394533587
+2012,June,Australia,6,1162.58,1535.17,193.7633333,277.5,1.192431745,31,110306,555,6,6/1/2012,0,0,0.01053959,2.094738739
+2012,June,Austria,1,152.9,182.83,152.9,430,0.355581395,117,20776,430,6,6/1/2012,0,0,0.007359453,0.355581395
+2012,June,Belgium,2,216.95,327.19,108.475,480,0.134583333,118,25152,480,6,6/1/2012,0,0,0.008625557,0.451979167
+2012,June,Brazil,3,530.33,897.03,176.7766667,398,0.418730398,68,54976,796,6,6/1/2012,0,0,0.009646573,0.666243719
+2012,June,Canada,10,1424.19,1912.08,142.419,483.1666667,0.331872801,66,155344,2899,6,6/1/2012,0,0,0.009167976,0.491269403
+2012,June,China,68,11397.02,21026.21,167.6032353,569.7169811,0.243043395,5,1427790,30195,6,6/1/2012,0,0,0.00798228,0.377447259
+2012,June,Denmark,1,162.1,183.68,162.1,490,0.330816327,108,15672,490,6,6/1/2012,0,0,0.010343287,0.330816327
+2012,June,Finland,1,76.51,102,76.51,520,0.147134615,336,10864,520,6,6/1/2012,0,0,0.007042526,0.147134615
+2012,June,France,22,6358.05,7915.3,289.0022727,827.7857143,0.619701269,9,635848,11589,6,6/1/2012,0,0,0.009999324,0.548628009
+2012,June,Germany,20,8133.77,9905.02,406.6885,954.1538462,0.567669512,4,903340,12404,6,6/1/2012,0,0,0.009004107,0.655737665
+2012,June,India,5,787.66,1242.74,157.532,423.6666667,0.628042007,58,56460,1271,6,6/1/2012,0,0,0.013950762,0.619716758
+2012,June,Ireland,3,194.82,270.96,64.94,Unknown,Unknown,451,24192,0,6,6/1/2012,1,1,0.008053075,Unknown
+2012,June,Israel,3,213.06,442.03,71.02,353,0.201210779,309,37716,1059,6,6/1/2012,0,0,0.005649061,0.201189802
+2012,June,Italy,8,2485.86,3195.47,310.7325,401.8333333,0.847893787,7,226576,2411,6,6/1/2012,0,0,0.010971418,1.031049357
+2012,June,Japan,35,18011.13,22089.98,514.6037143,1101.96,0.480291772,2,1343882,27549,6,6/1/2012,0,0,0.013402315,0.653785255
+2012,June,Norway,3,735.4,854.54,245.1333333,368.6666667,0.664548834,44,54304,1106,6,6/1/2012,0,0,0.01354228,0.664918626
+2012,June,Poland,5,474.25,784.42,94.85,157,0.409745223,89,48978,157,6,6/1/2012,0,0,0.009682919,3.020700637
+2012,June,Russia,5,1293.02,2302.61,258.604,2800,0.322107143,22,115120,2800,6,6/1/2012,0,0,0.011231932,0.461792857
+2012,June,Saudi Arabia,3,317.47,366.84,105.8233333,504,0.378769841,85,77824,504,6,6/1/2012,0,0,0.004079333,0.629900794
+2012,June,Singapore,1,67.77,242.09,67.77,Unknown,Unknown,417,6720,0,6,6/1/2012,1,1,0.010084821,Unknown
+2012,June,South Korea,3,907.6,1065.46,302.5333333,1566.333333,0.19505186,55,116472,4699,6,6/1/2012,0,0,0.007792431,0.193147478
+2012,June,Spain,4,313.45,460.45,78.3625,105.3333333,0.885379619,177,23544,316,6,6/1/2012,0,0,0.013313371,0.99193038
+2012,June,Sweden,4,528.36,708.6,132.09,253,0.521343874,76,78920,253,6,6/1/2012,0,0,0.006694881,2.088379447
+2012,June,Switzerland,1,316.2,401.86,316.2,780,0.405384615,57,47840,780,6,6/1/2012,0,0,0.006609532,0.405384615
+2012,June,Taiwan,3,340.96,526.14,113.6533333,110,0.817636364,98,37212,110,6,6/1/2012,0,0,0.009162636,3.099636364
+2012,June,United Arab Emirates,1,69.36,78.73,69.36,Unknown,Unknown,397,6432,0,6,6/1/2012,1,1,0.010783582,Unknown
+2012,June,United Kingdom,25,6633.66,8891.89,265.3464,699.7777778,0.538571473,13,578704,12596,6,6/1/2012,0,0,0.011462959,0.526648142
+2012,June,United States,252,59975.39,83791.42,237.9975794,677.5298507,0.550234341,1,7177573,90789,6,6/1/2012,0,0,0.008355943,0.660601945
+2012,November,Australia,7,2196.92,2689.83,313.8457143,756,1.004327063,24,165828,2268,11,11/1/2012,0,0,0.013248185,0.968659612
+2012,November,Austria,1,152.9,182.83,152.9,430,0.355581395,162,20776,430,11,11/1/2012,0,0,0.007359453,0.355581395
+2012,November,Belgium,1,152.35,175.72,152.35,Unknown,Unknown,163,8448,0,11,11/1/2012,1,1,0.018033854,Unknown
+2012,November,Brazil,2,465.7,824.63,232.85,366,0.68715847,98,48512,366,11,11/1/2012,0,0,0.009599687,1.272404372
+2012,November,Canada,11,1858.44,2429.53,168.9490909,404,0.854955182,67,196744,2828,11,11/1/2012,0,0,0.009445981,0.657157001
+2012,November,China,72,12349.79,22757.64,171.5248611,606.2857143,0.241394533,8,1604920,33952,11,11/1/2012,0,0,0.007694957,0.363742637
+2012,November,Denmark,1,162.1,183.68,162.1,490,0.330816327,153,15672,490,11,11/1/2012,0,0,0.010343287,0.330816327
+2012,November,Finland,3,437.69,527.98,145.8966667,520,0.147134615,118,31344,520,11,11/1/2012,0,0,0.013964076,0.841711538
+2012,November,France,21,6413.6,7887.71,305.4095238,850.2307692,0.701022816,11,620348,11053,11,11/1/2012,0,0,0.010338713,0.580258753
+2012,November,Germany,19,10178.3,12404.67,535.7,1091.7,0.651714737,5,875038,10917,11,11/1/2012,0,0,0.011631838,0.932334891
+2012,November,India,9,1291.74,1890.9,143.5266667,349.5,0.715086623,82,90548,1398,11,11/1/2012,0,0,0.014265804,0.923991416
+2012,November,Israel,1,77.7,161.59,77.7,387,0.200775194,472,13788,387,11,11/1/2012,0,0,0.005635335,0.200775194
+2012,November,Italy,7,2424.82,3129.93,346.4028571,467.2,0.854699211,9,222480,2336,11,11/1/2012,0,0,0.010899047,1.03802226
+2012,November,Japan,32,19448.39,23362.2,607.7621875,1194.041667,0.547413244,3,1389142,28657,11,11/1/2012,0,0,0.014000289,0.67866106
+2012,November,Norway,3,735.4,873.16,245.1333333,368.6666667,0.664548834,56,54400,1106,11,11/1/2012,0,0,0.013518382,0.664918626
+2012,November,Poland,4,589.56,947.1,147.39,82,2.10597561,106,66690,82,11,11/1/2012,0,0,0.008840306,7.189756098
+2012,November,Russia,8,1990.63,3405.78,248.82875,1056.666667,1.001833321,26,179200,3170,11,11/1/2012,0,0,0.011108426,0.627958991
+2012,November,Saudi Arabia,3,719.3,1464.27,239.7666667,341.5,1.365921233,52,116176,683,11,11/1/2012,0,0,0.006191468,1.053147877
+2012,November,South Korea,4,1014.4,1291.92,253.6,1193,0.51204232,78,124536,4772,11,11/1/2012,0,0,0.008145436,0.212573345
+2012,November,Spain,2,740.08,883.09,370.04,390.5,1.084833386,36,39208,781,11,11/1/2012,0,0,0.01887574,0.947605634
+2012,November,Sweden,6,993.21,1295.4,165.535,316.5,0.660329831,83,106080,633,11,11/1/2012,0,0,0.009362839,1.569052133
+2012,November,Switzerland,4,978.98,1254.73,244.745,330.3333333,1.544355217,80,84416,991,11,11/1/2012,0,0,0.011597091,0.987870838
+2012,November,Taiwan,3,356.63,556.49,118.8766667,110,0.817636364,138,38520,110,11,11/1/2012,0,0,0.009258307,3.242090909
+2012,November,United Kingdom,24,7260.69,9393.79,302.52875,606.4285714,0.62131555,16,567152,12735,11,11/1/2012,0,0,0.012802018,0.570136631
+2012,November,United States,250,88981.11,129090.31,355.92444,824.1603053,0.672025061,1,8197146,107965,11,11/1/2012,0,0,0.010855133,0.824166258
+2013,June,Australia,5,2056.25,2433.22,411.25,756,1.030010953,28,149060,2268,6,6/1/2013,0,0,0.013794781,0.906635802
+2013,June,Austria,1,152.9,182.83,152.9,430,0.355581395,239,20776,430,6,6/1/2013,0,0,0.007359453,0.355581395
+2013,June,Belgium,1,152.35,175.72,152.35,Unknown,Unknown,240,8448,0,6,6/1/2013,1,1,0.018033854,Unknown
+2013,June,Brazil,3,626,1182.1,208.6666667,366,0.68715847,123,58880,366,6,6/1/2013,0,0,0.010631793,1.710382514
+2013,June,Canada,9,1772,2288.14,196.8888889,435,0.77225509,77,178792,2610,6,6/1/2013,0,0,0.009910958,0.678927203
+2013,June,China,66,47484.95,85176.32,719.4689394,1043.489362,0.328945447,1,4818068,49044,6,6/1/2013,0,0,0.0098556,0.968211198
+2013,June,Denmark,1,162.1,183.68,162.1,490,0.330816327,213,15672,490,6,6/1/2013,0,0,0.010343287,0.330816327
+2013,June,Finland,2,378,436.3,189,Unknown,Unknown,147,20976,0,6,6/1/2013,1,1,0.018020595,Unknown
+2013,June,France,23,8938.49,10880.92,388.63,912.6,0.789530206,12,722376,13689,6,6/1/2013,0,0,0.012373736,0.652968807
+2013,June,Germany,20,16360.61,19393.07,818.0305,1134.083333,0.82869425,7,1398378,13609,6,6/1/2013,0,0,0.011699705,1.202190462
+2013,June,India,11,2690.47,3517.53,244.5881818,578.25,0.693615424,37,173580,2313,6,6/1/2013,0,0,0.015499885,1.163194985
+2013,June,Israel,2,283.97,468.09,141.985,487,0.200924025,180,30084,487,6,6/1/2013,0,0,0.009439237,0.583100616
+2013,June,Italy,6,2422.99,3095.5,403.8316667,297,1.547870326,13,209568,1188,6,6/1/2013,0,0,0.011561832,2.039553872
+2013,June,Japan,30,20307.18,24500.65,676.906,1317.75,0.692822775,4,1386354,26355,6,6/1/2013,0,0,0.014647904,0.770524758
+2013,June,Netherlands,2,258.04,361.72,129.02,Unknown,Unknown,219,17588,0,6,6/1/2013,1,1,0.014671367,Unknown
+2013,June,Norway,3,735.4,873.16,245.1333333,368.6666667,0.664548834,69,54400,1106,6,6/1/2013,0,0,0.013518382,0.664918626
+2013,June,Poland,3,561.2,774.89,187.0666667,82,2.304512195,114,60980,82,6,6/1/2013,0,0,0.009203017,6.843902439
+2013,June,Russia,8,2012.18,3474.54,251.5225,1056.666667,1.001833321,32,177452,3170,6,6/1/2013,0,0,0.011339292,0.634757098
+2013,June,Saudi Arabia,4,1272.51,1970.46,318.1275,396.3333333,1.409110376,53,140512,1189,6,6/1/2013,0,0,0.009056237,1.070235492
+2013,June,South Korea,4,1014.4,1291.92,253.6,1193,0.51204232,92,124536,4772,6,6/1/2013,0,0,0.008145436,0.212573345
+2013,June,Spain,3,1126.86,1337.65,375.62,549,1.084514356,30,63048,1098,6,6/1/2013,0,0,0.017873049,1.026284153
+2013,June,Sweden,7,1161.3,1534.35,165.9,316.5,0.660329831,97,117568,633,6,6/1/2013,0,0,0.009877688,1.834597156
+2013,June,Switzerland,4,1405.77,1749.93,351.4425,330.3333333,1.610534079,43,108224,991,6,6/1/2013,0,0,0.012989448,1.418536831
+2013,June,Taiwan,1,177.1,231.86,177.1,Unknown,Unknown,194,26244,0,6,6/1/2013,1,1,0.006748209,Unknown
+2013,June,United Kingdom,29,8082.25,11031.51,278.6982759,626.75,0.658951503,19,639312,12535,6,6/1/2013,0,0,0.012642106,0.644774631
+2013,June,United States,251,106737.12,152510.08,425.24749,992.2086957,0.773458297,2,9040448,114104,6,6/1/2013,0,0,0.011806618,0.935437145
+2013,November,Australia,5,2180.15,2635.54,436.03,967,1.392321819,33,145036,1934,11,11/1/2013,0,0,0.015031785,1.127275078
+2013,November,Austria,1,152.9,182.83,152.9,430,0.355581395,304,20776,430,11,11/1/2013,0,0,0.007359453,0.355581395
+2013,November,Belgium,1,152.35,175.72,152.35,Unknown,Unknown,307,8448,0,11,11/1/2013,1,1,0.018033854,Unknown
+2013,November,Brazil,3,626,1182.1,208.6666667,366,0.68715847,157,58880,366,11,11/1/2013,0,0,0.010631793,1.710382514
+2013,November,Canada,10,2077.84,2627.77,207.784,394.2857143,0.796384883,89,190752,2760,11,11/1/2013,0,0,0.010892887,0.75284058
+2013,November,China,63,48549.03,89432.58,770.6195238,1245.933333,0.343933828,1,4925804,56067,11,11/1/2013,0,0,0.009856062,0.865910964
+2013,November,Denmark,1,162.1,183.68,162.1,490,0.330816327,272,15672,490,11,11/1/2013,0,0,0.010343287,0.330816327
+2013,November,Finland,2,378,436.3,189,Unknown,Unknown,190,20976,0,11,11/1/2013,1,1,0.018020595,Unknown
+2013,November,France,22,9489.91,11228.58,431.3595455,795.4705882,1.059241681,15,720416,13523,11,11/1/2013,0,0,0.01317282,0.701760704
+2013,November,Germany,21,18705.7,22298.83,890.747619,1071.25,1.162101307,8,1492004,12855,11,11/1/2013,0,0,0.012537299,1.455130299
+2013,November,India,12,3040.3,3812.72,253.3583333,473.1666667,0.932873245,45,188252,2839,11,11/1/2013,0,0,0.01615016,1.070905248
+2013,November,Ireland,2,268.57,343.31,134.285,115,1.221304348,359,30996,115,11,11/1/2013,0,0,0.008664666,2.335391304
+2013,November,Israel,2,314.06,736.82,157.03,414,0.309033816,231,35424,414,11,11/1/2013,0,0,0.008865741,0.758599034
+2013,November,Italy,5,2665.61,3212.69,533.122,410.25,1.22698072,16,221120,1641,11,11/1/2013,0,0,0.012055038,1.624381475
+2013,November,Japan,28,22472.21,28925.86,802.5789286,1232.05,1.060173685,4,1558880,24641,11,11/1/2013,0,0,0.014415612,0.911984497
+2013,November,Netherlands,3,511.07,671.16,170.3566667,245,0.908816327,185,47544,245,11,11/1/2013,0,0,0.010749411,2.086
+2013,November,Norway,3,735.4,873.16,245.1333333,368.6666667,0.664548834,83,54400,1106,11,11/1/2013,0,0,0.013518382,0.664918626
+2013,November,Poland,2,455.91,583.61,227.955,82,2.304512195,146,41852,82,11,11/1/2013,0,0,0.010893386,5.559878049
+2013,November,Russia,5,1846.61,3242.73,369.322,1105.666667,0.995710872,38,166432,3317,11,11/1/2013,0,0,0.011095282,0.556710883
+2013,November,Saudi Arabia,3,1165.31,1827.01,388.4366667,396.3333333,1.409110376,60,128272,1189,11,11/1/2013,0,0,0.009084679,0.980075694
+2013,November,South Korea,5,1258.06,1760.09,251.612,1566.333333,0.19505186,111,154224,4699,11,11/1/2013,0,0,0.008157356,0.267729304
+2013,November,Spain,2,1199.03,1357.83,599.515,664,0.89430055,35,65280,1328,11,11/1/2013,0,0,0.018367494,0.902884036
+2013,November,Sweden,5,1067.77,1297.04,213.554,386,0.653003343,80,95680,772,11,11/1/2013,0,0,0.011159804,1.383121762
+2013,November,Switzerland,5,7765.42,9632.17,1553.084,614.8,2.116356561,6,253904,3074,11,11/1/2013,0,0,0.030584079,2.526161353
+2013,November,Taiwan,1,177.1,231.86,177.1,Unknown,Unknown,244,26244,0,11,11/1/2013,1,1,0.006748209,Unknown
+2013,November,United Kingdom,23,9058.32,11380.21,393.84,551.1764706,0.793629381,20,627120,9370,11,11/1/2013,0,0,0.014444317,0.966736393
+2013,November,United States,263,118143.83,169263.42,449.2160837,1174.426471,0.805537003,2,9815325,159722,11,11/1/2013,0,0,0.01203667,0.739684139
+2014,June,Australia,6,2472.25,2869.88,412.0416667,595.5,1.059665374,39,151072,2382,6,6/1/2014,0,0,0.016364714,1.037888329
+2014,June,Austria,1,152.9,182.83,152.9,430,0.355581395,424,20776,430,6,6/1/2014,0,0,0.007359453,0.355581395
+2014,June,Belgium,2,319.82,393.26,159.91,Unknown,Unknown,335,19944,0,6,6/1/2014,1,1,0.016035901,Unknown
+2014,June,Brazil,4,1031.37,1594.9,257.8425,1473,0.422139312,96,76080,2946,6,6/1/2014,0,0,0.013556388,0.35009165
+2014,June,Canada,9,1959.75,2393.43,217.75,394.2857143,0.796384883,110,165280,2760,6,6/1/2014,0,0,0.011857152,0.710054348
+2014,June,China,76,52129.79,102670.19,685.9182895,1092.936508,0.347585418,1,5432584,68855,6,6/1/2014,0,0,0.009595763,0.7570952
+2014,June,Denmark,1,162.1,183.68,162.1,490,0.330816327,367,15672,490,6,6/1/2014,0,0,0.010343287,0.330816327
+2014,June,Finland,2,378,436.3,189,Unknown,Unknown,233,20976,0,6,6/1/2014,1,1,0.018020595,Unknown
+2014,June,France,27,11237.02,13391.64,416.1859259,714.3636364,1.012643068,17,783764,15716,6,6/1/2014,0,0,0.014337249,0.71500509
+2014,June,Germany,22,19684.72,23338.02,894.76,969.6666667,1.095816895,8,1564484,14545,6,6/1/2014,0,0,0.012582244,1.353366793
+2014,June,India,9,2898.75,3521.92,322.0833333,584.5,0.948482492,53,169324,3507,6,6/1/2014,0,0,0.017119546,0.826561163
+2014,June,Ireland,1,140.45,147.46,140.45,115,1.221304348,477,7680,115,6,6/1/2014,0,0,0.01828776,1.221304348
+2014,June,Israel,2,347.69,860.96,173.845,514,0.314338521,286,41392,514,6,6/1/2014,0,0,0.008399932,0.676439689
+2014,June,Italy,5,5537.41,7055.61,1107.482,541.6,1.544471174,12,268400,2708,6,6/1/2014,0,0,0.020631185,2.044833826
+2014,June,Japan,30,23941.22,30861.15,798.0406667,1876.875,1.162684003,4,1654398,45045,6,6/1/2014,0,0,0.014471258,0.531495615
+2014,June,Netherlands,5,1005.52,1381.99,201.104,144.5,2.199862709,161,62160,289,6,6/1/2014,0,0,0.016176319,3.479307958
+2014,June,Norway,3,735.4,873.16,245.1333333,368.6666667,0.664548834,99,54400,1106,6,6/1/2014,0,0,0.013518382,0.664918626
+2014,June,Poland,2,455.91,583.61,227.955,82,2.304512195,176,41852,82,6,6/1/2014,0,0,0.010893386,5.559878049
+2014,June,Russia,5,2046.48,3438.21,409.296,1105.666667,0.995710872,43,159828,3317,6,6/1/2014,0,0,0.012804265,0.616967139
+2014,June,Saudi Arabia,4,1981.89,2744.51,495.4725,474,1.345581014,46,169232,1896,6,6/1/2014,0,0,0.011711083,1.045300633
+2014,June,South Korea,8,2112.52,3202.99,264.065,1477.4,0.205057902,137,211080,7387,6,6/1/2014,0,0,0.010008149,0.28597807
+2014,June,Spain,2,1199.03,1357.83,599.515,664,0.89430055,42,65280,1328,6,6/1/2014,0,0,0.018367494,0.902884036
+2014,June,Sweden,3,812.53,991.2,270.8433333,519,0.784662813,95,73248,519,6,6/1/2014,0,0,0.011092863,1.565568401
+2014,June,Switzerland,6,7959.57,9847.82,1326.595,614.8,2.116356561,6,263888,3074,6,6/1/2014,0,0,0.030162683,2.589320104
+2014,June,Taiwan,1,177.1,231.86,177.1,Unknown,Unknown,304,26244,0,6,6/1/2014,1,1,0.006748209,Unknown
+2014,June,United Kingdom,30,14871.2,18458.73,495.7066667,514.5217391,1.133360181,20,925152,11834,6,6/1/2014,0,0,0.016074332,1.25665033
+2014,June,United States,232,122452.41,174940.07,527.8121121,1399.991597,0.81778252,2,9617949,166599,6,6/1/2014,0,0,0.012731655,0.735012875
+2014,November,Australia,7,3644.81,4494.52,520.6871429,605,1.070122232,42,188283,3630,11,11/1/2014,0,0,0.019358147,1.00407989
+2014,November,Austria,1,596.01,681.57,596.01,450,1.324466667,85,32768,450,11,11/1/2014,0,0,0.018188782,1.324466667
+2014,November,Belgium,1,201.37,217.54,201.37,145,1.388758621,300,11424,145,11,11/1/2014,0,0,0.017626926,1.388758621
+2014,November,Brazil,4,1031.37,1594.9,257.8425,1473,0.422139312,124,76080,2946,11,11/1/2014,0,0,0.013556388,0.35009165
+2014,November,Canada,6,1903.94,2354.8,317.3233333,570.75,0.836345984,74,168992,2283,11,11/1/2014,0,0,0.01126645,0.833964082
+2014,November,China,61,52105.17,99712.52,854.1831148,1248.959184,0.403241584,1,5299736,61199,11,11/1/2014,0,0,0.009831654,0.851405579
+2014,November,Denmark,2,572.88,667.52,286.44,662.5,0.411384211,121,30792,1325,11,11/1/2014,0,0,0.018604832,0.432362264
+2014,November,Finland,3,1870.55,2419.79,623.5166667,680,1.838235294,38,62768,680,11,11/1/2014,0,0,0.029801013,2.750808824
+2014,November,France,30,14120.76,17081.7,470.692,683.36,1.141774027,21,900440,17084,11,11/1/2014,0,0,0.015682067,0.826548818
+2014,November,Germany,27,25099.04,31292.9,929.5940741,886.0952381,1.328091708,8,1763124,18608,11,11/1/2014,0,0,0.01423555,1.34883061
+2014,November,Hungary,1,197.21,248.2,197.21,Unknown,Unknown,308,3696,0,11,11/1/2014,1,1,0.053357684,Unknown
+2014,November,India,9,3137.69,3912.2,348.6322222,584.5,0.948482492,71,184124,3507,11,11/1/2014,0,0,0.017041179,0.89469347
+2014,November,Israel,2,347.69,860.96,173.845,514,0.314338521,352,41392,514,11,11/1/2014,0,0,0.008399932,0.676439689
+2014,November,Italy,3,5430.93,7201.35,1810.31,849.3333333,1.894793297,13,259840,2548,11,11/1/2014,0,0,0.020901054,2.131448195
+2014,November,Japan,32,25027.45,32519.74,782.1078125,1806.44,1.261039227,4,1945550,45161,11,11/1/2014,0,0,0.012863946,0.554182813
+2014,November,Netherlands,5,1835.37,2460.26,367.074,375,2.490858228,46,88080,750,11,11/1/2014,0,0,0.020837534,2.44716
+2014,November,Norway,3,735.4,873.16,245.1333333,368.6666667,0.664548834,127,54400,1106,11,11/1/2014,0,0,0.013518382,0.664918626
+2014,November,Poland,2,455.91,583.61,227.955,82,2.304512195,211,41852,82,11,11/1/2014,0,0,0.010893386,5.559878049
+2014,November,Russia,9,4883.08,7636.77,542.5644444,651.6666667,1.479717189,23,251502,3910,11,11/1/2014,0,0,0.019415671,1.248869565
+2014,November,Saudi Arabia,4,1981.89,2744.51,495.4725,474,1.345581014,63,169232,1896,11,11/1/2014,0,0,0.011711083,1.045300633
+2014,November,South Korea,9,2527.21,3673.65,280.8011111,1257.833333,0.530881585,148,219012,7547,11,11/1/2014,0,0,0.011539139,0.334862859
+2014,November,Spain,2,1199.03,1357.83,599.515,664,0.89430055,58,65280,1328,11,11/1/2014,0,0,0.018367494,0.902884036
+2014,November,Sweden,5,2382.97,3169.15,476.594,652.5,1.281008251,33,136000,1305,11,11/1/2014,0,0,0.017521838,1.826030651
+2014,November,Switzerland,7,8904.37,11105.8,1272.052857,614.8,2.116356561,6,294128,3074,11,11/1/2014,0,0,0.030273792,2.896672088
+2014,November,Taiwan,1,177.1,231.86,177.1,Unknown,Unknown,369,26244,0,11,11/1/2014,1,1,0.006748209,Unknown
+2014,November,United Kingdom,30,15366.54,19811.56,512.218,694.5238095,1.159417277,26,986080,14585,11,11/1/2014,0,0,0.015583462,1.05358519
+2014,November,United States,232,136850.27,195275.65,589.8718534,1446.5,0.92105328,2,10058514,182259,11,11/1/2014,0,0,0.013605416,0.750856035
+2015,June,Australia,5,3319.11,4136.42,663.822,795.5,1.241678883,58,171067,3182,6,6/1/2015,0,0,0.019402398,1.043089252
+2015,June,Austria,1,596.01,681.57,596.01,450,1.324466667,111,32768,450,6,6/1/2015,0,0,0.018188782,1.324466667
+2015,June,Belgium,1,201.47,217.54,201.47,238,0.846512605,374,11496,238,6,6/1/2015,0,0,0.017525226,0.846512605
+2015,June,Brazil,6,2012.28,2722.15,335.38,961.2,0.60164143,146,119280,4806,6,6/1/2015,0,0,0.016870221,0.418701623
+2015,June,Bulgaria,1,222.03,412.32,222.03,Unknown,Unknown,332,20700,0,6,6/1/2015,1,1,0.010726087,Unknown
+2015,June,Canada,6,1903.94,2354.8,317.3233333,570.75,0.836345984,99,168992,2283,6,6/1/2015,0,0,0.01126645,0.833964082
+2015,June,China,37,49567.69,86277.34,1339.667297,1596.827586,0.637368536,1,4630616,46308,6,6/1/2015,0,0,0.01070434,1.070391509
+2015,June,Czechia,1,1457.73,2011.64,1457.73,4806,0.303314607,40,76896,4806,6,6/1/2015,0,0,0.018957163,0.303314607
+2015,June,Denmark,2,699.68,858.24,349.84,517.5,0.968226048,161,24480,1035,6,6/1/2015,0,0,0.028581699,0.676019324
+2015,June,Finland,2,1564.4,2085.66,782.2,603,1.217976963,51,50136,1206,6,6/1/2015,0,0,0.031203127,1.297180763
+2015,June,France,27,13872.75,16571.72,513.8055556,759.2727273,1.204751003,29,877212,16704,6,6/1/2015,0,0,0.015814592,0.83050467
+2015,June,Germany,38,31706.38,40036.28,834.3784211,664.5666667,1.630617759,9,1955700,19937,6,6/1/2015,0,0,0.016212292,1.590328535
+2015,June,Hungary,1,203.3,248.2,203.3,92,2.209782609,370,3696,92,6,6/1/2015,0,0,0.055005411,2.209782609
+2015,June,India,11,4598,5887.02,418,554.375,1.114986458,79,226652,4435,6,6/1/2015,0,0,0.020286607,1.0367531
+2015,June,Israel,1,186.12,264.58,186.12,Unknown,Unknown,429,12720,0,6,6/1/2015,1,1,0.014632075,Unknown
+2015,June,Italy,4,6115.18,8304.42,1528.795,1343.5,1.481626643,17,310072,5374,6,6/1/2015,0,0,0.019721807,1.137919613
+2015,June,Japan,40,34039.18,43938,850.9795,1608.758621,1.735476208,4,3258150,46654,6,6/1/2015,0,0,0.010447395,0.729609037
+2015,June,Netherlands,3,1556.95,2023.1,518.9833333,706,1.541798867,59,73680,706,6,6/1/2015,0,0,0.021131243,2.205311615
+2015,June,Norway,2,575.3,668.26,287.65,382,0.762758923,168,32128,764,6,6/1/2015,0,0,0.017906499,0.753010471
+2015,June,Poland,7,3350.84,4907.72,478.6914286,231.6666667,1.764094225,49,152644,695,6,6/1/2015,0,0,0.021951993,4.821352518
+2015,June,Russia,8,4722.2,7005.32,590.275,651.6666667,1.479717189,31,226302,3910,6,6/1/2015,0,0,0.020866806,1.207723785
+2015,June,Saudi Arabia,7,9979.86,13249.52,1425.694286,977.3333333,1.553323484,7,453776,5864,6,6/1/2015,0,0,0.021992922,1.701886085
+2015,June,South Korea,9,2527.21,3673.65,280.8011111,1257.833333,0.530881585,191,219012,7547,6,6/1/2015,0,0,0.011539139,0.334862859
+2015,June,Spain,2,1199.03,1357.83,599.515,664,0.89430055,77,65280,1328,6,6/1/2015,0,0,0.018367494,0.902884036
+2015,June,Sweden,5,2472.24,3290.17,494.448,503.3333333,1.384851029,43,109872,1510,6,6/1/2015,0,0,0.022501092,1.637245033
+2015,June,Switzerland,6,8631.42,10869.83,1438.57,573.5,2.544099548,6,253968,2294,6,6/1/2015,0,0,0.03398625,3.7626068
+2015,June,Taiwan,1,177.1,231.86,177.1,Unknown,Unknown,445,26244,0,6,6/1/2015,1,1,0.006748209,Unknown
+2015,June,United Kingdom,29,14532.11,18443.57,501.1072414,644.1176471,1.30958328,35,937368,10950,6,6/1/2015,0,0,0.0155031,1.327133333
+2015,June,United States,233,161267.5,230360.11,692.1351931,1550.443662,0.939260139,2,10860955,220163,6,6/1/2015,0,0,0.014848372,0.732491381
+2015,November,Australia,4,3127.01,3909.86,781.7525,795.5,1.241678883,68,161627,3182,11,11/1/2015,0,0,0.019347077,0.982718416
+2015,November,Austria,1,596.01,681.57,596.01,450,1.324466667,138,32768,450,11,11/1/2015,0,0,0.018188782,1.324466667
+2015,November,Brazil,6,2012.28,2722.15,335.38,961.2,0.60164143,201,119280,4806,11,11/1/2015,0,0,0.016870221,0.418701623
+2015,November,Bulgaria,1,264.21,412.32,264.21,Unknown,Unknown,389,20700,0,11,11/1/2015,1,1,0.012763768,Unknown
+2015,November,Canada,6,1903.94,2354.8,317.3233333,570.75,0.836345984,122,168992,2283,11,11/1/2015,0,0,0.01126645,0.833964082
+2015,November,China,109,88711.08,189894.99,813.8631193,1395.893204,1.052922936,1,9046772,143777,11,11/1/2015,0,0,0.009805827,0.617004667
+2015,November,Czechia,1,1457.73,2011.64,1457.73,4806,0.303314607,48,76896,4806,11,11/1/2015,0,0,0.018957163,0.303314607
+2015,November,Denmark,2,773.88,1066.08,386.94,511,1.216831663,236,26688,1022,11,11/1/2015,0,0,0.028997302,0.757221135
+2015,November,Finland,2,1564.4,2085.66,782.2,603,1.217976963,59,50136,1206,11,11/1/2015,0,0,0.031203127,1.297180763
+2015,November,France,18,12252.2,14699.18,680.6777778,1007.6,1.29273152,33,766540,15114,11,11/1/2015,0,0,0.015983771,0.810652375
+2015,November,Germany,33,34672.8,43716.24,1050.690909,815.8214286,1.64953815,8,1935276,22843,11,11/1/2015,0,0,0.017916204,1.517874185
+2015,November,Hungary,1,253.6,363.84,253.6,122,2.078688525,402,4890,122,11,11/1/2015,0,0,0.051860941,2.078688525
+2015,November,India,11,4933.7,6662.4,448.5181818,548.1111111,1.108100412,96,236692,4933,11,11/1/2015,0,0,0.020844388,1.000141901
+2015,November,Italy,4,6115.18,8304.42,1528.795,1343.5,1.481626643,19,310072,5374,11,11/1/2015,0,0,0.019721807,1.137919613
+2015,November,Japan,37,38438.9,49400.69,1038.889189,1646.645161,1.747952502,4,3487404,51046,11,11/1/2015,0,0,0.01102221,0.753024723
+2015,November,Netherlands,2,1369.4,1755.74,684.7,706,1.541798867,69,60312,706,11,11/1/2015,0,0,0.022705266,1.939660057
+2015,November,Norway,1,396.7,458.6,396.7,537,0.738733706,246,22048,537,11,11/1/2015,0,0,0.017992562,0.738733706
+2015,November,Poland,6,4599.96,6080.54,766.66,511.25,1.786881591,39,172076,2045,11,11/1/2015,0,0,0.026732142,2.249369193
+2015,November,Russia,7,4736.51,6951.85,676.6442857,789.3333333,1.148991923,36,208844,4736,11,11/1/2015,0,0,0.022679656,1.000107686
+2015,November,Saudi Arabia,6,9788.96,13026.7,1631.493333,1072,1.788234213,9,388240,5360,11,11/1/2015,0,0,0.025213682,1.826298507
+2015,November,South Korea,10,7186.95,9689.21,718.695,1024.285714,1.088689747,29,283568,7170,11,11/1/2015,0,0,0.025344714,1.002364017
+2015,November,Spain,2,1199.03,1357.83,599.515,664,0.89430055,93,65280,1328,11,11/1/2015,0,0,0.018367494,0.902884036
+2015,November,Sweden,3,2130.71,2846.93,710.2366667,503.3333333,1.384851029,52,89264,1510,11,11/1/2015,0,0,0.023869757,1.411066225
+2015,November,Switzerland,6,8724.95,11043.11,1454.158333,737.3333333,2.623961998,7,243152,2212,11,11/1/2015,0,0,0.035882699,3.944371609
+2015,November,United Kingdom,18,11601.32,14230.1,644.5177778,866.375,1.205853112,41,724184,6931,11,11/1/2015,0,0,0.016019851,1.673830616
+2015,November,United States,199,172582.25,246058.76,867.2474874,1773.503704,0.91263445,2,10733270,239423,11,11/1/2015,0,0,0.016079186,0.720825693
+2016,June,Australia,5,3444.51,4320.45,688.902,655.4,1.661764159,80,169211,3277,6,6/1/2016,0,0,0.020356301,1.051116875
+2016,June,Austria,5,2152.18,3036.27,430.436,498.8,0.872402937,170,94088,2494,6,6/1/2016,0,0,0.022874118,0.862943063
+2016,June,Belgium,2,880.56,1027.01,440.28,268.5,1.664155194,197,30096,537,6,6/1/2016,0,0,0.029258373,1.639776536
+2016,June,Brazil,4,1546.58,1897.52,386.645,1110,0.58026217,266,70768,4440,6,6/1/2016,0,0,0.021854228,0.348328829
+2016,June,Canada,1,715.55,838.86,715.55,329,2.174924012,143,65536,329,6,6/1/2016,0,0,0.010918427,2.174924012
+2016,June,China,167,211142.38,367231.6,1264.325629,1322.526946,1.027366454,1,21063312,220862,6,6/1/2016,0,0,0.010024178,0.955992339
+2016,June,Czechia,1,1457.73,2011.64,1457.73,4806,0.303314607,56,76896,4806,6,6/1/2016,0,0,0.018957163,0.303314607
+2016,June,Denmark,2,873.14,1320.48,436.57,511,1.482232732,259,33048,1022,6,6/1/2016,0,0,0.026420358,0.854344423
+2016,June,Finland,5,2691.3,3774.04,538.26,534.4,0.946147165,70,94104,2672,6,6/1/2016,0,0,0.028599209,1.007223054
+2016,June,France,18,21951.94,27511.1,1219.552222,1081.722222,1.563507654,11,1060732,19471,6,6/1/2016,0,0,0.020695086,1.127417185
+2016,June,Germany,27,36121.53,45083.99,1337.834444,885.0740741,1.7112449,9,1926484,23897,6,6/1/2016,0,0,0.018749977,1.511550822
+2016,June,India,9,4406.36,5901.05,489.5955556,548.1111111,1.108100412,111,204052,4933,6,6/1/2016,0,0,0.021594299,0.893241435
+2016,June,Ireland,3,980.79,1499.45,326.93,434,0.753320019,359,39048,1302,6,6/1/2016,0,0,0.025117548,0.753294931
+2016,June,Italy,5,7839.07,10307.52,1567.814,1347,1.43862828,23,364504,6735,6,6/1/2016,0,0,0.021506129,1.163930215
+2016,June,Japan,29,39002,48596.14,1344.896552,1788.37931,1.868005257,5,3632452,51863,6,6/1/2016,0,0,0.0107371,0.752019744
+2016,June,Netherlands,3,2117.52,2900.27,705.84,690.6666667,1.016074276,81,79848,2072,6,6/1/2016,0,0,0.026519387,1.021969112
+2016,June,Norway,1,396.7,458.6,396.7,537,0.738733706,332,22048,537,6,6/1/2016,0,0,0.017992562,0.738733706
+2016,June,Poland,6,5723.11,7566.14,953.8516667,582.3333333,1.645414116,49,193744,3494,6,6/1/2016,0,0,0.029539547,1.637982255
+2016,June,Russia,7,4989.51,7338.23,712.7871429,830.7142857,1.263150233,42,214412,5815,6,6/1/2016,0,0,0.023270666,0.858041273
+2016,June,Saudi Arabia,5,9577.66,12798.14,1915.532,1072,1.788234213,10,376336,5360,6,6/1/2016,0,0,0.025449758,1.786876866
+2016,June,Singapore,1,1010,1285.94,1010,1159,0.871440897,94,30912,1159,6,6/1/2016,0,0,0.032673395,0.871440897
+2016,June,South Korea,7,6456.66,8628.45,922.38,959.2857143,1.111418995,37,212132,6715,6,6/1/2016,0,0,0.030436992,0.961527923
+2016,June,Spain,1,925.06,1017.04,925.06,1016,0.910492126,107,48896,1016,6,6/1/2016,0,0,0.01891893,0.910492126
+2016,June,Sweden,5,2775.03,3693.91,555.006,546.4,1.041817328,61,109624,2732,6,6/1/2016,0,0,0.025314074,1.015750366
+2016,June,Switzerland,3,8397.28,10137.29,2799.093333,867.3333333,2.822783375,8,226448,2602,6,6/1/2016,0,0,0.037082597,3.227240584
+2016,June,United Kingdom,11,20025.42,22610.74,1820.492727,1231.636364,1.516076174,18,889064,13548,6,6/1/2016,0,0,0.02252416,1.478108946
+2016,June,United States,165,173222.68,246389.85,1049.834424,1646.478788,0.848349322,3,10097238,271669,6,6/1/2016,0,0,0.017155452,0.63762402
+2016,November,Australia,3,2791.71,3437.36,930.57,877.3333333,1.452359723,96,154752,2632,11,11/1/2016,0,0,0.018039896,1.060680091
+2016,November,Austria,3,1537.3,2096.23,512.4333333,559.3333333,0.951651953,247,69608,1678,11,11/1/2016,0,0,0.022085105,0.916150179
+2016,November,Belgium,1,548,619.32,548,255,2.149019608,278,16128,255,11,11/1/2016,0,0,0.033978175,2.149019608
+2016,November,Brazil,3,1225.4,1549.15,408.4666667,1270,0.603746385,365,52624,3810,11,11/1/2016,0,0,0.023285953,0.321627297
+2016,November,Canada,1,715.55,838.86,715.55,329,2.174924012,197,65536,329,11,11/1/2016,0,0,0.010918427,2.174924012
+2016,November,China,171,223571.05,394013.38,1307.433041,1377.013158,1.118913782,1,21546512,209306,11,11/1/2016,0,0,0.010376206,1.068154042
+2016,November,Czechia,1,1457.73,2011.64,1457.73,4806,0.303314607,68,76896,4806,11,11/1/2016,0,0,0.018957163,0.303314607
+2016,November,Denmark,2,873.14,1320.48,436.57,511,1.482232732,356,33048,1022,11,11/1/2016,0,0,0.026420358,0.854344423
+2016,November,Finland,2,1762.02,2437.63,881.01,665,1.312979186,82,60096,1330,11,11/1/2016,0,0,0.029320088,1.324827068
+2016,November,France,20,25398.82,31727.77,1269.941,1094.333333,1.863388794,16,1158428,19698,11,11/1/2016,0,0,0.021925247,1.289411108
+2016,November,Germany,32,41510.28,51500.41,1297.19625,832.5333333,1.922753196,14,2058992,24976,11,11/1/2016,0,0,0.020160486,1.662006726
+2016,November,India,5,3092.37,4456.05,618.474,485.2,1.408425622,134,133172,2426,11,11/1/2016,0,0,0.023220872,1.274678483
+2016,November,Ireland,1,365.91,559.41,365.91,486,0.752901235,471,14568,486,11,11/1/2016,0,0,0.025117381,0.752901235
+2016,November,Italy,6,14062.11,21140.52,2343.685,1347,1.43862828,12,606312,6735,11,11/1/2016,0,0,0.023192861,2.087915367
+2016,November,Japan,27,54486.81,77371.58,2018.03,1969.888889,2.035733793,6,3946560,53187,11,11/1/2016,0,0,0.013806153,1.024438491
+2016,November,Netherlands,3,2117.52,2900.27,705.84,690.6666667,1.016074276,98,79848,2072,11,11/1/2016,0,0,0.026519387,1.021969112
+2016,November,Norway,1,396.7,458.6,396.7,537,0.738733706,442,22048,537,11,11/1/2016,0,0,0.017992562,0.738733706
+2016,November,Poland,7,6162.21,8157.37,880.3157143,555.5714286,1.569161467,60,208284,3889,11,11/1/2016,0,0,0.029585614,1.584523014
+2016,November,Russia,5,4411.81,6515.93,882.362,1063.8,1.285722241,53,181070,5319,11,11/1/2016,0,0,0.024365218,0.829443504
+2016,November,Saudi Arabia,5,9577.66,12798.14,1915.532,1072,1.788234213,15,376336,5360,11,11/1/2016,0,0,0.025449758,1.786876866
+2016,November,Singapore,1,1010,1285.94,1010,1159,0.871440897,116,30912,1159,11,11/1/2016,0,0,0.032673395,0.871440897
+2016,November,South Korea,4,5679.72,7597.86,1419.93,1015.666667,1.601721631,47,169696,3047,11,11/1/2016,0,0,0.03346997,1.864036757
+2016,November,Spain,1,925.06,1017.04,925.06,1016,0.910492126,130,48896,1016,11,11/1/2016,0,0,0.01891893,0.910492126
+2016,November,Sweden,4,3378.15,4291.62,844.5375,652.5,1.281008251,73,123992,1305,11,11/1/2016,0,0,0.027244903,2.58862069
+2016,November,Switzerland,4,12273.08,18811.65,3068.27,575.75,3.72965691,8,328608,2303,11,11/1/2016,0,0,0.037348695,5.329170647
+2016,November,United Kingdom,13,27602.59,31682.36,2123.276154,1387.333333,1.712197221,11,1148968,12486,11,11/1/2016,0,0,0.024023811,2.210683165
+2016,November,United States,170,227683.52,326793.41,1339.314824,1825.129496,1.213461399,3,11647520,253693,11,11/1/2016,0,0,0.019547811,0.897476556
+2018,November,Australia,5,6669.19,10232.96,1333.838,698,1.57243553,130,257336,698,11,11/1/2018,0,0,0.025916273,9.554713467
+2018,November,Brazil,1,1123.15,1413.12,1123.15,Unknown,Unknown,332,38400,0,11,11/1/2018,1,1,0.029248698,Unknown
+2018,November,Canada,9,14027.78,22258.59,1558.642222,497.5,4.379940541,59,436640,1990,11,11/1/2018,0,0,0.032126649,7.049135678
+2018,November,China,227,438228.32,806368.23,1930.521233,1432.858974,2.572965835,3,26632672,111763,11,11/1/2018,0,0,0.016454538,3.921050079
+2018,November,Czechia,1,1457.73,2011.64,1457.73,4806,0.303314607,214,76896,4806,11,11/1/2018,0,0,0.018957163,0.303314607
+2018,November,Finland,1,1250,1689.29,1250,680,1.838235294,267,40608,680,11,11/1/2018,0,0,0.030782112,1.838235294
+2018,November,France,18,43580.35,66598.84,2421.130556,1263.555556,2.857382895,16,1792656,22744,11,11/1/2018,0,0,0.024310492,1.916125132
+2018,November,Germany,17,60502.63,86333.95,3558.978235,1262.133333,2.383376321,8,1575350,18932,11,11/1/2018,0,0,0.038405834,3.195786499
+2018,November,India,4,8359,9472.17,2089.75,972,2.318728897,45,272328,2916,11,11/1/2018,0,0,0.030694604,2.86659808
+2018,November,Ireland,12,19789.32,25436.16,1649.11,Unknown,Unknown,172,691200,0,11,11/1/2018,1,1,0.028630382,Unknown
+2018,November,Italy,6,31110.65,49243.75,5185.108333,1302.666667,4.371613945,15,814864,3908,11,11/1/2018,0,0,0.038178948,7.96075998
+2018,November,Japan,31,109436.25,170880.06,3530.201613,2235.958333,4.620290321,7,5710372,53663,11,11/1/2018,0,0,0.019164469,2.039324115
+2018,November,Netherlands,6,9334.06,11925.5,1555.676667,706,1.541798867,167,326880,706,11,11/1/2018,0,0,0.028555005,13.22104816
+2018,November,Norway,1,953.57,1081.65,953.57,Unknown,Unknown,454,32192,0,11,11/1/2018,1,1,0.029621334,Unknown
+2018,November,Poland,4,4604.36,6216.16,1151.09,701.75,1.658757169,131,153128,2807,11,11/1/2018,0,0,0.030068701,1.640313502
+2018,November,Russia,3,4580.25,7940.01,1526.75,2800,0.322107143,79,178180,2800,11,11/1/2018,0,0,0.025705747,1.635803571
+2018,November,Saudi Arabia,3,10109.13,13858.21,3369.71,1525.333333,2.585817459,32,325940,4576,11,11/1/2018,0,0,0.03101531,2.209163024
+2018,November,Singapore,3,4308.22,5525.3,1436.073333,1159,0.871440897,176,146112,1159,11,11/1/2018,0,0,0.029485737,3.71718723
+2018,November,South Korea,6,21938,35760.56,3656.333333,1359,1.762825607,13,804740,2718,11,11/1/2018,0,0,0.027260979,8.071376012
+2018,November,Spain,2,7488.8,11781.64,3744.4,859,7.901080141,25,172656,1718,11,11/1/2018,0,0,0.043374108,4.359022119
+2018,November,Sweden,4,4653.05,6565.11,1163.2625,643.5,2.121610064,111,139408,1287,11,11/1/2018,0,0,0.033377209,3.615423465
+2018,November,Switzerland,2,23126.75,29347.31,11563.375,1558,5.748194933,5,453140,3116,11,11/1/2018,0,0,0.051036655,7.421935173
+2018,November,Taiwan,2,10325.15,17297.19,5162.575,565,7.634805576,20,197552,1130,11,11/1/2018,0,0,0.052265479,9.137300885
+2018,November,United Kingdom,20,41729.3,52509.53,2086.465,1175.666667,2.946592874,23,1625892,14108,11,11/1/2018,0,0,0.025665481,2.957846612
+2018,November,United States,109,533209.19,757357.11,4891.827431,2823.555556,2.661095523,1,16101360,152472,11,11/1/2018,0,0,0.033115786,3.497095795
+2019,June,Australia,5,6.67,10.23,1.334,698,0.001575931,173,257336,698,6,6/1/2019,0,0,2.59E-05,0.009555874
+2019,June,Austria,1,2.73,3.76,2.73,Unknown,Unknown,82,37920,0,6,6/1/2019,1,1,7.20E-05,Unknown
+2019,June,Brazil,3,4.08,7.12,1.36,287,0.00641115,142,125184,287,6,6/1/2019,0,0,3.26E-05,0.014216028
+2019,June,Canada,8,14.5,27.68,1.8125,446,0.005406053,69,447488,2230,6,6/1/2019,0,0,3.24E-05,0.006502242
+2019,June,China,220,466.87,887.77,2.122136364,1358.907895,0.00273324,3,26935688,103277,6,6/1/2019,0,0,1.73E-05,0.004520561
+2019,June,Czechia,1,1.46,2.01,1.46,4806,0.000303787,282,76896,4806,6,6/1/2019,0,0,1.90E-05,0.000303787
+2019,June,Denmark,1,1.07,2.11,1.07,Unknown,Unknown,470,31360,0,6,6/1/2019,1,1,3.41E-05,Unknown
+2019,June,Finland,2,2.96,4.38,1.48,632.5,0.002380656,166,80608,1265,6,6/1/2019,0,0,3.67E-05,0.002339921
+2019,June,France,20,68.2,102.55,3.41,1381.058824,0.003398329,11,2212232,23478,6,6/1/2019,0,0,3.08E-05,0.002904847
+2019,June,Germany,13,57.85,83.71,4.45,1494.090909,0.002584361,9,1442678,16435,6,6/1/2019,0,0,4.01E-05,0.003519927
+2019,June,India,3,7.45,8.23,2.483333333,1154,0.002735055,53,241224,2308,6,6/1/2019,0,0,3.09E-05,0.003227903
+2019,June,Ireland,13,21.45,27.56,1.65,Unknown,Unknown,226,748800,0,6,6/1/2019,1,1,2.86E-05,Unknown
+2019,June,Italy,5,30.09,47.85,6.018,1302.666667,0.004371205,17,794032,3908,6,6/1/2019,0,0,3.79E-05,0.007699591
+2019,June,Japan,28,116.19,180.99,4.149642857,1860.388889,0.00397598,8,3355148,33487,6,6/1/2019,0,0,3.46E-05,0.003469705
+2019,June,Netherlands,13,20.89,26.77,1.606923077,706,0.001543909,221,730080,706,6,6/1/2019,0,0,2.86E-05,0.029589235
+2019,June,Poland,1,1.67,2.35,1.67,808,0.002066832,174,55728,808,6,6/1/2019,0,0,3.00E-05,0.002066832
+2019,June,Russia,2,3.68,6.24,1.84,Unknown,Unknown,93,99520,0,6,6/1/2019,1,1,3.70E-05,Unknown
+2019,June,Saudi Arabia,3,10.11,13.86,3.37,1525.333333,0.002584917,36,325940,4576,6,6/1/2019,0,0,3.10E-05,0.002209353
+2019,June,Singapore,5,7.72,9.89,1.544,Unknown,Unknown,230,268800,0,6,6/1/2019,1,1,2.87E-05,Unknown
+2019,June,South Korea,5,20.97,34.33,4.194,1359,0.001766004,15,786020,2718,6,6/1/2019,0,0,2.67E-05,0.007715232
+2019,June,Spain,2,7.62,11.7,3.81,856.5,0.009080996,29,171576,1713,6,6/1/2019,0,0,4.44E-05,0.004448336
+2019,June,Sweden,2,4.77,6.78,2.385,842,0.002137767,74,131968,842,6,6/1/2019,0,0,3.61E-05,0.005665083
+2019,June,Switzerland,4,25.37,32.16,6.3425,1558,0.005750415,6,529940,3116,6,6/1/2019,0,0,4.79E-05,0.008141849
+2019,June,Taiwan,2,10.33,17.3,5.165,565,0.00764211,23,197552,1130,6,6/1/2019,0,0,5.23E-05,0.009141593
+2019,June,United Kingdom,18,39.91,49.18,2.217222222,1204.818182,0.003108124,27,1518312,13253,6,6/1/2019,0,0,2.63E-05,0.003011394
+2019,June,United States,116,600.03,851.03,5.172672414,3161.021739,0.002810635,1,17337080,145407,6,6/1/2019,0,0,3.46E-05,0.004126555
+2019,November,Australia,3,7.74,13.35,2.58,Unknown,Unknown,47,217400,0,11,11/1/2019,1,1,3.56E-05,Unknown
+2019,November,Austria,1,2.73,3.76,2.73,Unknown,Unknown,93,37920,0,11,11/1/2019,1,1,7.20E-05,Unknown
+2019,November,Brazil,3,5.29,9.35,1.763333333,287,0.00641115,193,110008,287,11,11/1/2019,0,0,4.81E-05,0.018432056
+2019,November,Canada,9,16.15,29.8,1.794444444,446,0.005406053,76,505088,2230,11,11/1/2019,0,0,3.20E-05,0.007242152
+2019,November,China,228,531.8,1134.3,2.33245614,1150.024096,0.003519964,3,30463860,95452,11,11/1/2019,0,0,1.75E-05,0.005571387
+2019,November,Czechia,1,1.46,2.01,1.46,4806,0.000303787,375,76896,4806,11,11/1/2019,0,0,1.90E-05,0.000303787
+2019,November,Finland,1,1.71,2.69,1.71,585,0.002923077,232,40000,585,11,11/1/2019,0,0,4.28E-05,0.002923077
+2019,November,France,18,68.9,105.68,3.827777778,1205.125,0.003611347,11,2122784,19282,11,11/1/2019,0,0,3.25E-05,0.003573281
+2019,November,Germany,16,66.89,98.38,4.180625,1400.384615,0.002797654,9,1732022,18205,11,11/1/2019,0,0,3.86E-05,0.003674265
+2019,November,India,2,6.33,6.82,3.165,1154,0.002735055,57,202824,2308,11,11/1/2019,0,0,3.12E-05,0.002742634
+2019,November,Ireland,14,23.1,29.68,1.65,Unknown,Unknown,303,806400,0,11,11/1/2019,1,1,2.86E-05,Unknown
+2019,November,Italy,5,30.09,47.85,6.018,1302.666667,0.004371205,16,794032,3908,11,11/1/2019,0,0,3.79E-05,0.007699591
+2019,November,Japan,29,109.51,174.57,3.776206897,1106.578947,0.005470349,8,3977228,21025,11,11/1/2019,0,0,2.75E-05,0.005208561
+2019,November,Netherlands,15,24.75,31.8,1.65,Unknown,Unknown,298,864000,0,11,11/1/2019,1,1,2.86E-05,Unknown
+2019,November,Norway,2,3.3,4.24,1.65,Unknown,Unknown,333,115200,0,11,11/1/2019,1,1,2.86E-05,Unknown
+2019,November,Poland,1,1.67,2.35,1.67,808,0.002066832,241,55728,808,11,11/1/2019,0,0,3.00E-05,0.002066832
+2019,November,Russia,3,10.35,15.03,3.45,Unknown,Unknown,29,199120,0,11,11/1/2019,1,1,5.20E-05,Unknown
+2019,November,Saudi Arabia,3,10.11,13.86,3.37,1525.333333,0.002584917,38,325940,4576,11,11/1/2019,0,0,3.10E-05,0.002209353
+2019,November,Singapore,4,6.6,8.48,1.65,Unknown,Unknown,307,230400,0,11,11/1/2019,1,1,2.86E-05,Unknown
+2019,November,South Korea,3,18.73,31.51,6.243333333,1359,0.001766004,14,709220,2718,11,11/1/2019,0,0,2.64E-05,0.006891096
+2019,November,Spain,2,7.62,11.7,3.81,856.5,0.009080996,30,171576,1713,11,11/1/2019,0,0,4.44E-05,0.004448336
+2019,November,Sweden,2,4.77,6.78,2.385,842,0.002137767,82,131968,842,11,11/1/2019,0,0,3.61E-05,0.005665083
+2019,November,Switzerland,2,23.13,29.34,11.565,1558,0.005750415,6,453140,3116,11,11/1/2019,0,0,5.10E-05,0.007422978
+2019,November,Taiwan,2,10.33,17.3,5.165,565,0.00764211,21,197552,1130,11,11/1/2019,0,0,5.23E-05,0.009141593
+2019,November,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,26,142368,673,11,11/1/2019,0,0,6.34E-05,0.013402675
+2019,November,United Kingdom,11,32.12,39.46,2.92,1276,0.003201897,27,1189608,12760,11,11/1/2019,0,0,2.70E-05,0.002517241
+2019,November,United States,117,611.09,862,5.222991453,2965,0.003304172,1,17224104,136390,11,11/1/2019,0,0,3.55E-05,0.00448046
+2020,June,Australia,2,10.91,17.26,5.455,Unknown,Unknown,24,261632,0,6,6/1/2020,1,1,4.17E-05,Unknown
+2020,June,Austria,1,2.73,3.76,2.73,Unknown,Unknown,105,37920,0,6,6/1/2020,1,1,7.20E-05,Unknown
+2020,June,Brazil,4,10.99,19.27,2.7475,468.5,0.008054938,56,214040,937,6,6/1/2020,0,0,5.13E-05,0.011728922
+2020,June,Canada,13,27.94,50.35,2.149230769,510.7142857,0.005796081,70,767296,3575,6,6/1/2020,0,0,3.64E-05,0.007815385
+2020,June,China,226,565.54,1186.98,2.502389381,1167.779221,0.003551599,4,31277940,89919,6,6/1/2020,0,0,1.81E-05,0.006289438
+2020,June,Czechia,1,1.46,2.01,1.46,4806,0.000303787,423,76896,4806,6,6/1/2020,0,0,1.90E-05,0.000303787
+2020,June,Finland,2,7.1,9.75,3.55,827.5,0.00398023,47,209728,1655,6,6/1/2020,0,0,3.39E-05,0.00429003
+2020,June,France,19,79.88,121.58,4.204210526,1319.125,0.003752643,15,2428600,21106,6,6/1/2020,0,0,3.29E-05,0.003784706
+2020,June,Germany,16,68.71,101.12,4.294375,1408.538462,0.002989001,13,1749814,18311,6,6/1/2020,0,0,3.93E-05,0.003752389
+2020,June,India,2,6.33,6.82,3.165,1154,0.002735055,66,202824,2308,6,6/1/2020,0,0,3.12E-05,0.002742634
+2020,June,Ireland,14,23.1,29.68,1.65,Unknown,Unknown,350,806400,0,6,6/1/2020,1,1,2.86E-05,Unknown
+2020,June,Italy,7,87.18,128.92,12.45428571,1527.2,0.008703285,6,1811568,7636,6,6/1/2020,0,0,4.81E-05,0.011416972
+2020,June,Japan,29,527.61,691.56,18.19344828,2529,0.007558539,1,11153228,45522,6,6/1/2020,0,0,4.73E-05,0.01159022
+2020,June,Netherlands,15,24.75,31.8,1.65,Unknown,Unknown,345,864000,0,6,6/1/2020,1,1,2.86E-05,Unknown
+2020,June,Norway,3,7.72,10.43,2.573333333,Unknown,Unknown,55,287232,0,6,6/1/2020,1,1,2.69E-05,Unknown
+2020,June,Poland,1,1.67,2.35,1.67,808,0.002066832,288,55728,808,6,6/1/2020,0,0,3.00E-05,0.002066832
+2020,June,Russia,2,9.15,13.74,4.575,Unknown,Unknown,35,163984,0,6,6/1/2020,1,1,5.58E-05,Unknown
+2020,June,Saudi Arabia,3,10.11,13.86,3.37,1525.333333,0.002584917,45,325940,4576,6,6/1/2020,0,0,3.10E-05,0.002209353
+2020,June,Singapore,4,6.6,8.48,1.65,Unknown,Unknown,354,230400,0,6,6/1/2020,1,1,2.86E-05,Unknown
+2020,June,South Korea,3,18.73,31.51,6.243333333,1359,0.001766004,17,709220,2718,6,6/1/2020,0,0,2.64E-05,0.006891096
+2020,June,Spain,1,6.47,10.3,6.47,1632,0.003964461,37,153216,1632,6,6/1/2020,0,0,4.22E-05,0.003964461
+2020,June,Sweden,2,4.77,6.78,2.385,842,0.002137767,95,131968,842,6,6/1/2020,0,0,3.61E-05,0.005665083
+2020,June,Switzerland,2,23.13,29.34,11.565,1558,0.005750415,10,453140,3116,6,6/1/2020,0,0,5.10E-05,0.007422978
+2020,June,Taiwan,2,10.33,17.3,5.165,565,0.00764211,25,197552,1130,6,6/1/2020,0,0,5.23E-05,0.009141593
+2020,June,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,31,142368,673,6,6/1/2020,0,0,6.34E-05,0.013402675
+2020,June,United Kingdom,10,30.93,37.71,3.093,1405.111111,0.00239782,32,1168368,12646,6,6/1/2020,0,0,2.65E-05,0.002445833
+2020,June,United States,113,621.69,884.35,5.501681416,2945.926829,0.003997447,2,15221208,120783,6,6/1/2020,0,0,4.08E-05,0.005147165
+2020,November,Australia,2,10.91,17.26,5.455,Unknown,Unknown,27,261632,0,11,11/1/2020,1,1,4.17E-05,Unknown
+2020,November,Austria,1,2.73,3.76,2.73,Unknown,Unknown,124,37920,0,11,11/1/2020,1,1,7.20E-05,Unknown
+2020,November,Brazil,4,10.99,19.27,2.7475,468.5,0.008054938,65,214040,937,11,11/1/2020,0,0,5.13E-05,0.011728922
+2020,November,Canada,12,26.71,47.71,2.225833333,504.8333333,0.006386637,82,716096,3029,11,11/1/2020,0,0,3.73E-05,0.008818092
+2020,November,China,214,566.61,1231.74,2.64771028,1296.355932,0.00380405,4,30704256,76485,11,11/1/2020,0,0,1.85E-05,0.007408119
+2020,November,Czechia,1,1.46,2.01,1.46,4806,0.000303787,460,76896,4806,11,11/1/2020,0,0,1.90E-05,0.000303787
+2020,November,Finland,2,7.1,9.75,3.55,827.5,0.00398023,54,209728,1655,11,11/1/2020,0,0,3.39E-05,0.00429003
+2020,November,France,18,89.83,135.5,4.990555556,1439.125,0.005028991,18,2669472,23026,11,11/1/2020,0,0,3.37E-05,0.003901242
+2020,November,Germany,17,131.05,197.67,7.708823529,1309,0.005312345,7,2664446,17017,11,11/1/2020,0,0,4.92E-05,0.007701122
+2020,November,India,3,10.95,12.09,3.65,1154,0.002735055,62,244488,2308,11,11/1/2020,0,0,4.48E-05,0.004744367
+2020,November,Ireland,14,23.1,29.68,1.65,Unknown,Unknown,386,806400,0,11,11/1/2020,1,1,2.86E-05,Unknown
+2020,November,Italy,6,78.53,114.51,13.08833333,1568.75,0.010563162,8,1447536,6275,11,11/1/2020,0,0,5.43E-05,0.012514741
+2020,November,Japan,34,593.7,766.2,17.46176471,2696.888889,0.007186568,1,10947524,48544,11,11/1/2020,0,0,5.42E-05,0.012230142
+2020,November,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,98,71232,0,11,11/1/2020,1,1,4.44E-05,Unknown
+2020,November,Netherlands,15,24.75,31.8,1.65,Unknown,Unknown,381,864000,0,11,11/1/2020,1,1,2.86E-05,Unknown
+2020,November,Norway,3,8.02,10.43,2.673333333,Unknown,Unknown,61,287232,0,11,11/1/2020,1,1,2.79E-05,Unknown
+2020,November,Poland,2,5.2,8.23,2.6,818.5,0.003162487,85,119088,1637,11,11/1/2020,0,0,4.37E-05,0.003176542
+2020,November,Russia,2,9.15,13.74,4.575,Unknown,Unknown,40,163984,0,11,11/1/2020,1,1,5.58E-05,Unknown
+2020,November,Saudi Arabia,5,36,76.12,7.2,1525.333333,0.002584917,10,1084020,4576,11,11/1/2020,0,0,3.32E-05,0.007867133
+2020,November,Singapore,4,6.6,8.48,1.65,Unknown,Unknown,390,230400,0,11,11/1/2020,1,1,2.86E-05,Unknown
+2020,November,South Korea,3,18.73,31.51,6.243333333,1359,0.001766004,21,709220,2718,11,11/1/2020,0,0,2.64E-05,0.006891096
+2020,November,Spain,1,6.47,10.3,6.47,1632,0.003964461,42,153216,1632,11,11/1/2020,0,0,4.22E-05,0.003964461
+2020,November,Sweden,2,4.77,6.78,2.385,842,0.002137767,111,131968,842,11,11/1/2020,0,0,3.61E-05,0.005665083
+2020,November,Switzerland,3,26.22,33.95,8.74,1251.333333,0.00544803,12,581140,3754,11,11/1/2020,0,0,4.51E-05,0.00698455
+2020,November,Taiwan,3,12.63,21.65,4.21,564.6666667,0.006454078,28,247952,1694,11,11/1/2020,0,0,5.09E-05,0.007455726
+2020,November,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,36,142368,673,11,11/1/2020,0,0,6.34E-05,0.013402675
+2020,November,United Kingdom,12,34.04,44.29,2.836666667,1275.9,0.003458923,37,1248840,12759,11,11/1/2020,0,0,2.73E-05,0.002667921
+2020,November,United States,113,668.74,942.37,5.918053097,2803.95,0.005066513,2,15373432,112158,11,11/1/2020,0,0,4.35E-05,0.005962481
+2021,June,Australia,2,10.91,17.26,5.455,Unknown,Unknown,44,261632,0,6,6/1/2021,1,1,4.17E-05,Unknown
+2021,June,Austria,1,2.73,3.76,2.73,Unknown,Unknown,162,37920,0,6,6/1/2021,1,1,7.20E-05,Unknown
+2021,June,Brazil,6,23.63,37.41,3.938333333,626.6666667,0.008544225,46,427064,1880,6,6/1/2021,0,0,5.53E-05,0.012569149
+2021,June,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,91,144384,0,6,6/1/2021,1,1,3.13E-05,Unknown
+2021,June,Canada,11,25.37,44.85,2.306363636,572.4,0.006059174,113,680384,2862,6,6/1/2021,0,0,3.73E-05,0.00886443
+2021,June,China,188,541.31,1181.79,2.879308511,1527.533333,0.003681563,4,29872220,68739,6,6/1/2021,0,0,1.81E-05,0.00787486
+2021,June,Czechia,2,8.89,12.48,4.445,400,0.013008247,69,157120,800,6,6/1/2021,0,0,5.66E-05,0.0111125
+2021,June,Finland,2,7.1,9.75,3.55,827.5,0.00398023,80,209728,1655,6,6/1/2021,0,0,3.39E-05,0.00429003
+2021,June,France,16,87.79,133.53,5.486875,1557.583333,0.006008708,21,2562840,18691,6,6/1/2021,0,0,3.43E-05,0.004696913
+2021,June,Germany,23,168.8,261.16,7.339130435,997,0.009297267,8,3030636,16949,6,6/1/2021,0,0,5.57E-05,0.00995929
+2021,June,India,3,10.95,12.09,3.65,1154,0.002735055,89,244488,2308,6,6/1/2021,0,0,4.48E-05,0.004744367
+2021,June,Ireland,14,23.1,29.68,1.65,Unknown,Unknown,434,806400,0,6,6/1/2021,1,1,2.86E-05,Unknown
+2021,June,Italy,6,78.53,114.51,13.08833333,1568.75,0.010563162,9,1447536,6275,6,6/1/2021,0,0,5.43E-05,0.012514741
+2021,June,Japan,34,631.03,832.42,18.55970588,2512.315789,0.009507273,1,11373708,47734,6,6/1/2021,0,0,5.55E-05,0.013219718
+2021,June,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,36,172544,767,6,6/1/2021,0,0,7.42E-05,0.016701434
+2021,June,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,130,71232,0,6,6/1/2021,1,1,4.44E-05,Unknown
+2021,June,Netherlands,16,41.34,56.36,2.58375,Unknown,Unknown,28,1021440,0,6,6/1/2021,1,1,4.05E-05,Unknown
+2021,June,Norway,3,8.02,10.43,2.673333333,Unknown,Unknown,88,287232,0,6,6/1/2021,1,1,2.79E-05,Unknown
+2021,June,Poland,4,9.27,14.56,2.3175,607.75,0.00419127,116,187344,2431,6,6/1/2021,0,0,4.95E-05,0.003813246
+2021,June,Russia,3,11.41,16.75,3.803333333,Unknown,Unknown,61,183824,0,6,6/1/2021,1,1,6.21E-05,Unknown
+2021,June,Saudi Arabia,6,55.26,98.98,9.21,1525.333333,0.002584917,11,1798260,4576,6,6/1/2021,0,0,3.07E-05,0.012076049
+2021,June,Singapore,4,6.6,8.48,1.65,Unknown,Unknown,438,230400,0,6,6/1/2021,1,1,2.86E-05,Unknown
+2021,June,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,106,156480,0,6,6/1/2021,1,1,4.42E-05,Unknown
+2021,June,South Korea,5,52.23,82.51,10.446,8386.5,0.001426339,23,1322084,33546,6,6/1/2021,0,0,3.95E-05,0.001556967
+2021,June,Spain,1,6.47,10.3,6.47,1632,0.003964461,63,153216,1632,6,6/1/2021,0,0,4.22E-05,0.003964461
+2021,June,Sweden,3,10.02,16.42,3.34,842,0.002137767,82,191488,842,6,6/1/2021,0,0,5.23E-05,0.011900238
+2021,June,Switzerland,3,26.22,33.95,8.74,1251.333333,0.00544803,15,581140,3754,6,6/1/2021,0,0,4.51E-05,0.00698455
+2021,June,Taiwan,2,11.3,19.56,5.65,681,0.007678105,45,220752,1362,6,6/1/2021,0,0,5.12E-05,0.008296623
+2021,June,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,57,142368,673,6,6/1/2021,0,0,6.34E-05,0.013402675
+2021,June,United Kingdom,11,35.26,45.32,3.205454545,1348.444444,0.005270114,58,1119728,12136,6,6/1/2021,0,0,3.15E-05,0.002905405
+2021,June,United States,122,854.46,1246.23,7.003770492,2859.8,0.006032977,2,17772560,114392,6,6/1/2021,0,0,4.81E-05,0.007469578
+2021,November,Australia,3,13.03,19.83,4.343333333,Unknown,Unknown,53,327168,0,11,11/1/2021,1,1,3.98E-05,Unknown
+2021,November,Austria,1,2.73,3.76,2.73,Unknown,Unknown,199,37920,0,11,11/1/2021,1,1,7.20E-05,Unknown
+2021,November,Brazil,5,22.03,35.09,4.406,626.6666667,0.008544225,55,399296,1880,11,11/1/2021,0,0,5.52E-05,0.011718085
+2021,November,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,104,144384,0,11,11/1/2021,1,1,3.13E-05,Unknown
+2021,November,Canada,11,29.63,53.3,2.693636364,514.4,0.009304526,83,701408,2572,11,11/1/2021,0,0,4.22E-05,0.011520218
+2021,November,China,173,530.04,1158.75,3.063815029,1573.785714,0.003801907,4,29413676,66099,11,11/1/2021,0,0,1.80E-05,0.008018881
+2021,November,Czechia,2,9.59,12.91,4.795,407,0.013675152,71,163584,814,11,11/1/2021,0,0,5.86E-05,0.011781327
+2021,November,Finland,3,13.4,17.38,4.466666667,957,0.00438046,76,404288,2871,11,11/1/2021,0,0,3.31E-05,0.004667363
+2021,November,France,19,117.03,173.37,6.159473684,1819.230769,0.005906994,14,3510552,23650,11,11/1/2021,0,0,3.33E-05,0.004948414
+2021,November,Germany,26,181.43,281.29,6.978076923,997,0.009297267,8,3562604,16949,11,11/1/2021,0,0,5.09E-05,0.010704466
+2021,November,India,3,10.95,12.09,3.65,1154,0.002735055,102,244488,2308,11,11/1/2021,0,0,4.48E-05,0.004744367
+2021,November,Ireland,1,1.97,3.87,1.97,Unknown,Unknown,362,44800,0,11,11/1/2021,1,1,4.40E-05,Unknown
+2021,November,Italy,6,78.53,114.51,13.08833333,1568.75,0.010563162,9,1447536,6275,11,11/1/2021,0,0,5.43E-05,0.012514741
+2021,November,Japan,32,628.24,827.92,19.6325,2387.5,0.013340106,1,12077388,47750,11,11/1/2021,0,0,5.20E-05,0.013156859
+2021,November,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,45,172544,767,11,11/1/2021,0,0,7.42E-05,0.016701434
+2021,November,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,147,71232,0,11,11/1/2021,1,1,4.44E-05,Unknown
+2021,November,Netherlands,11,35.87,55.16,3.260909091,283.5,0.01655754,34,686928,567,11,11/1/2021,0,0,5.22E-05,0.063262787
+2021,November,Norway,1,4.72,6.19,4.72,Unknown,Unknown,101,172032,0,11,11/1/2021,1,1,2.74E-05,Unknown
+2021,November,Poland,4,9.27,14.56,2.3175,607.75,0.00419127,131,187344,2431,11,11/1/2021,0,0,4.95E-05,0.003813246
+2021,November,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,19,741328,0,11,11/1/2021,1,1,9.94E-05,Unknown
+2021,November,Saudi Arabia,6,55.26,98.98,9.21,1525.333333,0.002584917,15,1798260,4576,11,11/1/2021,0,0,3.07E-05,0.012076049
+2021,November,Singapore,1,3.13,6.19,3.13,Unknown,Unknown,152,92160,0,11,11/1/2021,1,1,3.40E-05,Unknown
+2021,November,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,120,156480,0,11,11/1/2021,1,1,4.42E-05,Unknown
+2021,November,South Korea,7,82.18,116.86,11.74,1882.6,0.007298635,11,1542948,9413,11,11/1/2021,0,0,5.33E-05,0.008730479
+2021,November,Spain,1,6.47,10.3,6.47,1632,0.003964461,74,153216,1632,11,11/1/2021,0,0,4.22E-05,0.003964461
+2021,November,Sweden,4,12.3,18.93,3.075,842,0.002137767,94,261120,842,11,11/1/2021,0,0,4.71E-05,0.014608076
+2021,November,Switzerland,3,26.22,33.95,8.74,1251.333333,0.00544803,20,581140,3754,11,11/1/2021,0,0,4.51E-05,0.00698455
+2021,November,Taiwan,2,11.3,19.56,5.65,681,0.007678105,54,220752,1362,11,11/1/2021,0,0,5.12E-05,0.008296623
+2021,November,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,66,142368,673,11,11/1/2021,0,0,6.34E-05,0.013402675
+2021,November,United Kingdom,11,54.92,74.5,4.992727273,1000.111111,0.007920902,22,1718448,9001,11,11/1/2021,0,0,3.20E-05,0.006101544
+2021,November,United States,149,986.47,1466.45,6.620604027,3079.114286,0.007239898,2,20082824,107769,11,11/1/2021,0,0,4.91E-05,0.00915356
+2022,June,Australia,5,17.19,27.3,3.438,69,0.03,57,408768,69,6,6/1/2022,0,0,4.21E-05,0.249130435
+2022,June,Austria,2,5.04,6.81,2.52,516,0.004476744,218,133152,516,6,6/1/2022,0,0,3.79E-05,0.009767442
+2022,June,Brazil,6,24.12,39.22,4.02,626.6666667,0.008544225,60,460736,1880,6,6/1/2022,0,0,5.24E-05,0.012829787
+2022,June,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,113,144384,0,6,6/1/2022,1,1,3.13E-05,Unknown
+2022,June,Canada,14,47.81,80.4,3.415,737.4285714,0.008358169,69,1076384,5162,6,6/1/2022,0,0,4.44E-05,0.009261914
+2022,June,China,173,530.21,1158.75,3.064797688,1573.785714,0.003801907,6,29413676,66099,6,6/1/2022,0,0,1.80E-05,0.008021453
+2022,June,Czechia,2,9.59,12.91,4.795,407,0.013675152,79,163584,814,6,6/1/2022,0,0,5.86E-05,0.011781327
+2022,June,Finland,4,165.3,231.73,41.325,1453.25,0.016193231,3,1514432,5813,6,6/1/2022,0,0,0.00010915,0.028436264
+2022,June,France,22,168.65,242.5,7.665909091,1643.8,0.011169526,10,3874520,24657,6,6/1/2022,0,0,4.35E-05,0.006839843
+2022,June,Germany,31,200.54,306.03,6.469032258,894.1904762,0.009255852,11,3896660,18778,6,6/1/2022,0,0,5.15E-05,0.010679519
+2022,June,Hungary,1,2.66,3.15,2.66,Unknown,Unknown,226,24800,0,6,6/1/2022,1,1,0.000107258,Unknown
+2022,June,India,3,10.95,12.09,3.65,1154,0.002735055,111,244488,2308,6,6/1/2022,0,0,4.48E-05,0.004744367
+2022,June,Ireland,3,6.67,13.15,2.223333333,Unknown,Unknown,283,183040,0,6,6/1/2022,1,1,3.64E-05,Unknown
+2022,June,Italy,6,78.53,114.51,13.08833333,1568.75,0.010563162,12,1447536,6275,6,6/1/2022,0,0,5.43E-05,0.012514741
+2022,June,Japan,33,626.51,817.35,18.98515152,2373.473684,0.010992677,2,11984068,45096,6,6/1/2022,0,0,5.23E-05,0.013892806
+2022,June,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,48,172544,767,6,6/1/2022,0,0,7.42E-05,0.016701434
+2022,June,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,162,71232,0,6,6/1/2022,1,1,4.44E-05,Unknown
+2022,June,Netherlands,6,27.62,44.56,4.603333333,283.5,0.01655754,38,398928,567,6,6/1/2022,0,0,6.92E-05,0.048712522
+2022,June,Norway,2,7.07,10.83,3.535,Unknown,Unknown,110,241152,0,6,6/1/2022,1,1,2.93E-05,Unknown
+2022,June,Poland,5,14.32,22.27,2.864,515.6,0.010223765,105,234960,2578,6,6/1/2022,0,0,6.09E-05,0.005554694
+2022,June,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,22,741328,0,6,6/1/2022,1,1,9.94E-05,Unknown
+2022,June,Saudi Arabia,6,55.26,98.98,9.21,1525.333333,0.002584917,18,1798260,4576,6,6/1/2022,0,0,3.07E-05,0.012076049
+2022,June,Singapore,3,8.57,14.42,2.856666667,Unknown,Unknown,167,222208,0,6,6/1/2022,1,1,3.86E-05,Unknown
+2022,June,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,131,156480,0,6,6/1/2022,1,1,4.42E-05,Unknown
+2022,June,South Korea,6,83.67,118.25,13.945,2231.666667,0.010987055,15,1460292,6695,6,6/1/2022,0,0,5.73E-05,0.012497386
+2022,June,Spain,1,6.47,10.3,6.47,1632,0.003964461,82,153216,1632,6,6/1/2022,0,0,4.22E-05,0.003964461
+2022,June,Sweden,5,14.24,22.53,2.848,842,0.002137767,102,302784,842,6,6/1/2022,0,0,4.70E-05,0.016912114
+2022,June,Switzerland,4,28.57,38.59,7.1425,1251.333333,0.00544803,23,650260,3754,6,6/1/2022,0,0,4.39E-05,0.007610549
+2022,June,Taiwan,2,11.3,19.56,5.65,681,0.007678105,59,220752,1362,6,6/1/2022,0,0,5.12E-05,0.008296623
+2022,June,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,74,142368,673,6,6/1/2022,0,0,6.34E-05,0.013402675
+2022,June,United Kingdom,12,57.01,78.63,4.750833333,1000.111111,0.007920902,25,1779888,9001,6,6/1/2022,0,0,3.20E-05,0.006333741
+2022,June,United States,128,2085.02,3150.38,16.28921875,3436.289474,0.009805982,1,27715304,130579,6,6/1/2022,0,0,7.52E-05,0.015967499
+2022,November,Australia,5,42.76,60.18,8.552,273,0.043904384,15,532416,546,11,11/1/2022,0,0,8.03E-05,0.078315018
+2022,November,Austria,2,5.04,6.81,2.52,516,0.004476744,242,133152,516,11,11/1/2022,0,0,3.79E-05,0.009767442
+2022,November,Belgium,1,2.72,3.09,2.72,Unknown,Unknown,245,23200,0,11,11/1/2022,1,1,0.000117241,Unknown
+2022,November,Brazil,8,46.74,88.19,5.8425,728.25,0.011023368,33,775232,2913,11,11/1/2022,0,0,6.03E-05,0.016045314
+2022,November,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,123,144384,0,11,11/1/2022,1,1,3.13E-05,Unknown
+2022,November,Canada,10,41.21,71.92,4.121,737.4285714,0.008358169,76,845984,5162,11,11/1/2022,0,0,4.87E-05,0.00798334
+2022,November,China,162,514.48,1132.05,3.175802469,1647.820513,0.00380791,7,28865036,64265,11,11/1/2022,0,0,1.78E-05,0.008005602
+2022,November,Czechia,2,9.59,12.91,4.795,407,0.013675152,85,163584,814,11,11/1/2022,0,0,5.86E-05,0.011781327
+2022,November,Finland,3,320.79,443.39,106.93,2767.333333,0.020532653,3,2584576,8302,11,11/1/2022,0,0,0.000124117,0.038640087
+2022,November,France,24,174.85,251.19,7.285416667,1544.8125,0.012888097,11,4052696,24717,11,11/1/2022,0,0,4.31E-05,0.007074079
+2022,November,Germany,34,219.25,331.2,6.448529412,879.826087,0.010088301,12,4030068,20236,11,11/1/2022,0,0,5.44E-05,0.010834651
+2022,November,Hungary,1,3.09,4.67,3.09,Unknown,Unknown,199,28768,0,11,11/1/2022,1,1,0.000107411,Unknown
+2022,November,India,3,10.95,12.09,3.65,1154,0.002735055,120,244488,2308,11,11/1/2022,0,0,4.48E-05,0.004744367
+2022,November,Ireland,5,13.37,26.31,2.674,Unknown,Unknown,156,335360,0,11,11/1/2022,1,1,3.99E-05,Unknown
+2022,November,Italy,7,253.23,370.26,36.17571429,2377,0.014678693,4,2911152,11885,11,11/1/2022,0,0,8.70E-05,0.021306689
+2022,November,Japan,31,624.25,815.66,20.13709677,2498.777778,0.010661761,2,11948484,44978,11,11/1/2022,0,0,5.22E-05,0.013879008
+2022,November,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,52,172544,767,11,11/1/2022,0,0,7.42E-05,0.016701434
+2022,November,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,180,71232,0,11,11/1/2022,1,1,4.44E-05,Unknown
+2022,November,Netherlands,8,33.94,56.72,4.2425,318.5,0.012075501,40,547728,637,11,11/1/2022,0,0,6.20E-05,0.053281005
+2022,November,Norway,3,10.22,17.02,3.406666667,Unknown,Unknown,119,312832,0,11,11/1/2022,1,1,3.27E-05,Unknown
+2022,November,Poland,3,10.92,17.1,3.64,487.6666667,0.014472271,113,148800,1463,11,11/1/2022,0,0,7.34E-05,0.007464115
+2022,November,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,25,741328,0,11,11/1/2022,1,1,9.94E-05,Unknown
+2022,November,Saudi Arabia,6,55.26,98.98,9.21,1525.333333,0.002584917,21,1798260,4576,11,11/1/2022,0,0,3.07E-05,0.012076049
+2022,November,Singapore,3,9.04,15.78,3.013333333,Unknown,Unknown,167,234112,0,11,11/1/2022,1,1,3.86E-05,Unknown
+2022,November,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,140,156480,0,11,11/1/2022,1,1,4.42E-05,Unknown
+2022,November,South Korea,8,88.68,128.28,11.085,2231.666667,0.010987055,18,1551012,6695,11,11/1/2022,0,0,5.72E-05,0.013245706
+2022,November,Spain,1,6.47,10.3,6.47,1632,0.003964461,88,153216,1632,11,11/1/2022,0,0,4.22E-05,0.003964461
+2022,November,Sweden,6,22.5,32.74,3.75,494,0.029356555,68,355648,988,11,11/1/2022,0,0,6.33E-05,0.022773279
+2022,November,Switzerland,4,28.57,38.59,7.1425,1251.333333,0.00544803,26,650260,3754,11,11/1/2022,0,0,4.39E-05,0.007610549
+2022,November,Taiwan,2,11.3,19.56,5.65,681,0.007678105,64,220752,1362,11,11/1/2022,0,0,5.12E-05,0.008296623
+2022,November,Thailand,1,8.15,13.77,8.15,310,0.026290323,70,87296,310,11,11/1/2022,0,0,9.34E-05,0.026290323
+2022,November,United Arab Emirates,2,9.02,12.16,4.51,673,0.010787519,81,142368,673,11,11/1/2022,0,0,6.34E-05,0.013402675
+2022,November,United Kingdom,15,64.07,92.55,4.271333333,1000.111111,0.007920902,28,1971888,9001,11,11/1/2022,0,0,3.25E-05,0.007118098
+2022,November,United States,127,2122.76,3216.11,16.71464567,3139.512195,0.012237627,1,27858532,128720,11,11/1/2022,0,0,7.62E-05,0.016491299
+2023,June,Australia,5,42.76,60.18,8.552,273,0.043904384,17,532416,546,6,6/1/2023,0,0,8.03E-05,0.078315018
+2023,June,Austria,2,5.04,6.81,2.52,516,0.004476744,281,133152,516,6,6/1/2023,0,0,3.79E-05,0.009767442
+2023,June,Belgium,1,2.72,3.09,2.72,Unknown,Unknown,284,23200,0,6,6/1/2023,1,1,0.000117241,Unknown
+2023,June,Brazil,9,55.72,106.05,6.191111111,629,0.011614301,35,868096,3774,6,6/1/2023,0,0,6.42E-05,0.014764176
+2023,June,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,134,144384,0,6,6/1/2023,1,1,3.13E-05,Unknown
+2023,June,Canada,10,41.21,71.92,4.121,737.4285714,0.008358169,85,845984,5162,6,6/1/2023,0,0,4.87E-05,0.00798334
+2023,June,China,134,465.83,941.03,3.476343284,1991.25,0.003932341,7,25006176,55755,6,6/1/2023,0,0,1.86E-05,0.008354946
+2023,June,Czechia,2,9.59,12.91,4.795,407,0.013675152,95,163584,814,6,6/1/2023,0,0,5.86E-05,0.011781327
+2023,June,Finland,3,320.79,443.39,106.93,2767.333333,0.020532653,3,2584576,8302,6,6/1/2023,0,0,0.000124117,0.038640087
+2023,June,France,24,175.2,252.58,7.3,1578.333333,0.013627662,12,4009304,23675,6,6/1/2023,0,0,4.37E-05,0.007400211
+2023,June,Germany,36,231.83,354.76,6.439722222,772.1923077,0.014055282,13,4092324,20077,6,6/1/2023,0,0,5.66E-05,0.011547044
+2023,June,Hungary,1,3.1,4.51,3.1,110,0.028181818,229,27776,110,6,6/1/2023,0,0,0.000111607,0.028181818
+2023,June,India,4,19.45,25.26,4.8625,1154,0.002735055,75,325832,2308,6,6/1/2023,0,0,5.97E-05,0.00842721
+2023,June,Ireland,5,13.37,26.31,2.674,Unknown,Unknown,183,335360,0,6,6/1/2023,1,1,3.99E-05,Unknown
+2023,June,Italy,7,317.23,418.98,45.31857143,2735.8,0.014898395,4,3272304,13679,6,6/1/2023,0,0,9.69E-05,0.023191023
+2023,June,Japan,33,654.15,851.61,19.82272727,2316.15,0.013110943,2,12444236,46323,6,6/1/2023,0,0,5.26E-05,0.014121495
+2023,June,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,57,172544,767,6,6/1/2023,0,0,7.42E-05,0.016701434
+2023,June,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,209,71232,0,6,6/1/2023,1,1,4.44E-05,Unknown
+2023,June,Netherlands,8,34.89,58.39,4.36125,354.5,0.010893583,42,551328,709,6,6/1/2023,0,0,6.33E-05,0.049210155
+2023,June,Norway,4,13.18,21.48,3.295,Unknown,Unknown,129,366400,0,6,6/1/2023,1,1,3.60E-05,Unknown
+2023,June,Poland,3,10.92,17.1,3.64,487.6666667,0.014472271,123,148800,1463,6,6/1/2023,0,0,7.34E-05,0.007464115
+2023,June,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,27,741328,0,6,6/1/2023,1,1,9.94E-05,Unknown
+2023,June,Saudi Arabia,6,55.26,98.98,9.21,1525.333333,0.002584917,23,1798260,4576,6,6/1/2023,0,0,3.07E-05,0.012076049
+2023,June,Singapore,3,9.04,15.78,3.013333333,Unknown,Unknown,197,234112,0,6,6/1/2023,1,1,3.86E-05,Unknown
+2023,June,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,166,156480,0,6,6/1/2023,1,1,4.42E-05,Unknown
+2023,June,South Korea,8,105.18,148.29,13.1475,2231.666667,0.010987055,20,1667876,6695,6,6/1/2023,0,0,6.31E-05,0.015710232
+2023,June,Spain,1,6.47,10.3,6.47,1632,0.003964461,98,153216,1632,6,6/1/2023,0,0,4.22E-05,0.003964461
+2023,June,Sweden,6,26.71,37.65,4.451666667,146,0.056575342,77,383360,146,6,6/1/2023,0,0,6.97E-05,0.182945205
+2023,June,Switzerland,4,28.57,38.59,7.1425,1251.333333,0.00544803,28,650260,3754,6,6/1/2023,0,0,4.39E-05,0.007610549
+2023,June,Taiwan,2,11.3,19.56,5.65,681,0.007678105,72,220752,1362,6,6/1/2023,0,0,5.12E-05,0.008296623
+2023,June,Thailand,1,8.15,13.77,8.15,310,0.026290323,79,87296,310,6,6/1/2023,0,0,9.34E-05,0.026290323
+2023,June,United Arab Emirates,1,7.26,9.49,7.26,673,0.010787519,90,107568,673,6,6/1/2023,0,0,6.75E-05,0.010787519
+2023,June,United Kingdom,14,62.24,88.22,4.445714286,1059,0.008478595,30,1891248,8472,6,6/1/2023,0,0,3.29E-05,0.007346553
+2023,June,United States,150,2400.74,3527.86,16.00493333,3235.875,0.012285646,1,31248740,129435,6,6/1/2023,0,0,7.68E-05,0.018547843
+2023,November,Argentina,1,3.88,5.99,3.88,Unknown,Unknown,195,43008,0,11,11/1/2023,1,1,9.02E-05,Unknown
+2023,November,Australia,6,44.9,63.19,7.483333333,273,0.043904384,25,565824,546,11,11/1/2023,0,0,7.94E-05,0.082234432
+2023,November,Austria,2,5.04,6.81,2.52,516,0.004476744,318,133152,516,11,11/1/2023,0,0,3.79E-05,0.009767442
+2023,November,Belgium,1,2.72,3.09,2.72,Unknown,Unknown,321,23200,0,11,11/1/2023,1,1,0.000117241,Unknown
+2023,November,Brazil,9,55.72,106.05,6.191111111,629,0.011614301,44,868096,3774,11,11/1/2023,0,0,6.42E-05,0.014764176
+2023,November,Bulgaria,2,7.05,9.15,3.525,Unknown,Unknown,165,164224,0,11,11/1/2023,1,1,4.29E-05,Unknown
+2023,November,Canada,10,41.21,71.92,4.121,737.4285714,0.008358169,101,845984,5162,11,11/1/2023,0,0,4.87E-05,0.00798334
+2023,November,China,105,409.24,733.91,3.89752381,3433.076923,0.004541533,11,22653992,44630,11,11/1/2023,0,0,1.81E-05,0.009169617
+2023,November,Czechia,2,9.59,12.91,4.795,407,0.013675152,112,163584,814,11,11/1/2023,0,0,5.86E-05,0.011781327
+2023,November,Finland,3,391.39,546.2,130.4633333,3131,0.021214835,5,3116992,9393,11,11/1/2023,0,0,0.000125567,0.041668264
+2023,November,France,23,173.22,249.53,7.531304348,1654.5,0.014324839,17,3967832,23163,11,11/1/2023,0,0,4.37E-05,0.007478306
+2023,November,Germany,36,256.27,391.11,7.118611111,791.4230769,0.013714555,18,4292044,20577,11,11/1/2023,0,0,5.97E-05,0.012454196
+2023,November,Hungary,1,3.1,4.51,3.1,110,0.028181818,265,27776,110,11,11/1/2023,0,0,0.000111607,0.028181818
+2023,November,India,4,19.45,25.26,4.8625,1154,0.002735055,89,325832,2308,11,11/1/2023,0,0,5.97E-05,0.00842721
+2023,November,Ireland,4,11.4,22.44,2.85,Unknown,Unknown,217,290560,0,11,11/1/2023,1,1,3.92E-05,Unknown
+2023,November,Italy,11,330.11,434.46,30.01,2013.444444,0.009897398,6,4079600,18121,11,11/1/2023,0,0,8.09E-05,0.018216986
+2023,November,Japan,32,669.84,866.46,20.9325,2389.7,0.013064433,4,11374380,47794,11,11/1/2023,0,0,5.89E-05,0.014015148
+2023,November,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,70,172544,767,11,11/1/2023,0,0,7.42E-05,0.016701434
+2023,November,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,245,71232,0,11,11/1/2023,1,1,4.44E-05,Unknown
+2023,November,Netherlands,10,86.83,150.89,8.683,707,0.015950797,16,921120,2828,11,11/1/2023,0,0,9.43E-05,0.030703678
+2023,November,Norway,5,15.96,24.96,3.192,Unknown,Unknown,160,425920,0,11,11/1/2023,1,1,3.75E-05,Unknown
+2023,November,Poland,4,13.81,20.5,3.4525,487.6666667,0.014472271,154,224064,1463,11,11/1/2023,0,0,6.16E-05,0.009439508
+2023,November,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,35,741328,0,11,11/1/2023,1,1,9.94E-05,Unknown
+2023,November,Saudi Arabia,7,90.92,138.59,12.98857143,2469.25,0.003620446,20,2676084,9877,11,11/1/2023,0,0,3.40E-05,0.009205224
+2023,November,Singapore,3,9.04,15.78,3.013333333,Unknown,Unknown,232,234112,0,11,11/1/2023,1,1,3.86E-05,Unknown
+2023,November,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,197,156480,0,11,11/1/2023,1,1,4.42E-05,Unknown
+2023,November,South Korea,12,151.32,207.86,12.61,1685,0.019518069,22,2021812,6740,11,11/1/2023,0,0,7.48E-05,0.022451039
+2023,November,Spain,3,184.77,322.24,61.59,3315,0.021639704,8,1559936,9945,11,11/1/2023,0,0,0.000118447,0.018579186
+2023,November,Sweden,6,47.6,68.82,7.933333333,146,0.056575342,34,408256,146,11,11/1/2023,0,0,0.000116594,0.326027397
+2023,November,Switzerland,3,26.67,36.4,8.89,1511,0.006874231,36,584992,3022,11,11/1/2023,0,0,4.56E-05,0.008825281
+2023,November,Taiwan,5,31.59,43.03,6.318,600.2,0.010730782,68,559728,3001,11,11/1/2023,0,0,5.64E-05,0.010526491
+2023,November,Thailand,1,8.15,13.77,8.15,310,0.026290323,93,87296,310,11,11/1/2023,0,0,9.34E-05,0.026290323
+2023,November,United Arab Emirates,1,7.26,9.49,7.26,673,0.010787519,106,107568,673,11,11/1/2023,0,0,6.75E-05,0.010787519
+2023,November,United Kingdom,15,81.7,142.07,5.446666667,1059,0.008478595,38,2048112,8472,11,11/1/2023,0,0,3.99E-05,0.009643532
+2023,November,United States,161,3725.81,5663.4,23.14167702,3797.604651,0.011901454,1,40077020,163297,11,11/1/2023,0,0,9.30E-05,0.022816157
+2024,June,Argentina,1,3.88,5.99,3.88,Unknown,Unknown,224,43008,0,6,6/1/2024,1,1,9.02E-05,Unknown
+2024,June,Australia,5,55.63,74.95,11.126,273,0.043904384,28,498848,546,6,6/1/2024,0,0,0.000111517,0.101886447
+2024,June,Austria,2,5.04,6.81,2.52,516,0.004476744,353,133152,516,6,6/1/2024,0,0,3.79E-05,0.009767442
+2024,June,Belgium,1,2.72,3.09,2.72,Unknown,Unknown,356,23200,0,6,6/1/2024,1,1,0.000117241,Unknown
+2024,June,Brazil,8,53.63,101.92,6.70375,629,0.011614301,56,806656,3774,6,6/1/2024,0,0,6.65E-05,0.014210387
+2024,June,Bulgaria,2,7.05,9.15,3.525,Unknown,Unknown,188,164224,0,6,6/1/2024,1,1,4.29E-05,Unknown
+2024,June,Canada,10,41.21,71.92,4.121,737.4285714,0.008358169,123,845984,5162,6,6/1/2024,0,0,4.87E-05,0.00798334
+2024,June,China,80,356.82,627.65,4.46025,5435.428571,0.004563063,13,21128112,38048,6,6/1/2024,0,0,1.69E-05,0.009378154
+2024,June,Czechia,3,17.99,21.78,5.996666667,407,0.013675152,112,360192,814,6,6/1/2024,0,0,4.99E-05,0.022100737
+2024,June,Finland,3,391.39,546.2,130.4633333,3131,0.021214835,5,3116992,9393,6,6/1/2024,0,0,0.000125567,0.041668264
+2024,June,France,24,232.74,363.39,9.6975,1624.666667,0.016524227,17,4346072,24370,6,6/1/2024,0,0,5.36E-05,0.009550267
+2024,June,Germany,40,274.91,421.18,6.87275,729.4333333,0.017236149,21,4399212,21883,6,6/1/2024,0,0,6.25E-05,0.01256272
+2024,June,Hungary,1,3.1,4.51,3.1,110,0.028181818,300,27776,110,6,6/1/2024,0,0,0.000111607,0.028181818
+2024,June,Iceland,1,10.53,17.02,10.53,Unknown,Unknown,88,36208,0,6,6/1/2024,1,1,0.00029082,Unknown
+2024,June,India,4,19.45,25.26,4.8625,1154,0.002735055,110,325832,2308,6,6/1/2024,0,0,5.97E-05,0.00842721
+2024,June,Ireland,4,11.4,22.44,2.85,Unknown,Unknown,247,290560,0,6,6/1/2024,1,1,3.92E-05,Unknown
+2024,June,Italy,11,332.61,436.3,30.23727273,2023.444444,0.009891445,7,4079600,18211,6,6/1/2024,0,0,8.15E-05,0.018264236
+2024,June,Japan,29,672.1,888.12,23.17586207,2389.789474,0.014988625,4,11077432,45406,6,6/1/2024,0,0,6.07E-05,0.014802009
+2024,June,Luxembourg,2,12.81,18.29,6.405,383.5,0.016524315,89,172544,767,6,6/1/2024,0,0,7.42E-05,0.016701434
+2024,June,Morocco,1,3.16,5.01,3.16,Unknown,Unknown,277,71232,0,6,6/1/2024,1,1,4.44E-05,Unknown
+2024,June,Netherlands,9,84.7,147.82,9.411111111,774.6666667,0.019859,19,847392,2324,6,6/1/2024,0,0,1.00E-04,0.036445783
+2024,June,Norway,5,15.96,24.96,3.192,Unknown,Unknown,184,425920,0,6,6/1/2024,1,1,3.75E-05,Unknown
+2024,June,Poland,8,65.76,104.6,8.22,521.75,0.019061947,55,438944,2087,6,6/1/2024,0,0,0.000149814,0.031509344
+2024,June,Portugal,1,3.96,5.01,3.96,365,0.010849315,219,78336,365,6,6/1/2024,0,0,5.06E-05,0.010849315
+2024,June,Russia,7,73.72,101.75,10.53142857,Unknown,Unknown,42,741328,0,6,6/1/2024,1,1,9.94E-05,Unknown
+2024,June,Saudi Arabia,8,99.41,152.76,12.42625,2469.25,0.003620446,23,2737652,9877,6,6/1/2024,0,0,3.63E-05,0.010064797
+2024,June,Singapore,3,9.04,15.78,3.013333333,Unknown,Unknown,262,234112,0,6,6/1/2024,1,1,3.86E-05,Unknown
+2024,June,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,226,156480,0,6,6/1/2024,1,1,4.42E-05,Unknown
+2024,June,South Korea,13,186.44,246.09,14.34153846,2231.666667,0.010987055,25,2293652,6695,6,6/1/2024,0,0,8.13E-05,0.027847647
+2024,June,Spain,3,221.87,306.11,73.95666667,3848,0.017694764,8,1542016,11544,6,6/1/2024,0,0,0.000143883,0.019219508
+2024,June,Sweden,7,50.09,72.19,7.155714286,146,0.056575342,41,448704,146,6,6/1/2024,0,0,0.000111633,0.343082192
+2024,June,Switzerland,5,312.14,412.26,62.428,2114,0.032547463,6,1972192,8456,6,6/1/2024,0,0,0.000158271,0.036913434
+2024,June,Taiwan,6,53.89,77.56,8.981666667,600.2,0.010730782,38,600688,3001,6,6/1/2024,0,0,8.97E-05,0.017957348
+2024,June,Thailand,1,8.15,13.77,8.15,310,0.026290323,116,87296,310,6,6/1/2024,0,0,9.34E-05,0.026290323
+2024,June,Turkey,1,3,3.56,3,Unknown,Unknown,313,55552,0,6,6/1/2024,1,1,5.40E-05,Unknown
+2024,June,United Arab Emirates,2,12.35,15.33,6.175,406,0.023703112,129,147248,812,6,6/1/2024,0,0,8.39E-05,0.01520936
+2024,June,United Kingdom,16,89.37,151.57,5.585625,954.3333333,0.014583063,49,2047152,8589,6,6/1/2024,0,0,4.37E-05,0.010405169
+2024,June,United States,171,4408.33,6968.8,25.7797076,3910.804348,0.013798888,1,47911528,179897,6,6/1/2024,0,0,9.20E-05,0.024504744
+2024,November,Argentina,1,5.39,12.58,5.39,Unknown,Unknown,199,43008,0,11,11/1/2024,1,1,0.000125326,Unknown
+2024,November,Australia,4,55.22,73.11,13.805,477,0.056939203,45,496032,477,11,11/1/2024,0,0,0.000111323,0.115765199
+2024,November,Austria,3,29.26,44.33,9.753333333,516,0.004476744,50,294432,516,11,11/1/2024,0,0,9.94E-05,0.056705426
+2024,November,Belgium,1,2.78,3.97,2.78,104,0.026730769,388,23200,104,11,11/1/2024,0,0,0.000119828,0.026730769
+2024,November,Brazil,9,67.92,122.18,7.546666667,583.7142857,0.016498155,70,874720,4086,11,11/1/2024,0,0,7.76E-05,0.016622614
+2024,November,Bulgaria,2,7.05,9.15,3.525,Unknown,Unknown,221,164224,0,11,11/1/2024,1,1,4.29E-05,Unknown
+2024,November,Canada,9,38.93,64.43,4.325555556,820.3333333,0.008167864,150,773504,4922,11,11/1/2024,0,0,5.03E-05,0.007909386
+2024,November,China,63,319.04,548.49,5.064126984,7136.6,0.005531781,15,20121848,35683,11,11/1/2024,0,0,1.59E-05,0.008940952
+2024,November,Czechia,3,17.99,21.78,5.996666667,407,0.013675152,138,360192,814,11,11/1/2024,0,0,4.99E-05,0.022100737
+2024,November,Denmark,1,66.59,100.63,66.59,1753,0.037986309,21,223088,1753,11,11/1/2024,0,0,0.000298492,0.037986309
+2024,November,Finland,3,391.39,546.2,130.4633333,3131,0.021214835,8,3116992,9393,11,11/1/2024,0,0,0.000125567,0.041668264
+2024,November,France,24,298.09,431.78,12.42041667,1446.647059,0.022728426,22,4500728,24593,11,11/1/2024,0,0,6.62E-05,0.012120929
+2024,November,Germany,40,399.73,577.13,9.99325,724.1333333,0.022492086,18,4736708,21724,11,11/1/2024,0,0,8.44E-05,0.018400387
+2024,November,Hungary,1,3.1,4.51,3.1,110,0.028181818,340,27776,110,11,11/1/2024,0,0,0.000111607,0.028181818
+2024,November,Iceland,1,10.53,17.02,10.53,Unknown,Unknown,111,36208,0,11,11/1/2024,1,1,0.00029082,Unknown
+2024,November,India,6,29.41,38.54,4.901666667,1195,0.00377044,136,785400,4780,11,11/1/2024,0,0,3.74E-05,0.00615272
+2024,November,Ireland,4,11.4,22.44,2.85,Unknown,Unknown,286,290560,0,11,11/1/2024,1,1,3.92E-05,Unknown
+2024,November,Israel,1,41.5,52.68,41.5,Unknown,Unknown,34,74880,0,11,11/1/2024,1,1,0.00055422,Unknown
+2024,November,Italy,14,849.08,1097.26,60.64857143,2667.2,0.014550569,5,7314432,26672,11,11/1/2024,0,0,0.000116083,0.031834133
+2024,November,Japan,34,940.72,1249,27.66823529,2413.105263,0.014725938,6,11736944,45849,11,11/1/2024,0,0,8.02E-05,0.020517787
+2024,November,Luxembourg,1,10.52,15.29,10.52,390,0.026974359,112,99200,390,11,11/1/2024,0,0,0.000106048,0.026974359
+2024,November,Morocco,1,3.16,5.01,3.16,755,0.00418543,316,71232,755,11,11/1/2024,0,0,4.44E-05,0.00418543
+2024,November,Netherlands,10,98.34,169.48,9.834,655,0.02641452,29,899488,2620,11,11/1/2024,0,0,0.000109329,0.037534351
+2024,November,Norway,6,23.36,37.34,3.893333333,Unknown,Unknown,156,492448,0,11,11/1/2024,1,1,4.74E-05,Unknown
+2024,November,Poland,8,65.76,104.6,8.22,521.75,0.019061947,69,438944,2087,11,11/1/2024,0,0,0.000149814,0.031509344
+2024,November,Portugal,1,3.96,5.01,3.96,365,0.010849315,257,78336,365,11,11/1/2024,0,0,5.06E-05,0.010849315
+2024,November,Russia,6,71.46,98.74,11.91,Unknown,Unknown,60,721488,0,11,11/1/2024,1,1,9.90E-05,Unknown
+2024,November,Saudi Arabia,7,96.04,153.43,13.72,2954.5,0.005271411,38,2488692,5909,11,11/1/2024,0,0,3.86E-05,0.016253173
+2024,November,Singapore,4,23.24,37.51,5.81,Unknown,Unknown,90,280832,0,11,11/1/2024,1,1,8.28E-05,Unknown
+2024,November,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,264,156480,0,11,11/1/2024,1,1,4.42E-05,Unknown
+2024,November,South Korea,13,213.09,286.35,16.39153846,3296,0.005461165,40,2438772,6592,11,11/1/2024,0,0,8.74E-05,0.032325546
+2024,November,Spain,3,221.87,306.11,73.95666667,3848,0.017694764,11,1542016,11544,11,11/1/2024,0,0,0.000143883,0.019219508
+2024,November,Sweden,8,63.02,89.84,7.8775,223,0.049758265,59,472960,446,11,11/1/2024,0,0,0.000133246,0.141300448
+2024,November,Switzerland,5,473.52,632.9,94.704,2605,0.029602191,7,2732832,10420,11,11/1/2024,0,0,0.000173271,0.045443378
+2024,November,Taiwan,7,103.53,151.13,14.79,700.6,0.018511802,31,712336,3503,11,11/1/2024,0,0,0.000145339,0.029554667
+2024,November,Thailand,2,22,35.45,11,310,0.026290323,92,134656,310,11,11/1/2024,0,0,0.000163379,0.070967742
+2024,November,Turkey,2,7.36,10.11,3.68,83,0.05253012,227,69760,83,11,11/1/2024,0,0,0.000105505,0.088674699
+2024,November,United Arab Emirates,3,68.16,102.6,22.72,406,0.023703112,25,332960,812,11,11/1/2024,0,0,0.000204709,0.083940887
+2024,November,United Kingdom,14,84.81,142.24,6.057857143,1140.714286,0.013716943,62,1970096,7985,11,11/1/2024,0,0,4.30E-05,0.010621165
+2024,November,United States,173,6477.84,10267.26,37.44416185,3819.901961,0.021111993,1,56856656,194815,11,11/1/2024,0,0,0.000113933,0.033251238
+2025,June,Argentina,1,5.39,12.58,5.39,Unknown,Unknown,232,43008,0,6,6/1/2025,1,1,0.000125326,Unknown
+2025,June,Australia,4,55.22,73.11,13.805,477,0.056939203,59,496032,477,6,6/1/2025,0,0,0.000111323,0.115765199
+2025,June,Austria,2,34.57,57.52,17.285,Unknown,Unknown,53,199200,0,6,6/1/2025,1,1,0.000173544,Unknown
+2025,June,Belgium,1,2.78,3.97,2.78,104,0.026730769,431,23200,104,6,6/1/2025,0,0,0.000119828,0.026730769
+2025,June,Brazil,9,67.92,122.18,7.546666667,583.7142857,0.016498155,86,874720,4086,6,6/1/2025,0,0,7.76E-05,0.016622614
+2025,June,Bulgaria,2,7.05,9.15,3.525,Unknown,Unknown,258,164224,0,6,6/1/2025,1,1,4.29E-05,Unknown
+2025,June,Canada,13,78.99,138.75,6.076153846,703.25,0.015188767,78,1051472,5626,6,6/1/2025,0,0,7.51E-05,0.014040171
+2025,June,China,47,281.25,471.8,5.984042553,7136.6,0.005531781,21,18920568,35683,6,6/1/2025,0,0,1.49E-05,0.007881905
+2025,June,Czechia,3,17.99,21.78,5.996666667,407,0.013675152,165,360192,814,6,6/1/2025,0,0,4.99E-05,0.022100737
+2025,June,Denmark,1,66.59,100.63,66.59,1753,0.037986309,29,223088,1753,6,6/1/2025,0,0,0.000298492,0.037986309
+2025,June,Finland,3,391.39,546.2,130.4633333,3131,0.021214835,9,3116992,9393,6,6/1/2025,0,0,0.000125567,0.041668264
+2025,June,France,25,327.55,508.65,13.102,1398.777778,0.024877958,23,4676480,25178,6,6/1/2025,0,0,7.00E-05,0.013009373
+2025,June,Germany,41,1185.27,1519.27,28.90902439,1014.225806,0.027398865,4,8943756,31441,6,6/1/2025,0,0,0.000132525,0.037698228
+2025,June,Hungary,1,3.1,4.51,3.1,110,0.028181818,381,27776,110,6,6/1/2025,0,0,0.000111607,0.028181818
+2025,June,Iceland,1,10.53,17.02,10.53,Unknown,Unknown,135,36208,0,6,6/1/2025,1,1,0.00029082,Unknown
+2025,June,India,6,29.41,38.54,4.901666667,1195,0.00377044,162,785400,4780,6,6/1/2025,0,0,3.74E-05,0.00615272
+2025,June,Ireland,2,6.7,13.16,3.35,Unknown,Unknown,326,152320,0,6,6/1/2025,1,1,4.40E-05,Unknown
+2025,June,Israel,1,41.5,52.68,41.5,Unknown,Unknown,44,74880,0,6,6/1/2025,1,1,0.00055422,Unknown
+2025,June,Italy,17,874.88,1128.41,51.46352941,2298.583333,0.016201737,6,7730480,27583,6,6/1/2025,0,0,0.000113173,0.031718087
+2025,June,Japan,39,1229.02,1631.29,31.51333333,2339.363636,0.018843261,7,12787024,51466,6,6/1/2025,0,0,9.61E-05,0.023880232
+2025,June,Luxembourg,1,10.52,15.29,10.52,390,0.026974359,136,99200,390,6,6/1/2025,0,0,0.000106048,0.026974359
+2025,June,Morocco,1,3.16,5.01,3.16,755,0.00418543,356,71232,755,6,6/1/2025,0,0,4.44E-05,0.00418543
+2025,June,Netherlands,7,291.3,489.41,41.61428571,1584,0.028769352,13,1403296,7920,6,6/1/2025,0,0,0.000207583,0.036780303
+2025,June,Norway,9,44.07,62.06,4.896666667,219,0.060273973,117,642528,219,6,6/1/2025,0,0,6.86E-05,0.201232877
+2025,June,Poland,7,63.42,101.09,9.06,533.3333333,0.023814286,85,401120,1600,6,6/1/2025,0,0,0.000158107,0.0396375
+2025,June,Portugal,1,3.96,5.01,3.96,365,0.010849315,297,78336,365,6,6/1/2025,0,0,5.06E-05,0.010849315
+2025,June,Russia,6,71.46,98.74,11.91,Unknown,Unknown,75,721488,0,6,6/1/2025,1,1,9.90E-05,Unknown
+2025,June,Saudi Arabia,6,93.72,149.85,15.62,5301,0.006727033,47,2435392,5301,6,6/1/2025,0,0,3.85E-05,0.017679683
+2025,June,Singapore,5,38.29,62.5,7.658,Unknown,Unknown,105,315424,0,6,6/1/2025,1,1,0.000121392,Unknown
+2025,June,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,305,156480,0,6,6/1/2025,1,1,4.42E-05,Unknown
+2025,June,South Korea,15,323.11,442.29,21.54066667,2220.333333,0.022094883,18,2799412,6661,6,6/1/2025,0,0,0.000115421,0.048507732
+2025,June,Spain,3,221.87,306.11,73.95666667,3848,0.017694764,14,1542016,11544,6,6/1/2025,0,0,0.000143883,0.019219508
+2025,June,Sweden,9,69.44,98.52,7.715555556,190.6666667,0.050156304,74,491648,572,6,6/1/2025,0,0,0.000141239,0.121398601
+2025,June,Switzerland,4,471.17,628.26,117.7925,2605,0.029602191,8,2663712,10420,6,6/1/2025,0,0,0.000176885,0.04521785
+2025,June,Taiwan,8,116.59,170.14,14.57375,654.6666667,0.02054807,41,753216,3928,6,6/1/2025,0,0,0.00015479,0.029681772
+2025,June,Thailand,2,22,35.45,11,310,0.026290323,110,134656,310,6,6/1/2025,0,0,0.000163379,0.070967742
+2025,June,Turkey,2,7.36,10.11,3.68,83,0.05253012,266,69760,83,6,6/1/2025,0,0,0.000105505,0.088674699
+2025,June,United Arab Emirates,4,122.28,201.72,30.57,406,0.023703112,32,816800,812,6,6/1/2025,0,0,0.000149706,0.150591133
+2025,June,United Kingdom,13,394.52,540.02,30.34769231,1140.714286,0.013716943,11,3152784,7985,6,6/1/2025,0,0,0.000125134,0.049407639
+2025,June,United States,175,6698.58,10643.01,38.2776,3639.611111,0.023184241,1,58129200,196539,6,6/1/2025,0,0,0.000115236,0.034082701
+2025,June,Vietnam,1,46.65,67.44,46.65,Unknown,Unknown,38,142240,0,6,6/1/2025,1,1,0.000327967,Unknown
+2025,November,Argentina,1,5.39,12.58,5.39,Unknown,Unknown,264,43008,0,11,11/1/2025,1,1,0.000125326,Unknown
+2025,November,Australia,4,55.22,73.11,13.805,477,0.056939203,66,496032,477,11,11/1/2025,0,0,0.000111323,0.115765199
+2025,November,Austria,2,34.57,57.52,17.285,Unknown,Unknown,60,199200,0,11,11/1/2025,1,1,0.000173544,Unknown
+2025,November,Belgium,1,2.78,3.97,2.78,104,0.026730769,457,23200,104,11,11/1/2025,0,0,0.000119828,0.026730769
+2025,November,Brazil,10,124.52,242.56,12.452,740.75,0.018280995,36,1158880,5926,11,11/1/2025,0,0,0.000107449,0.021012487
+2025,November,Bulgaria,1,4.52,5.94,4.52,Unknown,Unknown,289,144384,0,11,11/1/2025,1,1,3.13E-05,Unknown
+2025,November,Canada,19,158.21,242.02,8.326842105,703.25,0.015188767,78,1990192,5626,11,11/1/2025,0,0,7.95E-05,0.028121223
+2025,November,China,40,204.91,343.81,5.12275,7875.5,0.008722871,24,13617624,15751,11,11/1/2025,0,0,1.50E-05,0.013009333
+2025,November,Czechia,3,17.99,21.78,5.996666667,407,0.013675152,192,360192,814,11,11/1/2025,0,0,4.99E-05,0.022100737
+2025,November,Denmark,1,66.59,100.63,66.59,1753,0.037986309,34,223088,1753,11,11/1/2025,0,0,0.000298492,0.037986309
+2025,November,Finland,3,391.39,546.2,130.4633333,3131,0.021214835,9,3116992,9393,11,11/1/2025,0,0,0.000125567,0.041668264
+2025,November,France,23,334.65,514.26,14.55,1373.133333,0.025388375,26,4493824,20597,11,11/1/2025,0,0,7.45E-05,0.016247512
+2025,November,Germany,40,1396.14,1821.13,34.9035,1092.586207,0.029088023,4,8831292,31685,11,11/1/2025,0,0,0.00015809,0.044063121
+2025,November,Hungary,1,3.1,4.51,3.1,110,0.028181818,408,27776,110,11,11/1/2025,0,0,0.000111607,0.028181818
+2025,November,Iceland,1,10.53,17.02,10.53,Unknown,Unknown,156,36208,0,11,11/1/2025,1,1,0.00029082,Unknown
+2025,November,India,6,113.49,141.76,18.915,1535.333333,0.003896647,28,996144,4606,11,11/1/2025,0,0,0.000113929,0.024639601
+2025,November,Ireland,2,6.7,13.16,3.35,Unknown,Unknown,355,152320,0,11,11/1/2025,1,1,4.40E-05,Unknown
+2025,November,Israel,3,108.81,130.1,36.27,Unknown,Unknown,49,395936,0,11,11/1/2025,1,1,0.000274817,Unknown
+2025,November,Italy,18,888.81,1149.8,49.37833333,2396,0.017438273,6,7716656,26356,11,11/1/2025,0,0,0.000115181,0.033723251
+2025,November,Japan,43,1426,1856.57,33.1627907,2465.45,0.022851845,7,13615160,49309,11,11/1/2025,0,0,0.000104736,0.02891967
+2025,November,Kazakhstan,2,38.41,52.18,19.205,Unknown,Unknown,86,124416,0,11,11/1/2025,1,1,0.000308722,Unknown
+2025,November,Luxembourg,1,10.52,15.29,10.52,390,0.026974359,157,99200,390,11,11/1/2025,0,0,0.000106048,0.026974359
+2025,November,Morocco,1,3.16,5.01,3.16,755,0.00418543,383,71232,755,11,11/1/2025,0,0,4.44E-05,0.00418543
+2025,November,Netherlands,7,291.3,489.41,41.61428571,1584,0.028769352,13,1403296,7920,11,11/1/2025,0,0,0.000207583,0.036780303
+2025,November,Norway,9,44.07,62.06,4.896666667,219,0.060273973,134,642528,219,11,11/1/2025,0,0,6.86E-05,0.201232877
+2025,November,Poland,8,70.99,110.45,8.87375,533.3333333,0.023814286,96,440000,1600,11,11/1/2025,0,0,0.000161341,0.04436875
+2025,November,Portugal,1,4.02,5.01,4.02,372,0.010806452,323,78336,372,11,11/1/2025,0,0,5.13E-05,0.010806452
+2025,November,Russia,5,68.98,93.79,13.796,Unknown,Unknown,83,657104,0,11,11/1/2025,1,1,0.000104976,Unknown
+2025,November,Saudi Arabia,7,216.52,305.06,30.93142857,3640.5,0.034373617,18,3009856,7281,11,11/1/2025,0,0,7.19E-05,0.029737673
+2025,November,Singapore,5,38.29,62.5,7.658,Unknown,Unknown,120,315424,0,11,11/1/2025,1,1,0.000121392,Unknown
+2025,November,Slovenia,2,6.92,10.05,3.46,Unknown,Unknown,335,156480,0,11,11/1/2025,1,1,4.42E-05,Unknown
+2025,November,South Korea,15,323.11,442.29,21.54066667,2220.333333,0.022094883,21,2799412,6661,11,11/1/2025,0,0,0.000115421,0.048507732
+2025,November,Spain,3,221.87,306.11,73.95666667,3848,0.017694764,14,1542016,11544,11,11/1/2025,0,0,0.000143883,0.019219508
+2025,November,Sweden,8,66.95,95.15,8.36875,190.6666667,0.050156304,82,451200,572,11,11/1/2025,0,0,0.000148382,0.117045455
+2025,November,Switzerland,3,450.3,601.11,150.1,2684.666667,0.036015986,8,2299328,8054,11,11/1/2025,0,0,0.00019584,0.055910107
+2025,November,Taiwan,10,208.6,300.09,20.86,877.4285714,0.022874601,29,1063168,6142,11,11/1/2025,0,0,0.000196206,0.033962879
+2025,November,Thailand,2,22,35.45,11,310,0.026290323,127,134656,310,11,11/1/2025,0,0,0.000163379,0.070967742
+2025,November,Turkey,2,15.09,22.38,7.545,239,0.050585774,145,82048,239,11,11/1/2025,0,0,0.000183917,0.063138075
+2025,November,United Arab Emirates,5,141.76,228.29,28.352,406,0.023703112,37,878400,812,11,11/1/2025,0,0,0.000161384,0.174581281
+2025,November,United Kingdom,9,378.12,522.32,42.01333333,453.5,0.025156433,11,2548776,1814,11,11/1/2025,0,0,0.000148354,0.208445424
+2025,November,United States,171,6961.3,11002.18,40.70935673,3273.269231,0.028025439,1,58653128,170210,11,11/1/2025,0,0,0.000118686,0.040898302
+2025,November,Vietnam,1,46.65,67.44,46.65,Unknown,Unknown,43,142240,0,11,11/1/2025,1,1,0.000327967,Unknown

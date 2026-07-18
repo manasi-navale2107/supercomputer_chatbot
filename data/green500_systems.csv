@@ -1,0 +1,261 @@
+﻿green500_rank,top500_rank,system_name,country,manufacturer,processor_model,accelerator_model,rmax_tflops,power_kw,energy_efficiency_gflops_watt,list_year,list_month
+1,420,KAIROS,France,EVIDEN,GH Superchip 72C 3GHz,NVIDIA GH200 Superchip,3050,46,73.282,2025,November
+2,171,ROMEO-2025,France,EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,9860,160,70.912,2025,November
+3,225,Levante GPU extension,Germany,EVIDEN,GH Superchip 72C 3GHz,NVIDIA GH200 Superchip,6750,110,69.426,2025,November
+4,213,Isambard-AI phase 1,United Kingdom,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,7420,117,68.835,2025,November
+5,286,Otus (GPU only),Germany,Lenovo,AMD EPYC 9655 96C 2.6GHz,NVIDIA H100 SXM5 80GB,4660,68.35149684,68.177,2025,November
+6,73,Capella,Germany,MEGWARE,AMD EPYC 9334 32C 2.7GHz,Nvidia H100 SXM5 94Gb,24060,445,68.053,2025,November
+7,334,SSC-24 Energy Module,South Korea,HPE,Xeon Gold 6430 32C 2.1GHz,NVIDIA H100 SXM5 80GB,3820,69,67.251,2025,November
+8,96,Helios GPU,Poland,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,19140,317,66.948,2025,November
+9,426,AMD Ouranos,France,EVIDEN,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,2990,48,66.464,2025,November
+10,70,Portage,United States,HPE,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,24500,370,66.277,2025,November
+1,259,JEDI,Germany,ParTec/EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,4500,67,72.733,2025,June
+2,148,ROMEO-2025,France,EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,9860,160,70.912,2025,June
+3,484,Adastra 2,France,HPE,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,2530,37,69.098,2025,June
+4,183,Isambard-AI phase 1,United Kingdom,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,7420,117,68.835,2025,June
+5,255,Otus (GPU only),Germany,Lenovo,AMD EPYC 9655 96C 2.6GHz,NVIDIA H100 SXM5 80GB,4660,68.35149684,68.177,2025,June
+6,66,Capella,Germany,MEGWARE,AMD EPYC 9334 32C 2.7GHz,Nvidia H100 SXM5 94Gb,24060,445,68.053,2025,June
+7,304,SSC-24 Energy Module,South Korea,HPE,Xeon Gold 6430 32C 2.1GHz,NVIDIA H100 SXM5 80GB,3820,69,67.251,2025,June
+8,85,Helios GPU,Poland,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,19140,317,66.948,2025,June
+9,399,AMD Ouranos,France,EVIDEN,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,2990,48,66.464,2025,June
+10,412,Henri,United States,Lenovo,Intel Xeon Platinum 8362 32C 2.8GHz,NVIDIA H100 80GB PCIe,2880,44,65.396,2025,June
+1,222,JEDI,Germany,ParTec/EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,4500,67,72.733,2024,November
+2,122,ROMEO-2025,France,EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,9860,160,70.912,2024,November
+3,440,Adastra 2,France,HPE,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,2530,37,69.098,2024,November
+4,155,Isambard-AI phase 1,United Kingdom,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,7420,117,68.835,2024,November
+5,51,Capella,Germany,MEGWARE,AMD EPYC 9334 32C 2.7GHz,Nvidia H100 SXM5 94Gb,24060,445,68.053,2024,November
+6,18,JETI - JUPITER Exascale Transition Instrument,Germany,ParTec/EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,83140,1311,67.963,2024,November
+7,69,Helios GPU,Poland,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,19140,317,66.948,2024,November
+8,369,Henri,United States,Lenovo,Intel Xeon Platinum 8362 32C 2.8GHz,NVIDIA H100 80GB PCIe,2880,44,65.396,2024,November
+9,338,HoreKa-Teal,Germany,Lenovo,AMD EPYC 9354 32C 3.25GHz,Nvidia H100 94Gb SXM5,3120,50,62.964,2024,November
+10,49,rzAdams,United States,HPE,AMD 4th Gen EPYC 24C 1.8GHz,AMD Instinct MI300A,24380,388,62.803,2024,November
+1,189,JEDI,Germany,ParTec/EVIDEN,Grace Hopper Superchip 72C 3GHz,NVIDIA GH200 Superchip,4500,67,72.733,2024,June
+2,128,Isambard-AI phase 1,United Kingdom,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,7420,117,68.835,2024,June
+3,55,Helios GPU,Poland,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,19140,317,66.948,2024,June
+4,328,Henri,United States,Lenovo,Intel Xeon Platinum 8362 32C 2.8GHz,NVIDIA H100 80GB PCIe,2880,44,65.396,2024,June
+5,71,preAlps,Switzerland,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,15470,240,64.381,2024,June
+6,299,HoreKa-Teal,Germany,Lenovo,AMD EPYC 9354 32C 3.25GHz,Nvidia H100 94Gb SXM5,3120,50,62.964,2024,June
+7,54,Frontier TDS,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,19200,309,62.684,2024,June
+8,11,Venado,United States,HPE,NVIDIA Grace 72C 3.1GHz,NVIDIA GH200 Superchip,98510,1662,59.287,2024,June
+9,20,Adastra,France,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,46100,921,58.021,2024,June
+10,28,Setonix – GPU,Australia,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,27160,477,56.983,2024,June
+1,292,Henri,United States,Lenovo,Intel Xeon Platinum 8362 32C 2.8GHz,NVIDIA H100 80GB PCIe,2880,44,65.396,2023,November
+2,43,Frontier TDS,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,19200,309,62.684,2023,November
+3,17,Adastra,France,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,46100,921,58.021,2023,November
+4,25,Setonix – GPU,Australia,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,27160,477,56.983,2023,November
+5,91,Dardel GPU,Sweden,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,8260,146,56.491,2023,November
+6,8,MareNostrum 5 ACC,Spain,EVIDEN,Xeon Platinum 8460Y+ 40C 2.3GHz,NVIDIA H100 64GB,138200,2560,53.984,2023,November
+7,5,LUMI,Finland,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,379700,7107,53.428,2023,November
+8,1,Frontier,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,1194000,22703,52.592,2023,November
+9,83,Goethe-NHR,Germany,MEGWARE / Supermicro,AMD EPYC 7452 32C 2.35GHz,AMD Instinct MI210 64 GB,9090,195,46.543,2023,November
+10,495,Olaf,South Korea,Lenovo,AMD EPYC 9334 32C 2.7GHz,NVIDIA H100,2030,45,45.117,2023,November
+1,255,Henri,United States,Lenovo,Intel Xeon Platinum 8362 32C 2.8GHz,NVIDIA H100 80GB PCIe,2880,44,65.396,2023,June
+2,34,Frontier TDS,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,19200,309,62.684,2023,June
+3,12,Adastra,France,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,46100,921,58.021,2023,June
+4,17,Setonix – GPU,Australia,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,27160,477,56.983,2023,June
+5,77,Dardel GPU,Sweden,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,8260,146,56.491,2023,June
+6,1,Frontier,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,1194000,22703,52.592,2023,June
+7,3,LUMI,Finland,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,309100,6016,51.382,2023,June
+8,483,amplitUDE (GPU Partition),Germany,MEGWARE,Xeon Platinum 8480+ 56C 2GHz,NVIDIA H100 80GB PCIe,1950,38,51.343,2023,June
+9,70,Goethe-NHR,Germany,MEGWARE / Supermicro,AMD EPYC 7452 32C 2.35GHz,AMD Instinct MI210 64 GB,9090,195,46.543,2023,June
+10,187,ATOS THX.A.B,France,EVIDEN,Xeon Platinum 8358 32C 2.6GHz,NVIDIA A100 SXM4 64 GB,3500,86,41.411,2023,June
+1,405,Henri,United States,Lenovo,Intel Xeon Platinum 8362 2800Mhz (32C),NVIDIA H100 80GB PCIe,2040,31,65.091,2022,November
+2,32,Frontier TDS,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,19200,309,62.684,2022,November
+3,11,Adastra,France,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,46100,921,58.021,2022,November
+4,15,Setonix – GPU,Australia,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,27160,477,56.983,2022,November
+5,68,Dardel GPU,Sweden,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,8260,146,56.491,2022,November
+6,1,Frontier,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,1102000,21100,52.227,2022,November
+7,3,LUMI,Finland,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,309100,6016,51.382,2022,November
+8,159,ATOS THX.A.B,France,EVIDEN,Xeon Platinum 8358 32C 2.6GHz,NVIDIA A100 SXM4 64 GB,3500,86,41.411,2022,November
+9,359,MN-3,Japan,Preferred Networks,Xeon Platinum 8260M 24C 2.4GHz,Preferred Networks MN-Core,2180,53,40.901,2022,November
+10,331,Champollion,France,HPE,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 SXM4 80 GB,2320,60,38.555,2022,November
+1,29,Frontier TDS,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,19200,309,62.684,2022,June
+2,1,Frontier,United States,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,1102000,21100,52.227,2022,June
+3,3,LUMI,Finland,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,151900,2942,51.629,2022,June
+4,10,Adastra,France,HPE,AMD Optimized 3rd Generation EPYC 64C 2GHz,AMD Instinct MI250X,46100,921,50.028,2022,June
+5,146,ATOS THX.A.B,France,EVIDEN,Xeon Platinum 8358 32C 2.6GHz,NVIDIA A100 64GB,3500,86,41.411,2022,June
+6,326,MN-3,Japan,Preferred Networks,Xeon Platinum 8260M 24C 2.4GHz,Preferred Networks MN-Core,2180,53,40.901,2022,June
+7,315,SSC-21 Scalable Module,South Korea,HPE,AMD  EPYC 7543 32C 2.8GHz,NVIDIA A100 80GB​,2270,103,33.983,2022,June
+8,319,Tethys,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100 80GB​,2250,72,31.538,2022,June
+9,304,Wilkes-3,United Kingdom,DELL,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 80GB​,2290,74,30.797,2022,June
+10,105,Athena,Poland,Format sp. z o.o.,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100 SXM4 40 GB,5050,147,29.926,2022,June
+1,301,MN-3,Japan,Preferred Networks,Xeon Platinum 8260M 24C 2.4GHz,Preferred Networks MN-Core,2180,55,39.379,2021,November
+2,291,SSC-21 Scalable Module,South Korea,HPE,AMD  EPYC 7543 32C 2.8GHz,NVIDIA A100 80GB​,2270,103,33.983,2021,November
+3,295,Tethys,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100 80GB​,2250,72,31.538,2021,November
+4,280,Wilkes-3,United Kingdom,DELL,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 80GB​,2290,74,30.797,2021,November
+5,30,HiPerGator AI,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,17200,583,29.521,2021,November
+6,403,Snellius Phase 1 GPU,Netherlands,Lenovo,Xeon Platinum 8360Y 36C 2.4GHz,NVIDIA A100 SXM4 40 GB,1820,63,29.046,2021,November
+7,5,Perlmutter,United States,HPE,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 SXM4 40 GB,70870,2589,27.374,2021,November
+8,71,"Karolina, GPU partition",Czechia,HPE,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 SXM4 40 GB,6750,311,27.213,2021,November
+9,45,MeluXina - Accelerator Module,Luxembourg,EVIDEN,AMD EPYC 7452 32C 2.35GHz,NVIDIA A100 40GB,10520,390,26.957,2021,November
+10,262,NVIDIA DGX SuperPOD,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,2360,90,26.195,2021,November
+1,335,MN-3,Japan,Preferred Networks,Xeon Platinum 8260M 24C 2.4GHz,Preferred Networks MN-Core,1820,61,29.7,2021,June
+2,22,HiPerGator AI,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,17200,583,29.521,2021,June
+3,100,Wilkes-3,United Kingdom,DELL,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 80GB​,4120,147,28.144,2021,June
+4,36,MeluXina - Accelerator Module,Luxembourg,EVIDEN,AMD EPYC 7452 32C 2.35GHz,NVIDIA A100 40GB,10520,390,26.957,2021,June
+5,214,NVIDIA DGX SuperPOD,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,2360,90,26.195,2021,June
+6,5,Perlmutter,United States,HPE,AMD EPYC 7763 64C 2.45GHz,NVIDIA A100 SXM4 40 GB,64590,2528,25.55,2021,June
+7,8,JUWELS Booster Module,Germany,EVIDEN,AMD EPYC 7402 24C 2.8GHz,NVIDIA A100,44120,1764,25.008,2021,June
+8,43,JURECA Data Centric Module,Germany,EVIDEN,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100 40GB,9330,384,24.291,2021,June
+9,189,Spartan2,France,EVIDEN,AMD EPYC 7402 24C 2.8GHz,NVIDIA A100,2570,106,24.262,2021,June
+10,93,Wisteria/BDEC-01 (Aquarius),Japan,Fujitsu,Xeon Platinum 8360Y 36C 2.4GHz,NVIDIA A100 SXM4 40 GB,4420,184,24.058,2021,June
+1,170,NVIDIA DGX SuperPOD,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,2360,90,26.195,2020,November
+2,330,MN-3,Japan,Preferred Networks,Xeon Platinum 8260M 24C 2.4GHz,Preferred Networks MN-Core,1650,65,26.039,2020,November
+3,7,JUWELS Booster Module,Germany,EVIDEN,AMD EPYC 7402 24C 2.8GHz,NVIDIA A100,44120,1764,25.008,2020,November
+4,146,Spartan2,France,EVIDEN,AMD EPYC 7402 24C 2.8GHz,NVIDIA A100,2570,106,24.262,2020,November
+5,5,Selene,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,63460,2646,23.983,2020,November
+6,239,A64FX prototype,Japan,Fujitsu,Fujitsu A64FX 48C 2GHz,Tofu interconnect D,2000,118,16.876,2020,November
+7,29,AiMOS,United States,IBM,IBM POWER9 20C 3.45GHz,NVIDIA Volta GV100,8340,512,16.285,2020,November
+8,8,HPC5,Italy,DELL,Xeon Gold 6252 24C 2.1GHz,NVIDIA Tesla V100,35450,2252,15.74,2020,November
+9,458,Satori,United States,IBM,IBM POWER9  20C 2.4GHz,Infiniband EDR,1460,94,15.574,2020,November
+10,1,Supercomputer Fugaku,Japan,Fujitsu,A64FX 48C 2.2GHz,Tofu interconnect D,442010,29899,15.418,2020,November
+1,393,MN-3,Japan,Preferred Networks,Xeon 8260M 24C 2.4GHz,MN-Core,1620,77,21.108,2020,June
+2,7,Selene,United States,Nvidia,AMD EPYC 7742 64C 2.25GHz,NVIDIA A100,27580,1344,20.518,2020,June
+3,468,NA-1,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,1300,80,18.433,2020,June
+4,204,A64FX prototype,Japan,Fujitsu,Fujitsu A64FX 48C 2GHz,Tofu interconnect D,2000,118,16.876,2020,June
+5,26,AiMOS,United States,IBM,IBM POWER9 20C 3.45GHz,NVIDIA Volta GV100,8340,512,16.285,2020,June
+6,6,HPC5,Italy,DELL,Xeon Gold 6252 24C 2.1GHz,NVIDIA Tesla V100,35450,2252,15.74,2020,June
+7,421,Satori,United States,IBM,IBM POWER9  20C 2.4GHz,Infiniband EDR,1460,94,15.574,2020,June
+8,2,Summit,United States,IBM,IBM POWER9 22C 3.07GHz,NVIDIA Volta GV100,148600,10096,14.719,2020,June
+9,1,Supercomputer Fugaku,Japan,Fujitsu,A64FX 48C 2.2GHz,Tofu interconnect D,415530,28335,14.665,2020,June
+10,9,Marconi-100,Italy,IBM,IBM POWER9 16C 3GHz,Nvidia Volta V100,21640,1476,14.661,2020,June
+1,159,A64FX prototype,Japan,Fujitsu,Fujitsu A64FX 48C 2GHz,Tofu interconnect D,2000,118,16.876,2019,November
+2,420,NA-1,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,1300,80,16.256,2019,November
+3,24,AiMOS,United States,IBM,IBM POWER9 20C 3.45GHz,Dual-rail Mellanox EDR Infiniband,8040,510,15.771,2019,November
+4,373,Satori,United States,IBM,IBM POWER9  20C 2.4GHz,Infiniband EDR,1460,94,15.574,2019,November
+5,1,Summit,United States,IBM,IBM POWER9 22C 3.07GHz,NVIDIA Volta GV100,148600,10096,14.719,2019,November
+6,8,AI Bridging Cloud Infrastructure (ABCI),Japan,Fujitsu,Xeon Gold 6148 20C 2.4GHz,NVIDIA Tesla V100 SXM2,19880,1649,14.423,2019,November
+7,494,MareNostrum P9 CTE,Spain,IBM,IBM POWER9 22C 3.1GHz,Dual-rail Mellanox EDR Infiniband,1150,81,14.131,2019,November
+8,23,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,8120,792,13.704,2019,November
+9,11,PANGEA III,France,IBM,IBM POWER9 18C 3.45GHz,Dual-rail Mellanox EDR Infiniband,17860,1367,13.065,2019,November
+10,2,Sierra,United States,IBM / NVIDIA / Mellanox,IBM POWER9 22C 3.1GHz,NVIDIA Volta GV100,94640,7438,12.723,2019,November
+1,469,DGX SaturnV Volta,United States,Nvidia,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,1070,97,15.113,2019,June
+2,1,Summit,United States,IBM,IBM POWER9 22C 3.07GHz,NVIDIA Volta GV100,148600,10096,14.719,2019,June
+3,8,AI Bridging Cloud Infrastructure (ABCI),Japan,Fujitsu,Xeon Gold 6148 20C 2.4GHz,NVIDIA Tesla V100 SXM2,19880,1649,14.423,2019,June
+4,393,MareNostrum P9 CTE,Spain,IBM,IBM POWER9 22C 3.1GHz,Dual-rail Mellanox EDR Infiniband,1150,81,14.131,2019,June
+5,25,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,8120,792,13.704,2019,June
+6,11,PANGEA III,France,IBM,IBM POWER9 18C 3.45GHz,Dual-rail Mellanox EDR Infiniband,17860,1367,13.065,2019,June
+7,2,Sierra,United States,IBM / NVIDIA / Mellanox,IBM POWER9 22C 3.1GHz,NVIDIA Volta GV100,94640,7438,12.723,2019,June
+8,43,Advanced Computing System(PreE),China,Sugon,Hygon Dhyana  32C 2GHz,Deep Computing Processor,4330,380,11.382,2019,June
+9,23,Taiwania 2,Taiwan,Quanta Computer / Taiwan Fixed Network / ASUS Cloud,Xeon Gold 6154 18C 3GHz,Mellanox InfiniBand EDR,9000,798,11.285,2019,June
+10,385,Unknown,China,"Huawei Technologies Co., Ltd.",NVIDIA Tesla V100,100G Ethernet,1150,107,10.778,2019,June
+1,375,Shoubu system B,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,1.06331,60,17.604,2018,November
+2,374,DGX SaturnV Volta,United States,Nvidia,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,1.07,97,15.113,2018,November
+3,1,Summit,United States,IBM,IBM POWER9 22C 3.07GHz,NVIDIA Volta GV100,143.5,9783,14.668,2018,November
+4,7,AI Bridging Cloud Infrastructure (ABCI),Japan,Fujitsu,Xeon Gold 6148 20C 2.4GHz,NVIDIA Tesla V100 SXM2,19.88,1649,14.423,2018,November
+5,22,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,8.125,792,13.704,2018,November
+6,2,Sierra,United States,IBM / NVIDIA / Mellanox,IBM POWER9 22C 3.1GHz,NVIDIA Volta GV100,94.64,7438,12.723,2018,November
+7,446,AIST AI Cloud,Japan,NEC,Xeon E5-2630Lv4 10C 1.8GHz,Infiniband EDR,0.961,76,12.681,2018,November
+8,411,MareNostrum P9 CTE,Spain,IBM,IBM POWER9 22C 3.1GHz,Dual-rail Mellanox EDR Infiniband,1.018,86,11.865,2018,November
+9,38,Advanced Computing System(PreE),China,Sugon,Hygon Dhyana  32C 2GHz,Deep Computing Processor,4.325,380,11.382,2018,November
+10,20,Taiwania 2,Taiwan,Quanta Computer / Taiwan Fixed Network / ASUS Cloud,Xeon Gold 6154 18C 3GHz,Mellanox InfiniBand EDR,9,798,11.285,2018,November
+1,359,Shoubu system B,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,857.63,47,18.404,2018,June
+2,419,Suiren2,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,797.99,47,16.835,2018,June
+3,385,Sakura,Japan,PEZY Computing / Exascaler Inc.,Xeon E5-2618Lv3  8C 2.3GHz,Infiniband EDR,824.7,50,16.657,2018,June
+4,227,DGX SaturnV Volta,United States,Nvidia,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,1070,97,15.113,2018,June
+5,1,Summit,United States,IBM,IBM POWER9 22C 3.07GHz,NVIDIA Volta GV100,122300,8806,13.889,2018,June
+6,19,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,8125,792,13.704,2018,June
+7,287,AIST AI Cloud,Japan,NEC,Xeon E5-2630Lv4 10C 1.8GHz,Infiniband EDR,961,76,12.681,2018,June
+8,5,AI Bridging Cloud Infrastructure (ABCI),Japan,Fujitsu,Xeon Gold 6148 20C 2.4GHz,NVIDIA Tesla V100 SXM2,19880,1649,12.054,2018,June
+9,255,MareNostrum P9 CTE,Spain,IBM,IBM POWER9 22C 3.1GHz,Dual-rail Mellanox EDR Infiniband,1018,86,11.865,2018,June
+10,173,Wilkes-2,United Kingdom,DELL,Xeon E5-2650v4 12C 2.2GHz,Infiniband EDR,1193,114,10.428,2018,June
+1,260,Shoubu system B,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,841.96,50,17.009,2017,November
+2,308,Suiren2,Japan,PEZY Computing / Exascaler Inc.,Xeon D-1571 16C 1.3GHz,Infiniband EDR,788.2,47,16.759,2017,November
+3,277,Sakura,Japan,PEZY Computing / Exascaler Inc.,Xeon E5-2618Lv3  8C 2.3GHz,Infiniband EDR,824.7,50,16.657,2017,November
+4,150,DGX SaturnV Volta,United States,Nvidia,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,1070,97,15.113,2017,November
+5,4,Gyoukou,Japan,ExaScaler,Xeon D-1571 16C 1.3GHz,Infiniband EDR,19135.8,1350,14.173,2017,November
+6,13,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,8125,792,13.704,2017,November
+7,196,AIST AI Cloud,Japan,NEC,Xeon E5-2630Lv4 10C 1.8GHz,Infiniband EDR,961,76,12.681,2017,November
+8,420,RAIDEN GPU subsystem,Japan,Fujitsu,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,635.1,60,10.603,2017,November
+9,116,Wilkes-2,United Kingdom,DELL,Xeon E5-2650v4 12C 2.2GHz,Infiniband EDR,1193,114,10.428,2017,November
+10,3,Piz Daint,Switzerland,Cray/HPE,Xeon E5-2690v3 12C 2.6GHz,Aries interconnect,19590,2272,10.398,2017,November
+1,62,TSUBAME3.0,Japan,HPE,IP139-SXM2,Xeon E5-2680v4 14C 2.4GHz,1998,142,14.11,2017,June
+2,467,kukai,Japan,ExaScaler,Xeon E5-2650Lv4 14C 1.7GHz,Infiniband FDR,460.7,33,14.046,2017,June
+3,149,AIST AI Cloud,Japan,NEC,Xeon E5-2630Lv4 10C 1.8GHz,Infiniband EDR,961,76,12.681,2017,June
+4,307,RAIDEN GPU subsystem,Japan,Fujitsu,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,635.1,60,10.603,2017,June
+5,101,Wilkes-2,United Kingdom,DELL,Xeon E5-2650v4 12C 2.2GHz,Infiniband EDR,1193,114,10.428,2017,June
+6,3,Piz Daint,Switzerland,Cray/HPE,Xeon E5-2690v3 12C 2.6GHz,Aries interconnect,19590,2272,10.398,2017,June
+7,70,Gyoukou,Japan,ExaScaler,Xeon D-1571 16C 1.3GHz,Infiniband EDR,1677.13,164,10.226,2017,June
+8,221,Research Computation Facility for GOSAT-2 (RCF2),Japan,NSSOL/HPE,Xeon E5-2650v4 12C 2.2GHz,Infiniband EDR,770.4,79,9.797,2017,June
+9,32,Unknown,United States,Self-made,Xeon E5-2698v4 20C 2.2GHz/ E5-2650v4,Infiniband EDR,3307,350,9.462,2017,June
+10,33,DGX Saturn V,United States,Nvidia,Xeon E5-2698v4 20C 2.2GHz,Infiniband EDR,3307,350,9.462,2017,June
+1,33,NVIDIA DGX-1,Unknown,Unknown,Xeon E5-2698v4 20C 2.2GHz,NVIDIA Tesla P100,3307.00395,349.5,9.4621,2016,November
+2,13,Cray XC50,Unknown,Unknown,Xeon E5-2690v3 12C 2.6GHz,NVIDIA Tesla P100,9778.992,1312,7.4535,2016,November
+3,90,ZettaScaler-1.6,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SCnp,1001.07,150,6.6738,2016,November
+4,1,Sunway MPP,Unknown,Unknown,Sunway SW26010 260C 1.45GHz,Sunway,93014.5323,15371,6.0513,2016,November
+5,290,PRIMERGY CX1640 M1,Unknown,Unknown,Intel Xeon Phi 7210 64C 1.3GHz,Intel Omni-Path,447.0851,77,5.8063,2016,November
+6,5,PRIMERGY CX1640 M1,Unknown,Unknown,Intel Xeon Phi 7250 68C 1.4GHz,Intel Omni-Path,13554.62259,2718.7,4.9857,2016,November
+7,17,Cray XC40,Unknown,Unknown,Intel Xeon Phi 7230 64C 1.3GHz,Aries interconnect,5095.856,1087,4.688,2016,November
+8,73,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.8GHz,Nvidia K80,781.299,190,4.1121,2016,November
+9,21,Cray XC40,Unknown,Unknown,Intel Xeon Phi 7250 68C 1.4GHz,Aries interconnect,3057.33508,748.1,4.0868,2016,November
+10,246,KOI Cluster,Unknown,Unknown,Intel Xeon Phi 7230 64C 1.3GHz,Intel Omni-Path,425.8626,111,3.8366,2016,November
+1,92,ZettaScaler-1.6,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SCnp,1001.07,150,6.6738,2016,June
+2,352,ZettaScaler-1.6,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SCnp,290.55488,46.9,6.1952,2016,June
+3,1,Sunway MPP,Unknown,Unknown,Sunway SW26010 260C 1.45GHz,Sunway,93014.5323,15371,6.0513,2016,June
+4,344,ASUS ESC4000 FDR/G2S,Unknown,Unknown,Intel Xeon E5-2690v2 10C 3GHz,AMD FirePro S9150,301.56412,57.2,5.2721,2016,June
+5,346,Sugon Cluster W780I,Unknown,Unknown,Xeon E5-2640v3 8C 2.6GHz,NVIDIA Tesla K80,310.6025,65,4.7785,2016,June
+6,72,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.8GHz,Nvidia K80,781.299,190,4.1121,2016,June
+7,274,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2016,June
+8,278,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2016,June
+9,280,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2016,June
+10,286,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2016,June
+1,327,ExaScaler-1.4 80Brick,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SC,353.67942,50.3,7.0314,2015,November
+2,347,LX 1U-4GPU/104Re-1G  Cluster,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K80,272.43965,51.1,5.3315,2015,November
+3,343,ASUS ESC4000 FDR/G2S,Unknown,Unknown,Intel Xeon E5-2690v2 10C 3GHz,AMD FirePro S9150,301.56412,57.2,5.2721,2015,November
+4,343,Sugon Cluster W780I,Unknown,Unknown,Xeon E5-2640v3 8C 2.6GHz,NVIDIA Tesla K80,310.6025,65,4.7785,2015,November
+5,72,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.8GHz,Nvidia K80,781.299,190,4.1121,2015,November
+6,368,Inspur TS10000 HPC Server,Unknown,Unknown,Xeon E5-2620v3 6C 2.4GHz,NVIDIA Tesla K40,223.7002,58,3.8569,2015,November
+7,274,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2015,November
+8,278,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2015,November
+9,280,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2015,November
+10,286,Inspur TS10000 HPC Server,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.1GHz,NVIDIA Tesla K40,415.305,110,3.7755,2015,November
+1,327,ExaScaler-1.4 80Brick,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SC,353.67942,50.3,7.0314,2015,June
+2,413,ExaScaler-1.4 16Brick,Unknown,Unknown,Xeon E5-2618Lv3  8C 2.3GHz,PEZY-SC,193.60879,28.3,6.8413,2015,June
+3,428,ExaScaler 32U256SC Cluster,Unknown,Unknown,Intel Xeon E5-2660v2 10C 2.2GHz,PEZY-SC,202.70354,32.6,6.2179,2015,June
+4,344,ASUS ESC4000 FDR/G2S,Unknown,Unknown,Intel Xeon E5-2690v2 10C 3GHz,AMD FirePro S9150,301.56412,57.2,5.2721,2015,June
+5,430,LX 1U-4GPU/104Re-1G  Cluster,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.100GHz,NVIDIA K20x,169.47238,39.8,4.2581,2015,June
+6,72,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.8GHz,Nvidia K80,781.299,190,4.1121,2015,June
+7,405,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2660v2 10C 2.2GHz,Nvidia K40m,176.34015,44.5,3.9627,2015,June
+8,385,Dell T620 Cluster,Unknown,Unknown,Intel Xeon E5-2630v2 6C 2.600GHz,NVIDIA K20,191.02742,52.6,3.6317,2015,June
+9,386,Bull bullx R400,Unknown,Unknown,Xeon E5-2680v3 12C 2.5GHz,Nvidia K80,209.6642,58,3.6149,2015,June
+10,387,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,193.46418,54.6,3.5433,2015,June
+1,346,ASUS ESC4000 FDR/G2S,Unknown,Unknown,Intel Xeon E5-2690v2 10C 3GHz,AMD FirePro S9150,301.56412,57.2,5.2721,2014,November
+2,420,ExaScaler 32U256SC Cluster,Unknown,Unknown,Intel Xeon E5-2660v2 10C 2.2GHz,PEZY-SC,186.9588,37.8,4.946,2014,November
+3,429,LX 1U-4GPU/104Re-1G  Cluster,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.100GHz,NVIDIA K20x,157.44504,35.4,4.4476,2014,November
+4,377,Cray CS-Storm,Unknown,Unknown,Intel Xeon E5-2660v2 10C 2.2GHz,Nvidia K40m,176.34015,44.5,3.9627,2014,November
+5,347,Dell T620 Cluster,Unknown,Unknown,Intel Xeon E5-2630v2 6C 2.600GHz,NVIDIA K20,191.02742,52.6,3.6317,2014,November
+6,367,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,193.46418,54.6,3.5433,2014,November
+7,375,Cray CS300 Cluster,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,277.20264,78.8,3.5178,2014,November
+8,409,Bullx B515 cluster,Unknown,Unknown,Intel Xeon E5-2450v2 8C 2.5GHz,Nvidia K40m,153.6018,44.4,3.4595,2014,November
+9,7,Cray XC30,Unknown,Unknown,Xeon E5-2670 8C 2.600GHz,NVIDIA K20x,5587.11283,1753.7,3.1859,2014,November
+10,379,Bull R421-E3 Cluster,Unknown,Unknown,Intel Xeon E5-2650v2 8C 2.600GHz,NVIDIA K20x,254.87154,81.4,3.1311,2014,November
+1,406,LX 1U-4GPU/104Re-1G Cluster,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.100GHz,NVIDIA K20x,151.88708,34.6,4.3898,2014,June
+2,346,Dell T620 Cluster,Unknown,Unknown,Intel Xeon E5-2630v2 6C 2.600GHz,NVIDIA K20,191.02742,52.6,3.6317,2014,June
+3,340,Cray 3623G4-SM Cluster,Unknown,Unknown,Intel Xeon E5-2680v2 10C 2.800GHz,NVIDIA K20x,277.20264,78.8,3.5178,2014,June
+4,377,Bullx B515 cluster,Unknown,Unknown,Intel Xeon E5-2450v2 8C 2.5GHz,Nvidia K40m,153.6018,44.4,3.4595,2014,June
+5,6,Cray XC30,Unknown,Unknown,Xeon E5-2670 8C 2.600GHz,NVIDIA K20x,5587.11283,1753.7,3.1859,2014,June
+6,373,Bull R421-E3 Cluster,Unknown,Unknown,Intel Xeon E5-2650v2 8C 2.600GHz,NVIDIA K20x,254.87154,81.4,3.1311,2014,June
+7,370,Nitro G16 3GPU,Unknown,Unknown,Xeon E5-2650 8C 2GHz,Nvidia K20m,260.29814,86.2,3.0197,2014,June
+8,18,Cluster Platform SL390s G7,Unknown,Unknown,Xeon X5670 6C 2.93GHz,NVIDIA K20x,2739.1608,927.9,2.952,2014,June
+9,18,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2 10C 2.8GHz,NVIDIA K20x,3002.98425,1067.5,2.8131,2014,June
+10,387,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2 10C 2.800GHz,NVIDIA K20x,146.24064,54.6,2.6784,2014,June
+1,398,LX 1U-4GPU/104Re-1G  Cluster,Unknown,Unknown,Intel Xeon E5-2620v2 6C 2.100GHz,NVIDIA K20x,125.18896,27.8,4.5032,2013,November
+2,346,Dell T620 Cluster,Unknown,Unknown,Intel Xeon E5-2630v2 6C 2.600GHz,NVIDIA K20,191.02742,52.6,3.6317,2013,November
+3,340,Cray 3623G4-SM Cluster,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,277.20264,78.8,3.5178,2013,November
+4,6,Cray XC30,Unknown,Unknown,Xeon E5-2670 8C 2.600GHz,NVIDIA K20x,5587.11283,1753.7,3.1859,2013,November
+5,349,Bull R421-E3 Cluster,Unknown,Unknown,Intel Xeon E5-2650v2 8C 2.600GHz,NVIDIA K20x,254.87154,81.4,3.1311,2013,November
+6,17,Cluster Platform SL390s G7,Unknown,Unknown,Xeon X5670 6C 2.930GHz,NVIDIA K20x,2830.87575,922.5,3.0687,2013,November
+7,381,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2650v2  8C 2.600GHz,NVIDIA K20x,144.83792,53.6,2.7022,2013,November
+8,56,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,709.59409,269.9,2.6291,2013,November
+9,385,iDataPlex DX360M4,Unknown,Unknown,Intel Xeon E5-2680v2  10C 2.800GHz,NVIDIA K20x,146.18908,55.6,2.6293,2013,November
+10,372,Nitro G16 3GPU,Unknown,Unknown,Xeon E5-2650 8C 2.000GHz,Nvidia K20m,167.4748,71,2.3588,2013,November
+1,398,Eurotech Aurora HPC 10-20,Unknown,Unknown,Xeon E5-2687W 8C 3.100GHz,NVIDIA K20,98.51016,30.7,3.2088,2013,June
+2,413,Eurotech Aurora HPC 10-20,Unknown,Unknown,Xeon E5-2687W 8C 3.100GHz,NVIDIA K20,98.5769,31,3.1799,2013,June
+3,376,Appro GreenBlade GB824M,Unknown,Unknown,Xeon E5-2670 8C 2.600GHz,Intel Xeon Phi 5110P,110.47696,45.1,2.4496,2013,June
+4,81,Adtech,Unknown,Unknown,ASUS ESC4000/FDR G2,AMD FirePro S10000,421.31712,179.2,2.3511,2013,June
+5,348,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.60 GHz,Custom,188.98602,82.2,2.2991,2013,June
+6,373,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.600GHz,Custom Interconnect,188.98602,82.2,2.2991,2013,June
+7,384,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.600GHz,Custom Interconnect,188.98602,82.2,2.2991,2013,June
+8,382,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.600GHz,Custom Interconnect,188.98602,82.2,2.2991,2013,June
+9,378,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.60GHz,Custom,188.98602,82.2,2.2991,2013,June
+10,379,BlueGene/Q,Unknown,Unknown,Power BQC 16C 1.60GHz,Custom,188.98602,82.2,2.2991,2013,June
