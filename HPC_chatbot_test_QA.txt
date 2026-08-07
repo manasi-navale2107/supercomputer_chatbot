@@ -1,0 +1,487 @@
+SECTION A — STRUCTURED (SQL-STYLE) QUESTIONS
+
+Q: How many exascale systems are there in 2025?
+A: There were 4 exascale systems (Rmax >= 1,000 Pflop/s) on the November
+   2025 list: El Capitan (1,809 Pflop/s), Frontier (1,353 Pflop/s),
+   Aurora (1,012 Pflop/s), and JUPITER Booster (1,000 Pflop/s).
+   On the June 2025 list there were only 3 (JUPITER had not yet crossed
+   the exascale threshold).
+
+Q: How many petascale systems are in the latest list?
+A: 500 of 500 systems (the entire current TOP500 list qualifies as
+   petascale, i.e. Rmax >= 1 Pflop/s), since the cutoff to make the
+   list today is already several Pflop/s.
+
+Q: How many accelerated systems are there?
+A: 251 of 500 systems on the latest list are accelerated (use GPUs or
+   other co-processors); 249 are CPU-only.
+
+Q: How many systems are in Germany?
+A: 40 systems.
+
+Q: How many systems are manufactured by HPE?
+A: 112 systems on the latest list (2nd most common vendor, behind
+   Lenovo's 141).
+
+Q: How many systems were installed after 2020?
+A: 427 systems, based on the year_installed field across all
+   historical entries in the dataset (deduplicated by system name).
+
+Q: How many systems use NVIDIA GPUs?
+A: 218 systems reference NVIDIA-family accelerators (H100, GH200,
+   Grace Hopper, A100, etc.) in their configuration string.
+
+Q: How many systems use AMD processors?
+A: 176 systems reference AMD (EPYC CPUs and/or Instinct GPUs) in
+   their configuration string.
+
+
+--- Ranking Questions ---
+
+Q: Top 10 fastest supercomputers
+A: Rank | System            | Rmax (Pflop/s)
+    1   | El Capitan         | 1,809
+    2   | Frontier           | 1,353
+    3   | Aurora             | 1,012
+    4   | JUPITER Booster    | 1,000
+    5   | Eagle              | 561
+    6   | HPC6               | 478
+    7   | Fugaku             | 442
+    8   | Alps               | 435
+    9   | LUMI               | 380
+   10   | Leonardo           | 241
+
+Q: Top 5 Green500 systems
+A: Rank | System                  | Country | Efficiency (Gflops/W)
+    1   | KAIROS                   | France        | 73.28
+    2   | ROMEO-2025               | France        | 70.91
+    3   | Levante GPU extension    | Germany       | 69.43
+    4   | Isambard-AI phase 1      | United Kingdom| 68.84
+    5   | Otus (GPU only)          | Germany       | 68.18
+
+Q: Top 10 systems in Japan
+A: Fugaku, ABCI 3.0, CHIE-4, CHIE-3, CHIE-2, ABCI-Q,
+   FPT AI Factory Japan, Miyabi-G, TSUBAME4.0, SAKURAONE
+   (ranked by Rmax, most recent data available)
+
+Q: Top 5 systems by energy efficiency
+A: Same as Top 5 Green500 above: KAIROS, ROMEO-2025,
+   Levante GPU extension, Isambard-AI phase 1, Otus (GPU only).
+
+Q: Which system has the highest Rmax?
+A: El Capitan — 1,809 Pflop/s.
+
+Q: Which system has the highest Rpeak?
+A: El Capitan — 2,821 Pflop/s.
+
+Q: Which country has the fastest supercomputer?
+A: United States (El Capitan).
+
+Q: Which manufacturer has the most systems?
+A: Lenovo (141-155 systems depending on the period sampled), narrowly
+   ahead of HPE.
+
+
+--- Average Questions ---
+
+Q: Average Rmax of US systems
+A: 40.7 Pflop/s.
+
+Q: Average power consumption in Germany
+A: 1,093 kW.
+
+Q: Average efficiency of Green500 systems
+A: 68.6 Gflops/W (mean across all 500 ranked systems, Nov 2025 list).
+
+Q: Average number of cores per system
+A: 270,500 cores (full 500-system list average).
+
+Q: Average power of exascale systems
+A: 27,196 kW (~27.2 MW), based on the 4 legitimate exascale systems
+   (El Capitan, Frontier, Aurora, JUPITER Booster). Note: a couple of
+   duplicate/corrupted rows in the source data with impossible Rmax
+   values were excluded from this calculation.
+
+Q: Average Rpeak in China
+A: 8.6 Pflop/s.
+
+Q: What is the average power consumption of systems in Japan?
+A: 2,465 kW average per system (43 Japanese systems on the latest list).
+
+
+--- Comparison Questions ---
+
+Q: Compare USA and China
+A: United States: 171 systems, 6,961 Pflop/s total Rmax.
+   China: 40 systems, 205 Pflop/s total Rmax.
+   The US leads by roughly 34x in aggregate Rmax, largely because China
+   has stopped submitting many of its most powerful systems to the
+   public TOP500 list in recent years.
+
+Q: Compare Frontier and Fugaku
+A: Frontier (US, HPE Cray EX235a, AMD EPYC + Instinct MI250X GPUs,
+   1,353 Pflop/s, ~24.6 MW) is over 3x faster than Fugaku (Japan,
+   Fujitsu A64FX CPU-only, no accelerator, 442 Pflop/s, 29.9 MW).
+   Fugaku achieves its performance without any GPU acceleration,
+   relying instead on ARM-based vector cores at massive scale (7.6M
+   cores) and Fujitsu's proprietary Tofu-D interconnect, whereas
+   Frontier relies on GPU acceleration and HPE's Slingshot-11 fabric.
+
+Q: Compare El Capitan and Frontier
+A: El Capitan leads on raw Rmax (1,809 vs 1,353 Pflop/s) but Frontier
+   is more power-efficient overall (24.6 MW vs 29.7 MW). Both use HPE
+   Cray EX platforms and Slingshot-11 interconnects, but El Capitan
+   uses AMD's newer MI300A unified CPU+GPU package, while Frontier uses
+   discrete AMD EPYC CPUs + Instinct MI250X GPUs.
+
+Q: Compare HPE and Lenovo systems
+A: HPE systems average a much higher Rmax (~46,656 Tflop/s) than
+   Lenovo's (~5,612 Tflop/s). HPE builds fewer but far larger flagship
+   systems (El Capitan, Frontier, Aurora), while Lenovo has more
+   numerous, smaller commercial/cluster deployments (138-155 systems
+   vs HPE's 112-138, depending on period).
+
+Q: Compare Green500 rank 1 and rank 2
+A: KAIROS (France, 73.3 Gflops/W, 46 kW) is more efficient than
+   ROMEO-2025 (France, 70.9 Gflops/W, 160 kW). Both use NVIDIA GH200
+   Superchips, but KAIROS draws far less power for its scale.
+
+Q: Compare average power between Japan and China
+A: Japan: ~2,465 kW/system. China: ~7,876 kW/system. Chinese listed
+   systems run notably higher average power per system, though China
+   has far fewer entries on the public list (40 vs Japan's 43).
+
+Q: Compare the total Rmax of the US versus China
+A: US total Rmax: 6,961.3 Pflop/s. China total Rmax: 204.9 Pflop/s.
+   (Same figures as the USA vs China comparison above.)
+
+
+--- Filter Questions ---
+
+Q: Systems installed in 2025
+A:45 new systems
+ 
+- 45 new systems were added to the TOP500 list between July and
+  November 2025 (the run-up to the November 2025 / 66th edition
+  of the list).
+ 
+- These 45 new systems together have:
+    - 6.48 million total cores
+    - 1.48 exaflops of peak aggregate performance
+ 
+- Pace of new installs is slowing:
+    - June 2025 list: roughly 2x as much new capacity added
+    - November 2024 list: roughly 3x as much new capacity added
+ 
+- The newest/largest of the 45 new systems, CHIE-4 (installed by
+  SoftBank), only ranks #17 overall - no brand-new system reached
+  the top 10 in this cycle.
+ 
+- Of the 45 new systems:
+    - 5 are Nvidia Grace CPU + Hopper/Blackwell GPU "superchip" systems
+    - 21 pair Intel Xeon CPUs with NVIDIA H100, H200, or B200 GPUs
+
+Q: Systems with NVIDIA accelerators / AMD-based systems
+A: NVIDIA-family: 218 systems. AMD-based: 176 systems
+
+Q: Systems with more than 1 million cores
+A: 14 systems, led by:
+   El Capitan (US) - 11.34M cores
+   Sunway TaihuLight (China) - 10.65M cores
+   Aurora (US) - 9.26M cores
+   Frontier (US) - 9.07M cores
+   Fugaku (Japan) - 7.63M cores
+   Tianhe-2A (China) - 4.98M cores
+   JUPITER Booster (Germany) - 4.80M cores
+   HPC6 (Italy) - 3.14M cores
+   LUMI - 2.75M cores
+   Summit (US) - 2.41M cores
+   Leonardo (Italy) - 1.82M
+   Sierra (US) - 1.57M
+   Tuolumne (US) - 1.16M
+   Isambard-AI phase 2 (United Kingdom) - 1.03M
+
+Q: Systems consuming less than 20 MW
+A: Using the power (kW) data from TOP500_Statistics_Section.csv for
+the latest list (November 2025), all 500 systems have known power
+values (no missing data in this file).
+ 
+- Systems consuming < 20 MW:  496
+- Systems consuming >= 20 MW: 4
+ 
+Only 4 systems on the entire list draw 20 MW or more - and they are
+exactly the 4 largest/fastest systems:
+ 
+Rank | System           | Power (MW) | Rmax (Pflop/s)
+  3  | Aurora            | 38.70       | 1,012
+  7  | Fugaku            | 29.90       | 442
+  1  | El Capitan        | 29.68       | 1,809
+  2  | Frontier          | 24.61       | 1,353
+ 
+Note: JUPITER Booster (#4, 1,000 Pflop/s) actually draws only
+15.79 MW - so it is under the 20 MW threshold despite being
+exascale-class, making it the most power-efficient of the four
+exascale system
+
+Q: Systems using InfiniBand
+A: 323 of 647 entries in the recent historical sample use an
+   InfiniBand-based interconnect.
+
+
+--- Country Questions ---
+
+Q: Which country has the highest total Rmax?
+A: United States (6,961.3 Pflop/s).
+
+Q: Which country has the most exascale systems?
+A: United States — 3 of the 4 exascale systems (El Capitan, Frontier,
+   Aurora). JUPITER Booster is hosted in Germany/EU.
+
+Q: Which country has the highest average power?
+A: China (~7,876 kW/system average), though based on relatively few
+   submitted systems (40).
+
+Q: Which country has the fastest system?
+A: United States (El Capitan).
+
+Q: How many systems does China have in the most recent list?
+A: 40 systems.
+
+Q: Which country has the most systems in the TOP500 list?
+A: United States — 171 systems, followed by Japan (43) and
+   Germany/China (40 each).
+
+
+--- Additional Top-Level Questions ---
+
+Q: Top 5 fastest systems by Rmax in the United States
+A: Rank | System     | Site
+    1   | El Capitan  | Lawrence Livermore National Laboratory (LLNL)
+    2   | Frontier    | Oak Ridge National Laboratory
+    3   | Aurora      | Argonne National Laboratory
+    4   | Eagle       | Microsoft Azure
+    5   | Tuolumne    | LLNL
+
+Q: What is the most energy-efficient system in the Green500 list?
+A: KAIROS (France, EVIDEN, NVIDIA GH200 Superchip) — 73.28 Gflops/W,
+   ranked #420 on the TOP500 by raw speed but #1 for efficiency.
+
+
+SECTION B — SEMANTIC / HARDWARE QUESTIONS
+
+--- About Systems ---
+
+Q: Tell me about Frontier / Explain the hardware of Frontier
+A: Frontier is an HPE Cray EX235a system at Oak Ridge National
+   Laboratory (US DOE). It uses AMD EPYC "Trento" CPUs paired with
+   AMD Instinct MI250X GPUs, connected via HPE Slingshot-11, and runs
+   HPE Cray OS. It was the first system ever to break the exaflop
+   barrier (2022) and is currently #2 on the TOP500 at 1,353 Pflop/s
+   Rmax, drawing about 24.6 MW.
+
+Q: Explain El Capitan / What makes El Capitan unique?
+A: El Capitan is an HPE Cray EX255a system at Lawrence Livermore
+   National Laboratory, currently #1 on the TOP500 (1,809 Pflop/s
+   Rmax / 2,821 Pflop/s Rpeak). What makes it unique is AMD's MI300A
+   accelerator — a single package combining 4th-gen EPYC CPU cores
+   and Instinct GPU compute (rather than separate CPU and GPU chips).
+   It uses Slingshot-11 interconnect, runs TOSS (a Linux variant),
+   draws ~29.7 MW, and is used primarily for US nuclear stockpile
+   stewardship simulations.
+
+Q: Describe Fugaku / Describe the architecture of Fugaku
+A: Fugaku is a Fujitsu system at RIKEN, Japan. Its architecture is
+   built entirely around the Fujitsu A64FX, an ARM-based processor
+   with built-in Scalable Vector Extension (SVE) — meaning it has NO
+   separate accelerator; the CPU itself handles vector/matrix
+   acceleration. It achieves top-tier performance (442 Pflop/s Rmax)
+   through massive core counts (~7.6 million cores) and high memory
+   bandwidth rather than GPUs. Interconnect is Fujitsu's proprietary
+   Tofu-D, a 6D mesh/torus topology, and it runs a custom Linux-based
+   operating system.
+
+Q: What is Aurora? / Explain the hardware of Aurora
+A: Aurora is an HPE Cray EX system at Argonne National Laboratory,
+   ranked #3 on TOP500 (1,012 Pflop/s Rmax). It is an all-Intel
+   system: Intel Xeon CPU Max (Sapphire Rapids) processors paired
+   with Intel Data Center GPU Max ("Ponte Vecchio") accelerators,
+   connected via HPE Slingshot-11.
+
+Q: What is Summit?
+A: Summit is an older (2018-era) IBM system at Oak Ridge National
+   Laboratory, notable as the first system to significantly exceed
+   100 Pflop/s and one of the earlier large-scale GPU-accelerated
+   supercomputers (IBM POWER9 CPUs + NVIDIA V100 GPUs). It has since
+   fallen well down the rankings as newer exascale systems came online.
+
+Q: Explain LUMI
+A: LUMI is an HPE Cray EX235a system in Finland (EuroHPC), currently
+   ranked #9 (380 Pflop/s Rmax). It uses AMD EPYC CPUs + AMD Instinct
+   MI250X GPUs with Slingshot-11 interconnect — architecturally very
+   similar to Frontier, just at smaller scale.
+
+
+--- Hardware Questions ---
+
+Q: Which processor does Frontier use?
+A: AMD Optimized 3rd Generation EPYC ("Trento") 64-core, 2GHz CPUs.
+
+Q: What accelerators does Aurora use?
+A: Intel Data Center GPU Max ("Ponte Vecchio") accelerators.
+
+Q: Which operating system does Fugaku use?
+A: A custom Linux-based operating system tailored for the A64FX
+   architecture.
+
+Q: Which interconnect does El Capitan use? / What interconnect does
+   Frontier use?
+A: Both use HPE Slingshot-11 — a high-speed, Ethernet-compatible
+   fabric purpose-built for HPC/AI workloads, offering low latency
+   and adaptive routing.
+
+Q: What architecture does Frontier use?
+A: HPE Cray EX235a blade architecture with discrete CPU+GPU nodes
+   (AMD EPYC CPU + AMD Instinct MI250X GPU per node).
+
+Q: What kind of accelerators does Aurora use?
+A: Intel Data Center GPU Max ("Ponte Vecchio") GPUs.
+
+
+--- Manufacturer Questions ---
+
+Q: Tell me about HPE systems
+A: HPE is the manufacturer behind the current top 3 exascale systems
+   (El Capitan, Frontier, Aurora) as well as many other large national
+   lab and government systems. HPE systems trend toward fewer, much
+   larger flagship deployments — average Rmax ~46,656 Tflop/s vs
+   Lenovo's ~5,612 Tflop/s.
+
+Q: Which systems are built by Lenovo?
+A: Lenovo builds the largest number of systems on the list (141-155),
+   typically smaller commercial and academic clusters rather than
+   flagship national systems.
+
+Q: Explain Fujitsu supercomputers
+A: Fujitsu is best known for Fugaku, built around its own A64FX
+   ARM-based CPU (no separate accelerator) and proprietary Tofu-D
+   interconnect. Fujitsu has 14-15 systems on the current list.
+
+Q: What systems use AMD processors?
+A: Notably El Capitan, Frontier, HPC6, and LUMI — all HPE Cray EX
+   systems pairing AMD EPYC CPUs with AMD Instinct GPUs. 176 systems
+   total reference AMD hardware in their configuration.
+
+
+--- Technology Questions ---
+
+Q: Explain InfiniBand
+A: InfiniBand is a high-speed, low-latency network interconnect
+   standard widely used in HPC and AI clusters to connect compute
+   nodes, often paired with NVIDIA/Mellanox networking hardware.
+   323 of 647 sampled systems use it.
+
+Q: What is Slingshot interconnect?
+A: HPE's proprietary high-speed, Ethernet-compatible interconnect
+   fabric designed for HPC and AI workloads, featuring adaptive
+   routing and congestion control. Used in Frontier, El Capitan,
+   Aurora, LUMI, and others.
+
+Q: Explain accelerator technology
+A: "Accelerators" refers to co-processors (typically GPUs, like
+   NVIDIA H100/GH200 or AMD Instinct MI250X/MI300A, or Intel Data
+   Center GPU Max) that handle massively parallel compute alongside
+   or integrated with a traditional CPU, dramatically increasing
+   throughput for HPC and AI workloads. 251 of 500 current TOP500
+   systems are accelerated.
+
+Q: What is Rmax?
+A: Rmax is a system's sustained, measured real-world performance on
+   the LINPACK/HPL benchmark, expressed in Flop/s — the number used
+   to rank the TOP500 list.
+
+Q: What is Rpeak?
+A: Rpeak is the theoretical maximum performance a system's hardware
+   could ever achieve, calculated from its specifications rather than
+   measured. Rmax is always lower than Rpeak in practice.
+
+Q: What is Green500?
+A: Green500 ranks the same TOP500-submitted systems by energy
+   efficiency (Gflops delivered per watt) rather than raw speed,
+   highlighting which systems deliver the most computation per unit
+   of power consumed.
+
+
+--- Descriptive Questions ---
+
+Q: Why is Frontier fast?
+A: Frontier combines large numbers of AMD EPYC CPUs with AMD Instinct
+   MI250X GPUs across a very high node count, connected by a
+   low-latency Slingshot-11 fabric, allowing it to sustain over
+   1,350 Pflop/s on the HPL benchmark.
+
+Q: What makes El Capitan unique?
+A: Its use of AMD's MI300A — a unified CPU+GPU package rather than
+   discrete chips — which improves data movement efficiency between
+   compute and memory compared to traditional discrete GPU designs.
+
+Q: Describe the architecture of Fugaku
+A: CPU-only design using Fujitsu's ARM-based A64FX processor with
+   built-in vector acceleration (SVE), connected via the proprietary
+   Tofu-D 6D mesh/torus interconnect — no GPUs involved at all.
+
+Q: Explain the hardware of Aurora
+A: All-Intel design: Xeon CPU Max (Sapphire Rapids) processors paired
+   with Intel Data Center GPU Max ("Ponte Vecchio") accelerators,
+   connected via HPE Slingshot-11.
+
+Q: Tell me about Green500
+A: Green500 is a ranking of supercomputers from the TOP500 list,
+ordered by energy efficiency rather than raw speed. Instead of
+asking "how fast is this system?" (Rmax), Green500 asks "how much
+computation does this system deliver per watt of power consumed?"
+ 
+- Metric used: energy efficiency, measured in GFlops/Watt
+  (billions of floating-point operations per second, per watt of
+  power drawn)
+- Same benchmark data: Green500 draws from the same HPL (LINPACK)
+  benchmark submissions used for TOP500, plus each system's
+  measured power consumption
+- Published twice a year, alongside the TOP500 list (June and
+  November), at ISC and SC conferences respectively
+- Purpose: highlights that raw speed and energy efficiency aren't
+  the same thing - a system can be very fast in absolute terms
+  (high Rmax) while a much smaller, less powerful system is
+  actually more efficient per watt
+ 
+--- Latest Green500 List (November 2025) ---
+ 
+Top 5 most energy-efficient systems:
+ 
+Rank | System                  | Country        | Efficiency (GFlops/W) | Power (kW)
+  1  | KAIROS                   | France          | 73.28                  | 46
+  2  | ROMEO-2025               | France          | 70.91                  | 160
+  3  | Levante GPU extension    | Germany         | 69.43                  | 110
+  4  | Isambard-AI phase 1      | United Kingdom  | 68.84                  | 117
+  5  | Otus (GPU only)          | Germany         | 68.18                  | 68
+ 
+- #1 KAIROS: a new BullSequana XH3000 system at CALMIP/University
+  of Toulouse - CNRS, France. Uses NVIDIA GH200 Grace Hopper
+  Superchips and Quad-Rail NVIDIA InfiniBand NDR200. Achieved
+  3.05 Pflop/s on HPL while drawing only 46 kW - the best
+  efficiency-per-watt on the list.
+- #2 ROMEO-2025 has an architecture identical to KAIROS but is
+  substantially larger (9.86 Pflop/s), which is why its efficiency
+  is slightly lower despite using the same underlying technology.
+- Average efficiency across all 500 ranked systems on this list:
+  ~68.6 GFlops/W.
+ 
+--- Why Green500 matters ---
+ 
+As supercomputers approach and exceed exascale performance, power
+consumption has become one of the biggest practical constraints -
+some flagship systems now draw 20-40 MW continuously (roughly
+enough to power a small city). Green500 tracks progress on making
+each new generation of hardware (like NVIDIA GH200/GH100 Superchips
+and AMD Instinct GPUs) deliver more performance per watt, which
+directly affects operating cost and environmental footprint,
+independent of a system's overall rank by speed.

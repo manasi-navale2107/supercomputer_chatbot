@@ -5,7 +5,14 @@ import re
 from sqlglot import exp, parse
 from sqlglot.errors import ParseError
 
-from src.config import MYSQL_DATABASE, SQL_RESULT_ROW_LIMIT, TABLE_NAMES
+from src.config import (
+    MYSQL_DATABASE,
+    SQL_RESULT_ROW_LIMIT,
+)
+
+from src.data_loader import (
+    get_dataset_table_names,
+)
 
 
 class UnsafeSQLError(ValueError):
@@ -79,79 +86,235 @@ def clean_sql(sql: str) -> str:
     return value.strip().rstrip(";").strip()
 
 
-def validate_and_limit_sql(sql: str) -> str:
-    cleaned = clean_sql(sql)
+def validate_and_limit_sql(
+    sql: str,
+) -> str:
+    cleaned = clean_sql(
+        sql
+    )
+
     if not cleaned:
-        raise UnsafeSQLError("The generated SQL query is empty.")
-    if _BLOCKED_TEXT.search(cleaned):
-        raise UnsafeSQLError("The query contains a blocked MySQL operation.")
+        raise UnsafeSQLError(
+            "The generated SQL query "
+            "is empty."
+        )
+
+    if _BLOCKED_TEXT.search(
+        cleaned
+    ):
+        raise UnsafeSQLError(
+            "The query contains a "
+            "blocked MySQL operation."
+        )
 
     try:
-        statements = parse(cleaned, read="mysql")
+        statements = parse(
+            cleaned,
+            read="mysql",
+        )
+
     except ParseError as error:
-        raise UnsafeSQLError(f"The generated SQL is invalid: {error}") from error
+        raise UnsafeSQLError(
+            "The generated SQL is "
+            f"invalid: {error}"
+        ) from error
 
     if len(statements) != 1:
-        raise UnsafeSQLError("Exactly one SQL statement is allowed.")
+        raise UnsafeSQLError(
+            "Exactly one SQL statement "
+            "is allowed."
+        )
 
     statement = statements[0]
-    if not isinstance(statement, exp.Query):
-        raise UnsafeSQLError("Only SELECT or WITH queries are allowed.")
+
+    if not isinstance(
+        statement,
+        exp.Query,
+    ):
+        raise UnsafeSQLError(
+            "Only SELECT or WITH queries "
+            "are allowed."
+        )
 
     for node in statement.walk():
-        if _DISALLOWED_TYPES and isinstance(node, _DISALLOWED_TYPES):
+        if (
+            _DISALLOWED_TYPES
+            and isinstance(
+                node,
+                _DISALLOWED_TYPES,
+            )
+        ):
             raise UnsafeSQLError(
-                f"Blocked SQL operation: {type(node).__name__}."
+                "Blocked SQL operation: "
+                f"{type(node).__name__}."
             )
 
     cte_names = {
         cte.alias_or_name.lower()
-        for cte in statement.find_all(exp.CTE)
+        for cte
+        in statement.find_all(
+            exp.CTE
+        )
         if cte.alias_or_name
     }
-    allowed_tables = {name.lower() for name in TABLE_NAMES} | cte_names
+
+    live_table_names = {
+        name.lower()
+        for name
+        in get_dataset_table_names()
+    }
+
+    allowed_tables = (
+        live_table_names
+        | cte_names
+    )
+
     referenced_tables = {
         table.name.lower()
-        for table in statement.find_all(exp.Table)
+        for table
+        in statement.find_all(
+            exp.Table
+        )
         if table.name
     }
-    unknown_tables = referenced_tables - allowed_tables
+
+    unknown_tables = (
+        referenced_tables
+        - allowed_tables
+    )
+
     if unknown_tables:
         raise UnsafeSQLError(
-            "Query references unknown tables: "
-            + ", ".join(sorted(unknown_tables))
+            "Query references unknown "
+            "tables: "
+            + ", ".join(
+                sorted(
+                    unknown_tables
+                )
+            )
         )
 
     if not referenced_tables:
-        raise UnsafeSQLError("The query must read from one of the five data tables.")
+        raise UnsafeSQLError(
+            "The query must read from "
+            "one of the current "
+            "dataset tables."
+        )
 
-    for table in statement.find_all(exp.Table):
-        database_name = (table.db or "").lower()
-        if database_name and database_name != MYSQL_DATABASE.lower():
+    for table in statement.find_all(
+        exp.Table
+    ):
+        database_name = (
+            table.db
+            or ""
+        ).lower()
+
+        if (
+            database_name
+            and database_name
+            != MYSQL_DATABASE.lower()
+        ):
             raise UnsafeSQLError(
-                f"Cross-database access is blocked: {database_name}."
+                "Cross-database access "
+                "is blocked: "
+                f"{database_name}."
             )
 
-    for function in statement.find_all(exp.Func):
-        function_name = function.sql_name().lower()
-        if function_name in _BLOCKED_FUNCTIONS:
-            raise UnsafeSQLError(f"Blocked SQL function: {function_name}.")
+    for function in statement.find_all(
+        exp.Func
+    ):
+        detected_names: set[str] = set()
 
-    # A hard top-level limit bounds memory while preserving a smaller requested limit.
-    hard_limit = SQL_RESULT_ROW_LIMIT + 1
-    limit_node = statement.args.get("limit")
-    should_set_limit = limit_node is None
+        sql_name = (
+            function.sql_name()
+            or ""
+        ).strip().lower()
+
+        if sql_name:
+            detected_names.add(
+                sql_name
+            )
+
+        function_name = str(
+            getattr(
+                function,
+                "name",
+                "",
+            )
+            or ""
+        ).strip().lower()
+
+        if function_name:
+            detected_names.add(
+                function_name
+            )
+
+        blocked_names = (
+            detected_names
+            & _BLOCKED_FUNCTIONS
+        )
+
+        if blocked_names:
+            blocked_function = sorted(
+                blocked_names
+            )[0]
+
+            raise UnsafeSQLError(
+                "Blocked SQL function: "
+                f"{blocked_function}."
+            )
+
+    # Add one extra row so the application
+    # can detect result truncation.
+    hard_limit = (
+        SQL_RESULT_ROW_LIMIT
+        + 1
+    )
+
+    limit_node = (
+        statement.args.get(
+            "limit"
+        )
+    )
+
+    should_set_limit = (
+        limit_node is None
+    )
+
     if limit_node is not None:
-        limit_expression = limit_node.expression
-        if not isinstance(limit_expression, exp.Literal):
+        limit_expression = (
+            limit_node.expression
+        )
+
+        if not isinstance(
+            limit_expression,
+            exp.Literal,
+        ):
             should_set_limit = True
+
         else:
             try:
-                requested_limit = int(str(limit_expression.this))
+                requested_limit = int(
+                    str(
+                        limit_expression.this
+                    )
+                )
+
             except ValueError:
                 should_set_limit = True
+
             else:
-                should_set_limit = requested_limit > hard_limit
+                should_set_limit = (
+                    requested_limit
+                    > hard_limit
+                )
+
     if should_set_limit:
-        statement = statement.limit(hard_limit, copy=False)
-    return statement.sql(dialect="mysql")
+        statement = statement.limit(
+            hard_limit,
+            copy=False,
+        )
+
+    return statement.sql(
+        dialect="mysql"
+    )

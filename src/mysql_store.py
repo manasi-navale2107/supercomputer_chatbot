@@ -28,7 +28,15 @@ from src.config import (
     SQL_RESULT_ROW_LIMIT,
     TABLE_NAMES,
 )
-from src.data_loader import dataset_fingerprint, load_datasets
+from src.data_loader import (
+    INTERNAL_ROW_HASH_COLUMN,
+    INTERNAL_ROW_ID_COLUMN,
+    build_dataset_change_plan,
+    dataset_fingerprint,
+    file_fingerprints,
+    get_dataset_table_names,
+    load_datasets,
+)
 from src.sql_safety import validate_and_limit_sql
 
 
@@ -265,10 +273,14 @@ def _create_and_fill_staging_table(
 ) -> str:
     if len(dataframe.columns) == 0:
         raise ValueError(
-            f"{table_name}.csv does not contain any columns."
+            f"{table_name}.csv does not "
+            "contain any columns."
         )
 
-    staging_table = f"_stg_{table_name}"
+    staging_table = (
+        f"_stg_{table_name}"
+    )
+
     cursor = connection.cursor()
 
     cursor.execute(
@@ -276,16 +288,40 @@ def _create_and_fill_staging_table(
         f"{quote_identifier(staging_table)}"
     )
 
-    column_definitions = [
-        (
-            f"{quote_identifier(column)} "
-            f"{_mysql_type(dataframe[column])} NULL"
+    column_definitions: list[str] = []
+
+    for column in dataframe.columns:
+        if column == INTERNAL_ROW_ID_COLUMN:
+            definition = (
+                f"{quote_identifier(column)} "
+                "CHAR(64) NOT NULL"
+            )
+
+        elif column == INTERNAL_ROW_HASH_COLUMN:
+            definition = (
+                f"{quote_identifier(column)} "
+                "CHAR(64) NOT NULL"
+            )
+
+        else:
+            definition = (
+                f"{quote_identifier(column)} "
+                f"{_mysql_type(dataframe[column])} "
+                "NULL"
+            )
+
+        column_definitions.append(
+            definition
         )
-        for column in dataframe.columns
-    ]
+
+    column_definitions.append(
+        "PRIMARY KEY "
+        f"({quote_identifier(INTERNAL_ROW_ID_COLUMN)})"
+    )
 
     cursor.execute(
-        f"CREATE TABLE {quote_identifier(staging_table)} "
+        f"CREATE TABLE "
+        f"{quote_identifier(staging_table)} "
         f"({', '.join(column_definitions)}) "
         "ENGINE=InnoDB "
         "DEFAULT CHARSET=utf8mb4"
@@ -298,21 +334,26 @@ def _create_and_fill_staging_table(
         )
 
         placeholders = ", ".join(
-            ["%s"] * len(dataframe.columns)
+            ["%s"]
+            * len(dataframe.columns)
         )
 
         insert_sql = (
-            f"INSERT INTO {quote_identifier(staging_table)} "
+            f"INSERT INTO "
+            f"{quote_identifier(staging_table)} "
             f"({column_sql}) "
             f"VALUES ({placeholders})"
         )
 
-        for batch in _batched_rows(dataframe):
+        for batch in _batched_rows(
+            dataframe
+        ):
             cursor.executemany(
                 insert_sql,
                 batch,
             )
-            connection.commit()
+
+        connection.commit()
 
     for column in COMMON_INDEX_COLUMNS:
         if column not in dataframe.columns:
@@ -322,8 +363,13 @@ def _create_and_fill_staging_table(
             dataframe[column]
         )
 
-        index_name = f"idx_{column}"[:64]
-        indexed_column = quote_identifier(column)
+        index_name = (
+            f"idx_{column}"[:64]
+        )
+
+        indexed_column = (
+            quote_identifier(column)
+        )
 
         if "TEXT" in mysql_type:
             indexed_column = (
@@ -331,25 +377,31 @@ def _create_and_fill_staging_table(
             )
 
         cursor.execute(
-            f"CREATE INDEX {quote_identifier(index_name)} "
-            f"ON {quote_identifier(staging_table)} "
+            f"CREATE INDEX "
+            f"{quote_identifier(index_name)} "
+            f"ON "
+            f"{quote_identifier(staging_table)} "
             f"({indexed_column})"
         )
 
     cursor.execute(
         f"SELECT COUNT(*) "
-        f"FROM {quote_identifier(staging_table)}"
+        f"FROM "
+        f"{quote_identifier(staging_table)}"
     )
 
     imported_count = int(
         cursor.fetchone()[0]
     )
 
-    expected_count = len(dataframe)
+    expected_count = len(
+        dataframe
+    )
 
     if imported_count != expected_count:
         raise RuntimeError(
-            f"Row-count validation failed for {table_name}: "
+            "Row-count validation failed "
+            f"for {table_name}: "
             f"expected {expected_count}, "
             f"imported {imported_count}."
         )
@@ -397,56 +449,384 @@ def _clear_mysql_caches() -> None:
     get_table_catalog_context.cache_clear()
     get_query_pool.cache_clear()
 
+def _table_schema_signature(
+    cursor,
+    table_name: str,
+) -> list[tuple[str, str, str, str]]:
+    cursor.execute(
+        "SELECT "
+        "column_name, "
+        "column_type, "
+        "is_nullable, "
+        "column_key "
+        "FROM information_schema.columns "
+        "WHERE table_schema = %s "
+        "AND table_name = %s "
+        "ORDER BY ordinal_position",
+        (
+            MYSQL_DATABASE,
+            table_name,
+        ),
+    )
+
+    return [
+        (
+            str(row[0]),
+            str(row[1]).lower(),
+            str(row[2]).upper(),
+            str(row[3]).upper(),
+        )
+        for row in cursor.fetchall()
+    ]
+
+
+def _can_incrementally_merge(
+    cursor,
+    table_name: str,
+    staging_table: str,
+) -> bool:
+    if not _table_exists(
+        cursor,
+        table_name,
+    ):
+        return False
+
+    target_schema = (
+        _table_schema_signature(
+            cursor,
+            table_name,
+        )
+    )
+
+    staging_schema = (
+        _table_schema_signature(
+            cursor,
+            staging_table,
+        )
+    )
+
+    target_columns = {
+        column[0]
+        for column in target_schema
+    }
+
+    return (
+        target_schema
+        == staging_schema
+        and INTERNAL_ROW_ID_COLUMN
+        in target_columns
+        and INTERNAL_ROW_HASH_COLUMN
+        in target_columns
+    )
+
+
+def _incremental_merge_table(
+    connection,
+    table_name: str,
+    staging_table: str,
+    expected_count: int,
+) -> dict[str, int | str]:
+    cursor = connection.cursor()
+
+    target = quote_identifier(
+        table_name
+    )
+
+    staging = quote_identifier(
+        staging_table
+    )
+
+    row_id = quote_identifier(
+        INTERNAL_ROW_ID_COLUMN
+    )
+
+    cursor.execute(
+        f"SELECT COUNT(*) "
+        f"FROM {staging} AS source "
+        f"LEFT JOIN {target} AS target "
+        f"ON source.{row_id} = "
+        f"target.{row_id} "
+        f"WHERE target.{row_id} IS NULL"
+    )
+
+    inserted = int(
+        cursor.fetchone()[0]
+    )
+
+    cursor.execute(
+        f"SELECT COUNT(*) "
+        f"FROM {target} AS target "
+        f"LEFT JOIN {staging} AS source "
+        f"ON target.{row_id} = "
+        f"source.{row_id} "
+        f"WHERE source.{row_id} IS NULL"
+    )
+
+    deleted = int(
+        cursor.fetchone()[0]
+    )
+
+    cursor.execute(
+        "SELECT column_name "
+        "FROM information_schema.columns "
+        "WHERE table_schema = %s "
+        "AND table_name = %s "
+        "ORDER BY ordinal_position",
+        (
+            MYSQL_DATABASE,
+            staging_table,
+        ),
+    )
+
+    columns = [
+        str(row[0])
+        for row in cursor.fetchall()
+    ]
+
+    column_sql = ", ".join(
+        quote_identifier(column)
+        for column in columns
+    )
+
+    source_column_sql = ", ".join(
+        "source."
+        + quote_identifier(column)
+        for column in columns
+    )
+
+    if inserted:
+        cursor.execute(
+            f"INSERT IGNORE INTO {target} "
+            f"({column_sql}) "
+            f"SELECT {source_column_sql} "
+            f"FROM {staging} AS source"
+        )
+
+    if deleted:
+        cursor.execute(
+            f"DELETE target "
+            f"FROM {target} AS target "
+            f"LEFT JOIN {staging} AS source "
+            f"ON target.{row_id} = "
+            f"source.{row_id} "
+            f"WHERE source.{row_id} IS NULL"
+        )
+
+    cursor.execute(
+        f"SELECT COUNT(*) "
+        f"FROM {target}"
+    )
+
+    final_count = int(
+        cursor.fetchone()[0]
+    )
+
+    if final_count != expected_count:
+        raise RuntimeError(
+            "Incremental row-count validation "
+            f"failed for {table_name}: "
+            f"expected {expected_count}, "
+            f"found {final_count}."
+        )
+
+    cursor.execute(
+        f"DROP TABLE {staging}"
+    )
+
+    cursor.close()
+
+    return {
+        "mode": "incremental",
+        "inserted": inserted,
+        "deleted": deleted,
+        "unchanged": (
+            final_count - inserted
+        ),
+        "rows": final_count,
+    }
+
+
+def _replace_table_from_staging(
+    connection,
+    table_name: str,
+    staging_table: str,
+    expected_count: int,
+) -> dict[str, int | str]:
+    cursor = connection.cursor()
+
+    previous_count = 0
+
+    if _table_exists(
+        cursor,
+        table_name,
+    ):
+        cursor.execute(
+            f"SELECT COUNT(*) "
+            f"FROM "
+            f"{quote_identifier(table_name)}"
+        )
+
+        previous_count = int(
+            cursor.fetchone()[0]
+        )
+
+    backup_table = (
+        f"_old_{table_name}"
+    )
+
+    cursor.execute(
+        f"DROP TABLE IF EXISTS "
+        f"{quote_identifier(backup_table)}"
+    )
+
+    if _table_exists(
+        cursor,
+        table_name,
+    ):
+        cursor.execute(
+            "RENAME TABLE "
+            f"{quote_identifier(table_name)} "
+            f"TO "
+            f"{quote_identifier(backup_table)}, "
+            f"{quote_identifier(staging_table)} "
+            f"TO "
+            f"{quote_identifier(table_name)}"
+        )
+
+        cursor.execute(
+            f"DROP TABLE "
+            f"{quote_identifier(backup_table)}"
+        )
+
+    else:
+        cursor.execute(
+            "RENAME TABLE "
+            f"{quote_identifier(staging_table)} "
+            f"TO "
+            f"{quote_identifier(table_name)}"
+        )
+
+    cursor.close()
+
+    return {
+        "mode": "full_replace",
+        "inserted": expected_count,
+        "deleted": previous_count,
+        "unchanged": 0,
+        "rows": expected_count,
+    }
+
 
 def ingest_csvs_to_mysql(
     force: bool = False,
+    change_plan: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    datasets = load_datasets()
-    fingerprint = dataset_fingerprint()
+    plan = (
+        dict(change_plan)
+        if change_plan is not None
+        else build_dataset_change_plan()
+    )
+
+    current_fingerprints = dict(
+        plan["current_fingerprints"]
+    )
+
+    current_tables = sorted(
+        current_fingerprints
+    )
+
+    tables_to_load = (
+        current_tables
+        if force
+        else list(
+            plan["tables_to_load"]
+        )
+    )
+
+    deleted_tables = list(
+        plan["deleted_tables"]
+    )
+
+    fingerprint = str(
+        plan["fingerprint"]
+    )
+
+    if (
+        not force
+        and not tables_to_load
+        and not deleted_tables
+    ):
+        return {
+            "status": "unchanged",
+            "fingerprint": fingerprint,
+            "changed_rows": 0,
+            "tables": {},
+            "deleted_tables": [],
+        }
+
+    datasets = load_datasets(
+        include_row_metadata=True,
+        table_names=tables_to_load,
+    )
+
+    fingerprints_after_load = (
+        file_fingerprints()
+    )
+
+    if (
+        current_fingerprints
+        != fingerprints_after_load
+    ):
+        raise RuntimeError(
+            "CSV files changed while MySQL "
+            "synchronization was loading them. "
+            "The operation will be retried."
+        )
 
     ensure_database_exists()
 
     connection = _ingest_connection()
+
     staging_tables: list[str] = []
 
     try:
         cursor = connection.cursor()
 
-        _ensure_manifest_table(cursor)
-
-        all_tables_exist = all(
-            _table_exists(cursor, table_name)
-            for table_name in TABLE_NAMES
+        _ensure_manifest_table(
+            cursor
         )
 
-        existing_fingerprint = (
-            _current_manifest(cursor)
-        )
+        table_results: dict[
+            str,
+            dict[str, int | str],
+        ] = {}
 
-        if (
-            not force
-            and all_tables_exist
-            and existing_fingerprint == fingerprint
-        ):
-            cursor.close()
+        actually_deleted: list[str] = []
 
-            return {
-                "status": "unchanged",
-                "fingerprint": fingerprint,
-                "tables": {
-                    table_name: len(
-                        datasets[table_name]
-                    )
-                    for table_name in TABLE_NAMES
-                },
-            }
+        for table_name in deleted_tables:
+            if _table_exists(
+                cursor,
+                table_name,
+            ):
+                cursor.execute(
+                    f"DROP TABLE "
+                    f"{quote_identifier(table_name)}"
+                )
 
-        for table_name in TABLE_NAMES:
+                actually_deleted.append(
+                    table_name
+                )
+
+        for table_name in tables_to_load:
+            dataframe = datasets[
+                table_name
+            ]
+
             staging_table = (
                 _create_and_fill_staging_table(
                     connection=connection,
                     table_name=table_name,
-                    dataframe=datasets[table_name],
+                    dataframe=dataframe,
                 )
             )
 
@@ -454,44 +834,44 @@ def ingest_csvs_to_mysql(
                 staging_table
             )
 
-        rename_parts: list[str] = []
-        backup_tables: list[str] = []
-
-        for table_name, staging_table in zip(
-            TABLE_NAMES,
-            staging_tables,
-        ):
-            backup_table = (
-                f"_old_{table_name}"
+            can_merge = (
+                not force
+                and _can_incrementally_merge(
+                    cursor,
+                    table_name,
+                    staging_table,
+                )
             )
 
-            cursor.execute(
-                f"DROP TABLE IF EXISTS "
-                f"{quote_identifier(backup_table)}"
-            )
-
-            if _table_exists(
-                cursor,
-                table_name,
-            ):
-                rename_parts.append(
-                    f"{quote_identifier(table_name)} "
-                    f"TO {quote_identifier(backup_table)}"
+            if can_merge:
+                table_result = (
+                    _incremental_merge_table(
+                        connection=connection,
+                        table_name=table_name,
+                        staging_table=staging_table,
+                        expected_count=len(
+                            dataframe
+                        ),
+                    )
                 )
 
-                backup_tables.append(
-                    backup_table
+            else:
+                table_result = (
+                    _replace_table_from_staging(
+                        connection=connection,
+                        table_name=table_name,
+                        staging_table=staging_table,
+                        expected_count=len(
+                            dataframe
+                        ),
+                    )
                 )
 
-            rename_parts.append(
-                f"{quote_identifier(staging_table)} "
-                f"TO {quote_identifier(table_name)}"
-            )
+            table_results[
+                table_name
+            ] = table_result
 
-        cursor.execute(
-            "RENAME TABLE "
-            + ", ".join(rename_parts)
-        )
+        cursor = connection.cursor()
 
         cursor.execute(
             f"INSERT INTO "
@@ -504,32 +884,33 @@ def ingest_csvs_to_mysql(
             (fingerprint,),
         )
 
-        for backup_table in backup_tables:
-            cursor.execute(
-                f"DROP TABLE "
-                f"{quote_identifier(backup_table)}"
-            )
-
         connection.commit()
         cursor.close()
 
         _clear_mysql_caches()
 
+        changed_rows = sum(
+            int(result["inserted"])
+            + int(result["deleted"])
+            for result
+            in table_results.values()
+        )
+
         return {
-            "status": "imported",
+            "status": "synchronized",
             "fingerprint": fingerprint,
-            "tables": {
-                table_name: len(
-                    datasets[table_name]
-                )
-                for table_name in TABLE_NAMES
-            },
+            "changed_rows": changed_rows,
+            "tables": table_results,
+            "deleted_tables":
+                actually_deleted,
         }
 
     except Exception:
         connection.rollback()
 
-        cleanup_cursor = connection.cursor()
+        cleanup_cursor = (
+            connection.cursor()
+        )
 
         for staging_table in staging_tables:
             try:
@@ -537,6 +918,7 @@ def ingest_csvs_to_mysql(
                     f"DROP TABLE IF EXISTS "
                     f"{quote_identifier(staging_table)}"
                 )
+
             except Exception:
                 pass
 
@@ -551,15 +933,21 @@ def ingest_csvs_to_mysql(
 
 def verify_mysql_ready() -> None:
     connection = (
-        get_query_pool().get_connection()
+        get_query_pool()
+        .get_connection()
     )
 
     try:
         cursor = connection.cursor()
 
+        current_table_names = (
+            get_dataset_table_names()
+        )
+
         missing_tables = [
             table_name
-            for table_name in TABLE_NAMES
+            for table_name
+            in current_table_names
             if not _table_exists(
                 cursor,
                 table_name,
@@ -570,8 +958,11 @@ def verify_mysql_ready() -> None:
 
         if missing_tables:
             raise RuntimeError(
-                "MySQL is missing required tables: "
-                + ", ".join(missing_tables)
+                "MySQL is missing current "
+                "dataset tables: "
+                + ", ".join(
+                    missing_tables
+                )
             )
 
     finally:
@@ -673,25 +1064,41 @@ def execute_select(
 
 
 def _normalise_table_names(
-    table_names: Iterable[str] | str | None,
+    table_names: (
+        Iterable[str]
+        | str
+        | None
+    ),
 ) -> tuple[str, ...]:
+    current_table_names = (
+        get_dataset_table_names()
+    )
+
     if table_names is None:
         requested_tables: Iterable[str] = (
-            TABLE_NAMES
+            current_table_names
         )
 
-    elif isinstance(table_names, str):
+    elif isinstance(
+        table_names,
+        str,
+    ):
         requested_tables = (
             table_names,
         )
 
     else:
-        requested_tables = table_names
+        requested_tables = (
+            table_names
+        )
 
     selected_tables = tuple(
         dict.fromkeys(
-            str(table_name).strip()
-            for table_name in requested_tables
+            str(table_name)
+            .strip()
+            .lower()
+            for table_name
+            in requested_tables
             if str(table_name).strip()
         )
     )
@@ -704,17 +1111,19 @@ def _normalise_table_names(
 
     invalid_tables = sorted(
         set(selected_tables)
-        - set(TABLE_NAMES)
+        - set(current_table_names)
     )
 
     if invalid_tables:
         raise ValueError(
-            "Schema requested for unknown tables: "
-            + ", ".join(invalid_tables)
+            "Schema requested for unknown "
+            "tables: "
+            + ", ".join(
+                invalid_tables
+            )
         )
 
     return selected_tables
-
 
 def get_schema_context(
     table_names: Iterable[str] | str | None = None,
@@ -757,20 +1166,22 @@ def _get_schema_context_cached(
 
         for table_name in selected_tables:
             cursor.execute(
-                "SELECT "
-                "column_name, "
-                "column_type, "
-                "is_nullable "
-                "FROM information_schema.columns "
-                "WHERE table_schema = %s "
-                "AND table_name = %s "
-                "ORDER BY ordinal_position",
-                (
-                    MYSQL_DATABASE,
-                    table_name,
-                ),
-            )
-
+    "SELECT "
+    "column_name, "
+    "column_type, "
+    "is_nullable "
+    "FROM information_schema.columns "
+    "WHERE table_schema = %s "
+    "AND table_name = %s "
+    "AND column_name NOT IN (%s, %s) "
+    "ORDER BY ordinal_position",
+    (
+        MYSQL_DATABASE,
+        table_name,
+        INTERNAL_ROW_ID_COLUMN,
+        INTERNAL_ROW_HASH_COLUMN,
+    ),
+)
             columns = [
                 {
                     str(key).lower(): value
@@ -784,6 +1195,13 @@ def _get_schema_context_cached(
                     f"No schema was found for "
                     f"MySQL table {table_name}."
                 )
+
+            sample_columns = ", ".join(
+    quote_identifier(
+        str(item["column_name"])
+    )
+    for item in columns
+)
 
             cursor.execute(
                 f"SELECT * "
@@ -854,14 +1272,16 @@ def get_table_catalog_context() -> str:
     """
     Return a compact live MySQL catalog.
 
-    The query router uses this catalog to dynamically determine which
-    datasets are relevant. No question-to-table mapping is hard-coded here.
+    The query router uses this catalog to
+    dynamically determine which datasets
+    are relevant.
     """
 
     verify_mysql_ready()
 
     connection = (
-        get_query_pool().get_connection()
+        get_query_pool()
+        .get_connection()
     )
 
     try:
@@ -872,7 +1292,9 @@ def get_table_catalog_context() -> str:
 
         sections: list[str] = []
 
-        for table_name in TABLE_NAMES:
+        for table_name in (
+            get_dataset_table_names()
+        ):
             cursor.execute(
                 "SELECT "
                 "column_name, "
@@ -880,24 +1302,33 @@ def get_table_catalog_context() -> str:
                 "FROM information_schema.columns "
                 "WHERE table_schema = %s "
                 "AND table_name = %s "
+                "AND column_name "
+                "NOT IN (%s, %s) "
                 "ORDER BY ordinal_position",
                 (
                     MYSQL_DATABASE,
                     table_name,
+                    INTERNAL_ROW_ID_COLUMN,
+                    INTERNAL_ROW_HASH_COLUMN,
                 ),
             )
 
             columns = [
                 {
-                    str(key).lower(): value
-                    for key, value in row.items()
+                    str(key).lower():
+                        value
+                    for key, value
+                    in row.items()
                 }
-                for row in cursor.fetchall()
+                for row
+                in cursor.fetchall()
             ]
 
             cursor.execute(
-                f"SELECT COUNT(*) AS row_count "
-                f"FROM {quote_identifier(table_name)}"
+                f"SELECT COUNT(*) "
+                f"AS row_count "
+                f"FROM "
+                f"{quote_identifier(table_name)}"
             )
 
             raw_count_row = (
@@ -906,7 +1337,8 @@ def get_table_catalog_context() -> str:
             )
 
             count_row = {
-                str(key).lower(): value
+                str(key).lower():
+                    value
                 for key, value
                 in raw_count_row.items()
             }
@@ -926,17 +1358,28 @@ def get_table_catalog_context() -> str:
                 for item in columns
             )
 
+            description = (
+                TABLE_DESCRIPTIONS.get(
+                    table_name,
+                    (
+                        "Dataset loaded from "
+                        f"{table_name}.csv."
+                    ),
+                )
+            )
+
             sections.append(
                 f"TABLE: {table_name}\n"
-                f"PURPOSE: "
-                f"{TABLE_DESCRIPTIONS[table_name]}\n"
+                f"PURPOSE: {description}\n"
                 f"ROW COUNT: {row_count}\n"
                 f"COLUMNS: {column_text}"
             )
 
         cursor.close()
 
-        return "\n\n".join(sections)
+        return "\n\n".join(
+            sections
+        )
 
     finally:
         connection.close()
@@ -952,8 +1395,7 @@ def get_table_overview() -> dict[str, int]:
     try:
         cursor = connection.cursor()
         table_counts: dict[str, int] = {}
-
-        for table_name in TABLE_NAMES:
+        for table_name in get_dataset_table_names():
             cursor.execute(
                 f"SELECT COUNT(*) "
                 f"FROM {quote_identifier(table_name)}"

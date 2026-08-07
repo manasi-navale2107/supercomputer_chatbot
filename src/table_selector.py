@@ -99,9 +99,11 @@ def _parse_selection(
 def select_relevant_tables(
     question: str,
     chat_history: str = "",
+    llm_provider: str | None = None,
 ) -> tuple[TableSelection, int]:
     """
-    Evaluate every live table using one dedicated LLM call.
+    Evaluate every live table using one
+    dedicated LLM call.
     """
 
     prompt = TABLE_SELECTOR_PROMPT.format(
@@ -131,16 +133,23 @@ def select_relevant_tables(
 
         try:
             response = (
-                get_json_llm().invoke(
+                get_json_llm(
+                    llm_provider
+                ).invoke(
                     current_prompt
                 )
             )
 
-            selection = _parse_selection(
-                response
+            selection = (
+                _parse_selection(
+                    response
+                )
             )
 
-            return selection, attempt + 1
+            return (
+                selection,
+                attempt + 1,
+            )
 
         except (
             ValueError,

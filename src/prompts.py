@@ -11,6 +11,9 @@ RECENT CONVERSATION:
 CURRENT QUESTION:
 {question}
 
+USER LANGUAGE PREFERENCE:
+{preferred_language}
+
 Choose exactly one route.
 
 1. structured
@@ -285,6 +288,25 @@ FOLLOW-UP RULES:
 - A greeting such as "hello" is not a follow-up dataset question.
 - Do not copy a previous standalone_question for a greeting,
   acknowledgement, thanks, or capability question.
+  
+LANGUAGE RULES:
+- Determine response_language from the current question, not from an older
+  conversation message.
+- If USER LANGUAGE PREFERENCE names a language, use that exact language.
+- If automatic detection is requested, use the language of the current
+  question.
+- If the current question is only a short acknowledgement, use the latest
+  clearly identifiable user language from recent conversation.
+- Write direct_response completely in response_language.
+- Keep system names, manufacturer names, dataset names, technical terms,
+  numbers and units unchanged where appropriate.
+- For structured and semantic routes, write standalone_question in clear
+  English for downstream table selection, SQL generation and retrieval.
+- For the semantic route, retrieval_query must be a concise English search
+  query because the indexed datasets are primarily written in English.
+- Preserve supercomputer names, manufacturer names, dataset names, technical
+  terms, numbers and units exactly.
+- response_language must remain the language selected or used by the user.
 
 Return only:
 
@@ -294,7 +316,8 @@ Return only:
   "reason": "short routing reason",
   "standalone_question": "complete standalone question or null",
   "retrieval_query": "short exact semantic retrieval query or null",
-  "direct_response": "response written specifically for the current direct message, or null"
+  "direct_response": "response written specifically for the current direct message, or null",
+  "response_language": "English, Hindi or Marathi"
 }}
 
 OUTPUT REQUIREMENTS:
@@ -402,15 +425,25 @@ Return only:
 
 {{"queries": [{{"sql": "SELECT ..."}}]}}
 
-DATASET COVERAGE RULES:
-- Generate at least one query for every selected table.
-- Never omit a selected table because another table contains a convenient
-  value.
-- Prefer one independent query per selected table.
-- Keep tables with different schemas, grains, dates, or units in separate
-  queries.
-- The application combines query results after execution.
-- Do not join historical tables using only a descriptive system name.
+DATASET SELECTION RULES:
+- Treat selected_tables as the allowed candidate datasets.
+- At least one selected table must be used.
+- Do not use a table that is not included in selected_tables.
+- Every selected table does not have to appear in the final query plan.
+- Use only the table or tables that are genuinely required to answer the
+  current question.
+- Prefer the most direct and authoritative dataset that contains the required
+  entity, metric, filters and time information.
+- Do not generate unnecessary queries merely because multiple tables were
+  selected as candidates.
+- When one selected table can answer the question completely, use that table
+  without forcing unrelated selected tables into the plan.
+- Use multiple tables only when the question genuinely requires evidence from
+  multiple compatible datasets.
+- Keep tables with different schemas, grains, dates or units in separate
+  queries unless a valid and necessary relationship is explicitly supplied.
+- Never join historical tables using only a descriptive system name.
+- Never combine incompatible measurements, populations, grains or units.
 
 ENTITY FILTER RULES:
 - Match a named entity only against a compatible identifier column.
@@ -419,6 +452,8 @@ ENTITY FILTER RULES:
 - A country name must be matched against a country column.
 - A manufacturer or vendor must be matched against a manufacturer or vendor
   column.
+- A processor must be matched against a processor column.
+- An accelerator must be matched against an accelerator column.
 - Never place the requested value in an unrelated categorical column.
 - Match text case-insensitively using partial matching.
 
@@ -426,16 +461,74 @@ QUERY RULES:
 - Each queries item must contain exactly one SELECT or WITH query.
 - Select only useful columns.
 - Never use SELECT *.
-- Apply relevant filters independently to every selected table.
-- Calculate averages, totals, counts, rankings, comparisons, and statistics
+- Apply every relevant user filter to every query that is included in the
+  final plan.
+- Calculate averages, totals, counts, rankings, comparisons and statistics
   in SQL.
-- A raw measurement table remains relevant when another selected table
-  contains a precomputed aggregate of the same measurement.
 - Do not combine incompatible grains or units in one calculation.
-- For current or latest requests, use available date or list columns.
-- Preserve ties for ranking and minimum or maximum questions.
+- For current or latest requests, use the available date, year, month or list
+  columns to identify the latest period.
 - A LIMIT is not a count.
 - Use only supplied table and column names.
+- Do not invent columns, relationships or values.
+- For explicit Top N requests, return exactly N distinct requested entities
+  when at least N matching entities exist.
+- Return more than N entities only when the user explicitly requests that
+  ties must be included.
+- For maximum or minimum questions without an explicit N, preserve ties.
+
+DISTINCT ENTITY RULES:
+- Distinguish between dataset rows and real-world entities.
+- Historical datasets may contain multiple observations of the same system,
+  country, manufacturer, processor or other entity.
+- When the user asks for systems, return distinct systems rather than
+  duplicate historical observations.
+- When the user asks for a count of systems, use COUNT(DISTINCT compatible
+  system identifier) when historical duplicate observations are possible.
+- Do not assume that LIMIT N guarantees N distinct entities.
+- Do not apply LIMIT before removing repeated observations of the requested
+  entity.
+
+TOP-N RULES:
+- When the user asks for Top N systems, countries, manufacturers, processors
+  or other entities, return N distinct entities.
+- Identify the correct entity identity column before creating the ranking.
+- Deduplicate, GROUP BY or rank within each entity before applying the final
+  LIMIT.
+- Apply the final LIMIT only after entity deduplication, aggregation and final
+  ordering.
+- Historical observations of the same entity must not occupy multiple
+  positions in a Top N result.
+- Do not select N raw historical rows and deduplicate them later.
+- If historical records contain multiple metric values for one entity, choose
+  the value required by the question before applying LIMIT.
+- For highest recorded efficiency, performance or another maximum metric per
+  entity, use MAX(metric) with GROUP BY the entity identifier, or use an
+  equivalent window-function query.
+- For lowest recorded power, rank or another minimum metric per entity, use
+  MIN(metric) only when that interpretation matches the exact user question.
+- For a latest-list Top N request, first restrict the data to the latest
+  available list period and then rank distinct entities from that period.
+- Do not mix historical maximum values with latest-list values.
+- If at least N distinct matching entities exist, the executed query must
+  return N distinct entities.
+
+TOP-N EXAMPLE PATTERN:
+- For a question such as "Top 5 most energy-efficient systems" over historical
+  records, use the equivalent of:
+
+  SELECT
+      system_name,
+      MAX(energy_efficiency_column) AS energy_efficiency
+  FROM relevant_table
+  WHERE energy_efficiency_column IS NOT NULL
+  GROUP BY system_name
+  ORDER BY energy_efficiency DESC
+  LIMIT 5
+
+- The example demonstrates query structure only.
+- Always use the actual table and column names supplied in the live schema.
+- Never copy example column names when they are absent from the live schema.
 
 ENTITY FILTERING RULES:
 - Identify the entity type from the user's question before creating filters.
@@ -459,46 +552,51 @@ ENTITY FILTERING RULES:
 - Search processor_model or accelerator_model only when the question is
   specifically about a processor or accelerator.
 - Do not create broad OR conditions across every textual column.
-- Preserve the exact entity text from the user; do not add unrelated words.
+- Preserve the exact entity text from the user.
+- Do not add unrelated words to entity filters.
 
 MANDATORY PER-TABLE SCHEMA VALIDATION:
-
-- Treat each selected table as an independent schema.
+- Treat each used table as an independent schema.
 - Before returning the plan, verify every column used in SELECT, WHERE, JOIN,
   GROUP BY, HAVING and ORDER BY against the exact schema of the table used by
   that query.
 - A column appearing in one selected table must not be assumed to exist in
   another selected table.
-- Determine the correct filter column independently for every table.
+- Determine the correct filter column independently for every used table.
 - Never copy a filter predicate from one query to another unless the target
   table contains the same compatible column.
 - Do not invent a common column merely because multiple datasets describe
   similar subjects.
 - Column aliases may standardise output names, but aliases must be based on
   real columns from the corresponding table.
-- Every explicit user filter must be applied to every query through a
-  compatible column that exists in that query's table.
-- Do not remove a mandatory filter merely to make a table return rows.
-- Use relationships only when they are explicitly supplied and all join
-  columns exist in the corresponding schemas.
+- Every explicit user filter must be applied through a compatible column that
+  exists in the table used by that query.
+- Do not remove a mandatory user filter merely to make a table return rows.
+- Use relationships only when they are explicitly supplied and all required
+  join columns exist in the corresponding schemas.
 
-FINAL COVERAGE CHECK:
-- Before returning JSON, compare selected_tables with all table names
-  referenced by the generated queries.
-- Every selected table must appear in at least one query.
-- No unselected table may appear unless it is required by an explicitly
-  supplied relationship.
-- Every query must remain independently valid when executed.
-- Return the plan only after both table coverage and per-table column
-  validation succeed.
+FINAL VALIDATION:
+- Verify that at least one selected table is referenced by the generated plan.
+- Verify that every referenced dataset belongs to selected_tables.
+- Do not require every candidate selected table to appear in the final plan.
+- Verify that every referenced table and column exists in the supplied live
+  schema.
+- Verify that every query remains independently valid when executed.
+- For Top N entity requests, verify that deduplication or grouping happens
+  before the final LIMIT.
+- For Top N entity requests, verify that repeated historical observations
+  cannot consume multiple result positions.
+- Return the plan only after table, column, filter, aggregation, ordering and
+  distinct-entity validation succeeds.
 
 SAFETY RULES:
 - Never generate INSERT, UPDATE, DELETE, DROP, ALTER, CREATE, TRUNCATE,
   GRANT, REVOKE, SHOW, DESCRIBE, administrative operations, procedures,
-  variables, locks, or file operations.
+  variables, locks or file operations.
 - Never put multiple SQL statements inside one query item.
+- Every generated query must be read-only.
 
-Do not return markdown, comments, explanations, or additional fields.
+Do not return markdown, comments, explanations or additional fields.
 """
 
 
@@ -587,6 +685,9 @@ an accurate, concise and readable Markdown answer.
 USER QUESTION
 {question}
 
+RESPONSE LANGUAGE
+{response_language}
+
 RECENT CONVERSATION CONTEXT
 {context}
 
@@ -603,6 +704,21 @@ EVIDENCE RULES
   requested concept in different datasets.
 - Semantic evidence contains documents retrieved from the vector database.
 - Use only values present in the verified evidence.
+- Inspect all supplied semantic documents before writing the answer.
+- Semantic documents may come from multiple datasets.
+- Combine relevant information from all represented datasets.
+- Ignore retrieved documents that are unrelated to the current question.
+- Match entity names case-insensitively.
+- Preserve the original spelling and capitalization of entity names found
+  in the evidence.
+- If at least one semantic document contains relevant information about the
+  requested entity, use that document to answer the question.
+- Do not reject relevant semantic evidence merely because some other retrieved
+  documents are unrelated.
+- Do not claim that an entity is missing when a supplied document contains
+  that entity.
+- The number of retrieved documents alone does not prove that matching
+  information exists; inspect their actual content.
 
 ACCURACY RULES
 
@@ -620,7 +736,9 @@ ACCURACY RULES
 11. Omit Unknown, null, N/A and unavailable values.
 12. Do not repeat the same fact.
 13. Do not add unsupported conclusions.
-14. Return only the final answer.
+14. Never mention routing, MySQL execution, Qdrant retrieval, embeddings,
+    prompts, model failures or other internal operations.
+15. Return only the final answer.
 
 RESULT INTERPRETATION RULES
 
@@ -643,6 +761,23 @@ RESULT INTERPRETATION RULES
 - Do not display empty tables, placeholder rows or columns containing only
   unavailable values.
 
+SEMANTIC RESULT INTERPRETATION RULES
+
+- Examine the content of every supplied semantic document.
+- Prefer documents containing the requested entity or concept.
+- Entity matching must be case-insensitive.
+- Use every relevant document when different documents provide complementary
+  details.
+- Deduplicate facts repeated across multiple documents.
+- Ignore unrelated documents instead of allowing them to override relevant
+  documents.
+- If relevant documents contain information about the requested entity,
+  provide the answer from those documents.
+- Say "No matching information was found in the indexed datasets." only when
+  none of the supplied documents contains relevant information.
+- Do not state that information is absent from every dataset unless the
+  supplied evidence confirms that every relevant dataset was searched.
+
 FORMATTING RULES
 
 - Use clean Markdown.
@@ -653,6 +788,24 @@ FORMATTING RULES
 - Use short paragraphs.
 - Avoid repeating historical duplicate records.
 - Include at most two short observations after a table.
+- Do not print Markdown table syntax as a single paragraph.
+- Every Markdown table row must appear on a separate line.
+- Every bullet must appear on a separate line.
+- Do not create an unnecessarily large table when a concise list is clearer.
+
+LANGUAGE RULES
+
+- Write the complete final answer in RESPONSE LANGUAGE.
+- Follow RESPONSE LANGUAGE even when the evidence is written in another
+  language.
+- Do not switch to the language of an older conversation message.
+- Keep supercomputer names, manufacturer names, dataset names, numbers,
+  technical terms and measurement units accurate.
+- Do not translate or modify evidence values.
+- Do not mix languages unnecessarily.
+- The style examples below demonstrate formatting only; they do not override
+  RESPONSE LANGUAGE.
+- Return only the final answer.
 
 STYLE EXAMPLES
 

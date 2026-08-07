@@ -6,6 +6,13 @@ from typing import Any
 
 from src.llm import get_llm
 from src.prompts import ANSWER_PROMPT
+import logging
+logger = logging.getLogger(__name__)
+
+from src.language_service import (
+    localized_message,
+    normalize_language,
+)
 
 
 MAX_ROWS_PER_QUERY = 30
@@ -440,34 +447,87 @@ def generate_answer(
     question: str,
     evidence: dict[str, Any],
     context: str = "",
+    response_language: str = "English",
+    llm_provider: str | None = None,
 ) -> str:
+    evidence_text = (
+        _build_evidence_text(
+            evidence
+        )
+    )
+
     prompt = ANSWER_PROMPT.format(
         question=question.strip(),
         context=(
             context.strip()
-            or "No previous conversation context."
+            or (
+                "No previous conversation "
+                "context."
+            )
         ),
-        evidence=_build_evidence_text(evidence),
+        evidence=evidence_text,
+        response_language=(
+            response_language.strip()
+            or "English"
+        ),
     )
 
-    response = get_llm().invoke(prompt)
-
-    return _clean_answer(
-        _message_text(response)
+    response = (
+        get_llm(
+            llm_provider
+        ).invoke(
+            prompt
+        )
     )
+
+    content = getattr(
+        response,
+        "content",
+        response,
+    )
+
+    answer = _clean_answer(
+        str(content)
+    )
+
+    if not answer:
+        raise ValueError(
+            "The answer model returned "
+            "an empty response."
+        )
+
+    return answer
 
 
 def generate_evidence_answer(
     state: dict[str, Any],
 ) -> dict[str, Any]:
-    evidence = state.get("evidence") or {}
+    evidence = (
+        state.get("evidence")
+        or {}
+    )
+
+    decision = (
+        state.get("decision")
+        or {}
+    )
 
     route = str(
-        state.get("decision", {}).get("route", "")
-    ).casefold()
+        decision.get("route")
+        or "unknown"
+    ).strip().lower()
+
+    response_language = (
+        normalize_language(
+            decision.get(
+                "response_language"
+            )
+        )
+    )
 
     question = str(
-        state.get("question") or ""
+        state.get("question")
+        or ""
     ).strip()
 
     context = str(
@@ -477,55 +537,90 @@ def generate_evidence_answer(
     ).strip()
 
     current_calls = int(
-        state.get("llm_calls", 0)
+        state.get(
+            "llm_calls",
+            0,
+        )
     )
 
-    if not evidence.get("success", False):
-        error = str(
-            evidence.get("error")
-            or (
-                "I could not retrieve reliable evidence "
-                "for this request."
-            )
+    citations = evidence.get(
+        "citations",
+        {},
+    )
+
+    if not evidence.get(
+        "success",
+        False,
+    ):
+        message_key = (
+            "structured_failed"
+            if route == "structured"
+            else "semantic_failed"
+        )
+
+        answer = localized_message(
+            message_key,
+            response_language,
         )
 
         return {
-            "answer": error,
+            "answer": answer,
+            "citations": citations,
             "llm_calls": current_calls,
-            "error": error,
+            "error": str(
+                evidence.get("error")
+                or answer
+            ),
         }
 
     if route == "structured":
-        if not _has_structured_rows(evidence):
+        if not _has_structured_rows(
+            evidence
+        ):
             return {
-                "answer": "No matching records were found.",
+                "answer": localized_message(
+                    "no_records",
+                    response_language,
+                ),
+                "citations": citations,
                 "llm_calls": current_calls,
                 "error": None,
             }
 
-        single_value = _single_verified_value(
-            evidence
+        single_value = (
+            _single_verified_value(
+                evidence
+            )
         )
 
         if single_value is not None:
             return {
-                "answer": (
-                    "The verified answer is "
-                    f"{_format_value(single_value)}."
+                "answer": localized_message(
+                    "verified_answer",
+                    response_language,
+                    value=_format_value(
+                        single_value
+                    ),
                 ),
+                "citations": citations,
                 "llm_calls": current_calls,
                 "error": None,
             }
 
     if route == "semantic":
-        documents = _semantic_documents(evidence)
+        documents = (
+            _semantic_documents(
+                evidence
+            )
+        )
 
         if not documents:
             return {
-                "answer": (
-                    "No matching information was found "
-                    "in the indexed datasets."
+                "answer": localized_message(
+                    "no_information",
+                    response_language,
                 ),
+                "citations": citations,
                 "llm_calls": current_calls,
                 "error": None,
             }
@@ -535,41 +630,36 @@ def generate_evidence_answer(
             question=question,
             evidence=evidence,
             context=context,
+            response_language=(
+                response_language
+            ),
+            llm_provider=state.get(
+                "llm_provider"
+            ),
         )
-
-        if not answer:
-            raise ValueError(
-                "The answer model returned an empty response."
-            )
 
         return {
             "answer": answer,
-            "llm_calls": current_calls + 1,
+            "citations": citations,
+            "llm_calls":
+                current_calls + 1,
             "error": None,
         }
 
-    except Exception as exc:
-        if route == "structured":
-            row_count = len(
-                _structured_rows(evidence)
-            )
-
-            return {
-                "answer": (
-                    f"{row_count} verified result"
-                    f"{'s' if row_count != 1 else ''} "
-                    "were found, but the final response "
-                    "could not be generated."
-                ),
-                "llm_calls": current_calls,
-                "error": str(exc),
-            }
+    except Exception as error:
+        logger.exception(
+            "Final answer generation failed. "
+            "Route=%s, Question=%s",
+            route,
+            question,
+        )
 
         return {
-            "answer": (
-                "Matching information was retrieved, "
-                "but the final response could not be generated."
+            "answer": localized_message(
+                "answer_failed",
+                response_language,
             ),
+            "citations": citations,
             "llm_calls": current_calls,
-            "error": str(exc),
+            "error": str(error),
         }

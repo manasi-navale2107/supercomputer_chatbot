@@ -1,6 +1,10 @@
 from __future__ import annotations
 
-from typing import Any, Literal, TypedDict
+from typing import (
+    Any,
+    Literal,
+    TypedDict,
+)
 
 from pydantic import (
     BaseModel,
@@ -9,7 +13,9 @@ from pydantic import (
     model_validator,
 )
 
-from src.config import TABLE_NAMES
+from src.data_loader import (
+    get_dataset_table_names,
+)
 
 
 RouteName = Literal[
@@ -21,35 +27,54 @@ RouteName = Literal[
 
 class RouteDecision(BaseModel):
     route: RouteName
+
     intent: str = Field(
         min_length=1,
         max_length=80,
     )
+
     reason: str = Field(
         min_length=1,
         max_length=500,
     )
 
-    standalone_question: str | None = Field(
-        default=None,
-        max_length=2_000,
-    )
-    retrieval_query: str | None = Field(
-        default=None,
-        max_length=2_000,
-    )
-    direct_response: str | None = Field(
+    standalone_question: (
+        str | None
+    ) = Field(
         default=None,
         max_length=2_000,
     )
 
-    @model_validator(mode="after")
+    retrieval_query: (
+        str | None
+    ) = Field(
+        default=None,
+        max_length=2_000,
+    )
+
+    direct_response: (
+        str | None
+    ) = Field(
+        default=None,
+        max_length=2_000,
+    )
+
+    response_language: str = Field(
+        default="English",
+        min_length=2,
+        max_length=40,
+    )
+
+    @model_validator(
+        mode="after"
+    )
     def validate_route_payload(
         self,
     ) -> "RouteDecision":
         if self.route == "structured":
             if not (
-                self.standalone_question or ""
+                self.standalone_question
+                or ""
             ).strip():
                 raise ValueError(
                     "Structured route requires "
@@ -61,7 +86,8 @@ class RouteDecision(BaseModel):
 
         elif self.route == "semantic":
             if not (
-                self.standalone_question or ""
+                self.standalone_question
+                or ""
             ).strip():
                 raise ValueError(
                     "Semantic route requires "
@@ -69,7 +95,8 @@ class RouteDecision(BaseModel):
                 )
 
             if not (
-                self.retrieval_query or ""
+                self.retrieval_query
+                or ""
             ).strip():
                 raise ValueError(
                     "Semantic route requires "
@@ -80,7 +107,8 @@ class RouteDecision(BaseModel):
 
         else:
             if not (
-                self.direct_response or ""
+                self.direct_response
+                or ""
             ).strip():
                 raise ValueError(
                     "Direct route requires "
@@ -95,15 +123,18 @@ class RouteDecision(BaseModel):
 
 class TableSelection(BaseModel):
     """
-    Dataset selection produced by the dedicated table-selector LLM.
+    Dataset selection produced by the
+    dedicated table-selector LLM.
     """
 
     selected_tables: list[str] = Field(
         min_length=1
     )
+
     excluded_tables: list[str] = Field(
         default_factory=list
     )
+
     reason: str = Field(
         min_length=1,
         max_length=1_000,
@@ -118,7 +149,10 @@ class TableSelection(BaseModel):
         cls,
         values: list[str],
     ) -> list[str]:
-        allowed = set(TABLE_NAMES)
+        allowed = set(
+            get_dataset_table_names()
+        )
+
         normalized: list[str] = []
 
         for value in values:
@@ -132,52 +166,91 @@ class TableSelection(BaseModel):
                     f"{value}"
                 )
 
-            if table_name not in normalized:
+            if (
+                table_name
+                not in normalized
+            ):
                 normalized.append(
                     table_name
                 )
 
         return normalized
 
-    @model_validator(mode="after")
+    @model_validator(
+        mode="after"
+    )
     def validate_complete_partition(
         self,
     ) -> "TableSelection":
+        live_tables = set(
+            get_dataset_table_names()
+        )
+
         selected = set(
             self.selected_tables
         )
+
         excluded = set(
             self.excluded_tables
         )
 
-        overlap = selected & excluded
+        overlap = (
+            selected
+            & excluded
+        )
 
         if overlap:
             raise ValueError(
-                "Datasets cannot be both selected "
-                "and excluded: "
-                + ", ".join(sorted(overlap))
+                "Datasets cannot be both "
+                "selected and excluded: "
+                + ", ".join(
+                    sorted(overlap)
+                )
             )
 
         missing = (
-            set(TABLE_NAMES)
+            live_tables
             - selected
             - excluded
         )
 
         if missing:
             raise ValueError(
-                "Every live dataset must be evaluated. "
-                "Missing: "
-                + ", ".join(sorted(missing))
+                "Every live dataset must "
+                "be evaluated. Missing: "
+                + ", ".join(
+                    sorted(missing)
+                )
+            )
+
+        unknown_partition_tables = (
+            selected
+            | excluded
+        ) - live_tables
+
+        if unknown_partition_tables:
+            raise ValueError(
+                "The table selection contains "
+                "datasets that are no longer "
+                "available: "
+                + ", ".join(
+                    sorted(
+                        unknown_partition_tables
+                    )
+                )
             )
 
         return self
 
 
-class AgentState(TypedDict, total=False):
+class AgentState(
+    TypedDict,
+    total=False,
+):
     question: str
     chat_history: str
+    preferred_language: str
+    llm_provider: str
 
     decision: dict[str, Any]
     table_selection: dict[str, Any]

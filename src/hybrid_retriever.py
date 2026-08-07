@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from functools import lru_cache
+import re
 from typing import Any
 
 from qdrant_client import models
@@ -36,7 +36,7 @@ def _document_from_point(
                 "content",
                 "",
             )
-        )[:2500],
+        )[:2_500],
         "source": payload.get(
             "source",
             "unknown",
@@ -44,6 +44,9 @@ def _document_from_point(
         "table": payload.get(
             "table",
             "unknown",
+        ),
+        "row_id": payload.get(
+            "row_id"
         ),
         "row_index": payload.get(
             "row_index"
@@ -53,7 +56,10 @@ def _document_from_point(
             "unknown",
         ),
         "score": (
-            round(float(score), 6)
+            round(
+                float(score),
+                6,
+            )
             if score is not None
             else None
         ),
@@ -65,19 +71,62 @@ def _document_from_point(
 def _document_key(
     document: dict[str, Any],
 ) -> tuple[Any, ...]:
+    row_id = document.get(
+        "row_id"
+    )
+
+    if row_id:
+        return (
+            document.get(
+                "source"
+            ),
+            row_id,
+            document.get(
+                "document_type"
+            ),
+        )
+
     return (
-        document.get("source"),
-        document.get("row_index"),
-        document.get("document_type"),
+        document.get(
+            "source"
+        ),
+        document.get(
+            "row_index"
+        ),
+        document.get(
+            "document_type"
+        ),
     )
 
 
-@lru_cache(maxsize=1)
+def _normalise_query(
+    query: str,
+) -> str:
+    """
+    Normalize whitespace and case.
+
+    KAIROS, Kairos and kairos
+    should match the same token.
+    """
+
+    cleaned_query = re.sub(
+        r"\s+",
+        " ",
+        query,
+    ).strip()
+
+    return (
+        cleaned_query.casefold()
+    )
+
+
 def ensure_content_text_index() -> None:
     client = get_qdrant_client()
 
-    collection = client.get_collection(
-        QDRANT_COLLECTION
+    collection = (
+        client.get_collection(
+            QDRANT_COLLECTION
+        )
     )
 
     payload_schema = (
@@ -93,18 +142,40 @@ def ensure_content_text_index() -> None:
         return
 
     client.create_payload_index(
-        collection_name=
-            QDRANT_COLLECTION,
+        collection_name=(
+            QDRANT_COLLECTION
+        ),
         field_name="content",
-        field_schema=
+        field_schema=(
             models.TextIndexParams(
-                type=
-                    models.TextIndexType.TEXT,
-                tokenizer=
-                    models.TokenizerType.WORD,
+                type=(
+                    models
+                    .TextIndexType
+                    .TEXT
+                ),
+                tokenizer=(
+                    models
+                    .TokenizerType
+                    .WORD
+                ),
                 lowercase=True,
-            ),
+            )
+        ),
         wait=True,
+    )
+
+
+def _manifest_condition():
+    """
+    Return a condition that identifies
+    the internal Qdrant manifest point.
+    """
+
+    return models.FieldCondition(
+        key="kind",
+        match=models.MatchValue(
+            value="manifest",
+        ),
     )
 
 
@@ -114,37 +185,61 @@ def _full_text_search(
 ) -> list[dict[str, Any]]:
     client = get_qdrant_client()
 
+    search_filter = models.Filter(
+        must=[
+            models.FieldCondition(
+                key="content",
+                match=models.MatchText(
+                    text=(
+                        _normalise_query(
+                            query
+                        )
+                    ),
+                ),
+            )
+        ],
+        must_not=[
+            _manifest_condition()
+        ],
+    )
+
     points, _ = client.scroll(
-        collection_name=
-            QDRANT_COLLECTION,
-        scroll_filter=models.Filter(
-            must=[
-                models.FieldCondition(
-                    key="kind",
-                    match=models.MatchValue(
-                        value="document",
-                    ),
-                ),
-                models.FieldCondition(
-                    key="content",
-                    match=models.MatchText(
-                        text=query,
-                    ),
-                ),
-            ]
+        collection_name=(
+            QDRANT_COLLECTION
         ),
+        scroll_filter=search_filter,
         limit=limit,
         with_payload=True,
         with_vectors=False,
     )
 
-    return [
-        _document_from_point(
-            point,
-            "full_text",
+    documents: list[
+        dict[str, Any]
+    ] = []
+
+    for point in points:
+        payload = dict(
+            point.payload or {}
         )
-        for point in points
-    ]
+
+        content = str(
+            payload.get(
+                "content",
+                "",
+            )
+        ).strip()
+
+        if not content:
+            continue
+
+        documents.append(
+            _document_from_point(
+                point,
+                "full_text",
+            )
+        )
+
+    return documents
 
 
 def _vector_search(
@@ -152,7 +247,8 @@ def _vector_search(
     limit: int,
 ) -> list[dict[str, Any]]:
     query_vector = (
-        get_embeddings().embed_query(
+        get_embeddings()
+        .embed_query(
             query
         )
     )
@@ -160,33 +256,59 @@ def _vector_search(
     response = (
         get_qdrant_client()
         .query_points(
-            collection_name=
-                QDRANT_COLLECTION,
+            collection_name=(
+                QDRANT_COLLECTION
+            ),
             query=query_vector,
             query_filter=models.Filter(
-                must=[
-                    models.FieldCondition(
-                        key="kind",
-                        match=
-                            models.MatchValue(
-                                value="document",
-                            ),
-                    )
-                ]
+                must_not=[
+                    _manifest_condition()
+                ],
             ),
-            limit=limit,
+            limit=(
+                limit + 4
+            ),
             with_payload=True,
             with_vectors=False,
         )
     )
 
-    return [
-        _document_from_point(
-            point,
-            "vector",
+    documents: list[
+        dict[str, Any]
+    ] = []
+
+    for point in response.points:
+        payload = dict(
+            point.payload or {}
         )
-        for point in response.points
-    ]
+
+        if (
+            payload.get("kind")
+            == "manifest"
+        ):
+            continue
+
+        content = str(
+            payload.get(
+                "content",
+                "",
+            )
+        ).strip()
+
+        if not content:
+            continue
+
+        documents.append(
+            _document_from_point(
+                point,
+                "vector",
+            )
+        )
+
+        if len(documents) >= limit:
+            break
+
+    return documents
 
 
 def _merge_documents(
@@ -210,6 +332,16 @@ def _merge_documents(
         *text_documents,
         *vector_documents,
     ]:
+        content = str(
+            document.get(
+                "content",
+                "",
+            )
+        ).strip()
+
+        if not content:
+            continue
+
         key = _document_key(
             document
         )
@@ -217,8 +349,13 @@ def _merge_documents(
         if key in seen:
             continue
 
-        merged.append(document)
-        seen.add(key)
+        merged.append(
+            document
+        )
+
+        seen.add(
+            key
+        )
 
         if len(merged) >= limit:
             break
@@ -247,7 +384,9 @@ def _diversify_by_dataset(
         buckets.setdefault(
             dataset,
             [],
-        ).append(document)
+        ).append(
+            document
+        )
 
     selected: list[
         dict[str, Any]
@@ -257,8 +396,8 @@ def _diversify_by_dataset(
         tuple[Any, ...]
     ] = set()
 
-    # First select one exact match
-    # from each matching dataset.
+    # Select one exact match from
+    # each represented dataset.
     for bucket in buckets.values():
         document = bucket[0]
 
@@ -269,13 +408,19 @@ def _diversify_by_dataset(
         if key in seen:
             continue
 
-        selected.append(document)
-        seen.add(key)
+        selected.append(
+            document
+        )
+
+        seen.add(
+            key
+        )
 
         if len(selected) >= limit:
             return selected
 
-    # Fill remaining context positions.
+    # Fill remaining positions in
+    # their retrieval order.
     for document in documents:
         key = _document_key(
             document
@@ -284,8 +429,13 @@ def _diversify_by_dataset(
         if key in seen:
             continue
 
-        selected.append(document)
-        seen.add(key)
+        selected.append(
+            document
+        )
+
+        seen.add(
+            key
+        )
 
         if len(selected) >= limit:
             break
@@ -297,7 +447,11 @@ def semantic_search(
     query: str,
     k: int = QDRANT_TOP_K,
 ) -> dict[str, Any]:
-    query = query.strip()
+    query = re.sub(
+        r"\s+",
+        " ",
+        query,
+    ).strip()
 
     if not query:
         raise ValueError(
@@ -308,6 +462,9 @@ def semantic_search(
     verify_qdrant_ready()
     ensure_content_text_index()
 
+    # No global fingerprint filter.
+    # Stable unchanged documents must
+    # remain searchable after updates.
     text_candidates = (
         _full_text_search(
             query=query,
@@ -341,8 +498,9 @@ def semantic_search(
 
     text_documents = (
         _diversify_by_dataset(
-            documents=
-                text_candidates,
+            documents=(
+                text_candidates
+            ),
             limit=text_limit,
         )
     )
@@ -357,22 +515,35 @@ def semantic_search(
         )
     )
 
-    documents = _merge_documents(
-        text_documents=
-            text_documents,
-        vector_documents=
-            vector_documents,
-        limit=k,
+    documents = (
+        _merge_documents(
+            text_documents=(
+                text_documents
+            ),
+            vector_documents=(
+                vector_documents
+            ),
+            limit=k,
+        )
     )
 
     return {
-        "success": True,
-        "query": query,
+        "success":
+            True,
+        "query":
+            query,
+        "normalized_text_query": (
+            _normalise_query(
+                query
+            )
+        ),
         "search_type": (
+            "case_insensitive_"
             "qdrant_full_text_"
             "and_dense_vector"
         ),
-        "documents": documents,
+        "documents":
+            documents,
         "document_count":
             len(documents),
     }

@@ -2,42 +2,319 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supercomputer Analytics Agent</title>
-   <link rel="stylesheet" href="/static/style.css?v=20260718-4">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Supercomputer Analytics Agent with MySQL and Qdrant"
+    >
+
+    <title>
+        Supercomputer Analytics Agent
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css?v=7"
+    >
 </head>
+
 <body>
 <div class="layout">
+
+    <!-- Left chat-history sidebar -->
     <aside class="sidebar">
-        <h2>Chats</h2>
-        <button id="newChatBtn" type="button">+ New Chat</button>
-        <div id="conversationList" aria-live="polite"></div>
+        <div class="sidebar-header">
+            <h2>Chats</h2>
+
+            <button
+                id="newChatBtn"
+                class="new-chat-btn"
+                type="button"
+                aria-label="Create a new chat"
+                title="New Chat"
+            >
+                <span aria-hidden="true">＋</span>
+                <span>New Chat</span>
+            </button>
+        </div>
+
+        <div
+            id="conversationList"
+            class="conversation-list"
+            aria-live="polite"
+        ></div>
     </aside>
 
+    <!-- Main chatbot section -->
     <main class="chat-area">
-        <header>
-            <h1>⚡ Supercomputer Analytics Agent</h1>
-            <p>MySQL structured analytics + Qdrant semantic search</p>
+
+        <header class="app-header">
+            <div class="app-title-row">
+                <span
+                    class="app-logo"
+                    aria-hidden="true"
+                >
+                    ⚡
+                </span>
+
+                <div>
+                    <h1>
+                        Supercomputer Analytics Agent
+                    </h1>
+
+                    <p>
+                        MySQL structured analytics
+                        + Qdrant semantic search
+                    </p>
+                </div>
+            </div>
         </header>
 
-        <div id="chatBox" class="chat-box" aria-live="polite"></div>
+        <!-- Messages are rendered here -->
+        <div
+            id="chatBox"
+            class="chat-box"
+            aria-live="polite"
+            aria-label="Chat messages"
+        ></div>
 
-        <div class="input-area">
-            <input
-                id="messageInput"
-                type="text"
-                maxlength="4000"
-                autocomplete="off"
-                placeholder="Ask about Green500, TOP500, systems, or statistics..."
-            >
-            <button id="sendBtn" type="button">Send</button>
-        </div>
+        <!-- Bottom composer -->
+        <section
+            class="composer-section"
+            aria-label="Message composer"
+        >
+            <div class="composer-wrapper">
+
+                <!-- Selected image preview -->
+                <div
+                    id="imagePreviewContainer"
+                    class="image-preview-container"
+                    hidden
+                >
+                    <div class="image-preview-card">
+                        <img
+                            id="imagePreview"
+                            class="image-preview"
+                            alt="Selected image preview"
+                        >
+
+                        <div class="image-preview-information">
+                            <span
+                                id="imageFileName"
+                                class="image-file-name"
+                            ></span>
+
+                            <small>
+                                Image will be checked for
+                                supercomputer or HPC relevance.
+                            </small>
+                        </div>
+
+                        <button
+                            id="removeImageBtn"
+                            class="remove-image-btn"
+                            type="button"
+                            aria-label="Remove selected image"
+                            title="Remove image"
+                        >
+                            ✕
+                        </button>
+                    </div>
+                </div>
+
+                <div class="composer">
+
+                    <!-- Hidden image input -->
+                    <input
+                        id="imageInput"
+                        type="file"
+                        accept="image/jpeg,image/png,image/webp"
+                        hidden
+                    >
+
+                    <!-- Main text area row -->
+                    <div class="composer-input-row">
+
+                        <!-- ChatGPT-style plus button -->
+                        <button
+                            id="imageUploadBtn"
+                            class="composer-icon-btn add-image-btn"
+                            type="button"
+                            aria-label="Attach an image"
+                            title="Attach image"
+                        >
+                            <span aria-hidden="true">
+                                ＋
+                            </span>
+                        </button>
+
+                        <textarea
+                            id="messageInput"
+                            class="message-input"
+                            rows="1"
+                            maxlength="4000"
+                            autocomplete="off"
+                            spellcheck="true"
+                            aria-label="Message"
+                            placeholder="Ask about supercomputers, TOP500, Green500, systems or statistics..."
+                        ></textarea>
+
+                        <button
+                            id="sendBtn"
+                            class="send-btn"
+                            type="button"
+                            aria-label="Send message"
+                            title="Send message"
+                        >
+                            <span
+                                class="send-button-icon"
+                                aria-hidden="true"
+                            >
+                                ↑
+                            </span>
+
+                            <span class="send-button-text">
+                                Send
+                            </span>
+                        </button>
+                    </div>
+
+                    <!-- Compact controls row -->
+                    <div class="composer-controls">
+
+                        <div class="composer-controls-left">
+                            <span class="composer-hint">
+                                Enter to send · Shift + Enter for new line
+                            </span>
+                        </div>
+
+                        <div class="composer-controls-right">
+
+                            <!-- LLM provider selector -->
+                            <label
+                                class="compact-select-wrapper"
+                                title="Choose AI model"
+                            >
+                                <span
+                                    class="control-icon"
+                                    aria-hidden="true"
+                                >
+                                    ✨
+                                </span>
+
+                                <select
+                                    id="modelSelect"
+                                    class="compact-select model-select"
+                                    aria-label="AI model provider"
+                                >
+                                    <option value="ollama">
+                                        Ollama
+                                    </option>
+
+                                    <option value="groq">
+                                        Groq
+                                    </option>
+                                </select>
+                            </label>
+
+                            <!-- Language selector -->
+                            <label
+                                class="compact-select-wrapper"
+                                title="Choose response language"
+                            >
+                                <span
+                                    class="control-icon"
+                                    aria-hidden="true"
+                                >
+                                    🌐
+                                </span>
+
+                                <select
+                                    id="languageSelect"
+                                    class="compact-select language-select"
+                                    aria-label="Preferred language"
+                                >
+                                    <option value="auto">
+                                        Auto
+                                    </option>
+
+                                    <option value="en-IN">
+                                        English
+                                    </option>
+
+                                    <option value="hi-IN">
+                                        हिन्दी
+                                    </option>
+
+                                    <option value="mr-IN">
+                                        मराठी
+                                    </option>
+                                </select>
+                            </label>
+
+                            <!-- Voice input -->
+                            <button
+                                id="micBtn"
+                                class="composer-control-btn"
+                                type="button"
+                                aria-label="Start voice input"
+                                title="Voice input"
+                            >
+                                <span aria-hidden="true">
+                                    🎙️
+                                </span>
+                            </button>
+
+                            <!-- Voice output -->
+                            <button
+                                id="voiceOutputBtn"
+                                class="composer-control-btn"
+                                type="button"
+                                aria-pressed="false"
+                                aria-label="Enable voice responses"
+                                title="Enable voice responses"
+                            >
+                                <span aria-hidden="true">
+                                    🔇
+                                </span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <p class="composer-disclaimer">
+                    Answers are generated only from the configured
+                    supercomputer and HPC knowledge sources.
+                </p>
+            </div>
+        </section>
     </main>
 </div>
 
-<div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
-<script src="/static/script.js?v=20260718-4"></script>
+<!-- Toast notification -->
+<div
+    id="toast"
+    class="toast"
+    role="status"
+    aria-live="polite"
+></div>
+
+<!-- Markdown renderer -->
+<script
+    src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"
+></script>
+
+<!-- HTML sanitizer -->
+<script
+    src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"
+></script>
+
+<script src="/static/script.js?v=9"></script>
 </body>
 </html>

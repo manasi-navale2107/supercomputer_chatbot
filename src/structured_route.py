@@ -172,32 +172,53 @@ def _referenced_tables(
         )
     }
 
-
 def _validate_plan(
     queries: list[str],
     selected_tables: list[str],
 ) -> list[set[str]]:
-    allowed = {
-        table_name.lower()
+    """
+    Validate that generated queries use only
+    the tables allowed by the table selector.
+
+    selected_tables are candidate tables.
+    Every selected table is not required to
+    appear in the final SQL plan.
+    """
+
+    allowed_tables = {
+        table_name.strip().lower()
         for table_name in selected_tables
+        if table_name.strip()
     }
 
-    covered: set[str] = set()
+    if not allowed_tables:
+        raise ValueError(
+            "At least one selected table "
+            "is required."
+        )
+
+    if not queries:
+        raise ValueError(
+            "At least one SQL query "
+            "is required."
+        )
+
     references: list[set[str]] = []
 
     for sql in queries:
-        query_tables = (
-            _referenced_tables(sql)
+        query_tables = _referenced_tables(
+            sql
         )
 
         if not query_tables:
             raise UnsafeSQLError(
-                "Every query must read "
-                "a selected table."
+                "Every query must read from "
+                "a selected dataset table."
             )
 
         unknown_tables = (
-            query_tables - allowed
+            query_tables
+            - allowed_tables
         )
 
         if unknown_tables:
@@ -205,28 +226,14 @@ def _validate_plan(
                 "SQL used tables not selected "
                 "by the table selector: "
                 + ", ".join(
-                    sorted(unknown_tables)
+                    sorted(
+                        unknown_tables
+                    )
                 )
             )
 
         references.append(
             query_tables
-        )
-
-        covered.update(
-            query_tables
-        )
-
-    missing_tables = (
-        allowed - covered
-    )
-
-    if missing_tables:
-        raise ValueError(
-            "SQL plan omitted selected tables: "
-            + ", ".join(
-                sorted(missing_tables)
-            )
         )
 
     return references
@@ -392,6 +399,15 @@ def _execute_plan(
         }
     )
 
+    citations = {
+    "route": "structured",
+    "datasets": used_tables,
+    "documents": [],
+    "sql": _display_sql(executed_queries),
+    "row_count": total_rows,
+    "retrieval_query": None,
+}
+
     return {
         "route": "structured",
         "success": True,
@@ -415,14 +431,19 @@ def _execute_plan(
             )
             or total_rows > len(rows)
         ),
+
+        "citations": citations,
     }
 
 
 def _invoke_sql(
     prompt: str,
+    llm_provider: str | None = None,
 ) -> list[str]:
     response = (
-        get_json_llm().invoke(
+        get_json_llm(
+            llm_provider
+        ).invoke(
             prompt
         )
     )
@@ -514,6 +535,10 @@ def run_structured_route(
         {},
     )
 
+    llm_provider = state.get(
+        "llm_provider"
+    )
+
     selected_tables = list(
         decision.get(
             "selected_tables",
@@ -573,7 +598,8 @@ def run_structured_route(
                 ),
                 schema=schema,
                 relationships=relationships,
-            )
+            ),
+            llm_provider=llm_provider,
         )
 
         evidence = _execute_plan(
@@ -639,16 +665,21 @@ def run_structured_route(
                     sql=json.dumps(
                         {
                             "queries": [
-                                {"sql": sql}
-                                for sql in queries
+                                {
+                                    "sql": sql
+                                }
+                                for sql
+                                in queries
                             ]
                         },
                         ensure_ascii=False,
                     ),
-                    error=str(initial_error),
-                )
+                    error=str(
+                        initial_error
+                    ),
+                ),
+                llm_provider=llm_provider,
             )
-
             evidence = _execute_plan(
                 repaired_queries,
                 selected_tables,

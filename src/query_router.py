@@ -10,6 +10,16 @@ from src.config import MAX_CHAT_HISTORY_CHARS
 from src.llm import get_json_llm
 from src.models import RouteDecision
 from src.prompts import ROUTER_PROMPT
+from src.language_service import (
+    normalize_language,
+)
+
+_LANGUAGE_NAMES = {
+    "auto": "Automatically detect the language of the current question",
+    "en-IN": "English",
+    "hi-IN": "Hindi",
+    "mr-IN": "Marathi",
+}
 
 
 def _message_text(message: Any) -> str:
@@ -74,26 +84,41 @@ def _parse_router_response(
 def route_question(
     question: str,
     chat_history: str = "",
+    preferred_language: str = "auto",
+    llm_provider: str | None = None,
 ) -> tuple[RouteDecision, int]:
     """
-    Decide only structured, semantic, or direct route.
-
-    Table selection is not performed here.
+    Select the route and response language
+    using one LLM call.
     """
 
-    cleaned_question = question.strip()
+    cleaned_question = (
+        question.strip()
+    )
 
     if not cleaned_question:
         raise ValueError(
             "Question cannot be empty."
         )
 
+    language_instruction = (
+        _LANGUAGE_NAMES.get(
+            preferred_language,
+            _LANGUAGE_NAMES["auto"],
+        )
+    )
+
     prompt = ROUTER_PROMPT.format(
         chat_history=(
-            chat_history[-MAX_CHAT_HISTORY_CHARS:]
+            chat_history[
+                -MAX_CHAT_HISTORY_CHARS:
+            ]
             or "No previous conversation."
         ),
         question=cleaned_question,
+        preferred_language=(
+            language_instruction
+        ),
     )
 
     last_error: Exception | None = None
@@ -103,20 +128,46 @@ def route_question(
 
         if attempt:
             current_prompt += (
-                "\n\nYour previous output was invalid. "
-                "Return only the required JSON object."
+                "\n\nThe previous output was invalid. "
+                "Return only the exact JSON object "
+                "required by the output contract."
             )
 
         try:
-            response = get_json_llm().invoke(
-                current_prompt
+            response = (
+                get_json_llm(
+                    llm_provider
+                ).invoke(
+                    current_prompt
+                )
             )
 
-            decision = _parse_router_response(
-                response
+            decision = (
+                _parse_router_response(
+                    response
+                )
             )
 
-            return decision, attempt + 1
+            # Language selected in the UI has
+            # priority over automatic detection.
+            if preferred_language != "auto":
+                decision.response_language = (
+                    normalize_language(
+                        language_instruction
+                    )
+                )
+
+            else:
+                decision.response_language = (
+                    normalize_language(
+                        decision.response_language
+                    )
+                )
+
+            return (
+                decision,
+                attempt + 1,
+            )
 
         except (
             ValueError,
@@ -126,6 +177,6 @@ def route_question(
             last_error = error
 
     raise RuntimeError(
-        "The query router returned invalid output twice: "
-        f"{last_error}"
+        "The query router returned invalid "
+        f"output twice: {last_error}"
     )
